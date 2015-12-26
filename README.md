@@ -96,6 +96,7 @@ A curated list of resources for learning about the Swift Language.
 - Swift Language Evolution [:book:](https://github.com/apple/swift-evolution)
 + Swift Stye Rules [:book:](http://ericasadun.com/2015/11/17/a-handful-of-swift-style-rules-swiftlang/)
 + SwiftLint [:book:](https://github.com/realm/SwiftLint)
++ Swift Don'ts [:book:](https://gist.github.com/erica/d91aef87e95f99c094c0)
 
 ## **In-Browser Swift Editors**
 
@@ -231,6 +232,7 @@ A curated list of resources for learning about the Swift Language.
 - Lighter View Controllers in Swift [:page_facing_up:](https://www.codefellows.org/blog/tech-tip-clean-up-your-code-with-lighter-view-controllers-in-swift) [:pencil:](https://gist.github.com/lostincode/38e6b0a612a3b33f6f7b)
 - Destroying Massive View Controllers [:page_facing_up:](http://khanlou.com/2015/12/massive-view-controller/)
 - ReduxKit is a predictable state container for Swift apps [:page_facing_up:](https://github.com/ReduxKit/ReduxKit)
+- View Controller Thinning [:page_facing_up:](http://puchka.me/view-controller-thinning/) via Dependency Injection [:page_facing_up:](http://puchka.me/view-controller-thinning-dependency-injection/) 
 
 #### **Associated Types and Objects**
 + Protocols with Associated Types and how they got that way [:floppy_disk:](https://speakerdeck.com/algal/protocols-with-associated-types-and-how-they-got-that-way)
@@ -363,6 +365,7 @@ A curated list of resources for learning about the Swift Language.
 + Swift Singleton [:pencil2:](https://github.com/hpique/SwiftSingleton)
 + SOLID Design in Swift [:pencil2:](https://github.com/ochococo/OOD-Principles-In-Swift)
 + Decorator Pattern through composing functions in Swift [:page_facing_up:](http://railsware.com/blog/2014/06/17/composing-functions-in-swift/)
++ Target Action Pattern [:page_facing_up:](https://www.mikeash.com/pyblog/friday-qa-2015-12-25-swifty-targetaction.html)
 
 #### **Development**
 + Result Driven Development [:floppy_disk:](https://speakerdeck.com/brianpartridge/result-driven-development)
@@ -548,6 +551,7 @@ A curated list of resources for learning about the Swift Language.
 + Covariant and contravariant generic type parameters [:link:](https://forums.developer.apple.com/thread/5056)
 + Generic Protocols [:page_facing_up:](http://milen.me/writings/swift-generic-protocols/)
 + Partial Function Application with Generics [:link:](http://stackoverflow.com/questions/28353539/swift-partial-function-application-with-generics)
++ Generic Constructors [:link:](http://stackoverflow.com/a/30857172/2855836) and factories [:link:](http://stackoverflow.com/questions/24341061/how-to-write-generic-factory-method-in-swift)
 
 #### **Initializers**
 + Swift Initializers [:page_facing_up:](http://ashfurrow.com/blog/swift-initializers/)
@@ -631,8 +635,10 @@ A curated list of resources for learning about the Swift Language.
     + The Natural Numbers Encoded as Types [:page_facing_up:](https://forums.developer.apple.com/thread/19942)
     + Type Introspection [:page_facing_up:](http://ericasadun.com/2014/06/16/swift-more-than-you-probably-want-to-know-about-type-introspection/)
     + Safer Swift Code With Value Types [:microphone:](https://realm.io/news/altconf-benjamin-encz-safer-swift-code-with-value-types/) [:floppy_disk:](https://speakerdeck.com/benjamin_encz/unidirectional-data-flow-in-swift)
-    + Dependent Types in Swift [:page_facing_up:](https://sectionfive.net/blog/2015/08/11/building-almost-dependent-types-in-swift/)
+    + Dependent Types in Swift [:page_facing_up:](https://sectionfive.net/blog/2015/08/11/building-almost-dependent-types-in-swift/) and why they matter [:page_facing_up:](https://jeremywsherman.com/blog/2015/08/26/read-why-dependent-types-matter/)
     + Creating new Types in Swift [:page_facing_up:](https://developer.apple.com/swift/blog/?id=8)
+    + Properties of Types Conforming to Protocols [:page_facing_up:](http://ilya.puchka.me/properties-of-types-conforming-to-protocols-in-swift/)
+    + Phantom Types in Swift [:page_facing_up:](https://www.objc.io/blog/2014/12/29/functional-snippet-13-phantom-types/)
     
 #### **Problem Solving**
 - Creating and Building a DSL in Swift [:floppy_disk:](https://speakerdeck.com/kylef/dsls-in-swift)
