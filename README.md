@@ -243,7 +243,8 @@ A curated list of resources for learning about the Swift Language.
 + Typesafe Associated Objects [:pencil2:](https://github.com/kballard/swift-tsao)
 
 #### **Closures**
-+ Swift Function Currying [:page_facing_up:](http://www.russbishop.net/swift-function-currying)
++ Swift Function Currying [:page_facing_up:](http://www.russbishop.net/swift-function-currying) [:page_facing_up:](https://www.objc.io/blog/2014/11/10/functional-snippet-6-currying/) [:page_facing_up:](https://robots.thoughtbot.com/introduction-to-function-currying-in-swift) [:page_facing_up:](http://www.drewag.me/posts/practical-use-for-curried-functions-in-swift)
+- Coming Changes for the Function Currying Syntax in Swift 3.0 [:link:](https://github.com/apple/swift-evolution/blob/master/proposals/0002-remove-currying.md)
 + Closures and Capturing Values in Swift [:page_facing_up:](http://www.codingexplorer.com/closures-capturing-values-swift/)
 + Instance methods are Curried Functions in Swift [:page_facing_up:](http://oleb.net/blog/2014/07/swift-instance-methods-curried-functions/)
 + Using Local Closures with Swift [:page_facing_up:](http://www.thomashanning.com/swift-using-local-closures/)
@@ -260,9 +261,6 @@ A curated list of resources for learning about the Swift Language.
 - Trailing Closure Syntax [:page_facing_up:](https://www.codefellows.org/blog/writing-completion-blocks-with-closures-in-swift) [:page_facing_up:](http://freecake.angelodipaolo.org/trailing-closures-in-swift/) [:page_facing_up:](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Closures.html#//apple_ref/doc/uid/TP40014097-CH11-ID102)
 - Type inference quirks of closures as parameters [:pencil:](https://github.com/hpique/Articles/blob/master/Swift/Type%20inference%20quirks%20of%20closure%20parameters/Type%20inference%20quirks%20of%20closure%20parameters.md)
 - Style guide for functions with closure parameters in Swift [:pencil:](https://github.com/hpique/Articles/blob/master/Swift/Style%20guide%20for%20functions%20with%20closure%20parameters/Style%20guide%20for%20functions%20with%20closure%20parameters.md)
-- Coming Changes for the Function Currying Syntax in Swift 3.0 [:link:](https://github.com/apple/swift-evolution/blob/master/proposals/0002-remove-currying.md)
-+ Introduction to Function Currying in Swift [:page_facing_up:](https://robots.thoughtbot.com/introduction-to-function-currying-in-swift)
-+ Practical Use of Curried Functions in Swift [:page_facing_up:](http://www.drewag.me/posts/practical-use-for-curried-functions-in-swift)
 
 #### **Collections / Sequences / Generators**
 + A quick guide to SequenceType [:page_facing_up:](https://medium.com/swift-programming/swift-sequences-ce22d76f120c#.edaemcmqc)
@@ -343,6 +341,7 @@ A curated list of resources for learning about the Swift Language.
 + SwiftPriorityQueue [:pencil2:](https://github.com/davecom/SwiftPriorityQueue)
 + SwiftGraph [:pencil2:](https://github.com/davecom/SwiftGraph)
 + Fisher-Yates Shuffle for Swift [:pencil:](https://gist.github.com/kballard/8738524e0243a93376ed)
++ Rose Tree in Swift [:pencil:](https://github.com/typelift/SwiftCheck/blob/master/SwiftCheck/Rose.swift)
 
 #### **Design Patterns**
 - Swift Design Patterns [:floppy_disk:](http://www.slideshare.net/micheletitolo/cocoa-design-patterns-in-swift?qid=7d2c3760-f640-49be-b204-25d086da4e78&v=qf1&b=&from_search=7)
@@ -496,7 +495,7 @@ A curated list of resources for learning about the Swift Language.
     + 7 Habits for more functional Swift [:floppy_disk:](http://www.slideshare.net/jarsen7/7-habits-for-a-more-functional-swift) 
     + Y Combinators in Swift [:pencil:](https://gist.github.com/kongtomorrow/e95bea13162ca0e29d4b#file-gistfile1-swift)
     + Arrows in Swift [:pencil:](https://github.com/typelift/Swiftz/blob/master/Swiftz/Arrow.swift)
-    + Understanding Reduce in Swift [:page_facing_up:](http://ijoshsmith.com/2014/06/25/understanding-swifts-reduce-method/)
+    + Understanding Reduce in Swift [:page_facing_up:] [:page_facing_up:](http://ijoshsmith.com/2014/06/25/understanding-swifts-reduce-method/)
     + Monadic Functions in Swift [:pencil2:](https://github.com/thoughtbot/Runes)
     + Lazy Streams in Swift [:pencil2:](https://github.com/antitypical/Stream)
     + Funky Functional Programming Tools and Experiements [:pencil2:](https://github.com/brynbellomy/Funky)
@@ -509,7 +508,7 @@ A curated list of resources for learning about the Swift Language.
     + From Category Theory to Swift [:page_facing_up:](http://karumiblog-env.elasticbeanstalk.com/monad/) [:pencil2:](https://github.com/mbrandonw/naturally-swift)
     + Higher Kinded Types [:pencil:](https://gist.github.com/adamkuipers/bb7bdb9cc425de8905c7)
     + Categories in Swift [:pencil:](https://gist.github.com/CodaFi/4d0ce6a3cc0cb1085720)
-    + Applicatives in Swift [:pencil2:](https://github.com/koher/ApplicativeSwift)
+    + Applicatives in Swift [:pencil2:](https://github.com/koher/ApplicativeSwift) [:page_facing_up:](https://www.objc.io/blog/2014/11/17/functional-snippet-7-applicative-functors/)
     + Church Encoding [:pencil:](https://gist.github.com/CodaFi/b9ca5bcee6d7ea9ff158)
     + Lambda Calculus in Swift 2 [:pencil:](https://gist.github.com/bellbind/6ffb0add23990eb5bef4)
     + Simple Monoid Example [:pencil:](https://gist.github.com/drexin/e3022674f6ddf6fdb65f) [:pencil:](https://gist.github.com/jhaberstro/9aa326e3762f91abbe8f)
@@ -627,7 +626,6 @@ A curated list of resources for learning about the Swift Language.
     + Typeclasses in Swift, Haskell and Scala [:page_facing_up:](http://siejkowski.net/typeclasses-in-swift/)
     + Understanding Downcasting Operators in Swift [:page_facing_up:](http://stackoverflow.com/questions/25708649/downcasting-optionals-in-swift-as-type-or-as-type) 
     + Swift Manual Retain/Release [:page_facing_up:](http://www.russbishop.net/swift-manual-retain-release)
-    + Make a DSL in Swift [:page_facing_up:](http://colindrake.me/2015/10/28/implementing-a-small-dsl-in-swift/)
     + Type-Erased Wrappers in Swift [:microphone:](https://realm.io/news/type-erased-wrappers-in-swift/)
     + Swift MetaTypes [:page_facing_up:](http://jasdev.me/lets-get-meta/)
     + Tying the Knot in Swift [:link:](http://stackoverflow.com/a/24026196/2855836)
@@ -641,10 +639,10 @@ A curated list of resources for learning about the Swift Language.
     + Phantom Types in Swift [:page_facing_up:](https://www.objc.io/blog/2014/12/29/functional-snippet-13-phantom-types/)
     
 #### **Problem Solving**
-- Creating and Building a DSL in Swift [:floppy_disk:](https://speakerdeck.com/kylef/dsls-in-swift)
 - :raised_hands: FizzBuzz on steroids with Swift [:floppy_disk:](https://speakerdeck.com/abizern/fizz-buzz-in-swift)
 - Learning Swift the Euler Way [:microphone:](https://vimeo.com/136059613)
 + Swift in Practice [:microphone:](https://developer.apple.com/videos/wwdc/2015/?id=411)
++ Make a DSL in Swift [:page_facing_up:](http://colindrake.me/2015/10/28/implementing-a-small-dsl-in-swift/) [:floppy_disk:](https://speakerdeck.com/kylef/dsls-in-swift) [:floppy_disk:](https://speakerdeck.com/luisobo/techniques-to-write-dsls-in-swift) [:microphone:](https://www.youtube.com/watch?v=a3rR5XVA22w)
 
 #### **Production Swift**
 - How Carthage works [:floppy_disk:](https://speakerdeck.com/jspahrsummers/ruthlessly-simple-dependency-management-with-carthage)
@@ -752,9 +750,8 @@ A curated list of resources for learning about the Swift Language.
 - Reverse Engineering iOS Apps [:microphone:](https://realm.io/news/conrad-kramer-reverse-engineering-ios-apps-lyft/)
 - TDD on iOS [:microphone:](https://realm.io/news/altconf-glen-tregoning-paul-zabelin-successful-test-driven-development-on-ios/)
 - The state of iOS testing in 2015 [:page_facing_up:](http://www.mokacoding.com/blog/ios-testing-in-2015/)
-- Testing in Swift with Quick [:microphone:](https://realm.io/news/testing-in-swift/)
+- Testing in Swift with Quick [:microphone:](https://realm.io/news/testing-in-swift/) [:microphone:](https://realm.io/news/rachel-bobbins-testing-view-controllers-quick/)
 - Network Testing in Swift [:microphone:](https://realm.io/news/soffes-swift-network-testing-dvr/)
-- Testing View Controllers with Quick [:microphone:](https://realm.io/news/rachel-bobbins-testing-view-controllers-quick/)
 - TDD By Controlling Dependencies in Swift [:microphone:](https://www.youtube.com/watch?v=qYpURmZcCKs&index=47&list=PLEx5khR4g7PL0fDNJkI2dHhqeckQTAbes), [:microphone:](http://gotocon.com/dl/goto-cph-2015/slides/JorgeD.OrtizFuentes_TestDrivenDevelopmentbyControllingDependencies.pdf)
 - iOS Snapshot Test Cases [:pencil2:](https://github.com/facebook/ios-snapshot-test-case)
 - Quick Testing Framework [:pencil2:](https://github.com/Quick/Quick)
