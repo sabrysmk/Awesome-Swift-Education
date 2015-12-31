@@ -203,11 +203,11 @@ A curated list of resources for learning about the Swift Language.
 #### **Animations and Front End Stuff**
 + Mixing SpriteKit with UIKit in iOS 9 [:page_facing_up:](https://littlebitesofcocoa.com/8-mixing-spritekit-into-uikit)
 - AdaptiveUI Animations [:microphone:](https://realm.io/news/gotocph-sam-davies-adaptive-ui-ios/)
-- iOS Animations with AutoLayout [:microphone:](https://realm.io/news/gotocph-marin-todorov-auto-layout-animations-ios/) and [:pencil2:](https://github.com/sammyd/AdaptiveUI-GOTOConf)
+- iOS Animations with AutoLayout [:microphone:](https://realm.io/news/gotocph-marin-todorov-auto-layout-animations-ios/) and [:pencil2:](https://github.com/sammyd/AdaptiveUI-GOTOConf) [:page_facing_up:](https://littlebitesofcocoa.com/9-animating-constraints)
 - 3D Graphics with Metal in Swift [:microphone:](https://realm.io/news/3d-graphics-metal-swift/)
 - Metal and Swift [:microphone:](https://realm.io/news/swift-summit-simon-gladman-metal/)
-- Animating Constraints [:page_facing_up:](https://littlebitesofcocoa.com/9-animating-constraints)
-- Advanced UITableViews [:microphone:](https://realm.io/news/altconf-mason-glidden-advanced-uitableviews-for-fun-and-profit/)
+- Animating VCs [:page_facing_up:](http://www.raywenderlich.com/110536/custom-uiviewcontroller-transitions)
+- Advanced UITableViews [:microphone:](https://realm.io/news/altconf-mason-glidden-advanced-uitableviews-for-fun-and-profit/) [:page_facing_up:](http://www.martinrichter.net/blog/2015/12/30/animating-table-row-changes-using-changesets-with-mvvm/)
 - SpriteKit as an intro to SceneKit [:floppy_disk:](https://speakerdeck.com/bklnswift/joseph-mcmahon-spritekit-as-an-intro-to-scenekit-and-metal)
 - Cartography Autolayout DSL [:pencil2:](https://github.com/robb/Cartography)
 - UITableView Configuration Values [:page_facing_up:](https://www.objc.io/blog/2015/02/16/functional-snippet-20-configuration-values/)
@@ -238,6 +238,7 @@ A curated list of resources for learning about the Swift Language.
 - ReduxKit is a predictable state container for Swift apps [:page_facing_up:](https://github.com/ReduxKit/ReduxKit)
 - View Controller Thinning [:page_facing_up:](http://puchka.me/view-controller-thinning/) via Dependency Injection [:page_facing_up:](http://puchka.me/view-controller-thinning-dependency-injection/) 
 - An MVP Framework [:pencil2:](https://github.com/Karumi/BothamUI)
+- Designing App Infrastructure [:page_facing_up:](https://medium.com/@gitdoapp/gitdo-designing-the-app-infrastructure-3b7710c0fd81#.mf5kc58vj)
 
 #### **Associated Types and Objects**
 + Protocols with Associated Types and how they got that way [:floppy_disk:](https://speakerdeck.com/algal/protocols-with-associated-types-and-how-they-got-that-way)
@@ -280,6 +281,7 @@ A curated list of resources for learning about the Swift Language.
 - Swift Sequence Lib [:pencil2:](https://github.com/oisdk/SwiftSequence)
 - SINQ - Swift Integrated Query [:pencil2:](https://github.com/slazyk/SINQ)
 - List Comprehension in Swift [:page_facing_up:](http://stackoverflow.com/questions/24003584/list-comprehension-in-swift)
+- Collection Indices, Slices, and Generics [:page_facing_up:](http://airspeedvelocity.net/2015/12/28/collection-indices-slices-and-generics/)
 
 #### **Command Line and Swift Scripting**
 + Swift Scripting [:microphone:](https://realm.io/news/swift-scripting/)
@@ -440,6 +442,7 @@ A curated list of resources for learning about the Swift Language.
 + Type Constrained Extensions in Swift [:page_facing_up:](http://www.cimgf.com/2015/12/14/swift-type-constrained-extensions-express-yourself/)
 + Generic type extension by retrofitting protocols in Swift 2 [:page_facing_up:](https://medium.com/swift-programming/generic-type-extension-by-retrofitting-protocols-in-swift-2-79fb0e0e2ebe#.gk9q2751q)
 + Type extensions with generic type parameters [:page_facing_up:](http://sketchytech.blogspot.com/2015/06/empowering-extensions-in-swift-2.html)
++ OptionalExtensions [:pencil2:](https://github.com/RuiAAPeres/OptionalExtensions)
 
 #### **Functional Programming and Category Theory in Swift**
 - Category Theory
@@ -481,7 +484,7 @@ A curated list of resources for learning about the Swift Language.
     + Continuation Passing Style in Swift [:page_facing_up:](https://github.com/mbrandonw/mbrandonw.github.io/blob/master/_drafts/continuation-passing-in-swift.markdown) [:page_facing_up:](https://medium.com/swift-programming/continuation-passing-style-in-swift-e4d825962803#.o41p6fw4j)
     + Proof in Functions [:page_facing_up:](http://www.fewbutripe.com/swift/math/2015/01/06/proof-in-functions.html) [:page_facing_up:](https://www.reddit.com/r/programming/comments/2rjnou/proof_in_functions_curryhoward_explained_through/)
     + Functional Thinking [:floppy_disk:](https://prezi.com/pgqshla_nuoe/functional-thinking/)
-    + Transducers and Reducers in Swift 2 [:pencil2:](https://gist.github.com/rjchatfield/14e2869b0c572696ea3c)
+    + Transducers and Reducers in Swift 2 [:pencil2:](https://gist.github.com/rjchatfield/14e2869b0c572696ea3c) [:page_facing_up:](http://stackoverflow.com/questions/32082320/transducers-in-swift)
     + Lenses, Prisms, Isos in Swift 2 [:pencil2:](https://github.com/typelift/Focus)
     + Better Recursion with Swift [:microphone:](https://vimeo.com/138092644) [:floppy_disk:](https://speakerdeck.com/ontherocks/better-recursion-with-swift)
     + Folds in Swift [:page_facing_up:](http://thepurecoder.com/functional-swift-fold-it-baby/) [:page_facing_up:](http://thepurecoder.com/more-on-fold/) [:pencil:](https://gist.github.com/HenningBrandt/fd9a46d5abbc3b39a35e) [:pencil:](https://gist.github.com/HenningBrandt/f44a0f59c716e7fe4689)
@@ -505,7 +508,7 @@ A curated list of resources for learning about the Swift Language.
     + State Monads in Swift [:pencil2:](https://github.com/sharplet/State?files=1)
     + Array to Zipper [:pencil2:](https://github.com/rnapier/array-zipper)
     + From Category Theory to Swift [:page_facing_up:](http://karumiblog-env.elasticbeanstalk.com/monad/) [:pencil2:](https://github.com/mbrandonw/naturally-swift)
-    + Higher Kinded Types [:pencil:](https://gist.github.com/adamkuipers/bb7bdb9cc425de8905c7)
+    + Higher Kinded Types [:pencil:](https://gist.github.com/adamkuipers/bb7bdb9cc425de8905c7) [:page_facing_up:](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20151214/003122.html)
     + Categories in Swift [:pencil:](https://gist.github.com/CodaFi/4d0ce6a3cc0cb1085720)
     + Applicatives in Swift [:pencil2:](https://github.com/koher/ApplicativeSwift) [:page_facing_up:](https://www.objc.io/blog/2014/11/17/functional-snippet-7-applicative-functors/)
     + Church Encoding [:pencil:](https://gist.github.com/CodaFi/b9ca5bcee6d7ea9ff158)
@@ -519,6 +522,7 @@ A curated list of resources for learning about the Swift Language.
     - Reduce all the things [:page_facing_up:](http://appventure.me/2015/11/30/reduce-all-the-things/)
     - zipWith [:pencil:](https://gist.github.com/kristopherjohnson/7419ed4444a0ad9bb2ea)
     - Are true functors possible in Swift? [:link:](https://www.reddit.com/r/swift/comments/2d6mpo/are_functors_possible_in_swift/) [:link:](http://stackoverflow.com/questions/25233594/recreating-the-functor-type-in-swift)
+	- Various Functors in Swift [:page_facing_up:](http://qiita.com/335g/items/81af12f9be8f7f8112c7)
     
 #### **Functional Reactive Programming in Swift**
 + MVVM + FRP [:page_facing_up:](http://www.sprynthesis.com/2014/12/06/reactivecocoa-mvvm-introduction/)
@@ -540,6 +544,7 @@ A curated list of resources for learning about the Swift Language.
 - State Machines in Swift [:pencil2:](https://github.com/ReactKit/SwiftState)
 - RxSwift Community Webpage [:link:](http://community.rxswift.org/)
 - Functional Reactive Programming on iOS [:floppy_disk:](https://speakerdeck.com/benjamin_encz/functional-reactive-programming-on-ios)
+- Modern application architectures (Reactive programming, MVVM and beyond) [:page_facing_up:](https://slack-files.com/T051G5Y6D-F0HABHKDK-8e9141e191)
 
 #### **Generics** 
 + Generic Arrays in Swift 2.0 [:page_facing_up:](http://blog.krzyzanowskim.com/2015/10/07/generic-array-uint8/)
@@ -550,6 +555,7 @@ A curated list of resources for learning about the Swift Language.
 + Generic Protocols [:page_facing_up:](http://milen.me/writings/swift-generic-protocols/)
 + Partial Function Application with Generics [:link:](http://stackoverflow.com/questions/28353539/swift-partial-function-application-with-generics)
 + Generic Constructors [:link:](http://stackoverflow.com/a/30857172/2855836) and factories [:link:](http://stackoverflow.com/questions/24341061/how-to-write-generic-factory-method-in-swift)
++ Parametric Polymorphism in Swift [:page_facing_up:](http://nsomar.com/parametric-compile-time-polymorphism-in-swift/) [:page_facing_up:](http://rosettacode.org/wiki/Parametric_polymorphism) [:page_facing_up:](http://cs.stackexchange.com/questions/26389/why-isnt-the-swift-programming-language-type-inference-more-aggressive)
 
 #### **Initializers**
 + Swift Initializers [:page_facing_up:](http://ashfurrow.com/blog/swift-initializers/)
