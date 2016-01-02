@@ -238,7 +238,7 @@ A curated list of resources for learning about the Swift Language.
 
 #### **Closures**
 + Swift Function Currying [:page_facing_up:](http://www.russbishop.net/swift-function-currying) [:page_facing_up:](https://www.objc.io/blog/2014/11/10/functional-snippet-6-currying/) [:page_facing_up:](https://robots.thoughtbot.com/introduction-to-function-currying-in-swift) [:page_facing_up:](http://www.drewag.me/posts/practical-use-for-curried-functions-in-swift)
-- Coming Changes for the Function Currying Syntax in Swift 3.0 [:link:](https://github.com/apple/swift-evolution/blob/master/proposals/0002-remove-currying.md)
+- Coming Changes for the Function Currying Syntax in Swift 3.0 [:link:](https://github.com/apple/swift-evolution/blob/master/proposals/0002-remove-currying.md) [:page_facing_up:](http://ericasadun.com/2015/12/18/bidding-farewell-to-currying/)
 + Closures and Capturing Values in Swift [:page_facing_up:](http://www.codingexplorer.com/closures-capturing-values-swift/)
 + Instance methods are Curried Functions in Swift [:page_facing_up:](http://oleb.net/blog/2014/07/swift-instance-methods-curried-functions/)
 + Using Local Closures with Swift [:page_facing_up:](http://www.thomashanning.com/swift-using-local-closures/)
@@ -455,7 +455,7 @@ A curated list of resources for learning about the Swift Language.
     + Awesome Math/Category Theory [:pencil:](https://github.com/rossant/awesome-math#category-theory)
     + Category Theory in Haskell [:page_facing_up:](https://en.wikibooks.org/wiki/Haskell/Category_theory)
     + The Category Design Pattern [:page_facing_up:](http://www.haskellforall.com/2012/08/the-category-design-pattern.html)
-    + Type Theory vs Category Theory [:page_facing_up:](https://ncatlab.org/nlab/show/relation+between+type+theory+and+category+theory) [:page_facing_up:](http://cs.stackexchange.com/questions/3028/is-category-theory-useful-for-learning-functional-programming/3256#3256)
+    + Type Theory vs Category Theory [:page_facing_up:](https://ncatlab.org/nlab/show/relation+between+type+theory+and+category+theory)  [:page_facing_up:](http://cs.stackexchange.com/questions/3028/is-category-theory-useful-for-learning-functional-programming/3256#3256)
     + MIT Category Theory Class [:link:](http://ocw.mit.edu/courses/mathematics/18-s996-category-theory-for-scientists-spring-2013/) 
 - Functional Programming in Swift
     - What is Functional Programming in Swift? [:floppy_disk:](http://media.monkey-robot.com/docs/thoughtworks-swift.pdf) [:page_facing_up:](http://harlankellaway.com/blog/2015/08/10/swift-functional-programming-intro/) [:page_facing_up:](http://jamesonquave.com/blog/functional-programming-in-swift/) [:floppy_disk:](https://speakerdeck.com/saloievgen/think-functionally-in-swift)
@@ -829,4 +829,4 @@ Let this list serve as a huge thank you to the incredible Swift Community. It wo
 
 ## **Shoutouts**
 
-Shoutout to [@clattner_llvm](https://twitter.com/clattner_llvm?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), the OG Swift Developer. Shoutout to [@chriseidhof](https://twitter.com/chriseidhof) for encouraging me to promote this idea and for being a huge baller. Shoutout to [@ashfurrow](https://twitter.com/ashfurrow) and [@bennRodri](https://twitter.com/bennRodri) for being so incredibly helpful. Shoutout to [@CodaFi_](https://twitter.com/CodaFi_), the TypeLift, and the Antitypical teams for promoting FP. Shoutout to the [trillmoji](https://github.com/mikeperri/Trillmoji) project. Shoutout to Haskell Devs and Category Theory legends. And finally, Shoutout to all the Swift Programmers out there, this project is by you and for you!
+Shoutout to [@clattner_llvm](https://twitter.com/clattner_llvm?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), the OG Swift Developer. Shoutout to [@chriseidhof](https://twitter.com/chriseidhof) for encouraging me to promote this idea and for being a huge baller. Shoutout to [@ashfurrow](https://twitter.com/ashfurrow) and [@bennRodri](https://twitter.com/bennRodri) for being so incredibly helpful. Shoutout to [@CodaFi_](https://twitter.com/CodaFi_), the TypeLift, and the Antitypical teams for promoting FP. Shoutout to the [trillmoji](https://github.com/mikeperri/Trillmoji) project. Shoutout to [Haskell Devs](http://dev.stephendiehl.com/hask/) and [Category Theory legends](https://ncatlab.org/nlab/show/HomePage). And finally, Shoutout to all the Swift Programmers out there, this project is __by you and for you!__
