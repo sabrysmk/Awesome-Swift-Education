@@ -51,7 +51,7 @@ A curated list of resources for learning about the Swift Language.
     + [Initializers, Properties, and Dependency Injection](#initializers-properties-and-dependency-injection)
     + [Interpolability](#interpolability-with-c-and-objective-c)
     + [Language Comparisons and Transitioning to Swift](#language-comparisons-and-transitioning-to-swift)
-    + [LLVM Compiler](#llvm-compiler)
+    + [LLVM Compiler and swiftc](#llvm-compiler-and-swiftc)
     + [Optionals and Types](#optionals-and-types)
     + [Production Swift, Problem Solving, and Developer Tools](#production-swift-problem-solving-and-developer-tools)
     + [Protocol Oriented Programming in Swift 2](#protocol-oriented-programming-in-swift-2)
@@ -283,6 +283,7 @@ A curated list of resources for learning about the Swift Language.
 #### **Core Data and Realm**
 - Core Data
 	- What's New in Core Data [:microphone:](https://developer.apple.com/videos/play/wwdc2015-220) [:floppy_disk:](http://devstreaming.apple.com/videos/wwdc/2015/220lgx5lvphj2/220/220_whats_new_in_core_data.pdf?dl=1)
+    - Pragmatic Core Data [:microphone:](https://vimeo.com/146505672)
 	- Core Competencies [:page_facing_up:](https://developer.apple.com/library/ios/documentation/DataManagement/Devpedia-CoreData/coreDataStack.html#//apple_ref/doc/uid/TP40010398-CH25-SW1)
 	+ A Swift Into To Core Data [:page_facing_up:](https://github.com/andyshep/CoreDataPlayground)
 	+ Moving from ObjC to Swift with Core Data [:page_facing_up:](http://martiancraft.com/blog/2015/07/objective-c-swift-core-data/)
@@ -591,13 +592,18 @@ A curated list of resources for learning about the Swift Language.
 	- A Eulogy for Objective C [:microphone:](https://realm.io/news/altconf-aaron-hillegass-eulogy-for-objective-c/)
 	- The best of Obj-C to Swift [:microphone:](https://realm.io/news/altconf-jaim-zuber-the-stylish-objective-c-developer-s-guide-to-swift/) [:page_facing_up:](https://www.quora.com/What-are-the-best-code-examples-to-illustrate-the-benefits-of-Swift)
 
-#### **LLVM Compiler** 
-+ LLVM by Chris Lattner [:page_facing_up:](http://aosabook.org/en/llvm.html)
-+ Swift Intermediate Language [:floppy_disk:](http://llvm.org/devmtg/2015-10/slides/GroffLattner-SILHighLevelIR.pdf)
-+ Using the LLVM API With Swift [:page_facing_up:](http://lowlevelbits.org/how-to-use-llvm-api-with-swift/)
-- LLVM and Swift [:microphone:](https://www.youtube.com/watch?v=Ntj8ab-5cvE)
-- Swift Performance [:floppy_disk:](http://blog.human-friendly.com/swift-performance-iosdevuk)
-- Swift 2 Under the Hood [:floppy_disk:](https://speakerdeck.com/alblue/swift-2-under-the-hood-gotober-2015)
+#### **LLVM Compiler and swiftc** 
+- LLVM Compiler
+    + LLVM by Chris Lattner [:page_facing_up:](http://aosabook.org/en/llvm.html)
+    + Swift Intermediate Language [:floppy_disk:](http://llvm.org/devmtg/2015-10/slides/GroffLattner-SILHighLevelIR.pdf)
+    + Using the LLVM API With Swift [:page_facing_up:](http://lowlevelbits.org/how-to-use-llvm-api-with-swift/)
+    - LLVM and Swift [:microphone:](https://www.youtube.com/watch?v=Ntj8ab-5cvE)
+    - Swift Performance [:floppy_disk:](http://blog.human-friendly.com/swift-performance-iosdevuk)
+    - Swift 2 Under the Hood [:floppy_disk:](https://speakerdeck.com/alblue/swift-2-under-the-hood-gotober-2015)
+- swiftc
+    - Explorign SIL and swiftc [:page_facing_up:](http://swiftc.io/)
+    - swift vs swiftc [:page_facing_up:](http://owensd.io/2015/01/14/swift-vs-swiftc.html)
+    - SIMD (Single Instruction Multiple Data) [:page_facing_up:](http://www.russbishop.net/swift-2-simd)
 
 #### **Optionals and Types** 
 + Optionals
@@ -624,6 +630,8 @@ A curated list of resources for learning about the Swift Language.
     + Properties of Types Conforming to Protocols [:page_facing_up:](http://ilya.puchka.me/properties-of-types-conforming-to-protocols-in-swift/)
     + Wrapper Types [:page_facing_up:](https://www.objc.io/blog/2014/11/24/functional-snippet-8-wrapper-types/)
     + Phantom Types in Swift [:page_facing_up:](https://www.objc.io/blog/2014/12/29/functional-snippet-13-phantom-types/)
+    + Typeclasses in Swift and Scala [:page_facing_up:](http://brainyandbrawny.com/article/Typeclass_in_Swift_and_Scala)
+    + Return Type Polymorphism in Swift [:page_facing_up:](http://www.figure.ink/blog/2015/1/25/polymorphism-with-return-types) [:link:](https://news.ycombinator.com/item?id=8826422)
 + Type Reflection and Casting
 	+ Simple Reflection in Swift [:page_facing_up:](http://freecake.angelodipaolo.org/simple-reflection-in-swift/)
 	+ Understanding Reflection in Swift and how to use it [:page_facing_up:](http://appventure.me/2015/10/24/swift-reflection-api-what-you-can-do/)
@@ -652,6 +660,7 @@ A curated list of resources for learning about the Swift Language.
 	+ Make a DSL in Swift [:page_facing_up:](http://colindrake.me/2015/10/28/implementing-a-small-dsl-in-swift/) [:floppy_disk:](https://speakerdeck.com/kylef/dsls-in-swift) [:floppy_disk:](https://speakerdeck.com/luisobo/techniques-to-write-dsls-in-swift) [:microphone:](https://www.youtube.com/watch?v=a3rR5XVA22w)
 - Developer Tools
     - Exploring Graph Theory with OmniGraffle and Swift [:page_facing_up:](http://www.mattrajca.com/2015/05/22/exploring-graph-theory-with-omnigraffle-and-swift.html)
+    - Continuous Delivery with Fastlane [:microphone:](https://vimeo.com/146505670)
 
 #### **Protocol Oriented Programming in Swift 2**
 + :raised_hands: Protocol-Oriented Programming in Swift [:microphone:](https://developer.apple.com/videos/wwdc/2015/?id=408) [:floppy_disk:](http://devstreaming.apple.com/videos/wwdc/2015/408509vyudbqvts/408/408_protocoloriented_programming_in_swift.pdf?dl=1)
@@ -743,6 +752,7 @@ A curated list of resources for learning about the Swift Language.
 	+ Swift is _not_ functional [:page_facing_up:](https://www.reddit.com/r/swift/comments/281jqe/rob_napier_swift_is_not_functional/)
     + Which features overcomplicate Swift? What should be removed? [:page_facing_up:](https://www.quora.com/Which-features-overcomplicate-Swift-What-should-be-removed)
     + Does Apple Swift have enough functional features to be considered as a functional language? Why? [:page_facing_up:](https://www.quora.com/Does-Apple-Swift-have-enough-functional-features-to-be-considered-as-a-functional-language-Why)
+    + What is the bare minimum you need to learn Swift? [:page_facing_up:](https://www.quora.com/What-should-you-know-before-you-try-to-learn-Swift)
 
 #### **Testing**
 - Profiling in Depth [:microphone:](https://developer.apple.com/videos/play/wwdc2015-412) [:floppy_disk:](http://devstreaming.apple.com/videos/wwdc/2015/412rhea5amj6iaf/412/412_profiling_in_depth.pdf?dl=1)
