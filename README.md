@@ -34,7 +34,6 @@ A curated list of resources for learning about the Swift Language.
 - [Posts](#posts)
     + [Animations and Front End Stuff](#animations-and-front-end-stuff)
     + [Application Structure / Architecture](#application-structure--architecture)
-    + [Associated Types and Objects](#associated-types-and-objects)
     + [Closures](#closures)
     + [Collections / Sequences / Generators](#collections--sequences--generators)
     + [Command Line and Swift Scripting](#command-line-and-swift-scripting)
@@ -54,7 +53,7 @@ A curated list of resources for learning about the Swift Language.
     + [Language Comparisons and Transitioning to Swift](#language-comparisons-and-transitioning-to-swift)
     + [LLVM Compiler](#llvm-compiler)
     + [Optionals and Types](#optionals-and-types)
-    + [Production Swift, Problem Solving, and Developer Tools](#production-swift-problem-solving-developer-tools)
+    + [Production Swift, Problem Solving, and Developer Tools](#production-swift-problem-solving-and-developer-tools)
     + [Protocol Oriented Programming in Swift 2](#protocol-oriented-programming-in-swift-2)
     + [Security](#security)
     + [String Manipulation and Regex](#string-manipulation-and-regex)
@@ -227,14 +226,6 @@ A curated list of resources for learning about the Swift Language.
 - View Controller Thinning [:page_facing_up:](http://puchka.me/view-controller-thinning/) via Dependency Injection [:page_facing_up:](http://puchka.me/view-controller-thinning-dependency-injection/) 
 - An MVP Framework [:pencil2:](https://github.com/Karumi/BothamUI)
 - Designing App Infrastructure [:page_facing_up:](https://medium.com/@gitdoapp/gitdo-designing-the-app-infrastructure-3b7710c0fd81#.mf5kc58vj)
-
-#### **Associated Types and Objects**
-+ Protocols with Associated Types and how they got that way [:floppy_disk:](https://speakerdeck.com/algal/protocols-with-associated-types-and-how-they-got-that-way)
-+ Associated Types in Swift Explained [:page_facing_up:](http://www.russbishop.net/swift-associated-types)
-+ Illuminating Forum Post [:page_facing_up:](https://forums.developer.apple.com/message/18038)
-+ How to make Generic Protocols in Swift [:page_facing_up:](http://milen.me/writings/swift-generic-protocols/)
-+ Associated Enum Data As Types [:page_facing_up:](http://owensd.io/2015/09/15/associated-enum-cases-as-types.html)
-+ Typesafe Associated Objects [:pencil2:](https://github.com/kballard/swift-tsao)
 
 #### **Closures**
 + Swift Function Currying [:page_facing_up:](http://www.russbishop.net/swift-function-currying) [:page_facing_up:](https://www.objc.io/blog/2014/11/10/functional-snippet-6-currying/) [:page_facing_up:](https://robots.thoughtbot.com/introduction-to-function-currying-in-swift) [:page_facing_up:](http://www.drewag.me/posts/practical-use-for-curried-functions-in-swift)
@@ -504,15 +495,15 @@ A curated list of resources for learning about the Swift Language.
     + Lazy Streams in Swift [:pencil2:](https://github.com/antitypical/Stream)
     + Funky Functional Programming Tools and Experiements [:pencil2:](https://github.com/brynbellomy/Funky)
     + Functional Memoization in Swift [:page_facing_up:](http://blog.scottlogic.com/2014/09/22/swift-memoization.html) [:page_facing_up:](http://www.matthewsessions.com/memoize-in-swift/) [:pencil:](http://stackoverflow.com/questions/31129211/need-detailed-explanation-for-memoize-implementation-in-swift-wwdc-14-session)
-    + Reader Monad in Swift [:pencil:](https://gist.github.com/tLewisII/bfee33f69ddb8e03b379)
-    + Writer Monad in Swift [:pencil:](https://gist.github.com/tLewisII/987d7c0f4ecd873b89a7)
+    + Reader Monad in Swift [:pencil:](https://gist.github.com/tLewisII/bfee33f69ddb8e03b379) [:pencil:](https://github.com/typelift/Swiftz/blob/master/Swiftz/Reader.swift)
+    + Writer Monad in Swift [:pencil:](https://gist.github.com/tLewisII/987d7c0f4ecd873b89a7) [:pencil:](https://github.com/typelift/Swiftz/blob/master/Swiftz/Writer.swift)
     + Back to the Futures with Swift [:floppy_disk:](https://speakerdeck.com/javisoto/back-to-the-futures)
     + State Monads in Swift [:pencil2:](https://github.com/sharplet/State?files=1)
     + Array to Zipper [:pencil2:](https://github.com/rnapier/array-zipper)
     + From Category Theory to Swift [:page_facing_up:](http://karumiblog-env.elasticbeanstalk.com/monad/) [:pencil2:](https://github.com/mbrandonw/naturally-swift)
     + Higher Kinded Types [:pencil:](https://gist.github.com/adamkuipers/bb7bdb9cc425de8905c7) [:page_facing_up:](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20151214/003122.html)
     + Categories in Swift [:pencil:](https://gist.github.com/CodaFi/4d0ce6a3cc0cb1085720)
-    + Applicatives in Swift [:pencil2:](https://github.com/koher/ApplicativeSwift) [:page_facing_up:](https://www.objc.io/blog/2014/11/17/functional-snippet-7-applicative-functors/)
+    + Applicatives in Swift [:pencil:](https://github.com/typelift/Swiftz/blob/master/Swiftz/Applicative.swift) [:pencil2:](https://github.com/koher/ApplicativeSwift) [:page_facing_up:](https://www.objc.io/blog/2014/11/17/functional-snippet-7-applicative-functors/)
     + Church Encoding [:pencil:](https://gist.github.com/CodaFi/b9ca5bcee6d7ea9ff158)
     + Lambda Calculus in Swift 2 [:pencil:](https://gist.github.com/bellbind/6ffb0add23990eb5bef4)
     + Simple Monoid Example [:pencil:](https://gist.github.com/drexin/e3022674f6ddf6fdb65f) [:pencil:](https://gist.github.com/jhaberstro/9aa326e3762f91abbe8f)
@@ -638,7 +629,14 @@ A curated list of resources for learning about the Swift Language.
 	+ Understanding Reflection in Swift and how to use it [:page_facing_up:](http://appventure.me/2015/10/24/swift-reflection-api-what-you-can-do/)
 	+ Typecasting and the Swift Runtime [:page_facing_up:](https://github.com/vandadnp/swift-weekly/blob/master/issue08/README.md)
 	- Advanced Type Safety in Swift [:floppy_disk:](https://github.com/jspahrsummers/correct-behavior-through-type-safety/blob/master/Correct%20Behavior%20Through%20Type%20Safety.pdf), and corresponding [:microphone:](https://realm.io/news/altconf-justin-spahr-summers-type-safety/)
-
++ Associated Types
+    + Protocols with Associated Types and how they got that way [:floppy_disk:](https://speakerdeck.com/algal/protocols-with-associated-types-and-how-they-got-that-way)
+    + Associated Types in Swift Explained [:page_facing_up:](http://www.russbishop.net/swift-associated-types)
+    + Illuminating Forum Post [:page_facing_up:](https://forums.developer.apple.com/message/18038)
+    + How to make Generic Protocols in Swift [:page_facing_up:](http://milen.me/writings/swift-generic-protocols/)
+    + Associated Enum Data As Types [:page_facing_up:](http://owensd.io/2015/09/15/associated-enum-cases-as-types.html)
+    + Typesafe Associated Objects [:pencil2:](https://github.com/kballard/swift-tsao)
+    
 #### **Production Swift, Problem Solving, and Developer Tools**
 - Production Swift
 	- How Carthage works [:floppy_disk:](https://speakerdeck.com/jspahrsummers/ruthlessly-simple-dependency-management-with-carthage)
