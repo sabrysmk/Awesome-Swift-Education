@@ -57,7 +57,7 @@ A curated list of resources for learning about the Swift Language.
     + [Protocol Oriented Programming in Swift 2](#protocol-oriented-programming-in-swift-2)
     + [Security](#security)
     + [String Manipulation and Regex](#string-manipulation-and-regex)
-    + [Swift Language and Open Source](#swift-language-and-open-source)
+    + [Swift Language, Open Source, and Opinions](#swift-language-open-source-and-opinions)
     + [Testing](#testing)
     + [Web Services and Networking](#web-services-and-networking)
 - [Interview Situations](#interview-situations)
@@ -186,7 +186,6 @@ A curated list of resources for learning about the Swift Language.
 + Other Video
     - Swift Language Youtube Channel [:video_camera:](https://www.youtube.com/channel/UCml4lCH0xdl6Jm91RiPPIig)
     - Free Swift Lang Course [:video_camera:](https://www.youtube.com/playlist?list=PLxwBNxx9j4PW8bsVaXia9c20I87YEGNRu)
-    - Explaining the mutating keyword [:video_camera:](https://www.youtube.com/watch?v=uOrKvPDfLoE)
     - Swift tutorial Video Series [:video_camera:](https://www.youtube.com/playlist?list=PLfOZCUzRoPfKeOS_pwpiqbdviGcCOcTYb)
 
 ## **Posts**
@@ -560,6 +559,7 @@ A curated list of resources for learning about the Swift Language.
     + Property Observers [:page_facing_up:](https://www.quora.com/Apple-Swift-programming-language/What-is-a-property-observer)
     + IBOutlet Style in Swift [:page_facing_up:](http://natashatherobot.com/ios-a-beautiful-way-of-styling-iboutlets-in-swift/)
     + Lazy Properties in Structs [:page_facing_up:](http://oleb.net/blog/2015/12/lazy-properties-in-structs-swift/)
+    + Class Properties in Swift [:page_facing_up:](http://stackoverflow.com/questions/24087936/how-do-i-make-class-methods-properties-in-swift)
 + Dependency Injection
     + You Used To Inject Me In Your Constructor [:floppy_disk:](https://speakerdeck.com/mathonsunday/you-used-to-inject-me-in-your-constructor)
     + Swift Inject Dependency Injection [:pencil2:](https://github.com/Swinject/Swinject)
