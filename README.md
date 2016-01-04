@@ -82,7 +82,7 @@ A curated list of resources for learning about the Swift Language.
 - Functional Swift Style Guide [:book:](https://github.com/CodaFi/functional-swift-style-guide)
 - The Official Swift Language Docs [:book:](https://github.com/apple/swift/tree/master/docs)
 - Swift Language Evolution [:book:](https://github.com/apple/swift-evolution)
-+ Swift Stye Rules [:book:](http://ericasadun.com/2015/11/17/a-handful-of-swift-style-rules-swiftlang/)
++ Swift Style Rules [:book:](http://ericasadun.com/2015/11/17/a-handful-of-swift-style-rules-swiftlang/)
 + SwiftLint [:book:](https://github.com/realm/SwiftLint)
 + Swift Don'ts [:book:](https://gist.github.com/erica/d91aef87e95f99c094c0)
 
@@ -450,8 +450,10 @@ A curated list of resources for learning about the Swift Language.
     + The Category Design Pattern [:page_facing_up:](http://www.haskellforall.com/2012/08/the-category-design-pattern.html)
     + Type Theory vs Category Theory [:page_facing_up:](https://ncatlab.org/nlab/show/relation+between+type+theory+and+category+theory)  [:page_facing_up:](http://cs.stackexchange.com/questions/3028/is-category-theory-useful-for-learning-functional-programming/3256#3256)
     + MIT Category Theory Class [:link:](http://ocw.mit.edu/courses/mathematics/18-s996-category-theory-for-scientists-spring-2013/) 
-- Functional Programming
+    + What are Monads [:page_facing_up:](http://xn--wxak1a.com/blog/Monards.html)
+- Functional Programming in Swift
 	- Understanding 
+        - Programming is Mathematics [:page_facing_up:](http://xn--wxak1a.com/blog/FP-In-Swift-Intro.html)
         - What is Functional Programming in Swift? [:floppy_disk:](http://media.monkey-robot.com/docs/thoughtworks-swift.pdf) [:page_facing_up:](http://harlankellaway.com/blog/2015/08/10/swift-functional-programming-intro/) [:page_facing_up:](http://jamesonquave.com/blog/functional-programming-in-swift/) [:floppy_disk:](https://speakerdeck.com/saloievgen/think-functionally-in-swift)
         + Covariance and Contravariance in Swift 2.1 [:page_facing_up:](http://www.uraimo.com/2015/09/29/Swift2.1-Function-Types-Conversion-Covariance-Contravariance/)
         - Object Oriented Functional Programming [:microphone:](https://realm.io/news/altconf-saul-mora-object-orientated-functional-programming/)
@@ -475,6 +477,8 @@ A curated list of resources for learning about the Swift Language.
         + Functional Paradigms in Swift [:page_facing_up:](http://blog.tackmobile.com/article/functional-paradigms-in-swift/)
         + Functional Programming in the Swift Language [:page_facing_up:](https://medium.com/swift-programming/2-functional-swift-c98be9533183)
         + Monads & C# Tasks in Swift [:page_facing_up:](https://realm.io/news/swift-tasks-nevyn-bengtsson/)
+        + Paragons Of Perfunctory Programs [:page_facing_up:](http://xn--wxak1a.com/blog/Monadic-Computering.html) 
+        + Combinators [:page_facing_up:](http://xn--wxak1a.com/blog/Combinators.html) [:pencil:](https://gist.github.com/CodaFi/10afdd77e42bb8ad18ab)
     - Implementations
         + Deriving higher order functions in Swift [:page_facing_up:](http://ijoshsmith.com/2015/12/09/higher-order-functions-in-swift/) and Monads [:page_facing_up:](http://nomothetis.svbtle.com/third-monad-law-derivation)
         + Typelift Community Repo [:pencil:](https://github.com/typelift)
@@ -498,7 +502,7 @@ A curated list of resources for learning about the Swift Language.
         + Y Combinators in Swift [:pencil:](https://gist.github.com/kongtomorrow/e95bea13162ca0e29d4b#file-gistfile1-swift)
         + Arrows in Swift [:pencil:](https://github.com/typelift/Swiftz/blob/master/Swiftz/Arrow.swift)
         + Understanding Reduce in Swift [:page_facing_up:] [:page_facing_up:](http://ijoshsmith.com/2014/06/25/understanding-swifts-reduce-method/)
-        + Monadic Functions in Swift [:pencil2:](https://github.com/thoughtbot/Runes)
+        + infix Operators for Monadic Functions in Swift [:pencil2:](https://github.com/thoughtbot/Runes)
         + Lazy Streams in Swift [:pencil2:](https://github.com/antitypical/Stream)
         + Funky Functional Programming Tools and Experiements [:pencil2:](https://github.com/brynbellomy/Funky)
         + Functional Memoization in Swift [:page_facing_up:](http://blog.scottlogic.com/2014/09/22/swift-memoization.html) [:page_facing_up:](http://www.matthewsessions.com/memoize-in-swift/) [:pencil:](http://stackoverflow.com/questions/31129211/need-detailed-explanation-for-memoize-implementation-in-swift-wwdc-14-session)
@@ -545,6 +549,7 @@ A curated list of resources for learning about the Swift Language.
 - RxSwift Community Webpage [:link:](http://community.rxswift.org/)
 - Functional Reactive Programming on iOS [:floppy_disk:](https://speakerdeck.com/benjamin_encz/functional-reactive-programming-on-ios)
 - Modern application architectures (Reactive programming, MVVM and beyond) [:page_facing_up:](https://slack-files.com/T051G5Y6D-F0HABHKDK-8e9141e191)
+- Delta Library for managing state [:page_facing_up:](https://github.com/thoughtbot/Delta)
 
 #### **Generics** 
 + Generic Arrays in Swift 2.0 [:page_facing_up:](http://blog.krzyzanowskim.com/2015/10/07/generic-array-uint8/)
