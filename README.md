@@ -295,7 +295,8 @@ A curated list of resources for learning about the Swift Language.
 	- Reddit Thread [:page_facing_up:](https://www.reddit.com/r/iOSProgramming/comments/2vmbv2/realm_or_coredata/)
 	- A look into Realm's Core DB Engine [:microphone:](https://realm.io/news/jp-simard-realm-core-database-engine/)
 	- Working with Realm [:page_facing_up:](http://blog.matthewcheok.com/working-with-realm/)
-
+	- Testing Realm Objects [:page_facing_up:](http://www.mokacoding.com/blog/testing-realm-apps/)
+    
 #### **Data Structures and Algorithms**
 + An Array implemented in Swift by Mike Ash [:pencil:](https://gist.github.com/mikeash/63a791f2aec3318c7c5c)
 + A Trie [:page_facing_up:](https://bigonotetaking.wordpress.com/2015/08/11/a-trie-in-swift/)
@@ -399,6 +400,7 @@ A curated list of resources for learning about the Swift Language.
 #### **Error Handling**
 + The Value of Guard [:page_facing_up:](http://www.iosinsight.com/the-value-of-guard-in-swift/) [:page_facing_up:](http://natashatherobot.com/swift-guard-better-than-if/)
 + Guard and Defer [:page_facing_up:](http://nshipster.com/guard-and-defer/)
++ Defer in Swift [:page_facing_up:](https://sideeffects.xyz/2015/defer-in-swift/)
 + When to (not) use guard [:page_facing_up:](http://radex.io/swift/guard/) [:page_facing_up:](https://medium.com/swift-programming/why-swift-guard-should-be-avoided-484cfc2603c5#.bg4hxwop2)
 + Thoughts on Swift 2 Error Handling [:pencil:](https://gist.github.com/nicklockwood/21495c2015fd2dda56cf)
 + Easy Error Handing [:page_facing_up:](https://littlebitesofcocoa.com/108-error-handling)
@@ -517,27 +519,31 @@ A curated list of resources for learning about the Swift Language.
         - FutureKit Repostory [:pencil2:](https://github.com/FutureKit/FutureKit)
 
 #### **Functional Reactive Programming in Swift**
-+ MVVM + FRP [:page_facing_up:](http://www.sprynthesis.com/2014/12/06/reactivecocoa-mvvm-introduction/)
-+ MVVM + RxSwift [:microphone:](https://realm.io/news/slug-max-alexander-functional-reactive-rxswift/) [:pencil2:](https://github.com/RxSwiftCommunity/RxViewModel), [:page_facing_up:](https://medium.com/@marinbenc/implementing-mvvm-in-ios-with-rxswift-458a2d47c33d#.k901myr5x), [:page_facing_up:](http://tailec.com/blog/reactive-recipe-2)
-+ Introduction [:page_facing_up:](http://nomothetis.svbtle.com/an-introduction-to-reactivecocoa)
-+ Reacting to Events [:page_facing_up:](http://nomothetis.svbtle.com/reactivecocoa-ii-reacting-to-signals) 
-+ ReactiveCocoa 4.0 Info [:link:](https://blog.alltheflow.com/reactivecocoa-4-0-with-swift-2-0/)
-- The Difference between RxSwift and ReactiveCocoa [:page_facing_up:](http://stackoverflow.com/questions/32542846/reactivecocoa-vs-rxswift-pros-and-cons), [:page_facing_up:](https://ashfurrow.com/blog/reactivecocoa-vs-rxswift/)
-- FRP in Swift 2.0 [:microphone:](https://realm.io/news/agnes-vasarhelyi-beer-app-frp-swift-2/)
-- Functional Reactive Programming in an Imperative World [:microphone:](https://realm.io/news/nacho-soto-functional-reactive-programming/)
-- :raised_hands: RAC 3 with Ash Furrow [:floppy_disk:](http://www.slideshare.net/colineberhardt/reactivecocoa-and-swift-better-together?qid=8a7611e7-4c08-4e2f-9f81-99b67c6f4390&v=default&b=&from_search=10), and some other nice [:floppy_disk:](https://speakerdeck.com/romainpouclet/taking-a-peak-at-reactivecocoa-3-dot-0)
-- FRP with RAC in Swift [:floppy_disk:](https://speakerdeck.com/ashfurrow/functional-reactive-programming-in-swift)
-- Learning RxSwift [:link:](https://github.com/pepaslabs/LearningRxSwift)
-- Upgrading to RxSwift [:page_facing_up:](http://artsy.github.io/blog/2015/12/08/reactive-cocoa-to-rxswift/)
-- FRP is a forbidden term [:page_facing_up:](https://medium.com/@andrestaltz/why-i-cannot-say-frp-but-i-just-did-d5ffaa23973b#.te52wjpxq)
-- What is FRP? On StackOverflow [:page_facing_up:](http://stackoverflow.com/questions/1028250/what-is-functional-reactive-programming/1030631#1030631)
-- From RAC to RxSwift: The (Mini) Survival Guide [:page_facing_up:](https://sideeffects.xyz/2015/from-rac-to-rxswift-the-survival-guide/)
-- State, Promises, and Reactive Programming [:microphone:](https://realm.io/news/state-promises-reactive-programming/) [:pencil2:](https://github.com/ReactKit/ReactKit)
-- State Machines in Swift [:pencil2:](https://github.com/ReactKit/SwiftState)
-- RxSwift Community Webpage [:link:](http://community.rxswift.org/)
-- Functional Reactive Programming on iOS [:floppy_disk:](https://speakerdeck.com/benjamin_encz/functional-reactive-programming-on-ios)
-- Modern application architectures (Reactive programming, MVVM and beyond) [:page_facing_up:](https://slack-files.com/T051G5Y6D-F0HABHKDK-8e9141e191)
-- Delta Library for managing state [:page_facing_up:](https://github.com/thoughtbot/Delta)
++ FRP
+    - FRP in Swift 2.0 [:microphone:](https://realm.io/news/agnes-vasarhelyi-beer-app-frp-swift-2/)
+    - Functional Reactive Programming in an Imperative World [:microphone:](https://realm.io/news/nacho-soto-functional-reactive-programming/)
+    - FRP is a forbidden term [:page_facing_up:](https://medium.com/@andrestaltz/why-i-cannot-say-frp-but-i-just-did-d5ffaa23973b#.te52wjpxq) [:page_facing_up:](https://sideeffects.xyz/2015/the-functional-reactive-misconception/)
+    - What is FRP? On StackOverflow [:page_facing_up:](http://stackoverflow.com/questions/1028250/what-is-functional-reactive-programming/1030631#1030631)
+    - State, Promises, and Reactive Programming [:microphone:](https://realm.io/news/state-promises-reactive-programming/) [:pencil2:](https://github.com/ReactKit/ReactKit)
+    - State Machines in Swift [:pencil2:](https://github.com/ReactKit/SwiftState)
+    - Functional Reactive Programming on iOS [:floppy_disk:](https://speakerdeck.com/benjamin_encz/functional-reactive-programming-on-ios)
+    - Delta Library for managing state [:page_facing_up:](https://github.com/thoughtbot/Delta)
++ MVVM
+	+ MVVM + FRP [:page_facing_up:](http://www.sprynthesis.com/2014/12/06/reactivecocoa-mvvm-introduction/)
+    - Modern application architectures (Reactive programming, MVVM and beyond) [:page_facing_up:](https://slack-files.com/T051G5Y6D-F0HABHKDK-8e9141e191)
++ RAC
+    + Introduction [:page_facing_up:](http://nomothetis.svbtle.com/an-introduction-to-reactivecocoa)
+    + Reacting to Events [:page_facing_up:](http://nomothetis.svbtle.com/reactivecocoa-ii-reacting-to-signals) 
+    + ReactiveCocoa 4.0 Info [:link:](https://blog.alltheflow.com/reactivecocoa-4-0-with-swift-2-0/)
+    - :raised_hands: RAC 3 with Ash Furrow [:floppy_disk:](http://www.slideshare.net/colineberhardt/reactivecocoa-and-swift-better-together?qid=8a7611e7-4c08-4e2f-9f81-99b67c6f4390&v=default&b=&from_search=10), and some other nice [:floppy_disk:](https://speakerdeck.com/romainpouclet/taking-a-peak-at-reactivecocoa-3-dot-0)
+    - FRP with RAC in Swift [:floppy_disk:](https://speakerdeck.com/ashfurrow/functional-reactive-programming-in-swift)
++ Rx
+    + MVVM + RxSwift [:microphone:](https://realm.io/news/slug-max-alexander-functional-reactive-rxswift/) [:pencil2:](https://github.com/RxSwiftCommunity/RxViewModel), [:page_facing_up:](https://medium.com/@marinbenc/implementing-mvvm-in-ios-with-rxswift-458a2d47c33d#.k901myr5x), [:page_facing_up:](http://tailec.com/blog/reactive-recipe-2)
+    - The Difference between RxSwift and ReactiveCocoa [:page_facing_up:](http://stackoverflow.com/questions/32542846/reactivecocoa-vs-rxswift-pros-and-cons), [:page_facing_up:](https://ashfurrow.com/blog/reactivecocoa-vs-rxswift/)
+    - Learning RxSwift [:link:](https://github.com/pepaslabs/LearningRxSwift)
+    - Upgrading to RxSwift [:page_facing_up:](http://artsy.github.io/blog/2015/12/08/reactive-cocoa-to-rxswift/)
+    - From RAC to RxSwift: The (Mini) Survival Guide [:page_facing_up:](https://sideeffects.xyz/2015/from-rac-to-rxswift-the-survival-guide/)
+    - RxSwift Community Webpage [:link:](http://community.rxswift.org/)
 
 #### **Generics** 
 + Generic Arrays in Swift 2.0 [:page_facing_up:](http://blog.krzyzanowskim.com/2015/10/07/generic-array-uint8/)
@@ -605,7 +611,8 @@ A curated list of resources for learning about the Swift Language.
     - Explorign SIL and swiftc [:page_facing_up:](http://swiftc.io/)
     - swift vs swiftc [:page_facing_up:](http://owensd.io/2015/01/14/swift-vs-swiftc.html)
     - SIMD (Single Instruction Multiple Data) [:page_facing_up:](http://www.russbishop.net/swift-2-simd)
-
+	- @convention [:page_facing_up:](http://stackoverflow.com/questions/30740560/new-conventionc-in-swift-2-how-can-i-use-it)
+    
 #### **Optionals and Types** 
 + Optionals
     + How I handle Optionals in Swift [:page_facing_up:](http://blog.human-friendly.com/how-i-handle-optionals-in-swift)
@@ -639,6 +646,7 @@ A curated list of resources for learning about the Swift Language.
         + Typecasting and the Swift Runtime [:page_facing_up:](https://github.com/vandadnp/swift-weekly/blob/master/issue08/README.md)
         - Advanced Type Safety in Swift [:floppy_disk:](https://github.com/jspahrsummers/correct-behavior-through-type-safety/blob/master/Correct%20Behavior%20Through%20Type%20Safety.pdf), and corresponding [:microphone:](https://realm.io/news/altconf-justin-spahr-summers-type-safety/)
         + Why doesn't Swift have implicit type conversion? [:page_facing_up:](https://www.quora.com/Why-does-Swift-not-allow-implicit-type-conversion)
+        + as? vs as! [:age_facing_up:](http://stackoverflow.com/questions/25708649/downcasting-optionals-in-swift-as-type-or-as-type)  
     + Associated Types
         + Protocols with Associated Types and how they got that way [:floppy_disk:](https://speakerdeck.com/algal/protocols-with-associated-types-and-how-they-got-that-way) [:microphone:](https://www.youtube.com/watch?v=XWoNjiSPqI8)
         + Associated Types in Swift Explained [:page_facing_up:](http://www.russbishop.net/swift-associated-types) [:page_facing_up:](http://www.natashatherobot.com/swift-protocols-with-associated-types/)
@@ -658,6 +666,7 @@ A curated list of resources for learning about the Swift Language.
 	- Lessons from Production Swift [:floppy_disk:](https://speakerdeck.com/ashfurrow/lessons-from-production-swift)
 	- Using the Swift Package Manager [:page_facing_up:](http://kostiakoval.github.io/posts/swift-package-manager/)
 	- Exclude folders in the SPM [:page_facing_up:](http://kostiakoval.github.io/posts/exclude-folders---new-feature-in-swift-package-manager/)
+    - How to run Swift within a Docker container [:page_facing_up:](https://developer.ibm.com/swift/2015/12/15/running-swift-within-docker/)
 - Problem Solving with Swift 
 	- :raised_hands: FizzBuzz on steroids with Swift [:floppy_disk:](https://speakerdeck.com/abizern/fizz-buzz-in-swift)
 	- Learning Swift the Euler Way [:microphone:](https://vimeo.com/136059613)
@@ -744,6 +753,7 @@ A curated list of resources for learning about the Swift Language.
 	- Swiftly Methods [:page_facing_up:](http://radex.io/swift/methods/)
 	+ Function Params are Tuples in Swift [:page_facing_up:](http://www.paulrobinson.net/function-parameters-are-tuples-in-swift/)
 	+ Improving your Existing Apps with Swift [:floppy_disk:](http://devstreaming.apple.com/videos/wwdc/2015/403l7ohdidhmnkgx/403/403_improving_your_existing_apps_with_swift.pdf?dl=1)
+    + Other Swift Attributes you may not have heard of [:page_facing_up:](http://www.russbishop.net/more-swift-attributes)
 - Open Source Swift
 	+ Booleans [:page_facing_up:](http://swiftunboxed.com/open-source/Bool/)
 	+ Swift Open Source Overview [:page_facing_up:](http://www.jessesquires.com/swift-open-source/)
@@ -753,7 +763,6 @@ A curated list of resources for learning about the Swift Language.
 	- Swift Version Manager [:pencil2:](https://github.com/kylef/swiftenv)
 	- Docker Swift [:pencil2:](https://github.com/swiftdocker/docker-swift)
 	- Open Radar Swift [:page_facing_up:](http://www.openradar.me/19770770)
-	- How to run Swift within a Docker container [:page_facing_up:](https://developer.ibm.com/swift/2015/12/15/running-swift-within-docker/)
 	- Version Manager [:pencil2:](https://github.com/kylef/swiftenv)
 + Opinions about Swift
 	+ Wishlist for Swift 3.0 [:page_facing_up:](https://realm.io/news/swift-3-wishlist/)
@@ -766,31 +775,38 @@ A curated list of resources for learning about the Swift Language.
     + How flexible is Swift? [:page_facing_up:](https://www.quora.com/How-flexible-is-Swift)
 
 #### **Testing**
-- Profiling in Depth [:microphone:](https://developer.apple.com/videos/play/wwdc2015-412) [:floppy_disk:](http://devstreaming.apple.com/videos/wwdc/2015/412rhea5amj6iaf/412/412_profiling_in_depth.pdf?dl=1)
-- BDD Testing with Swift [:page_facing_up:](http://railsware.com/blog/2014/07/04/bdd-style-testing-in-swift-with-sleipnir/)
-- TDD with Swift [:page_facing_up:](http://swiftandpainless.com/category/tdd/)
-- Unit Testing in Swift [:page_facing_up:](https://bendyworks.com/unit-testing-in-swift/)
-+ UI Testing in Xcode [:microphone:](https://developer.apple.com/videos/wwdc/2015/?id=406) [:page_facing_up:](http://www.mokacoding.com/blog/xcode-7-ui-testing/)
-- Better Unit Testing with Swift [:page_facing_up:](http://masilotti.com/better-swift-unit-testing/)
-- UI Testing Cheat Sheet [:page_facing_up:](http://masilotti.com/ui-testing-cheat-sheet/)
-- SwiftTest BDD Testing Framework [:pencil2:](https://github.com/bppr/Swiftest)
-- More functional testing [:page_facing_up:](http://www.thinkandbuild.it/ios-functional-testing-with-user-stories-uitest-and-local-server/)
-- Unit Testing with @testable in Xcode 7 [:page_facing_up:](http://natashatherobot.com/swift-2-xcode-7-unit-testing-access/)
-- Mocking Objects in Swift [:page_facing_up:](http://www.raywenderlich.com/101306/unit-testing-tutorial-mocking-objects)
-- Reverse Engineering iOS Apps [:microphone:](https://realm.io/news/conrad-kramer-reverse-engineering-ios-apps-lyft/)
-- TDD on iOS [:microphone:](https://realm.io/news/altconf-glen-tregoning-paul-zabelin-successful-test-driven-development-on-ios/)
-- The state of iOS testing in 2015 [:page_facing_up:](http://www.mokacoding.com/blog/ios-testing-in-2015/)
-- Testing in Swift with Quick [:microphone:](https://realm.io/news/testing-in-swift/) [:microphone:](https://realm.io/news/rachel-bobbins-testing-view-controllers-quick/)
-- Network Testing in Swift [:microphone:](https://realm.io/news/soffes-swift-network-testing-dvr/)
-- TDD By Controlling Dependencies in Swift [:microphone:](https://www.youtube.com/watch?v=qYpURmZcCKs&index=47&list=PLEx5khR4g7PL0fDNJkI2dHhqeckQTAbes), [:microphone:](http://gotocon.com/dl/goto-cph-2015/slides/JorgeD.OrtizFuentes_TestDrivenDevelopmentbyControllingDependencies.pdf)
-- iOS Snapshot Test Cases [:pencil2:](https://github.com/facebook/ios-snapshot-test-case)
-- Quick Testing Framework [:pencil2:](https://github.com/Quick/Quick)
-- Nimble Matcher Framework [:pencil2:](https://github.com/Quick/Nimble)
-- Swift Lint [:pencil2:](https://github.com/realm/SwiftLint)
-- How to configure Travis CI for iOS Testing [:page_facing_up:](http://www.mokacoding.com/blog/travis-ci-ios-testing/)
-- Setting up KIF for iOS Acceptance Testing [:page_facing_up:](http://www.mokacoding.com/blog/setting-up-kif-for-ios-acceptance-testing/)
-- Replacing KIF with XCUI Tests [:page_facing_up:](http://www.catehuston.com/blog/2015/11/11/replacing-kif-tests-with-xcui-tests/)
-- SwiftCheck: QuickCheck for Swift [:pencil2:](https://github.com/typelift/SwiftCheck)
+- Unit Testing
+    - Better Unit Testing with Swift [:page_facing_up:](http://masilotti.com/better-swift-unit-testing/)
+    - Unit Testing in Swift [:page_facing_up:](https://bendyworks.com/unit-testing-in-swift/)
+    - Unit Testing with @testable in Xcode 7 [:page_facing_up:](http://natashatherobot.com/swift-2-xcode-7-unit-testing-access/)
+- TDD
+    - TDD with Swift [:page_facing_up:](http://swiftandpainless.com/category/tdd/)
+    - TDD By Controlling Dependencies in Swift [:microphone:](https://www.youtube.com/watch?v=qYpURmZcCKs&index=47&list=PLEx5khR4g7PL0fDNJkI2dHhqeckQTAbes), [:microphone:](http://gotocon.com/dl/goto-cph-2015/slides/JorgeD.OrtizFuentes_TestDrivenDevelopmentbyControllingDependencies.pdf)
+    - TDD on iOS [:microphone:](https://realm.io/news/altconf-glen-tregoning-paul-zabelin-successful-test-driven-development-on-ios/)
+- BDD
+    - BDD Testing with Swift [:page_facing_up:](http://railsware.com/blog/2014/07/04/bdd-style-testing-in-swift-with-sleipnir/)
+    - SwiftTest BDD Testing Framework [:pencil2:](https://github.com/bppr/Swiftest)
+- UI Testing
+    - UI Testing Cheat Sheet [:page_facing_up:](http://masilotti.com/ui-testing-cheat-sheet/)
+    + UI Testing in Xcode [:microphone:](https://developer.apple.com/videos/wwdc/2015/?id=406) [:page_facing_up:](http://www.mokacoding.com/blog/xcode-7-ui-testing/)
+    - Replacing KIF with XCUI Tests [:page_facing_up:](http://www.catehuston.com/blog/2015/11/11/replacing-kif-tests-with-xcui-tests/)
+- Network Testing
+    - Network Testing in Swift [:microphone:](https://realm.io/news/soffes-swift-network-testing-dvr/)
+- Snapshot Testing
+    - iOS Snapshot Test Cases [:pencil2:](https://github.com/facebook/ios-snapshot-test-case)
+- Profiling
+    - Profiling in Depth [:microphone:](https://developer.apple.com/videos/play/wwdc2015-412) [:floppy_disk:](http://devstreaming.apple.com/videos/wwdc/2015/412rhea5amj6iaf/412/412_profiling_in_depth.pdf?dl=1)
+- Other
+    - More functional testing [:page_facing_up:](http://www.thinkandbuild.it/ios-functional-testing-with-user-stories-uitest-and-local-server/)
+    - Mocking Objects in Swift [:page_facing_up:](http://www.raywenderlich.com/101306/unit-testing-tutorial-mocking-objects)
+    - Reverse Engineering iOS Apps [:microphone:](https://realm.io/news/conrad-kramer-reverse-engineering-ios-apps-lyft/)
+    - The state of iOS testing in 2015 [:page_facing_up:](http://www.mokacoding.com/blog/ios-testing-in-2015/)
+    - Testing in Swift with Quick [:microphone:](https://realm.io/news/testing-in-swift/) [:microphone:](https://realm.io/news/rachel-bobbins-testing-view-controllers-quick/)
+    - Quick Testing Framework [:pencil2:](https://github.com/Quick/Quick)
+    - Nimble Matcher Framework [:pencil2:](https://github.com/Quick/Nimble)
+    - How to configure Travis CI for iOS Testing [:page_facing_up:](http://www.mokacoding.com/blog/travis-ci-ios-testing/)
+    - Setting up KIF for iOS Acceptance Testing [:page_facing_up:](http://www.mokacoding.com/blog/setting-up-kif-for-ios-acceptance-testing/)
+    - SwiftCheck: QuickCheck for Swift [:pencil2:](https://github.com/typelift/SwiftCheck)
     
 #### **Web Services, JSON, Routing, REST, and Networking**
 + Networking
