@@ -3,22 +3,7 @@
 
 A curated list of resources for learning about the Swift Language. 
 
-## Key
-- :pencil: = Gist
-- :pencil2: = Repository
-- :notebook: = Blog
-- :page_facing_up: = Blog Post
-- :scroll: = Quick Reference
-- :books: = Book
-- :book: = Guide Book
-- :newspaper: = Newsletter
-- :floppy_disk: = Slides
-- :microphone: = Video Presentation
-- :video_camera: = Video
-- :link: = Link
-- :fire: = Awesome List
-- :mortar_board: = Learning Resource
-- :clipboard: = Interview Questions
+## [Key](#emoji-key)
 
 ## **Index**
 
@@ -59,7 +44,7 @@ A curated list of resources for learning about the Swift Language.
     + [String Manipulation and Regex](#string-manipulation-and-regex)
     + [Swift Language, Open Source, and Opinions](#swift-language-open-source-and-opinions)
     + [Testing](#testing)
-    + [Web Services and Networking](#web-services-and-networking)
+    + [Web Services, JSON, Routing, REST, and Networking](#web-services-json-routing-rest-and-networking)
 - [Interview Situations](#interview-situations)
 - [Swift Community](#swift-community)
 - [Contributing Guidelines](#contributing)
@@ -135,6 +120,7 @@ A curated list of resources for learning about the Swift Language.
 - Gettin' Swifty With It [:newspaper:](http://gettinswiftywithit.curated.co/)
 - Indie iOS Dev Weekly [:newspaper:](https://indieiosfocus.curated.co/)
 - Swift Dev Weekly [:newspaper:](http://swiftdevweekly.co/)
+- Thomas Hanning [:newspaper:](http://www.thomashanning.com/category/swift/)
 
 ## **Great Learning Resources**
 - Official Swift Documentation [:pencil:](https://github.com/apple/swift/tree/master/docs) 
@@ -258,6 +244,7 @@ A curated list of resources for learning about the Swift Language.
 - List Comprehension in Swift [:page_facing_up:](http://stackoverflow.com/questions/24003584/list-comprehension-in-swift)
 - Collection Indices, Slices, and Generics [:page_facing_up:](http://airspeedvelocity.net/2015/12/28/collection-indices-slices-and-generics/)
 - Generic Collections, SubSequences and Overloading [:page_facing_up:](http://airspeedvelocity.net/)
+- Custom Subscripts in Swift [:page_facing_up:](https://www.natashatherobot.com/custom-subscripts-swift/)
 
 #### **Command Line and Swift Scripting**
 + Swift Scripting [:microphone:](https://realm.io/news/swift-scripting/)
@@ -341,6 +328,7 @@ A curated list of resources for learning about the Swift Language.
 + Fisher-Yates Shuffle for Swift [:pencil:](https://gist.github.com/kballard/8738524e0243a93376ed)
 + Rose Tree in Swift [:pencil:](https://github.com/typelift/SwiftCheck/blob/master/SwiftCheck/Rose.swift)
 + Generic Stack in Swift [:pencil:](https://gist.github.com/aciidb0mb3r/fd147c8c6b1728664fdb) [:page_facing_up:](http://ankit.im/swift/2016/01/02/creating-value-type-generic-stack-in-swift-with-pointers-and-copy-on-write/)
++ Deep learning with Swift [:pencil2:](https://github.com/DeepLearningKit/DeepLearningKit)
 
 #### **Design Patterns**
 - Swift Design Patterns [:floppy_disk:](http://www.slideshare.net/micheletitolo/cocoa-design-patterns-in-swift?qid=7d2c3760-f640-49be-b204-25d086da4e78&v=qf1&b=&from_search=7)
@@ -508,7 +496,7 @@ A curated list of resources for learning about the Swift Language.
         + Functional Memoization in Swift [:page_facing_up:](http://blog.scottlogic.com/2014/09/22/swift-memoization.html) [:page_facing_up:](http://www.matthewsessions.com/memoize-in-swift/) [:pencil:](http://stackoverflow.com/questions/31129211/need-detailed-explanation-for-memoize-implementation-in-swift-wwdc-14-session)
         + Reader Monad in Swift [:pencil:](https://gist.github.com/tLewisII/bfee33f69ddb8e03b379) [:pencil:](https://github.com/typelift/Swiftz/blob/master/Swiftz/Reader.swift)
         + Writer Monad in Swift [:pencil:](https://gist.github.com/tLewisII/987d7c0f4ecd873b89a7) [:pencil:](https://github.com/typelift/Swiftz/blob/master/Swiftz/Writer.swift)
-        + Back to the Futures with Swift [:floppy_disk:](https://speakerdeck.com/javisoto/back-to-the-futures)
+        + Back to the Futures with Swift [:microphone:](https://realm.io/news/swift-summit-javier-soto-futures/) [:floppy_disk:](https://speakerdeck.com/javisoto/back-to-the-futures)
         + State Monads in Swift [:pencil2:](https://github.com/sharplet/State?files=1)
         + Array to Zipper [:pencil2:](https://github.com/rnapier/array-zipper)
         + From Category Theory to Swift [:page_facing_up:](http://karumiblog-env.elasticbeanstalk.com/monad/) [:pencil2:](https://github.com/mbrandonw/naturally-swift)
@@ -722,19 +710,22 @@ A curated list of resources for learning about the Swift Language.
 - Ceaser Cipher in Swift [:page_facing_up:](https://www.objc.io/blog/2015/01/26/functional-snippet-17-caesar-ciphers/)
 
 #### **String Manipulation and RegEx**
-+ Swift String Cheat Sheet [:page_facing_up:](http://useyourloaf.com/blog/swift-string-cheat-sheet.html) [:pencil:](https://gist.github.com/kharrison/08d1db4169d70a88b194)
-+ How is the String type implemented? [:page_facing_up:](https://www.quora.com/Apple-Swift-programming-language/How-is-the-String-type-implemented)
-+ RegularExpressions in Swift [:page_facing_up:](https://littlebitesofcocoa.com/121-swiftier-regular-expressions-with-regex)
-+ Creating a Lexer in Swift [:page_facing_up:](http://blog.matthewcheok.com/writing-a-lexer-in-swift/)
-+ Creating an Abstract Syntax Tree Parser in Swift [:page_facing_up:](http://blog.matthewcheok.com/writing-a-parser-in-swift/) [:page_facing_up:](http://blog.matthewcheok.com/writing-a-parser-in-swift-part-2/)
-+ String to Number Parser [:pencil2:](https://github.com/davedelong/DDMathParser)
-+ Madness: Parsing strings in simple context-free grammars [:pencil2:](https://github.com/robrix/Madness)
-+ NSRegularExpression Cheat Sheet [:page_facing_up:](http://www.raywenderlich.com/86205/nsregularexpression-swift-tutorial)
-+ Parser combinators, for Swift [:page_facing_up:](http://blog.nottoobadsoftware.com/footlessparser/) [:pencil2:](https://github.com/kareman/FootlessParser) [:pencil2:](https://github.com/hlian/jiffy) 
-+ Clean Regular Expressions in Swift [:page_facing_up:](http://nomothetis.svbtle.com/clean-regular-expressions-using-conversions)
-+ Simple Regex [:pencil:](https://gist.github.com/mattt/3f12f56d72b8d2ebbe62)
-+ Useful String Library [:pencil2:](https://github.com/erica/SwiftString)
-
++ Strings
+    + Swift String Cheat Sheet [:page_facing_up:](http://useyourloaf.com/blog/swift-string-cheat-sheet.html) [:pencil:](https://gist.github.com/kharrison/08d1db4169d70a88b194)
+    + How is the String type implemented? [:page_facing_up:](https://www.quora.com/Apple-Swift-programming-language/How-is-the-String-type-implemented)
+    + Useful String Library [:pencil2:](https://github.com/erica/SwiftString)
++ Regular Expressions
+    + RegularExpressions in Swift [:page_facing_up:](https://littlebitesofcocoa.com/121-swiftier-regular-expressions-with-regex)
+    + Creating a Lexer in Swift [:page_facing_up:](http://blog.matthewcheok.com/writing-a-lexer-in-swift/)
+    + Creating an Abstract Syntax Tree Parser in Swift [:page_facing_up:](http://blog.matthewcheok.com/writing-a-parser-in-swift/) [:page_facing_up:](http://blog.matthewcheok.com/writing-a-parser-in-swift-part-2/)
+    + String to Number Parser [:pencil2:](https://github.com/davedelong/DDMathParser)
+    + Madness: Parsing strings in simple context-free grammars [:pencil2:](https://github.com/robrix/Madness)
+    + NSRegularExpression Cheat Sheet [:page_facing_up:](http://www.raywenderlich.com/86205/nsregularexpression-swift-tutorial)
+    + Parser combinators, for Swift [:page_facing_up:](http://blog.nottoobadsoftware.com/footlessparser/) [:pencil2:](https://github.com/kareman/FootlessParser) [:pencil2:](https://github.com/hlian/jiffy) 
+    + Clean Regular Expressions in Swift [:page_facing_up:](http://nomothetis.svbtle.com/clean-regular-expressions-using-conversions)
+    + Simple Regex [:pencil:](https://gist.github.com/mattt/3f12f56d72b8d2ebbe62)
+    + Verbal Expressions style RegEx [:pencil2:](https://github.com/VerbalExpressions/SwiftVerbalExpressions)
+    
 #### **Swift Language, Open Source, and Opinions**
 - About Swift 
 	- What's new in Swift 2 [:microphone:](https://developer.apple.com/videos/play/wwdc2015-106) [:floppy_disk:](http://devstreaming.apple.com/videos/wwdc/2015/106z3yjwpfymnauri96m/106/106_whats_new_in_swift.pdf?dl=1)
@@ -801,32 +792,36 @@ A curated list of resources for learning about the Swift Language.
 - Replacing KIF with XCUI Tests [:page_facing_up:](http://www.catehuston.com/blog/2015/11/11/replacing-kif-tests-with-xcui-tests/)
 - SwiftCheck: QuickCheck for Swift [:pencil2:](https://github.com/typelift/SwiftCheck)
     
-#### **Web Services and Networking**
-+ Web Services and Networking
+#### **Web Services, JSON, Routing, REST, and Networking**
++ Networking
 	+ SwiftHTTPStatusCodes [:pencil:](https://github.com/rhodgkins/SwiftHTTPStatusCodes)
-	+ Calling APIs and Parsing JSON with Swift [:page_facing_up:](https://www.topcoder.com/blog/calling-apis-parsing-json-with-swift/)
-	+ Parsing Embedded JSON and Arrays in Swift [:page_facing_up:](https://robots.thoughtbot.com/parsing-embedded-json-and-arrays-in-swift)
-	+ Real World JSON Parsing [:page_facing_up:](https://robots.thoughtbot.com/real-world-json-parsing-with-swift)
-	+ Efficient JSON Parsing with Functional Concepts [:page_facing_up:](https://robots.thoughtbot.com/efficient-json-in-swift-with-functional-concepts-and-generics)
-	+ Swift and JSON: Are we doing it right? [:microphone:](https://skillsmatter.com/skillscasts/6202-swift-and-json-are-we-doing-it-right)
 	+ Calling a REST Api in Swift [:page_facing_up:](http://stackoverflow.com/questions/24321165/make-rest-api-call-in-swift)
 	+ How to Make REST API Calls and Parse JSON with Swift [:page_facing_up:](http://devdactic.com/rest-api-parse-json-swift/)
 	+ HTTP in Swift [:page_facing_up:](https://medium.com/swift-programming/http-in-swift-693b3a7bf086)
 	+ Reachability Library [:page_facing_up:](https://github.com/ashleymills/Reachability.swift)
-	- JSON in Swift [:page_facing_up:](http://blog.matthewcheok.com/json-and-swift/)
-	- Functional JSON Parsing [:page_facing_up:](http://owensd.io/2014/08/06/functional-json.html)
 	- NSURLSession Basics [:page_facing_up:](https://littlebitesofcocoa.com/78-nsurlsession-basics)
 	- Background Downloads [:page_facing_up:](https://littlebitesofcocoa.com/77-background-downloads)
-	- An AlamoFire Router [:page_facing_up:](https://littlebitesofcocoa.com/93-creating-a-router-for-alamofire)
-	- Moya: Network Abstraction Layer written in Swift [:pencil2:](https://github.com/Moya/Moya)
+- JSON 
+	- Functional JSON Parsing with Tyro [:pencil2:](https://github.com/typelift/Tyro)
+	- { JSON, Swift, and Type Safety } [:floppy_disk:](https://speakerdeck.com/swiftsummit/anthony-levings-json-swift-and-type-safety-its-a-wrap)
+    - JSON in Swift [:page_facing_up:](http://blog.matthewcheok.com/json-and-swift/)
+	- Functional JSON Parsing [:page_facing_up:](http://owensd.io/2014/08/06/functional-json.html)
+    + Swift and JSON: Are we doing it right? [:microphone:](https://skillsmatter.com/skillscasts/6202-swift-and-json-are-we-doing-it-right)
+	+ Calling APIs and Parsing JSON with Swift [:page_facing_up:](https://www.topcoder.com/blog/calling-apis-parsing-json-with-swift/)
+	+ Parsing Embedded JSON and Arrays in Swift [:page_facing_up:](https://robots.thoughtbot.com/parsing-embedded-json-and-arrays-in-swift)
+	+ Real World JSON Parsing [:page_facing_up:](https://robots.thoughtbot.com/real-world-json-parsing-with-swift)
+	+ Efficient JSON Parsing with Functional Concepts [:page_facing_up:](https://robots.thoughtbot.com/efficient-json-in-swift-with-functional-concepts-and-generics)
 	- Operator Overloading and JSON Parsing in Swift [:page_facing_up:](https://realm.io/news/swift-thinking/)
-+ Other
++ Networking 
+	- Networking with Monads [:video_camera:](https://www.youtube.com/watch?v=LqwrUmuodyY)
+	- Moya: Network Abstraction Layer written in Swift [:pencil2:](https://github.com/Moya/Moya)
++ Routing 
+	- An AlamoFire Router [:page_facing_up:](https://littlebitesofcocoa.com/93-creating-a-router-for-alamofire)
++ Web Services
 	+ CloudKit Introduction [:page_facing_up:](http://szulctomasz.com/cloudkit-introduction-and-lets-build-an-app/s)
 	+ Create a Data Access Layer with SQLite.swift and Swift 2 [:page_facing_up:](http://masteringswift.blogspot.com/2015/09/create-data-access-layer-with.html)
 	+ Using YapDatabase [:page_facing_up:](https://github.com/yapstudios/YapDatabase)
-	- { JSON, Swift, and Type Safety } [:floppy_disk:](https://speakerdeck.com/swiftsummit/anthony-levings-json-swift-and-type-safety-its-a-wrap)
 	- MagicalRecord loves Swift [:microphone:](http://gotocon.com/dl/goto-cph-2015/slides/SaulMora_CoreDataIn2015andMagicalRecordMeetsSwift.pdf)
-	- Networking with Monads [:video_camera:](https://www.youtube.com/watch?v=LqwrUmuodyY)
 	- Swift-MongoDB [:pencil2:](https://github.com/Danappelxx/SwiftMongoDB)
 	- Caramel brings powerful, expressive I/O to Swift [:microphone:](https://realm.io/news/steve-streza-caramel-for-swift/)
 
@@ -851,10 +846,25 @@ A curated list of resources for learning about the Swift Language.
 - Meetups
     - Meetup.com Swift Meetups [:link:](http://swift.meetup.com/)
 
-## **Contributing Guidelines**
+## Emoji Key
+- :pencil: = Gist
+- :pencil2: = Repository
+- :notebook: = Blog
+- :page_facing_up: = Blog Post
+- :scroll: = Quick Reference
+- :books: = Book
+- :book: = Guide Book
+- :newspaper: = Newsletter
+- :floppy_disk: = Slides
+- :microphone: = Video Presentation
+- :video_camera: = Video
+- :link: = Link
+- :fire: = Awesome List
+- :mortar_board: = Learning Resource
+- :clipboard: = Interview Questions
 
+## **Contributing Guidelines**
 Let this list serve as a huge thank you to the incredible Swift Community. It would not exist if the people behind Swift were not so incredibly innovative, intellectual, and enthusiastic about the language and about open source. I created this list because I believe that the Swift community can be just as smart as the Haskell Community if guided properly. If you would like to make the Swift community smarter and contribute to this list, make sure to check out the emoji key and please open up a pull request or send a tweet of the content to [@FeelFunnyFlow](https://twitter.com/FeelFunnyFlow). If the topic of the content is already exists on the list, create an adjacent emoji to the existing content. I realize that this list is by no means perfect, so if you have an idea as to how I can change it, please let me know!
 
 ## **Shoutouts**
-
 Shoutout to [@clattner_llvm](https://twitter.com/clattner_llvm?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), the OG Swift Developer. Shoutout to [@chriseidhof](https://twitter.com/chriseidhof) for encouraging me to promote this idea and for being a huge baller. Shoutout to [@ashfurrow](https://twitter.com/ashfurrow) and [@bennRodri](https://twitter.com/bennRodri) for being so incredibly helpful. Shoutout to [@CodaFi_](https://twitter.com/CodaFi_), the TypeLift, and the Antitypical teams for promoting FP. Shoutout to the [trillmoji](https://github.com/mikeperri/Trillmoji) project. Shoutout to [Haskell Devs](http://dev.stephendiehl.com/hask/) and [Category Theory legends](https://ncatlab.org/nlab/show/HomePage). And finally, Shoutout to all the Swift Programmers out there, this project is __by you and for you!__
