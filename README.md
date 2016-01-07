@@ -341,6 +341,7 @@ A curated list of resources for learning about the Swift Language.
 + Rose Tree in Swift [:pencil:](https://github.com/typelift/SwiftCheck/blob/master/SwiftCheck/Rose.swift)
 + Generic Stack in Swift [:pencil:](https://gist.github.com/aciidb0mb3r/fd147c8c6b1728664fdb) [:page_facing_up:](http://ankit.im/swift/2016/01/02/creating-value-type-generic-stack-in-swift-with-pointers-and-copy-on-write/)
 + Deep learning with Swift [:pencil2:](https://github.com/DeepLearningKit/DeepLearningKit)
++ HackerRank Solutions in Swift [:pencil2:](https://github.com/jindulys/HackerRankSolutions)
 
 #### **Design Patterns**
 - Swift Design Patterns [:floppy_disk:](http://www.slideshare.net/micheletitolo/cocoa-design-patterns-in-swift?qid=7d2c3760-f640-49be-b204-25d086da4e78&v=qf1&b=&from_search=7)
@@ -528,6 +529,7 @@ A curated list of resources for learning about the Swift Language.
         - A simple Promise in Swift [:pencil:](https://gist.github.com/robrix/5f3dc201988fb0f5f584)
         - PromiseKit Promise Library [:pencil2:](https://github.com/mxcl/PromiseKit) [:link:](http://promisekit.org/)
         - FutureKit Repostory [:pencil2:](https://github.com/FutureKit/FutureKit)
+        - BrightFutures Repository [:pencil2:](https://github.com/Thomvis/BrightFutures)
 
 #### **Functional Reactive Programming in Swift**
 + FRP
@@ -690,6 +692,7 @@ A curated list of resources for learning about the Swift Language.
     - Exploring Graph Theory with OmniGraffle and Swift [:page_facing_up:](http://www.mattrajca.com/2015/05/22/exploring-graph-theory-with-omnigraffle-and-swift.html)
     - Continuous Delivery with Fastlane [:microphone:](https://vimeo.com/146505670)
     - Ship C code with swift packages using swift package manager [:page_facing_up:](http://ankit.im/swift/2015/12/27/ship-c-code-with-swift-packages-using-swift-package-manager/)
+    - Jazzy Docs [:page_facing_up:](https://github.com/realm/jazzy)
 
 #### **Protocol Oriented Programming in Swift 2**
 + :raised_hands: Protocol-Oriented Programming in Swift [:microphone:](https://developer.apple.com/videos/wwdc/2015/?id=408) [:floppy_disk:](http://devstreaming.apple.com/videos/wwdc/2015/408509vyudbqvts/408/408_protocoloriented_programming_in_swift.pdf?dl=1)
@@ -793,7 +796,7 @@ A curated list of resources for learning about the Swift Language.
     - Better Unit Testing with Swift [:page_facing_up:](http://masilotti.com/better-swift-unit-testing/)
     - Unit Testing in Swift [:page_facing_up:](https://bendyworks.com/unit-testing-in-swift/) [:page_facing_up:](http://nshipster.com/xctestcase/)
     - Unit Testing with @testable in Xcode 7 [:page_facing_up:](http://natashatherobot.com/swift-2-xcode-7-unit-testing-access/) [:page_facing_up:](http://mr-v.github.io/xcode-7-swift-2-unit-testing-setup/)
-    - Understanding testability in Swift 2 [:page_facing_up](http://www.captechconsulting.com/blogs/ios-9-tutorial-series-testability-by-example-making-unit-testing-easier-in-swift-20-and-xcode-7)
+    - Understanding testability in Swift 2 [:page_facing_up:](http://www.captechconsulting.com/blogs/ios-9-tutorial-series-testability-by-example-making-unit-testing-easier-in-swift-20-and-xcode-7)
 - TDD
     - TDD with Swift [:page_facing_up:](http://swiftandpainless.com/category/tdd/)
     - TDD By Controlling Dependencies in Swift [:microphone:](https://www.youtube.com/watch?v=qYpURmZcCKs&index=47&list=PLEx5khR4g7PL0fDNJkI2dHhqeckQTAbes), [:microphone:](http://gotocon.com/dl/goto-cph-2015/slides/JorgeD.OrtizFuentes_TestDrivenDevelopmentbyControllingDependencies.pdf)
