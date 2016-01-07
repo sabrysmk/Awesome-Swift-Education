@@ -11,11 +11,10 @@ A curated list of resources for learning about the Swift Language.
 - [Swift Style](#swift-style)
 - [In-Browser Swift Editors](#in-browser-swift-editors)
 - [Quick References](#quick-references)
-- [Blogs](#blogs)
-- [Newsletters](#newsletters)
 - [Great Learning Resources](#great-learning-resources)
 - [Books](#books)
 - [Video](#video)
+- [Swift Community](#swift-community)
 - [Posts](#posts)
     + [Animations and Front End Stuff](#animations-and-front-end-stuff)
     + [Application Structure / Architecture](#application-structure--architecture)
@@ -36,7 +35,8 @@ A curated list of resources for learning about the Swift Language.
     + [Initializers, Properties, and Dependency Injection](#initializers-properties-and-dependency-injection)
     + [Interpolability](#interpolability-with-c-and-objective-c)
     + [Language Comparisons and Transitioning to Swift](#language-comparisons-and-transitioning-to-swift)
-    + [LLVM Compiler and swiftc](#llvm-compiler-and-swiftc)
+    + [Linux Development](#linux-development)
+    + [LLVM Compiler and swiftc](#llvm-compiler-sil-and-swiftc)
     + [Optionals and Types](#optionals-and-types)
     + [Production Swift, Problem Solving, and Developer Tools](#production-swift-problem-solving-and-developer-tools)
     + [Protocol Oriented Programming in Swift 2](#protocol-oriented-programming-in-swift-2)
@@ -46,7 +46,6 @@ A curated list of resources for learning about the Swift Language.
     + [Testing](#testing)
     + [Web Services, JSON, Routing, REST, and Networking](#web-services-json-routing-rest-and-networking)
 - [Interview Situations](#interview-situations)
-- [Swift Community](#swift-community)
 - [Contributing Guidelines](#contributing)
 - [Shoutouts](#shoutouts)
 
@@ -91,36 +90,6 @@ A curated list of resources for learning about the Swift Language.
 - Fucking Closure Syntax [:scroll:](http://fuckingclosuresyntax.com/)
 - RAC Marbles [:scroll:](http://neilpa.me/rac-marbles/)
 - Swift Knowledge Base [:scroll:](https://www.hackingwithswift.com/example-code/)
-
-## **Blogs**
-- iOS at Artsy [:notebook:](https://github.com/orta/Swift-at-Artsy)
-- :raised_hands: Objc.io [:notebook:](https://www.objc.io/)
-- NSBlog with Mike Ash [:notebook:](https://www.mikeash.com/pyblog/)
-- Use Your Loaf [:notebook:](http://useyourloaf.com/blog/archives/)
-- Chris Eidhof [:notebook:](http://chris.eidhof.nl)
-- Ole Begemann [:notebook:](http://oleb.net/)
-- Alexandros Salazar [:notebook:](http://nomothetis.svbtle.com/)
-- Uramio [:notebook:](http://www.uraimo.com/archive.html)
-- Swift Weekly [:notebook:](https://github.com/vandadnp/swift-weekly)
-- Erica Sadun [:notebook:](http://ericasadun.com)
-- Appventure [:notebook:](http://appventure.me/)
-- MetalByExample.com [:notebook:](http://metalbyexample.com)
-- David Owens [:notebook:](http://owensd.io/posts/)
-- The iOS Times [:notebook:](http://theiostimes.com/)
-- Crunchy Development [:notebook:](http://alisoftware.github.io/)
-- iOS Blog [:notebook:](http://ios-blog.co.uk/)
-
-## **Newsletters**
-- This Week in Swift News [:newspaper:](https://swiftnews.curated.co/issues)
-- iOS Goodies [:newspaper:](http://ios-goodies.com/)
-- iOS Dev Weekly [:newspaper:](https://iosdevweekly.com/)
-- Swift Open Source Newsletter [:newspaper:](http://swiftsandbox.io/)
-- SwiftLang Website [:newspaper:](http://swiftlang.eu/)
-- Swift Weekly [:newspaper:](http://swiftweekly.com/issues)
-- Gettin' Swifty With It [:newspaper:](http://gettinswiftywithit.curated.co/)
-- Indie iOS Dev Weekly [:newspaper:](https://indieiosfocus.curated.co/)
-- Swift Dev Weekly [:newspaper:](http://swiftdevweekly.co/)
-- Thomas Hanning [:newspaper:](http://www.thomashanning.com/category/swift/)
 
 ## **Great Learning Resources**
 - Official Swift Documentation [:pencil:](https://github.com/apple/swift/tree/master/docs) 
@@ -172,6 +141,47 @@ A curated list of resources for learning about the Swift Language.
     - Free Swift Lang Course [:video_camera:](https://www.youtube.com/playlist?list=PLxwBNxx9j4PW8bsVaXia9c20I87YEGNRu)
     - Swift tutorial Video Series [:video_camera:](https://www.youtube.com/playlist?list=PLfOZCUzRoPfKeOS_pwpiqbdviGcCOcTYb)
 
+## **Swift Community**
+- Blogs 
+    - iOS at Artsy [:notebook:](https://github.com/orta/Swift-at-Artsy)
+    - :raised_hands: Objc.io [:notebook:](https://www.objc.io/)
+    - NSBlog with Mike Ash [:notebook:](https://www.mikeash.com/pyblog/)
+    - Use Your Loaf [:notebook:](http://useyourloaf.com/blog/archives/)
+    - Chris Eidhof [:notebook:](http://chris.eidhof.nl)
+    - Ole Begemann [:notebook:](http://oleb.net/)
+    - Alexandros Salazar [:notebook:](http://nomothetis.svbtle.com/)
+    - Uramio [:notebook:](http://www.uraimo.com/archive.html)
+    - Swift Weekly [:notebook:](https://github.com/vandadnp/swift-weekly)
+    - Erica Sadun [:notebook:](http://ericasadun.com)
+    - Appventure [:notebook:](http://appventure.me/)
+    - MetalByExample.com [:notebook:](http://metalbyexample.com)
+    - David Owens [:notebook:](http://owensd.io/posts/)
+    - The iOS Times [:notebook:](http://theiostimes.com/)
+    - Crunchy Development [:notebook:](http://alisoftware.github.io/)
+    - iOS Blog [:notebook:](http://ios-blog.co.uk/)
+- Newsletters
+    - This Week in Swift News [:newspaper:](https://swiftnews.curated.co/issues)
+    - iOS Goodies [:newspaper:](http://ios-goodies.com/)
+    - iOS Dev Weekly [:newspaper:](https://iosdevweekly.com/)
+    - Swift Open Source Newsletter [:newspaper:](http://swiftsandbox.io/)
+    - SwiftLang Website [:newspaper:](http://swiftlang.eu/)
+    - Swift Weekly [:newspaper:](http://swiftweekly.com/issues)
+    - Gettin' Swifty With It [:newspaper:](http://gettinswiftywithit.curated.co/)
+    - Indie iOS Dev Weekly [:newspaper:](https://indieiosfocus.curated.co/)
+    - Swift Dev Weekly [:newspaper:](http://swiftdevweekly.co/)
+    - Thomas Hanning [:newspaper:](http://www.thomashanning.com/category/swift/)
+- Forums
+    - r/swift [:link:](https://www.reddit.com/r/swift/)
+    - Quora Page [:link:](https://www.quora.com/topic/Apple-Swift-programming-language)
+    - Stack Overflow [:link:](http://stackoverflow.com/questions/tagged/swift)
+- Jobs
+    - iOS Dev Jobs [:link:](https://twitter.com/iosdevjob)
+    - Swift Lang Jobs [:link:](https://twitter.com/swiftlangjobs)
+    - r/SwiftJobs [:link:](https://www.reddit.com/r/SwiftJobs/)
+    - LinkedIn [:link:](https://www.linkedin.com/jobs/swift-jobs)
+- Meetups
+    - Meetup.com Swift Meetups [:link:](http://swift.meetup.com/)
+
 ## **Posts**
 
 #### **Animations and Front End Stuff**
@@ -208,6 +218,7 @@ A curated list of resources for learning about the Swift Language.
 - View Controller Thinning [:page_facing_up:](http://puchka.me/view-controller-thinning/) via Dependency Injection [:page_facing_up:](http://puchka.me/view-controller-thinning-dependency-injection/) 
 - An MVP Framework [:pencil2:](https://github.com/Karumi/BothamUI)
 - Designing App Infrastructure [:page_facing_up:](https://medium.com/@gitdoapp/gitdo-designing-the-app-infrastructure-3b7710c0fd81#.mf5kc58vj)
+- Simple model for elm-like composable programs [:pencil2:](https://github.com/davidcairns/AppComponents)
 
 #### **Closures**
 + Swift Function Currying [:page_facing_up:](http://www.russbishop.net/swift-function-currying) [:page_facing_up:](https://www.objc.io/blog/2014/11/10/functional-snippet-6-currying/) [:page_facing_up:](https://robots.thoughtbot.com/introduction-to-function-currying-in-swift) [:page_facing_up:](http://www.drewag.me/posts/practical-use-for-curried-functions-in-swift)
@@ -599,7 +610,10 @@ A curated list of resources for learning about the Swift Language.
 	- A Eulogy for Objective C [:microphone:](https://realm.io/news/altconf-aaron-hillegass-eulogy-for-objective-c/)
 	- The best of Obj-C to Swift [:microphone:](https://realm.io/news/altconf-jaim-zuber-the-stylish-objective-c-developer-s-guide-to-swift/) [:page_facing_up:](https://www.quora.com/What-are-the-best-code-examples-to-illustrate-the-benefits-of-Swift)
 
-#### **LLVM Compiler and swiftc** 
+#### **Linux Development**
+- Intro to Swift Dev on Linux [:page_facing_up:](http://www.raywenderlich.com/122189/introduction-to-open-source-swift-on-linux)
+
+#### **LLVM Compiler, SIL, and swiftc** 
 - LLVM Compiler
     + LLVM by Chris Lattner [:page_facing_up:](http://aosabook.org/en/llvm.html)
     + Swift Intermediate Language [:floppy_disk:](http://llvm.org/devmtg/2015-10/slides/GroffLattner-SILHighLevelIR.pdf)
@@ -696,7 +710,7 @@ A curated list of resources for learning about the Swift Language.
 + Ray Wenderlich intro to P.O.P. [:page_facing_up:](http://www.raywenderlich.com/109156/introducing-protocol-oriented-programming-in-swift-2)
 + Protocol Extensions and the death of the Pipe forward operator [:page_facing_up:](http://airspeedvelocity.net/2015/06/23/protocol-extensions-and-the-death-of-the-pipe-forward-operator/)
 + How Protocol Oriented Programming could still improve [:page_facing_up:](https://bigonotetaking.wordpress.com/2015/07/17/swift-protocols-a-strategy/)
-+ THe Swift Protocol Proposal [:page_facing_up:](http://kickingbear.com/blog/archives/521)
++ The Swift Protocol Proposal [:page_facing_up:](http://kickingbear.com/blog/archives/521)
 + Swift Default Protocol Implementations [:page_facing_up:](http://nshipster.com/swift-default-protocol-implementations/)
 + :raised_hands: Mixins and Traits in Swift 2.0 [:page_facing_up:](http://matthijshollemans.com/2015/07/22/mixins-and-traits-in-swift-2/)
 + Minimal Swift 2.1 Protocol Coformance [:page_facing_up:](http://softwaredesign.jeffverkoeyen.com/minimal-swift-protocol-conformance/)
@@ -777,8 +791,8 @@ A curated list of resources for learning about the Swift Language.
 #### **Testing**
 - Unit Testing
     - Better Unit Testing with Swift [:page_facing_up:](http://masilotti.com/better-swift-unit-testing/)
-    - Unit Testing in Swift [:page_facing_up:](https://bendyworks.com/unit-testing-in-swift/)
-    - Unit Testing with @testable in Xcode 7 [:page_facing_up:](http://natashatherobot.com/swift-2-xcode-7-unit-testing-access/)
+    - Unit Testing in Swift [:page_facing_up:](https://bendyworks.com/unit-testing-in-swift/) [:page_facing_up:](http://nshipster.com/xctestcase/)
+    - Unit Testing with @testable in Xcode 7 [:page_facing_up:](http://natashatherobot.com/swift-2-xcode-7-unit-testing-access/) [:page_facing_up:](http://mr-v.github.io/xcode-7-swift-2-unit-testing-setup/)
     - Understanding testability in Swift 2 [:page_facing_up](http://www.captechconsulting.com/blogs/ios-9-tutorial-series-testability-by-example-making-unit-testing-easier-in-swift-20-and-xcode-7)
 - TDD
     - TDD with Swift [:page_facing_up:](http://swiftandpainless.com/category/tdd/)
@@ -819,6 +833,7 @@ A curated list of resources for learning about the Swift Language.
 	+ Reachability Library [:page_facing_up:](https://github.com/ashleymills/Reachability.swift)
 	- NSURLSession Basics [:page_facing_up:](https://littlebitesofcocoa.com/78-nsurlsession-basics)
 	- Background Downloads [:page_facing_up:](https://littlebitesofcocoa.com/77-background-downloads)
+    - An introduction to using Alamofire [:page_facing_up:](http://nshipster.com/alamofire/)
 - JSON 
 	- Functional JSON Parsing with Tyro [:pencil2:](https://github.com/typelift/Tyro)
 	- { JSON, Swift, and Type Safety } [:floppy_disk:](https://speakerdeck.com/swiftsummit/anthony-levings-json-swift-and-type-safety-its-a-wrap)
@@ -850,19 +865,6 @@ A curated list of resources for learning about the Swift Language.
 + Coding Questions [:clipboard:](https://github.com/CameronBanga/iOS-Developer-and-Designer-Interview-Questions#code)
 + :fire: Awesome Swift Interview Questions [:clipboard:](https://github.com/MaximAbramchuck/awesome-interviews#swift)
 + :fire: Awesome iOS Interview Questions [:clipboard:](https://github.com/MaximAbramchuck/awesome-interviews#ios)
-
-## **Swift Community**
-- Forums
-    - r/swift [:link:](https://www.reddit.com/r/swift/)
-    - Quora Page [:link:](https://www.quora.com/topic/Apple-Swift-programming-language)
-    - Stack Overflow [:link:](http://stackoverflow.com/questions/tagged/swift)
-- Jobs
-    - iOS Dev Jobs [:link:](https://twitter.com/iosdevjob)
-    - Swift Lang Jobs [:link:](https://twitter.com/swiftlangjobs)
-    - r/SwiftJobs [:link:](https://www.reddit.com/r/SwiftJobs/)
-    - LinkedIn [:link:](https://www.linkedin.com/jobs/swift-jobs)
-- Meetups
-    - Meetup.com Swift Meetups [:link:](http://swift.meetup.com/)
 
 ## Emoji Key
 - :pencil: = Gist
