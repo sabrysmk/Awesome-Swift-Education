@@ -41,6 +41,7 @@ A curated list of resources for learning about the Swift Language.
     + [Production Swift, Problem Solving, and Developer Tools](#production-swift-problem-solving-and-developer-tools)
     + [Protocol Oriented Programming in Swift 2](#protocol-oriented-programming-in-swift-2)
     + [Security](#security)
+    + [:Server Side Swift:](#server-side-swift)
     + [String Manipulation and Regex](#string-manipulation-and-regex)
     + [Swift Language, Open Source, and Opinions](#swift-language-open-source-and-opinions)
     + [Testing](#testing)
@@ -62,6 +63,8 @@ A curated list of resources for learning about the Swift Language.
 - Swift Packages [:pencil2:](https://github.com/donald-pinckney/swift-packages)
 - Swift Compiler Crashes [:pencil2:](https://github.com/practicalswift/swift-compiler-crashes)
 
+[:arrow_up:](#index)
+
 ## **Swift Style**
 - Functional Swift Style Guide [:book:](https://github.com/CodaFi/functional-swift-style-guide)
 - The Official Swift Language Docs [:book:](https://github.com/apple/swift/tree/master/docs)
@@ -70,10 +73,14 @@ A curated list of resources for learning about the Swift Language.
 + SwiftLint [:book:](https://github.com/realm/SwiftLint)
 + Swift Don'ts [:book:](https://gist.github.com/erica/d91aef87e95f99c094c0)
 
+[:arrow_up:](#index)
+
 ## **In-Browser Swift Editors**
 - IBM Swift Sandbox [:link:](http://swiftlang.ng.bluemix.net/?cm_mmc=developerWorks-_-dWdevcenter-_-swift-_-lp#/repl)
 - SwiftStub [:link:](http://swiftstub.com/)
 - Try Swift in the Browser [:link:](http://www.runswiftlang.com/learn)
+
+[:arrow_up:](#index)
 
 ## **Quick References**
 - Swift.org [:scroll:](https://swift.org/about/)
@@ -91,6 +98,8 @@ A curated list of resources for learning about the Swift Language.
 - RAC Marbles [:scroll:](http://neilpa.me/rac-marbles/)
 - Swift Knowledge Base [:scroll:](https://www.hackingwithswift.com/example-code/)
 
+[:arrow_up:](#index)
+
 ## **Great Learning Resources**
 - Official Swift Documentation [:pencil:](https://github.com/apple/swift/tree/master/docs) 
 - Swift Education Community Repository [:pencil2:](https://github.com/swifteducation)
@@ -107,6 +116,8 @@ A curated list of resources for learning about the Swift Language.
 - Udacity Swift Syntax Course [:mortar_board:](https://www.udacity.com/course/learn-swift-programming-syntax--ud902)
 - Open Source iOS Apps [:pencil2:](https://github.com/dkhamsing/open-source-ios-apps)
 
+[:arrow_up:](#index)
+
 ## **Books**
 - Free Books
     - The Swift Programming Language 2.2 [:books:](https://swift.org/documentation/#the-swift-programming-language)
@@ -119,6 +130,8 @@ A curated list of resources for learning about the Swift Language.
     - Apress Book Series [:books:](http://www.apress.com/swift)
     - Oreilly Book Series [:books:](http://search.oreilly.com/?q=swift&x=0&y=0)
     - Your First Swift App [:books:](https://leanpub.com/yourfirstswiftapp)
+
+[:arrow_up:](#index)
 
 ## **Video**
 + Presentations
@@ -140,6 +153,8 @@ A curated list of resources for learning about the Swift Language.
     - Swift Language Youtube Channel [:video_camera:](https://www.youtube.com/channel/UCml4lCH0xdl6Jm91RiPPIig)
     - Free Swift Lang Course [:video_camera:](https://www.youtube.com/playlist?list=PLxwBNxx9j4PW8bsVaXia9c20I87YEGNRu)
     - Swift tutorial Video Series [:video_camera:](https://www.youtube.com/playlist?list=PLfOZCUzRoPfKeOS_pwpiqbdviGcCOcTYb)
+
+[:arrow_up:](#index)
 
 ## **Swift Community**
 - Blogs 
@@ -182,6 +197,8 @@ A curated list of resources for learning about the Swift Language.
 - Meetups
     - Meetup.com Swift Meetups [:link:](http://swift.meetup.com/)
 
+[:arrow_up:](#index)
+
 ## **Posts**
 
 #### **Animations and Front End Stuff**
@@ -195,7 +212,9 @@ A curated list of resources for learning about the Swift Language.
 - SpriteKit as an intro to SceneKit [:floppy_disk:](https://speakerdeck.com/bklnswift/joseph-mcmahon-spritekit-as-an-intro-to-scenekit-and-metal)
 - Cartography Autolayout DSL [:pencil2:](https://github.com/robb/Cartography)
 - UITableView Configuration Values [:page_facing_up:](https://www.objc.io/blog/2015/02/16/functional-snippet-20-configuration-values/)
-- Typed TableViewControllers [:page_facing_up:](https://www.objc.io/blog/2015/02/23/functional-snippet-21-typed-table-view-controllers/) [:page_facing_up:](https://www.objc.io/blog/2015/03/02/functional-snippet-22-typed-table-view-controllers-redux/) [:pencil:](https://gist.github.com/chriseidhof/892c1a574d1f3975c697)
+- Typed TableViewControllers [:page_facing_up:](https://www.objc.io/blog/2015/02/23/functional-snippet-21-typed-table-view-controllers/) [:page_facing_up:](https://www.objc.io/blog/2015/03/02/functional-snippet-22-typed-table-view-controllers-redux/) [:pencil:](https://gist.github.com/chriseidhof/892c1a574d1f3975c697) [:page_facing_up:](http://holko.pl/2016/01/05/typed-table-view-controller/)
+
+[:arrow_up:](#index)
 
 #### **Application Structure / Architecture**
 - Demystifying iOS Architecture Patterns [:page_facing_up:](https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52#.5zn7t5oh2)
@@ -220,8 +239,10 @@ A curated list of resources for learning about the Swift Language.
 - Designing App Infrastructure [:page_facing_up:](https://medium.com/@gitdoapp/gitdo-designing-the-app-infrastructure-3b7710c0fd81#.mf5kc58vj)
 - Simple model for elm-like composable programs [:pencil2:](https://github.com/davidcairns/AppComponents)
 
+[:arrow_up:](#index)
+
 #### **Closures**
-+ Swift Function Currying [:page_facing_up:](http://www.russbishop.net/swift-function-currying) [:page_facing_up:](https://www.objc.io/blog/2014/11/10/functional-snippet-6-currying/) [:page_facing_up:](https://robots.thoughtbot.com/introduction-to-function-currying-in-swift) [:page_facing_up:](http://www.drewag.me/posts/practical-use-for-curried-functions-in-swift)
++ Swift Function Currying [:page_facing_up:](http://www.russbishop.net/swift-function-currying) [:page_facing_up:](https://www.objc.io/blog/2014/11/10/functional-snippet-6-currying/) [:page_facing_up:](https://robots.thoughtbot.com/introduction-to-function-currying-in-swift) [:page_facing_up:](http://www.drewag.me/posts/practical-use-for-curried-functions-in-swift) [:page_facing_up:](http://justtesting.org/post/94325843216/what-is-currying-in-swift)
 - Coming Changes for the Function Currying Syntax in Swift 3.0 [:link:](https://github.com/apple/swift-evolution/blob/master/proposals/0002-remove-currying.md) [:page_facing_up:](http://ericasadun.com/2015/12/18/bidding-farewell-to-currying/)
 + Closures and Capturing Values in Swift [:page_facing_up:](http://www.codingexplorer.com/closures-capturing-values-swift/)
 + Instance methods are Curried Functions in Swift [:page_facing_up:](http://oleb.net/blog/2014/07/swift-instance-methods-curried-functions/)
@@ -240,6 +261,8 @@ A curated list of resources for learning about the Swift Language.
 - Type inference quirks of closures as parameters [:pencil:](https://github.com/hpique/Articles/blob/master/Swift/Type%20inference%20quirks%20of%20closure%20parameters/Type%20inference%20quirks%20of%20closure%20parameters.md)
 - Style guide for functions with closure parameters in Swift [:pencil:](https://github.com/hpique/Articles/blob/master/Swift/Style%20guide%20for%20functions%20with%20closure%20parameters/Style%20guide%20for%20functions%20with%20closure%20parameters.md)
 
+[:arrow_up:](#index)
+
 #### **Collections / Sequences / Generators**
 + A quick guide to SequenceType [:page_facing_up:](https://medium.com/swift-programming/swift-sequences-ce22d76f120c#.edaemcmqc)
 + Swift Collections [:page_facing_up:](https://medium.com/swift-programming/swift-collections-e5fff3cd6759#.eq2hyxhqw)
@@ -256,6 +279,9 @@ A curated list of resources for learning about the Swift Language.
 - Collection Indices, Slices, and Generics [:page_facing_up:](http://airspeedvelocity.net/2015/12/28/collection-indices-slices-and-generics/)
 - Generic Collections, SubSequences and Overloading [:page_facing_up:](http://airspeedvelocity.net/)
 - Custom Subscripts in Swift [:page_facing_up:](https://www.natashatherobot.com/custom-subscripts-swift/)
+- A better Hashable [:page_facing_up:](http://foxinswift.com/2016/01/03/trying-to-build-a-better-hashable/)
+
+[:arrow_up:](#index)
 
 #### **Command Line and Swift Scripting**
 + Swift Scripting [:microphone:](https://realm.io/news/swift-scripting/)
@@ -264,6 +290,8 @@ A curated list of resources for learning about the Swift Language.
 + Swiftline [:pencil2:](https://github.com/Swiftline/Swiftline)
 + How Swift Scripting was used to make iOS Cookies [:page_facing_up:](https://medium.com/@bardonadam/how-i-m-using-swift-scripting-to-create-newsletter-for-ios-cookies-93db5deca4c#.cwgws2399)
 + Writing an Xcode Plugin with Swift [:page_facing_up:](http://merowing.info/2015/12/writing-xcode-plugin-in-swift/)
+
+[:arrow_up:](#index)
 
 #### **Concurrency**
 + Basics of GCD [:page_facing_up:](https://littlebitesofcocoa.com/85-grand-central-dispatch-basics)
@@ -275,6 +303,8 @@ A curated list of resources for learning about the Swift Language.
 + NSOperations and NSOperationQueues [:page_facing_up:](https://medium.com/@raulriera/nsoperations-nsoperationqueue-oh-my-88b707f9ba2e#.ugnvgw9w5)
 + Threading with Closures [:page_facing_up:](https://tetontech.wordpress.com/2014/06/30/swift-nsoperationqueues-and-threading/)
 + Building Responsive and Efficient Apps with GCD [:microphone:](https://developer.apple.com/videos/play/wwdc2015-718) [:floppy_disk:](http://devstreaming.apple.com/videos/wwdc/2015/718b7aw9tq/718/718_building_responsive_and_efficient_apps_with_gcd.pdf?dl=1)
+
+[:arrow_up:](#index)
 
 #### **Core Data and Realm**
 - Core Data
@@ -307,7 +337,9 @@ A curated list of resources for learning about the Swift Language.
 	- A look into Realm's Core DB Engine [:microphone:](https://realm.io/news/jp-simard-realm-core-database-engine/)
 	- Working with Realm [:page_facing_up:](http://blog.matthewcheok.com/working-with-realm/)
 	- Testing Realm Apps [:page_facing_up:](http://www.mokacoding.com/blog/testing-realm-apps/)
-    
+
+[:arrow_up:](#index)
+
 #### **Data Structures and Algorithms**
 + An Array implemented in Swift by Mike Ash [:pencil:](https://gist.github.com/mikeash/63a791f2aec3318c7c5c)
 + A Trie [:page_facing_up:](https://bigonotetaking.wordpress.com/2015/08/11/a-trie-in-swift/)
@@ -343,6 +375,8 @@ A curated list of resources for learning about the Swift Language.
 + Deep learning with Swift [:pencil2:](https://github.com/DeepLearningKit/DeepLearningKit)
 + HackerRank Solutions in Swift [:pencil2:](https://github.com/jindulys/HackerRankSolutions)
 
+[:arrow_up:](#index)
+
 #### **Design Patterns**
 - Swift Design Patterns [:floppy_disk:](http://www.slideshare.net/micheletitolo/cocoa-design-patterns-in-swift?qid=7d2c3760-f640-49be-b204-25d086da4e78&v=qf1&b=&from_search=7)
 + Template Method Pattern in Swift [:page_facing_up:](http://stackoverflow.com/questions/31757514/swift-how-to-support-template-method-design-pattern-since-swift-doesnt-have)
@@ -358,15 +392,16 @@ A curated list of resources for learning about the Swift Language.
 + The Builder Pattern and Fluent Interface [:page_facing_up:](https://github.com/vandadnp/swift-weekly/blob/master/issue05/README.md)
 + A Better NSNotificationCenter Observer Pattern [:page_facing_up:](http://blog.matthewcheok.com/a-better-nsnotificationcenter/)
 + Key Value Coding in Swift [:page_facing_up:](http://owensd.io/2015/07/14/key-value-coding-in-swift.html)
-+ Exploring KVO Alternatives in Swift [:page_facing_up:](http://blog.scottlogic.com/2015/02/11/swift-kvo-alternatives.html)
++ Exploring KVO Alternatives in Swift [:page_facing_up:](http://blog.scottlogic.com/2015/02/11/swift-kvo-alternatives.html) [:page_facing_up:](http://www.splinter.com.au/2015/07/23/swift-kvo-alternative/) [:pencil2:](https://github.com/slazyk/Observable-Swift)
 + Facade Functions [:page_facing_up:](https://tetontech.wordpress.com/2014/06/25/swift-facades-and-objects-with-collection-type-properties/)
-+ Observable-Swift KVO Replacement [:pencil2:](https://github.com/slazyk/Observable-Swift)
 + Swift Singleton [:pencil2:](https://github.com/hpique/SwiftSingleton)
 + SOLID Design in Swift [:pencil2:](https://github.com/ochococo/OOD-Principles-In-Swift)
 + Decorator Pattern through composing functions in Swift [:page_facing_up:](http://railsware.com/blog/2014/06/17/composing-functions-in-swift/)
 + Target Action Pattern [:page_facing_up:](https://www.mikeash.com/pyblog/friday-qa-2015-12-25-swifty-targetaction.html)
 + Typed Notification Observers [:page_facing_up:](https://www.objc.io/blog/2015/01/19/functional-snippet-16-typed-notification-observers/)
 - Functional Notification Pattern [:page_facing_up:](http://www.jessesquires.com/functional-notifications/)
+
+[:arrow_up:](#index)
 
 #### **Development Paradigms**
 + Result Driven Development [:floppy_disk:](https://speakerdeck.com/brianpartridge/result-driven-development)
@@ -378,6 +413,8 @@ A curated list of resources for learning about the Swift Language.
 - Swift in Practice [:microphone:](https://developer.apple.com/videos/play/wwdc2015-411) [:floppy_disk:](http://devstreaming.apple.com/videos/wwdc/2015/4119flfsnsgmlfy/411/411_swift_in_practice.pdf?dl=1)
 - Denotational Design [:floppy_disk:](http://conal.net/talks/denotational-design-lambdajam-2015.pdf)
 - Building Frameworks in Swift [:page_facing_up:](https://github.com/hpique/Talks/blob/master/Building%20Swift%20frameworks/Building%20Swift%20frameworks.md)
+
+[:arrow_up:](#index)
 
 #### **Enums and Pattern Matching**
 + Enums
@@ -395,6 +432,7 @@ A curated list of resources for learning about the Swift Language.
     + Using Enums as Constants [:page_facing_up:](http://alisoftware.github.io/swift/enum/constants/2015/07/19/enums-as-constants/)
     + Enums instead of Booleans [:page_facing_up:](https://www.objc.io/blog/2014/12/22/functional-snippet-12-enums-instead-of-booleans/)
     + Enum vs String Type [:page_facing_up:](https://www.quora.com/Why-should-I-use-enum-instead-of-string-type-data-in-programming)
+    + Enum Driven View Controllers [:page_facing_up:](http://www.splinter.com.au/2016/01/03/enum-driven-viewcontrollers/)
 + Pattern Matching
     + Official Docs [:pencil:](https://github.com/apple/swift/blob/master/docs/Pattern%20Matching.rst)
     + Swift's pattern-matching switch statement [:page_facing_up:](http://austinzheng.com/2014/12/16/swift-pattern-matching-switch/)
@@ -408,12 +446,14 @@ A curated list of resources for learning about the Swift Language.
     + Pattern Matching with an *if case* [:page_facing_up:](http://natashatherobot.com/swift-2-pattern-matching-with-if-case/)
     + Pattern Matching with Recursive Values in Swift [:page_facing_up:](http://antitypical.com/swift/2015/07/01/pattern-matching-over-recursive-values-in-swift/) [:pencil:](https://gist.github.com/robrix/4696ec3c117aac97ef0b)
 	+ What is value binding? [:page_facing_up:](https://www.quora.com/Apple-Swift-programming-language/What-is-value-binding)
-    
+
+[:arrow_up:](#index)
+
 #### **Error Handling**
 + The Value of Guard [:page_facing_up:](http://www.iosinsight.com/the-value-of-guard-in-swift/) [:page_facing_up:](http://natashatherobot.com/swift-guard-better-than-if/)
 + Guard and Defer [:page_facing_up:](http://nshipster.com/guard-and-defer/)
 + Defer in Swift [:page_facing_up:](https://sideeffects.xyz/2015/defer-in-swift/)
-+ When to (not) use guard [:page_facing_up:](http://radex.io/swift/guard/) [:page_facing_up:](https://medium.com/swift-programming/why-swift-guard-should-be-avoided-484cfc2603c5#.bg4hxwop2)
++ When to (not) use guard [:page_facing_up:](http://radex.io/swift/guard/) [:page_facing_up:](https://medium.com/swift-programming/why-swift-guard-should-be-avoided-484cfc2603c5#.bg4hxwop2) RE [:page_facing_up:](http://owensd.io/blog/re-why-swift-guard-should-be-avoided/)
 + Thoughts on Swift 2 Error Handling [:pencil:](https://gist.github.com/nicklockwood/21495c2015fd2dda56cf)
 + Easy Error Handing [:page_facing_up:](https://littlebitesofcocoa.com/108-error-handling)
 + Swift Failiable Initializers [:page_facing_up:](http://www.jessesquires.com/swift-failable-initializers-revisited/)
@@ -429,6 +469,8 @@ A curated list of resources for learning about the Swift Language.
 + Magic Methods in Swift [:page_facing_up:](https://developer.apple.com/swift/blog/?id=15)
 + Understanding Optional Chaining [:page_facing_up:](http://nomothetis.svbtle.com/understanding-optional-chaining)
 
+[:arrow_up:](#index)
+
 #### **Extensions**
 + ExSwift [:pencil2:](https://github.com/pNre/ExSwift) 
 + Useful Swift Extensions [:pencil2:](https://github.com/yingogobot/Swift-Useful-Extensions)
@@ -439,6 +481,8 @@ A curated list of resources for learning about the Swift Language.
 + Generic type extension by retrofitting protocols in Swift 2 [:page_facing_up:](https://medium.com/swift-programming/generic-type-extension-by-retrofitting-protocols-in-swift-2-79fb0e0e2ebe#.gk9q2751q)
 + Type extensions with generic type parameters [:page_facing_up:](http://sketchytech.blogspot.com/2015/06/empowering-extensions-in-swift-2.html)
 + OptionalExtensions [:pencil2:](https://github.com/RuiAAPeres/OptionalExtensions)
+
+[:arrow_up:](#index)
 
 #### **Functional Programming, Category and Type Theory**
 - Category and Type Theory
@@ -457,7 +501,7 @@ A curated list of resources for learning about the Swift Language.
 	- Understanding 
         - Programming is Mathematics [:page_facing_up:](http://xn--wxak1a.com/blog/FP-In-Swift-Intro.html)
         - What is Functional Programming in Swift? [:floppy_disk:](http://media.monkey-robot.com/docs/thoughtworks-swift.pdf) [:page_facing_up:](http://harlankellaway.com/blog/2015/08/10/swift-functional-programming-intro/) [:page_facing_up:](http://jamesonquave.com/blog/functional-programming-in-swift/) [:floppy_disk:](https://speakerdeck.com/saloievgen/think-functionally-in-swift)
-        + Covariance and Contravariance in Swift 2.1 [:page_facing_up:](http://www.uraimo.com/2015/09/29/Swift2.1-Function-Types-Conversion-Covariance-Contravariance/)
+        + Covariance and Contravariance in Swift 2.1 [:page_facing_up:](http://www.uraimo.com/2015/09/29/Swift2.1-Function-Types-Conversion-Covariance-Contravariance/) [:page_facing_up:](https://mikeash.com/pyblog/friday-qa-2015-11-20-covariance-and-contravariance.html)
         - Object Oriented Functional Programming [:microphone:](https://realm.io/news/altconf-saul-mora-object-orientated-functional-programming/)
         + Map and FlatMap demystified [:page_facing_up:](http://www.uraimo.com/2015/10/08/Swift2-map-flatmap-demystified/)
         - Functional Programming in Swift Talks [:microphone:](https://vimeo.com/107419503) [:microphone:](https://realm.io/news/altconf-chris-eidhof-functional-programming-in-swift/) [:floppy_disk:](http://www.slideshare.net/natashatherobot/funcitonal-swift-conference-the-functional-way?qid=8a7611e7-4c08-4e2f-9f81-99b67c6f4390&v=default&b=&from_search=4) [:microphone:](https://www.youtube.com/watch?v=rJosPrqBqrA) [:microphone:](https://www.youtube.com/watch?v=estNbh2TF3E)
@@ -531,6 +575,8 @@ A curated list of resources for learning about the Swift Language.
         - FutureKit Repostory [:pencil2:](https://github.com/FutureKit/FutureKit)
         - BrightFutures Repository [:pencil2:](https://github.com/Thomvis/BrightFutures)
 
+[:arrow_up:](#index)
+
 #### **Functional Reactive Programming in Swift**
 + FRP
     - FRP in Swift 2.0 [:microphone:](https://realm.io/news/agnes-vasarhelyi-beer-app-frp-swift-2/)
@@ -551,12 +597,15 @@ A curated list of resources for learning about the Swift Language.
     - :raised_hands: RAC 3 with Ash Furrow [:floppy_disk:](http://www.slideshare.net/colineberhardt/reactivecocoa-and-swift-better-together?qid=8a7611e7-4c08-4e2f-9f81-99b67c6f4390&v=default&b=&from_search=10), and some other nice [:floppy_disk:](https://speakerdeck.com/romainpouclet/taking-a-peak-at-reactivecocoa-3-dot-0)
     - FRP with RAC in Swift [:floppy_disk:](https://speakerdeck.com/ashfurrow/functional-reactive-programming-in-swift)
 + Rx
+    + Simple RxSwift [:page_facing_up:](https://littlebitesofcocoa.com/162-reacting-with-rxswift) [:page_facing_up:](https://littlebitesofcocoa.com/163-creating-observables-with-rxswift)
     + MVVM + RxSwift [:microphone:](https://realm.io/news/slug-max-alexander-functional-reactive-rxswift/) [:pencil2:](https://github.com/RxSwiftCommunity/RxViewModel), [:page_facing_up:](https://medium.com/@marinbenc/implementing-mvvm-in-ios-with-rxswift-458a2d47c33d#.k901myr5x), [:page_facing_up:](http://tailec.com/blog/reactive-recipe-2)
     - The Difference between RxSwift and ReactiveCocoa [:page_facing_up:](http://stackoverflow.com/questions/32542846/reactivecocoa-vs-rxswift-pros-and-cons), [:page_facing_up:](https://ashfurrow.com/blog/reactivecocoa-vs-rxswift/)
     - Learning RxSwift [:link:](https://github.com/pepaslabs/LearningRxSwift)
     - Upgrading to RxSwift [:page_facing_up:](http://artsy.github.io/blog/2015/12/08/reactive-cocoa-to-rxswift/)
     - From RAC to RxSwift: The (Mini) Survival Guide [:page_facing_up:](https://sideeffects.xyz/2015/from-rac-to-rxswift-the-survival-guide/)
     - RxSwift Community Webpage [:link:](http://community.rxswift.org/)
+
+[:arrow_up:](#index)
 
 #### **Generics** 
 + Generic Arrays in Swift 2.0 [:page_facing_up:](http://blog.krzyzanowskim.com/2015/10/07/generic-array-uint8/)
@@ -568,6 +617,8 @@ A curated list of resources for learning about the Swift Language.
 + Partial Function Application with Generics [:link:](http://stackoverflow.com/questions/28353539/swift-partial-function-application-with-generics)
 + Generic Constructors [:link:](http://stackoverflow.com/a/30857172/2855836) and factories [:link:](http://stackoverflow.com/questions/24341061/how-to-write-generic-factory-method-in-swift)
 + Parametric Polymorphism in Swift [:page_facing_up:](http://nsomar.com/parametric-compile-time-polymorphism-in-swift/) [:page_facing_up:](http://rosettacode.org/wiki/Parametric_polymorphism) [:page_facing_up:](http://cs.stackexchange.com/questions/26389/why-isnt-the-swift-programming-language-type-inference-more-aggressive)
+
+[:arrow_up:](#index)
 
 #### **Initializers, Properties, and Dependency Injection**
 + Initializers
@@ -587,6 +638,8 @@ A curated list of resources for learning about the Swift Language.
     - How to Dependency Inject on iOS [:microphone:](https://www.youtube.com/watch?v=384rumYOs-g)
     - Dependency Injection in Swift [:page_facing_up:](https://medium.com/ios-os-x-development/dependency-injection-in-swift-a959c6eee0ab#.r2gq9cjv7) [:page_facing_up:](http://natashatherobot.com/ios-unit-testing-dependency-injection-with-structs-in-swift/) [:page_facing_up:](https://medium.com/ios-os-x-development/dependency-injection-in-view-controllers-9fd7d2c77e55#.wxwnwtqmo)
 
+[:arrow_up:](#index)
+
 #### **Interpolability with C and Objective-C**
 + Swift and C [:microphone:](https://realm.io/news/pragma-chris-eidhof-swift-c/)
 + Swift & the ObjC Runtime [:page_facing_up:](http://nshipster.com/swift-objc-runtime/)
@@ -597,12 +650,15 @@ A curated list of resources for learning about the Swift Language.
 + Source-Code for the Objective-C Runtime [:pencil2:](http://opensource.apple.com/source/objc4/objc4-551.1/)
 + Mapping Swift Types to C Pointers [:page_facing_up:](https://tetontech.wordpress.com/2014/10/22/swift-c-libraries-and-mapping-swift-types-to-c-pointer-types/)
 
+[:arrow_up:](#index)
+
 #### **Language Comparisons and Transitioning to Swift**
 + Comparisons
 	+ Comparing Swift and Javascript [:page_facing_up:](http://www.mircozeiss.com/swift-for-javascript-developers/)
 	+ C++ Advice to Swift Devs [:page_facing_up:](http://airspeedvelocity.net/2014/06/10/rundown-of-how-each-effective-c-item-relates-to-swift/)
 	+ Swift Protocols vs Java 8 Interfaces [:page_facing_up:](http://stackoverflow.com/questions/30859334/compare-protocol-in-swift-vs-interface-in-java)
-	- Learning Swift from Haskell [:floppy_disk:](https://speakerdeck.com/abizern/what-haskell-teaches-me-about-writing-swift) and corresponding [:microphone:](https://realm.io/news/altconf-abizer-nasir-what-haskell-teaches-me-about-swift/)
+	- Learning Swift from Haskell [:floppy_disk:](https://speakerdeck.com/abizern/what-haskell-teaches-me-about-writing-swift) and corresponding [:microphone:](https://realm.io/news/altconf-abizer-nasir-what-haskell-teaches-me-about-swift/) 
+    - Functional Programming like Haskell [:floppy_disk:](https://speakerdeck.com/mchakravarty/functional-programming-in-a-stateful-world) [:microphone:](https://yow.eventer.com/yow-lambda-jam-2015-1305/functional-programming-in-a-stateful-world-by-manuel-chakravarty-1883)
 	- Swift vs Golang [:floppy_disk:](http://go-talks.appspot.com/github.com/wangkuiyi/swiftgo/swiftgo.slide#1)
 	- Swift 2.0 Protocol Extensions vs Java Abstract Classes [:link:](http://stackoverflow.com/questions/30943209/is-there-a-difference-between-swift-2-0-protocol-extensions-and-java-c-abstract)
 	+ What do Haskell developers think of Swift? [:link:](https://www.quora.com/What-do-Haskell-developers-think-of-Swift)
@@ -612,8 +668,12 @@ A curated list of resources for learning about the Swift Language.
 	- A Eulogy for Objective C [:microphone:](https://realm.io/news/altconf-aaron-hillegass-eulogy-for-objective-c/)
 	- The best of Obj-C to Swift [:microphone:](https://realm.io/news/altconf-jaim-zuber-the-stylish-objective-c-developer-s-guide-to-swift/) [:page_facing_up:](https://www.quora.com/What-are-the-best-code-examples-to-illustrate-the-benefits-of-Swift)
 
+[:arrow_up:](#index)
+
 #### **Linux Development**
 - Intro to Swift Dev on Linux [:page_facing_up:](http://www.raywenderlich.com/122189/introduction-to-open-source-swift-on-linux)
+
+[:arrow_up:](#index)
 
 #### **LLVM Compiler, SIL, and swiftc** 
 - LLVM Compiler
@@ -628,7 +688,9 @@ A curated list of resources for learning about the Swift Language.
     - swift vs swiftc [:page_facing_up:](http://owensd.io/2015/01/14/swift-vs-swiftc.html)
     - SIMD (Single Instruction Multiple Data) [:page_facing_up:](http://www.russbishop.net/swift-2-simd)
 	- @convention [:page_facing_up:](http://stackoverflow.com/questions/30740560/new-conventionc-in-swift-2-how-can-i-use-it)
-    
+
+[:arrow_up:](#index)
+
 #### **Optionals and Types** 
 + Optionals
     + How I handle Optionals in Swift [:page_facing_up:](http://blog.human-friendly.com/how-i-handle-optionals-in-swift)
@@ -674,6 +736,8 @@ A curated list of resources for learning about the Swift Language.
         + Class or Struct? [:page_facing_up:](http://faq.sealedabstract.com/structs_or_classes/) [:page_facing_up:](http://owensd.io/2015/07/05/re-struct-or-class.html)
         + let vs var [:page_facing_up:](http://stackoverflow.com/questions/24002092/what-is-the-difference-between-let-and-var-in-swift)
 
+[:arrow_up:](#index)
+
 #### **Production Swift, Problem Solving, and Developer Tools**
 - Production Swift
 	- How Carthage works [:floppy_disk:](https://speakerdeck.com/jspahrsummers/ruthlessly-simple-dependency-management-with-carthage)
@@ -693,6 +757,8 @@ A curated list of resources for learning about the Swift Language.
     - Continuous Delivery with Fastlane [:microphone:](https://vimeo.com/146505670)
     - Ship C code with swift packages using swift package manager [:page_facing_up:](http://ankit.im/swift/2015/12/27/ship-c-code-with-swift-packages-using-swift-package-manager/)
     - Jazzy Docs [:page_facing_up:](https://github.com/realm/jazzy)
+
+[:arrow_up:](#index)
 
 #### **Protocol Oriented Programming in Swift 2**
 + :raised_hands: Protocol-Oriented Programming in Swift [:microphone:](https://developer.apple.com/videos/wwdc/2015/?id=408) [:floppy_disk:](http://devstreaming.apple.com/videos/wwdc/2015/408509vyudbqvts/408/408_protocoloriented_programming_in_swift.pdf?dl=1)
@@ -729,11 +795,18 @@ A curated list of resources for learning about the Swift Language.
 - Protocol Extension Method Dispatch [:page_facing_up:](https://medium.com/ios-os-x-development/swift-protocol-extension-method-dispatch-6a6bf270ba94#.xsrtw75qp)
 - The Genius of Protocols [:page_facing_up:](https://www.wooji-juice.com/blog/swift-genius-of-protocols.html)
 
+[:arrow_up:](#index)
+
 #### **Security** 
 - Encryptor / Decryptor Data Format [:pencil2:](https://github.com/RNCryptor/RNCryptor)
 - CommonCrypto in Swift [:microphone:](https://realm.io/news/danny-keogan-swift-cryptography/)
 - :fire: Awesome iOS Security [:link:](https://github.com/ashishb/osx-and-ios-security-awesome)
 - Ceaser Cipher in Swift [:page_facing_up:](https://www.objc.io/blog/2015/01/26/functional-snippet-17-caesar-ciphers/)
+
+[:arrow_up:](#index)
+
+#### **Server Side Swift**
+- Swift Redis [:pencil2:](https://github.com/swizzlr/swift-redis)
 
 #### **String Manipulation and RegEx**
 + Strings
@@ -752,6 +825,8 @@ A curated list of resources for learning about the Swift Language.
     + Simple Regex [:pencil:](https://gist.github.com/mattt/3f12f56d72b8d2ebbe62)
     + Verbal Expressions style RegEx [:pencil2:](https://github.com/VerbalExpressions/SwiftVerbalExpressions)
     
+[:arrow_up:](#index)
+
 #### **Swift Language, Open Source, and Opinions**
 - About Swift 
 	- What's new in Swift 2 [:microphone:](https://developer.apple.com/videos/play/wwdc2015-106) [:floppy_disk:](http://devstreaming.apple.com/videos/wwdc/2015/106z3yjwpfymnauri96m/106/106_whats_new_in_swift.pdf?dl=1)
@@ -791,6 +866,8 @@ A curated list of resources for learning about the Swift Language.
     + What is the bare minimum you need to learn Swift? [:page_facing_up:](https://www.quora.com/What-should-you-know-before-you-try-to-learn-Swift)
     + How flexible is Swift? [:page_facing_up:](https://www.quora.com/How-flexible-is-Swift)
 
+[:arrow_up:](#index)
+
 #### **Testing**
 - Unit Testing
     - Better Unit Testing with Swift [:page_facing_up:](http://masilotti.com/better-swift-unit-testing/)
@@ -827,6 +904,8 @@ A curated list of resources for learning about the Swift Language.
     - Setting up KIF for iOS Acceptance Testing [:page_facing_up:](http://www.mokacoding.com/blog/setting-up-kif-for-ios-acceptance-testing/)
     - SwiftCheck: QuickCheck for Swift [:pencil2:](https://github.com/typelift/SwiftCheck)
     
+[:arrow_up:](#index)
+
 #### **Web Services, JSON, Routing, REST, and Networking**
 + Networking
 	+ SwiftHTTPStatusCodes [:pencil:](https://github.com/rhodgkins/SwiftHTTPStatusCodes)
@@ -834,7 +913,7 @@ A curated list of resources for learning about the Swift Language.
 	+ How to Make REST API Calls and Parse JSON with Swift [:page_facing_up:](http://devdactic.com/rest-api-parse-json-swift/)
 	+ HTTP in Swift [:page_facing_up:](https://medium.com/swift-programming/http-in-swift-693b3a7bf086)
 	+ Reachability Library [:page_facing_up:](https://github.com/ashleymills/Reachability.swift)
-	- NSURLSession Basics [:page_facing_up:](https://littlebitesofcocoa.com/78-nsurlsession-basics)
+	- NSURLSession Basics [:page_facing_up:](https://littlebitesofcocoa.com/78-nsurlsession-basics) [:page_facing_up:](http://www.splinter.com.au/2015/06/12/swift-nsurlsession-wrapper/)
 	- Background Downloads [:page_facing_up:](https://littlebitesofcocoa.com/77-background-downloads)
     - An introduction to using Alamofire [:page_facing_up:](http://nshipster.com/alamofire/)
 - JSON 
@@ -861,6 +940,8 @@ A curated list of resources for learning about the Swift Language.
 	- Swift-MongoDB [:pencil2:](https://github.com/Danappelxx/SwiftMongoDB)
 	- Caramel brings powerful, expressive I/O to Swift [:microphone:](https://realm.io/news/steve-streza-caramel-for-swift/)
 
+[:arrow_up:](#index)
+
 ## **Interview Situations**
 + Ray Wenderlich [:clipboard:](http://www.raywenderlich.com/110982/swift-interview-questions-answers)
 + Toptal [:clipboard:](http://www.toptal.com/swift/interview-questions)
@@ -868,6 +949,8 @@ A curated list of resources for learning about the Swift Language.
 + Coding Questions [:clipboard:](https://github.com/CameronBanga/iOS-Developer-and-Designer-Interview-Questions#code)
 + :fire: Awesome Swift Interview Questions [:clipboard:](https://github.com/MaximAbramchuck/awesome-interviews#swift)
 + :fire: Awesome iOS Interview Questions [:clipboard:](https://github.com/MaximAbramchuck/awesome-interviews#ios)
+
+[:arrow_up:](#index)
 
 ## Emoji Key
 - :pencil: = Gist
@@ -886,8 +969,14 @@ A curated list of resources for learning about the Swift Language.
 - :mortar_board: = Learning Resource
 - :clipboard: = Interview Questions
 
+[:arrow_up:](#index)
+
 ## **Contributing Guidelines**
 Let this list serve as a huge thank you to the incredible Swift Community. It would not exist if the people behind Swift were not so incredibly innovative, intellectual, and enthusiastic about the language and about open source. I created this list because I believe that the Swift community can be just as smart as the Haskell Community if guided properly. If you would like to make the Swift community smarter and contribute to this list, make sure to check out the emoji key and please open up a pull request or send a tweet of the content to [@FeelFunnyFlow](https://twitter.com/FeelFunnyFlow). If the topic of the content is already exists on the list, create an adjacent emoji to the existing content. I realize that this list is by no means perfect, so if you have an idea as to how I can change it, please let me know!
 
+[:arrow_up:](#index)
+
 ## **Shoutouts**
 Shoutout to [@clattner_llvm](https://twitter.com/clattner_llvm?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), the OG Swift Developer. Shoutout to [@chriseidhof](https://twitter.com/chriseidhof) for encouraging me to promote this idea and for being a huge baller. Shoutout to [@ashfurrow](https://twitter.com/ashfurrow) and [@bennRodri](https://twitter.com/bennRodri) for being so incredibly helpful. Shoutout to [@CodaFi_](https://twitter.com/CodaFi_), the TypeLift, and the Antitypical teams for promoting FP. Shoutout to the [trillmoji](https://github.com/mikeperri/Trillmoji) project. Shoutout to [Haskell Devs](http://dev.stephendiehl.com/hask/) and [Category Theory legends](https://ncatlab.org/nlab/show/HomePage). And finally, Shoutout to all the Swift Programmers out there, this project is __by you and for you!__
+
+[:arrow_up:](#index)
