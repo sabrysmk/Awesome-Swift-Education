@@ -68,7 +68,7 @@
 ## **Swift Style**
 - Functional Swift Style Guide [:book:](https://github.com/CodaFi/functional-swift-style-guide)
 - The Official Swift Language Docs [:book:](https://github.com/apple/swift/tree/master/docs)
-- Swift Language Evolution [:book:](https://github.com/apple/swift-evolution)
+- Swift Language Evolution [:book:](https://github.com/apple/swift-evolution) [:book:](https://github.com/apple/swift/blob/master/docs/LibraryEvolution.rst)
 + Swift Style Rules [:book:](http://ericasadun.com/2015/11/17/a-handful-of-swift-style-rules-swiftlang/)
 + SwiftLint [:book:](https://github.com/realm/SwiftLint)
 + Swift Don'ts [:book:](https://gist.github.com/erica/d91aef87e95f99c094c0)
@@ -280,6 +280,7 @@
 - Generic Collections, SubSequences and Overloading [:page_facing_up:](http://airspeedvelocity.net/)
 - Custom Subscripts in Swift [:page_facing_up:](https://www.natashatherobot.com/custom-subscripts-swift/)
 - A better Hashable [:page_facing_up:](http://foxinswift.com/2016/01/03/trying-to-build-a-better-hashable/)
+- How arrays are implemented in Swift [:page_facing_up:](http://ankit.im/swift/2016/01/08/exploring-swift-array-implementation/)
 
 [:arrow_up:](#index)
 
@@ -290,6 +291,7 @@
 + Swiftline [:pencil2:](https://github.com/Swiftline/Swiftline)
 + How Swift Scripting was used to make iOS Cookies [:page_facing_up:](https://medium.com/@bardonadam/how-i-m-using-swift-scripting-to-create-newsletter-for-ios-cookies-93db5deca4c#.cwgws2399)
 + Writing an Xcode Plugin with Swift [:page_facing_up:](http://merowing.info/2015/12/writing-xcode-plugin-in-swift/)
++ Make Command Line Applications with Swiftline [:page_facing_up:](https://github.com/Swiftline/Swiftline)
 
 [:arrow_up:](#index)
 
@@ -596,6 +598,7 @@
     + ReactiveCocoa 4.0 Info [:link:](https://blog.alltheflow.com/reactivecocoa-4-0-with-swift-2-0/)
     - :raised_hands: RAC 3 with Ash Furrow [:floppy_disk:](http://www.slideshare.net/colineberhardt/reactivecocoa-and-swift-better-together?qid=8a7611e7-4c08-4e2f-9f81-99b67c6f4390&v=default&b=&from_search=10), and some other nice [:floppy_disk:](https://speakerdeck.com/romainpouclet/taking-a-peak-at-reactivecocoa-3-dot-0)
     - FRP with RAC in Swift [:floppy_disk:](https://speakerdeck.com/ashfurrow/functional-reactive-programming-in-swift)
+    - MVVM + Rac 4 [:pencil2:](https://github.com/richeterre/SwiftGoal)
 + Rx
     + Simple RxSwift [:page_facing_up:](https://littlebitesofcocoa.com/162-reacting-with-rxswift) [:page_facing_up:](https://littlebitesofcocoa.com/163-creating-observables-with-rxswift)
     + MVVM + RxSwift [:microphone:](https://realm.io/news/slug-max-alexander-functional-reactive-rxswift/) [:pencil2:](https://github.com/RxSwiftCommunity/RxViewModel), [:page_facing_up:](https://medium.com/@marinbenc/implementing-mvvm-in-ios-with-rxswift-458a2d47c33d#.k901myr5x), [:page_facing_up:](http://tailec.com/blog/reactive-recipe-2)
@@ -724,7 +727,7 @@
         + Typecasting and the Swift Runtime [:page_facing_up:](https://github.com/vandadnp/swift-weekly/blob/master/issue08/README.md)
         - Advanced Type Safety in Swift [:floppy_disk:](https://github.com/jspahrsummers/correct-behavior-through-type-safety/blob/master/Correct%20Behavior%20Through%20Type%20Safety.pdf), and corresponding [:microphone:](https://realm.io/news/altconf-justin-spahr-summers-type-safety/)
         + Why doesn't Swift have implicit type conversion? [:page_facing_up:](https://www.quora.com/Why-does-Swift-not-allow-implicit-type-conversion)
-        + as? vs as! [:age_facing_up:](http://stackoverflow.com/questions/25708649/downcasting-optionals-in-swift-as-type-or-as-type)  
+        + as? vs as! [:page_facing_up:](http://stackoverflow.com/questions/25708649/downcasting-optionals-in-swift-as-type-or-as-type)  
     + Associated Types
         + Protocols with Associated Types and how they got that way [:floppy_disk:](https://speakerdeck.com/algal/protocols-with-associated-types-and-how-they-got-that-way) [:microphone:](https://www.youtube.com/watch?v=XWoNjiSPqI8)
         + Associated Types in Swift Explained [:page_facing_up:](http://www.russbishop.net/swift-associated-types) [:page_facing_up:](http://www.natashatherobot.com/swift-protocols-with-associated-types/)
@@ -753,6 +756,7 @@
 	+ Swift in Practice [:microphone:](https://developer.apple.com/videos/wwdc/2015/?id=411)
 	+ Make a DSL in Swift [:page_facing_up:](http://colindrake.me/2015/10/28/implementing-a-small-dsl-in-swift/) [:floppy_disk:](https://speakerdeck.com/kylef/dsls-in-swift) [:floppy_disk:](https://speakerdeck.com/luisobo/techniques-to-write-dsls-in-swift) [:microphone:](https://www.youtube.com/watch?v=a3rR5XVA22w)
 - Developer Tools
+    - Alcatraz Master Repository [:pencil2:](https://github.com/alcatraz/Alcatraz)
     - Exploring Graph Theory with OmniGraffle and Swift [:page_facing_up:](http://www.mattrajca.com/2015/05/22/exploring-graph-theory-with-omnigraffle-and-swift.html)
     - Continuous Delivery with Fastlane [:microphone:](https://vimeo.com/146505670)
     - Ship C code with swift packages using swift package manager [:page_facing_up:](http://ankit.im/swift/2015/12/27/ship-c-code-with-swift-packages-using-swift-package-manager/)
@@ -807,6 +811,7 @@
 
 #### **Server Side Swift**
 - Swift Redis [:pencil2:](https://github.com/swizzlr/swift-redis)
+- TCP Sockets in Swift [:pencil2:](http://dev.iachieved.it/iachievedit/tcp-sockets-with-swift-on-linux/)
 
 #### **String Manipulation and RegEx**
 + Strings
