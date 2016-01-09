@@ -83,20 +83,23 @@
 [:arrow_up:](#index)
 
 ## **Quick References**
+- Other Awesome Lists
+    - :fire: Awesome iOS [:scroll:](https://github.com/vsouza/awesome-ios)
+    - :fire: Awesome Swift [:scroll:](https://github.com/matteocrippa/awesome-swift)
+    - :fire: Another Awesome Swift [:scroll:](https://github.com/Wolg/awesome-swift)
 - Swift.org [:scroll:](https://swift.org/about/)
+- Every Operator in Swift [:page_facing_up:](http://nshipster.com/swift-operators/)
 - That Thing In Swift [:scroll:](https://thatthinginswift.com/)
 - SwiftDoc [:scroll:](http://swiftdoc.org/)
 - iOS Cookies [:scroll:](http://www.ioscookies.com/)
-- :fire: Awesome Swift [:scroll:](https://github.com/matteocrippa/awesome-swift)
-- :fire: Another Awesome Swift [:scroll:](https://github.com/Wolg/awesome-swift)
 - Pure Swift List [:scroll:](https://github.com/PureSwift/PureSwiftList)
-- :fire: Awesome iOS [:scroll:](https://github.com/vsouza/awesome-ios)
 - iOS Good Practices [:scroll:](https://github.com/futurice/ios-good-practices)
 - Little Bites of Cocoa [:scroll:](https://littlebitesofcocoa.com/)
 - Libraries used in the top 100 Apps [:scroll:](https://medium.com/ios-os-x-development/libraries-used-in-the-top-100-ios-apps-5b845ad927b7#.p76bo4ms9)
 - Fucking Closure Syntax [:scroll:](http://fuckingclosuresyntax.com/)
 - RAC Marbles [:scroll:](http://neilpa.me/rac-marbles/)
 - Swift Knowledge Base [:scroll:](https://www.hackingwithswift.com/example-code/)
+- Every Single Option and Swift Compiler Flag [:scroll:](https://gist.github.com/CodaFi/b1e0d0f37cd2890c07c5)
 
 [:arrow_up:](#index)
 
@@ -170,6 +173,7 @@
     - Erica Sadun [:notebook:](http://ericasadun.com)
     - Appventure [:notebook:](http://appventure.me/)
     - MetalByExample.com [:notebook:](http://metalbyexample.com)
+    - NSHipster [:notebook:](http://nshipster.com)
     - David Owens [:notebook:](http://owensd.io/posts/)
     - The iOS Times [:notebook:](http://theiostimes.com/)
     - Crunchy Development [:notebook:](http://alisoftware.github.io/)
@@ -220,7 +224,7 @@
 - Demystifying iOS Architecture Patterns [:page_facing_up:](https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52#.5zn7t5oh2)
 + Uber Jetstream [:pencil2:](https://github.com/uber/jetstream-ios)
 - Mutating Funcs in Swift Structs [:page_facing_up:](http://natashatherobot.com/mutating-functions-swift-structs/)
-+ MVVM in Swift [:page_facing_up:](http://artsy.github.io/blog/2015/09/24/mvvm-in-swift/) [:page_facing_up:](http://khanlou.com/2015/12/mvvm-is-not-very-good/) [:page_facing_up:](https://ashfurrow.com/blog/mvvm-is-exceptionally-ok/)
++ MVVM in Swift [:page_facing_up:](http://artsy.github.io/blog/2015/09/24/mvvm-in-swift/) [:page_facing_up:](http://khanlou.com/2015/12/mvvm-is-not-very-good/) [:page_facing_up:](https://ashfurrow.com/blog/mvvm-is-exceptionally-ok/) [:page_facing_up:](http://gilesvangruisen.com/mvvm-swift/)
 - Refractor the Mega Controller [:microphone:](https://realm.io/news/andy-matuschak-refactor-mega-controller/)
 - 250 Days of using VIPER Architecture with Swift [:microphone:](https://realm.io/news/altconf-brice-pollock-250-days-shipping-with-swift-and-viper/)
 - Safer with VIPER [:page_facing_up:](https://medium.com/ios-os-x-development/safer-uiviewcontroller-creation-when-using-storyboards-1915ac2b2c80#.bynj7y4gd)
@@ -355,8 +359,9 @@
 + NSArrays are implemente with Circular Buffers [:page_facing_up:](https://en.wikipedia.org/wiki/Circular_buffer)
 + Open sourced CFArray [:link:](http://opensource.apple.com/source/CF/CF-855.11/CFArray.c)
 + Abstract Algebraic Structures in Swift 2 [:pencil2:](https://github.com/typelift/Algebra)
++ Trees [:pencil:](https://gist.github.com/CodaFi/73bd0d67c8c7dc25b9af)
 + Patricia/Radix trees for Swift [:pencil2:](https://github.com/haveahennessy/Patrician)
-+ Genetic Programming in Swift [:pencil2:](https://github.com/NachoSoto/swift-genetics)
++ Evolutionary/Genetic Programming in Swift [:pencil2:](https://github.com/NachoSoto/swift-genetics) [:pencil2:](https://github.com/saniul/Mendel)
 + Finger Trees in Swift [:pencil2:](https://github.com/lazytype/FingerTree/tree/master)
 + Neural Networks in Swift [:pencil2:](https://github.com/vlall/Swift-Brain)
 + Swift AI [:pencil2:](https://github.com/collinhundley/Swift-AI)
@@ -376,6 +381,8 @@
 + Generic Stack in Swift [:pencil:](https://gist.github.com/aciidb0mb3r/fd147c8c6b1728664fdb) [:page_facing_up:](http://ankit.im/swift/2016/01/02/creating-value-type-generic-stack-in-swift-with-pointers-and-copy-on-write/)
 + Deep learning with Swift [:pencil2:](https://github.com/DeepLearningKit/DeepLearningKit)
 + HackerRank Solutions in Swift [:pencil2:](https://github.com/jindulys/HackerRankSolutions)
++ Abstract Binding Trees [:pencil:](https://gist.github.com/CodaFi/453f369a8790a070d9e2)
++ Commonly used data structures and algorithms [:pencil2:](https://github.com/waynewbishop/SwiftStructures) [:pencil2:](https://github.com/karan/Swift-Algorithms)
 
 [:arrow_up:](#index)
 
@@ -526,7 +533,7 @@
         + Functional Programming in the Swift Language [:page_facing_up:](https://medium.com/swift-programming/2-functional-swift-c98be9533183)
         + Monads & C# Tasks in Swift [:page_facing_up:](https://realm.io/news/swift-tasks-nevyn-bengtsson/)
         + Paragons Of Perfunctory Programs [:page_facing_up:](http://xn--wxak1a.com/blog/Monadic-Computering.html) 
-        + Combinators [:page_facing_up:](http://xn--wxak1a.com/blog/Combinators.html) [:pencil:](https://gist.github.com/CodaFi/10afdd77e42bb8ad18ab)
+        + Combinators [:page_facing_up:](http://xn--wxak1a.com/blog/Combinators.html) [:pencil:](https://gist.github.com/CodaFi/10afdd77e42bb8ad18ab) 
     - Implementations
         + Deriving higher order functions in Swift [:page_facing_up:](http://ijoshsmith.com/2015/12/09/higher-order-functions-in-swift/) and Monads [:page_facing_up:](http://nomothetis.svbtle.com/third-monad-law-derivation)
         + Typelift Community Repo [:pencil:](https://github.com/typelift)
@@ -570,13 +577,16 @@
         - Continuation Monad [:pencil:](https://gist.github.com/CodaFi/2186a73bdfb9fff79c26) [:pencil:](https://gist.github.com/robrix/dd2a65bbc8b44d7a670b) [:pencil:](https://gist.github.com/sjoerdvisscher/a56a286ccfabce40e424)
         - (Tail)Recursion with nested functions in Swift 2.0 [:page_facing_up:](http://danielnagy.hu/?p=119) [:page_facing_up:](http://natashatherobot.com/functional-swift-tail-recursion/) [:pencil:](https://gist.github.com/marcelofabri/4b41adb87a09ce86ff40)
         - Reduce all the things [:page_facing_up:](http://appventure.me/2015/11/30/reduce-all-the-things/)
+        - Functional Programming with Bananas, Lenses, Envelopes, and Barbed Wire [:pencil:](https://gist.github.com/CodaFi/bbedc25a318a1565e4c1)
         - zipWith [:pencil:](https://gist.github.com/kristopherjohnson/7419ed4444a0ad9bb2ea)
         - Various Functors in Swift [:page_facing_up:](http://qiita.com/335g/items/81af12f9be8f7f8112c7)
         - A simple Promise in Swift [:pencil:](https://gist.github.com/robrix/5f3dc201988fb0f5f584)
         - PromiseKit Promise Library [:pencil2:](https://github.com/mxcl/PromiseKit) [:link:](http://promisekit.org/)
         - FutureKit Repostory [:pencil2:](https://github.com/FutureKit/FutureKit)
         - BrightFutures Repository [:pencil2:](https://github.com/Thomvis/BrightFutures)
-
+       	- Yoenda Embedding [:pencil:](https://gist.github.com/CodaFi/d4efd98697130bd35f5c)
+        - Writing Pipe operators in Swift [:page_facing_up:](http://gilesvangruisen.com/writing-a-pipeline-operator-in-swift/)
+        
 [:arrow_up:](#index)
 
 #### **Functional Reactive Programming in Swift**
