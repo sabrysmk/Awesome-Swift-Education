@@ -88,7 +88,7 @@
     - :fire: Awesome Swift [:scroll:](https://github.com/matteocrippa/awesome-swift)
     - :fire: Another Awesome Swift [:scroll:](https://github.com/Wolg/awesome-swift)
 - Swift.org [:scroll:](https://swift.org/about/)
-- Every Operator in Swift [:page_facing_up:](http://nshipster.com/swift-operators/)
+- Every Operator in Swift [:scroll:](http://nshipster.com/swift-operators/)
 - That Thing In Swift [:scroll:](https://thatthinginswift.com/)
 - SwiftDoc [:scroll:](http://swiftdoc.org/)
 - iOS Cookies [:scroll:](http://www.ioscookies.com/)
@@ -413,12 +413,13 @@
 [:arrow_up:](#index)
 
 #### **Development Paradigms**
++ Type Driven Development [:microphone:](https://vimeopro.com/user20904333/nslondon/video/121126581) [:floppy_disk:](https://speakerdeck.com/johannesweiss/type-driven-development-in-swift)
 + Result Driven Development [:floppy_disk:](https://speakerdeck.com/brianpartridge/result-driven-development)
 - Library Oriented Programming [:microphone:](https://realm.io/news/justin-spahr-summers-library-oriented-programming/)
 - * Oriented Programming [:microphone:](https://realm.io/news/pragma-graham-lee-oriented-programming-paradigms/)
 - Hole Driven Development [:page_facing_up:](http://oleb.net/blog/2015/07/swift-type-system/)
 - Entering a New Codebase [:floppy_disk:](https://speakerdeck.com/dbgrandi/how-to-understand-other-peoples-code)
-- Railway Oriented Programming [:microphone:](http://fsharpforfunandprofit.com/rop/)
+- Railway Oriented Programming in Swift [:page_facing_up:](http://ulrikdamm.logdown.com/posts/247219) [:microphone:](http://fsharpforfunandprofit.com/rop/)
 - Swift in Practice [:microphone:](https://developer.apple.com/videos/play/wwdc2015-411) [:floppy_disk:](http://devstreaming.apple.com/videos/wwdc/2015/4119flfsnsgmlfy/411/411_swift_in_practice.pdf?dl=1)
 - Denotational Design [:floppy_disk:](http://conal.net/talks/denotational-design-lambdajam-2015.pdf)
 - Building Frameworks in Swift [:page_facing_up:](https://github.com/hpique/Talks/blob/master/Building%20Swift%20frameworks/Building%20Swift%20frameworks.md)
@@ -437,7 +438,7 @@
     + Enums with Associated Data vs Structs [:page_facing_up:](http://owensd.io/2015/09/13/enums-with-associated-data-vs-structs.html)
     + The Sum Types are here [:page_facing_up:](http://chadaustin.me/2015/07/sum-types/)
     + Algebraic Data Types in Swift [:page_facing_up:](http://thepurecoder.com/algebraic-data-types-in-swift/)
-    + Handling Enums with Raw Values [:page_facing_up:](http://kostiakoval.github.io/posts/enum-with-raw-value/)
+    + Handling Enums with Raw Values [:page_facing_up:](http://kostiakoval.github.io/posts/enum-with-raw-value/) [:floppy_disk:](https://speakerdeck.com/johannesweiss/finding-the-algebra-in-algebraic-data-types)
     + Using Enums as Constants [:page_facing_up:](http://alisoftware.github.io/swift/enum/constants/2015/07/19/enums-as-constants/)
     + Enums instead of Booleans [:page_facing_up:](https://www.objc.io/blog/2014/12/22/functional-snippet-12-enums-instead-of-booleans/)
     + Enum vs String Type [:page_facing_up:](https://www.quora.com/Why-should-I-use-enum-instead-of-string-type-data-in-programming)
@@ -533,7 +534,8 @@
         + Functional Programming in the Swift Language [:page_facing_up:](https://medium.com/swift-programming/2-functional-swift-c98be9533183)
         + Monads & C# Tasks in Swift [:page_facing_up:](https://realm.io/news/swift-tasks-nevyn-bengtsson/)
         + Paragons Of Perfunctory Programs [:page_facing_up:](http://xn--wxak1a.com/blog/Monadic-Computering.html) 
-        + Combinators [:page_facing_up:](http://xn--wxak1a.com/blog/Combinators.html) [:pencil:](https://gist.github.com/CodaFi/10afdd77e42bb8ad18ab) 
+        + Combinators [:page_facing_up:](http://xn--wxak1a.com/blog/Combinators.html) [:pencil:](https://gist.github.com/CodaFi/10afdd77e42bb8ad18ab)
+        + Writing Compelling Functional Code with BananaKit [:microphone:](https://realm.io/news/compelling-code/)
     - Implementations
         + Deriving higher order functions in Swift [:page_facing_up:](http://ijoshsmith.com/2015/12/09/higher-order-functions-in-swift/) and Monads [:page_facing_up:](http://nomothetis.svbtle.com/third-monad-law-derivation)
         + Typelift Community Repo [:pencil:](https://github.com/typelift)
@@ -584,7 +586,8 @@
         - PromiseKit Promise Library [:pencil2:](https://github.com/mxcl/PromiseKit) [:link:](http://promisekit.org/)
         - FutureKit Repostory [:pencil2:](https://github.com/FutureKit/FutureKit)
         - BrightFutures Repository [:pencil2:](https://github.com/Thomvis/BrightFutures)
-       	- Yoenda Embedding [:pencil:](https://gist.github.com/CodaFi/d4efd98697130bd35f5c)
+		- Binds and Promises with Forbind [:page_facing_up:](http://ulrikdamm.logdown.com/posts/277995) [:pencil2:](https://github.com/ulrikdamm/Forbind)
+        - Yoenda Embedding [:pencil:](https://gist.github.com/CodaFi/d4efd98697130bd35f5c)
         - Writing Pipe operators in Swift [:page_facing_up:](http://gilesvangruisen.com/writing-a-pipeline-operator-in-swift/)
         
 [:arrow_up:](#index)
@@ -675,6 +678,7 @@
 	- Swift vs Golang [:floppy_disk:](http://go-talks.appspot.com/github.com/wangkuiyi/swiftgo/swiftgo.slide#1)
 	- Swift 2.0 Protocol Extensions vs Java Abstract Classes [:link:](http://stackoverflow.com/questions/30943209/is-there-a-difference-between-swift-2-0-protocol-extensions-and-java-c-abstract)
 	+ What do Haskell developers think of Swift? [:link:](https://www.quora.com/What-do-Haskell-developers-think-of-Swift)
+    + A Swift intoduction to Haskell [:floppy_disk:](https://speakerdeck.com/johannesweiss/swift-london-meetup-introduction-to-haskell)
 + Transitioning
 	+ Method Swizzling in Swift [:page_facing_up:](http://www.uraimo.com/2015/10/23/effective-method-swizzling-with-swift/)
 	+ How to Method Swizzle in Swift [:page_facing_up:](http://kostiakoval.github.io/posts/methods-swizzling-in-swift/)
@@ -728,7 +732,7 @@
     + Creating new Types in Swift [:page_facing_up:](https://developer.apple.com/swift/blog/?id=8)
     + Properties of Types Conforming to Protocols [:page_facing_up:](http://ilya.puchka.me/properties-of-types-conforming-to-protocols-in-swift/)
     + Wrapper Types [:page_facing_up:](https://www.objc.io/blog/2014/11/24/functional-snippet-8-wrapper-types/)
-    + Phantom Types in Swift [:page_facing_up:](https://www.objc.io/blog/2014/12/29/functional-snippet-13-phantom-types/)
+    + Phantom Types in Swift [:page_facing_up:](https://www.objc.io/blog/2014/12/29/functional-snippet-13-phantom-types/) [:microphone:](https://realm.io/news/swift-summit-johannes-weiss-leveraging-the-type-system/)
     + Typeclasses in Swift and Scala [:page_facing_up:](http://brainyandbrawny.com/article/Typeclass_in_Swift_and_Scala)
     + Return Type Polymorphism in Swift [:page_facing_up:](http://www.figure.ink/blog/2015/1/25/polymorphism-with-return-types) [:link:](https://news.ycombinator.com/item?id=8826422)
     + Type Reflection and Casting
@@ -861,6 +865,7 @@
 	+ Function Params are Tuples in Swift [:page_facing_up:](http://www.paulrobinson.net/function-parameters-are-tuples-in-swift/)
 	+ Improving your Existing Apps with Swift [:floppy_disk:](http://devstreaming.apple.com/videos/wwdc/2015/403l7ohdidhmnkgx/403/403_improving_your_existing_apps_with_swift.pdf?dl=1)
     + Other Swift Attributes you may not have heard of [:page_facing_up:](http://www.russbishop.net/more-swift-attributes)
+    + How Swift makes clean code [:page_facing_up:](http://ulrikdamm.logdown.com/posts/246079)
 - Open Source Swift
 	+ Booleans [:page_facing_up:](http://swiftunboxed.com/open-source/Bool/)
 	+ Swift Open Source Overview [:page_facing_up:](http://www.jessesquires.com/swift-open-source/)
@@ -889,6 +894,7 @@
     - Unit Testing in Swift [:page_facing_up:](https://bendyworks.com/unit-testing-in-swift/) [:page_facing_up:](http://nshipster.com/xctestcase/)
     - Unit Testing with @testable in Xcode 7 [:page_facing_up:](http://natashatherobot.com/swift-2-xcode-7-unit-testing-access/) [:page_facing_up:](http://mr-v.github.io/xcode-7-swift-2-unit-testing-setup/)
     - Understanding testability in Swift 2 [:page_facing_up:](http://www.captechconsulting.com/blogs/ios-9-tutorial-series-testability-by-example-making-unit-testing-easier-in-swift-20-and-xcode-7)
+    - The good parts of XCTest [:page_facing_up:](http://modocache.io/xctest-the-good-parts)
 - TDD
     - TDD with Swift [:page_facing_up:](http://swiftandpainless.com/category/tdd/)
     - TDD By Controlling Dependencies in Swift [:microphone:](https://www.youtube.com/watch?v=qYpURmZcCKs&index=47&list=PLEx5khR4g7PL0fDNJkI2dHhqeckQTAbes), [:microphone:](http://gotocon.com/dl/goto-cph-2015/slides/JorgeD.OrtizFuentes_TestDrivenDevelopmentbyControllingDependencies.pdf)
@@ -896,6 +902,7 @@
 - BDD
     - BDD Testing with Swift [:page_facing_up:](http://railsware.com/blog/2014/07/04/bdd-style-testing-in-swift-with-sleipnir/)
     - SwiftTest BDD Testing Framework [:pencil2:](https://github.com/bppr/Swiftest)
+    - An introduction to Quick 
 - UI Testing
     - UI Testing Cheat Sheet [:page_facing_up:](http://masilotti.com/ui-testing-cheat-sheet/)
     + UI Testing in Xcode [:microphone:](https://developer.apple.com/videos/wwdc/2015/?id=406) [:page_facing_up:](http://www.mokacoding.com/blog/xcode-7-ui-testing/)
