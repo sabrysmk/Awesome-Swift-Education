@@ -47,7 +47,6 @@
     + [Testing](#testing)
     + [Web Services, JSON, Routing, REST, and Networking](#web-services-json-routing-rest-and-networking)
 - [Interview Situations](#interview-situations)
-- [Contributing Guidelines](#contributing)
 - [Shoutouts](#shoutouts)
 
 ## **Open Source Swift** 
@@ -235,6 +234,7 @@
 - One Way Data Flow Architecture in Swift [:microphone:](https://www.youtube.com/watch?v=4cP1p5VOrSI)
 - Unidirectional Dataflow Architecture with Swift-Flow [:floppy_disk:](https://speakerdeck.com/benjamin_encz/unidirectional-data-flow-in-swift) [:pencil2:](https://github.com/Swift-Flow/Swift-Flow)
 - CocoaFlow Architecture [:page_facing_up:](http://www.skilled.io/paulyoung/cocoaflow)
+- Improve your iOS Architecture with FlowControllers [:page_facing_up:](http://merowing.info/2016/01/improve-your-ios-architecture-with-flowcontrollers/)
 - Lighter View Controllers in Swift [:page_facing_up:](https://www.codefellows.org/blog/tech-tip-clean-up-your-code-with-lighter-view-controllers-in-swift) [:pencil:](https://gist.github.com/lostincode/38e6b0a612a3b33f6f7b)
 - Destroying Massive View Controllers [:page_facing_up:](http://khanlou.com/2015/12/massive-view-controller/) with patterns [:page_facing_up:](https://medium.com/ios-os-x-development/humble-object-pattern-in-swift-de5efe8fe05a#.iyh62t857)
 - ReduxKit is a predictable state container for Swift apps [:page_facing_up:](https://github.com/ReduxKit/ReduxKit)
@@ -642,6 +642,7 @@
     + Immutable Swift [:page_facing_up:](http://nomothetis.svbtle.com/immutable-swift)
     + What's the point of Laziness? [:page_facing_up:](http://owensd.io/2015/08/09/filter-performance.html)
     + Swift Initialization and the Pain of Optionals [:page_facing_up:](http://blog.scottlogic.com/2014/11/20/swift-initialisation.html)
+    + Swift init() [:page_facing_up:](http://merowing.info/2015/11/swift-init/)
 + Properties
     + Property Observers [:page_facing_up:](https://www.quora.com/Apple-Swift-programming-language/What-is-a-property-observer)
     + IBOutlet Style in Swift [:page_facing_up:](http://natashatherobot.com/ios-a-beautiful-way-of-styling-iboutlets-in-swift/)
@@ -679,6 +680,7 @@
 	- Swift 2.0 Protocol Extensions vs Java Abstract Classes [:link:](http://stackoverflow.com/questions/30943209/is-there-a-difference-between-swift-2-0-protocol-extensions-and-java-c-abstract)
 	+ What do Haskell developers think of Swift? [:link:](https://www.quora.com/What-do-Haskell-developers-think-of-Swift)
     + A Swift intoduction to Haskell [:floppy_disk:](https://speakerdeck.com/johannesweiss/swift-london-meetup-introduction-to-haskell)
+    + Swift For Rubyists [:microphone:](https://realm.io/news/swift-for-rubyists/)
 + Transitioning
 	+ Method Swizzling in Swift [:page_facing_up:](http://www.uraimo.com/2015/10/23/effective-method-swizzling-with-swift/)
 	+ How to Method Swizzle in Swift [:page_facing_up:](http://kostiakoval.github.io/posts/methods-swizzling-in-swift/)
@@ -700,6 +702,7 @@
     - LLVM and Swift [:microphone:](https://www.youtube.com/watch?v=Ntj8ab-5cvE)
     - Swift Performance [:floppy_disk:](http://blog.human-friendly.com/swift-performance-iosdevuk)
     - Swift 2 Under the Hood [:floppy_disk:](https://speakerdeck.com/alblue/swift-2-under-the-hood-gotober-2015)
+    - ARC + Swift [:page_facing_up:](https://medium.com/the-traveled-ios-developers-guide/arc-swift-d323535baecb#.31lclj25s)
 - swiftc
     - Explorign SIL and swiftc [:page_facing_up:](http://swiftc.io/)
     - swift vs swiftc [:page_facing_up:](http://owensd.io/2015/01/14/swift-vs-swiftc.html)
@@ -769,6 +772,7 @@
 	- Learning Swift the Euler Way [:microphone:](https://vimeo.com/136059613)
 	+ Swift in Practice [:microphone:](https://developer.apple.com/videos/wwdc/2015/?id=411)
 	+ Make a DSL in Swift [:page_facing_up:](http://colindrake.me/2015/10/28/implementing-a-small-dsl-in-swift/) [:floppy_disk:](https://speakerdeck.com/kylef/dsls-in-swift) [:floppy_disk:](https://speakerdeck.com/luisobo/techniques-to-write-dsls-in-swift) [:microphone:](https://www.youtube.com/watch?v=a3rR5XVA22w)
+    + Implementing goto in Swift [:page_facing_up:](https://harlanhaskins.com/2016/01/09/goto-in-swift.html)
 - Developer Tools
     - Alcatraz Master Repository [:pencil2:](https://github.com/alcatraz/Alcatraz)
     - Exploring Graph Theory with OmniGraffle and Swift [:page_facing_up:](http://www.mattrajca.com/2015/05/22/exploring-graph-theory-with-omnigraffle-and-swift.html)
@@ -990,11 +994,6 @@
 - :fire: = Awesome List
 - :mortar_board: = Learning Resource
 - :clipboard: = Interview Questions
-
-[:arrow_up:](#index)
-
-## **Contributing Guidelines**
-Let this list serve as a huge thank you to the incredible Swift Community. It would not exist if the people behind Swift were not so incredibly innovative, intellectual, and enthusiastic about the language and about open source. I created this list because I believe that the Swift community can be just as smart as the Haskell Community if guided properly. If you would like to make the Swift community smarter and contribute to this list, make sure to check out the emoji key and please open up a pull request or send a tweet of the content to [@FeelFunnyFlow](https://twitter.com/FeelFunnyFlow). If the topic of the content is already exists on the list, create an adjacent emoji to the existing content. I realize that this list is by no means perfect, so if you have an idea as to how I can change it, please let me know!
 
 [:arrow_up:](#index)
 
