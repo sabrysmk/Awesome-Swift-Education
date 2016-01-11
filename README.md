@@ -351,7 +351,7 @@
 + Linked Lists are really slow [:page_facing_up:](http://airspeedvelocity.net/2015/08/03/arrays-linked-lists-and-performance/)
 + Linked Lists, Enums, Value Types [:page_facing_up:](http://airspeedvelocity.net/2015/07/26/linked-lists-enums-value-types-and-identity/)
 + Singly Linked List [:pencil:](https://gist.github.com/airspeedswift/7e233e723e458b1eacfe)
-+ Deques, Queues, and Lists in Swift [:page_facing_up:](https://bigonotetaking.wordpress.com/2015/07/29/deques-queues-and-lists-in-swift-with-indirect/) [:link:](https://github.com/oisdk/Deques-Queues-and-Lists-in-Swift-with-indirect)
+[:link:](https://github.com/oisdk/Deques-Queues-and-Lists-in-Swift-with-indirect)
 + Contiguous Arrays in Swift [:page_facing_up:](https://bigonotetaking.wordpress.com/2015/08/09/yet-another-root-of-all-evil/)
 + NSArrays are implemente with Circular Buffers [:page_facing_up:](https://en.wikipedia.org/wiki/Circular_buffer)
 + Open sourced CFArray [:link:](http://opensource.apple.com/source/CF/CF-855.11/CFArray.c)
