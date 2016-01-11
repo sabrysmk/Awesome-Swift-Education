@@ -291,7 +291,6 @@
 + Swift Scripting [:microphone:](https://realm.io/news/swift-scripting/)
 + Learn Swift by running Scripts [:page_facing_up:](https://medium.com/swift-programming/1-learn-swift-by-running-scripts-73fdf8507f4b)
 + Scripting in Swift is Pretty Awesome! [:page_facing_up:](http://krakendev.io/blog/scripting-in-swift)
-+ Swiftline [:pencil2:](https://github.com/Swiftline/Swiftline)
 + How Swift Scripting was used to make iOS Cookies [:page_facing_up:](https://medium.com/@bardonadam/how-i-m-using-swift-scripting-to-create-newsletter-for-ios-cookies-93db5deca4c#.cwgws2399)
 + Writing an Xcode Plugin with Swift [:page_facing_up:](http://merowing.info/2015/12/writing-xcode-plugin-in-swift/)
 + Make Command Line Applications with Swiftline [:page_facing_up:](https://github.com/Swiftline/Swiftline)
