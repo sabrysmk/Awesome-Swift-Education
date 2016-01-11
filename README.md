@@ -638,7 +638,7 @@
 + Initializers
     + Swift Initializers [:page_facing_up:](http://ashfurrow.com/blog/swift-initializers/)
     + Immutable Swift [:page_facing_up:](http://nomothetis.svbtle.com/immutable-swift)
-    + What's the point of Laziness? [:page_facing_up:](http://owensd.io/2015/08/09/filter-performance.html)
+    + Be Mindful of Your Filters [:page_facing_up:](http://owensd.io/blog/be-mindful-of-your-filters/)
     + Swift Initialization and the Pain of Optionals [:page_facing_up:](http://blog.scottlogic.com/2014/11/20/swift-initialisation.html)
     + Swift init() [:page_facing_up:](http://merowing.info/2015/11/swift-init/)
 + Properties
