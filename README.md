@@ -557,7 +557,6 @@
         + Arrows in Swift [:pencil:](https://github.com/typelift/Swiftz/blob/master/Swiftz/Arrow.swift)
         + Understanding Reduce in Swift [:page_facing_up:] [:page_facing_up:](http://ijoshsmith.com/2014/06/25/understanding-swifts-reduce-method/)
         + infix Operators for Monadic Functions in Swift [:pencil2:](https://github.com/thoughtbot/Runes)
-        + Lazy Streams in Swift [:pencil2:](https://github.com/antitypical/Stream)
         + Funky Functional Programming Tools and Experiements [:pencil2:](https://github.com/brynbellomy/Funky)
         + Functional Memoization in Swift [:page_facing_up:](http://blog.scottlogic.com/2014/09/22/swift-memoization.html) [:page_facing_up:](http://www.matthewsessions.com/memoize-in-swift/) [:pencil:](http://stackoverflow.com/questions/31129211/need-detailed-explanation-for-memoize-implementation-in-swift-wwdc-14-session)
         + Reader Monad in Swift [:pencil:](https://gist.github.com/tLewisII/bfee33f69ddb8e03b379) [:pencil:](https://github.com/typelift/Swiftz/blob/master/Swiftz/Reader.swift)
