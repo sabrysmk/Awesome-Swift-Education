@@ -877,7 +877,6 @@
 	- Open Radar Swift [:page_facing_up:](http://www.openradar.me/19770770)
 + Opinions about Swift
 	+ Wishlist for Swift 3.0 [:page_facing_up:](https://realm.io/news/swift-3-wishlist/)
-	+ What are the Worst parts of Swift? [:page_facing_up:](https://www.quora.com/Which-features-overcomplicate-Swift-What-should-be-removed)
 	+ The Death of Cocoa [:page_facing_up:](http://nshipster.com/the-death-of-cocoa/)
 	+ Swift is _not_ functional [:page_facing_up:](https://www.reddit.com/r/swift/comments/281jqe/rob_napier_swift_is_not_functional/)
     + Which features overcomplicate Swift? What should be removed? [:page_facing_up:](https://www.quora.com/Which-features-overcomplicate-Swift-What-should-be-removed)
