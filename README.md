@@ -879,7 +879,6 @@
 	- Swift Version Manager [:pencil2:](https://github.com/kylef/swiftenv)
 	- Docker Swift [:pencil2:](https://github.com/swiftdocker/docker-swift)
 	- Open Radar Swift [:page_facing_up:](http://www.openradar.me/19770770)
-	- Version Manager [:pencil2:](https://github.com/kylef/swiftenv)
 + Opinions about Swift
 	+ Wishlist for Swift 3.0 [:page_facing_up:](https://realm.io/news/swift-3-wishlist/)
 	+ What are the Worst parts of Swift? [:page_facing_up:](https://www.quora.com/Which-features-overcomplicate-Swift-What-should-be-removed)
