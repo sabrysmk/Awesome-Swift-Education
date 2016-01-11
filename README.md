@@ -856,7 +856,7 @@
 	- Best of Swift 2 [:page_facing_up:](https://www.mikeash.com/pyblog/friday-qa-2015-06-19-the-best-of-whats-new-in-swift.html)
 	- New Features in Swift 2 [:page_facing_up:](https://www.hackingwithswift.com/new-features-swift-2)
 	- Switching your brain to Swift [:page_facing_up:](https://gregheo.com/blog/switching-your-brain-to-swift/#value-types)
-	- Short Circuit Evaluation [:page_facing_up:](https://en.wikipedia.org/wiki/Short-circuit_evaluations)
+	- Short Circuit Evaluation [:page_facing_up:](https://en.wikipedia.org/wiki/Short-circuit_evaluation)
 	- How Swift makes your life better [:page_facing_up:](http://bandes-stor.ch/blog/2015/11/28/help-yourself-to-some-swift/)
 	- Emerging best practices in Swift [:microphone:](https://realm.io/news/gotocph-ash-furrow-best-practices-swift/)
 	- Swift Thinking [:microphone:](https://realm.io/news/altconf-natasha-murashev-swift-thinking/)
