@@ -336,7 +336,6 @@
 	- Why Realm is great and why we're not going to use it [:page_facing_up:](http://bsktapp.com/blog/why-is-realm-great-and-why-are-we-not-using-it/)
 	- Realm Best Practices [:page_facing_up:](http://stackoverflow.com/questions/31590717/proper-realm-usage-patterns-best-practices)
 	- Realm Repo [:page_facing_up:](https://github.com/realm/realm-cocoa)
-	- What Realm does that Core Data doesn't [:page_facing_up:](https://www.quora.com/Why-would-you-use-Realm-over-Core-Data)
 	- Reddit Thread [:page_facing_up:](https://www.reddit.com/r/iOSProgramming/comments/2vmbv2/realm_or_coredata/)
 	- A look into Realm's Core DB Engine [:microphone:](https://realm.io/news/jp-simard-realm-core-database-engine/)
 	- Working with Realm [:page_facing_up:](http://blog.matthewcheok.com/working-with-realm/)
