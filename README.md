@@ -1,5 +1,5 @@
 ![Swift Logo](http://www.joomlavision.com/wp-content/uploads/2014/08/swift-apple-logo.jpg)
-# Awesome-Swift-Education [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome-Swift-Education [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Build Status](https://travis-ci.org/hsavit1/Awesome-Swift-Education.svg?branch=master)](https://travis-ci.org/hsavit1/Awesome-Swift-Education)
 
 > A curated list of resources for learning about the Swift Language. 
 
