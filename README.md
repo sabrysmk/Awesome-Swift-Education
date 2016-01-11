@@ -229,7 +229,6 @@
 - Safer with VIPER [:page_facing_up:](https://medium.com/ios-os-x-development/safer-uiviewcontroller-creation-when-using-storyboards-1915ac2b2c80#.bynj7y4gd)
 - Preventing Massive View Controllers [:microphone:](https://www.youtube.com/watch?v=dgOdsh1Bq10&feature=youtu.be&list=PLy2fR8K1ngurocVMEL0qHn0ik2MDYewLJ) 
 - A Structy Model Layer [:page_facing_up:](http://khanlou.com/2015/12/a-structy-model-layer/)
-- Unidirectional Data Flow Architecture [:pencil2:](https://github.com/Swift-Flow/Swift-Flow)
 - Ziggurat iOS App Architecture [:page_facing_up:](https://corner.squareup.com/2015/12/ziggurat-ios-app-architecture.html) 
 - One Way Data Flow Architecture in Swift [:microphone:](https://www.youtube.com/watch?v=4cP1p5VOrSI)
 - Unidirectional Dataflow Architecture with Swift-Flow [:floppy_disk:](https://speakerdeck.com/benjamin_encz/unidirectional-data-flow-in-swift) [:pencil2:](https://github.com/Swift-Flow/Swift-Flow)
