@@ -14,6 +14,8 @@
 - [Object Oriented Functional Programming](https://speakerdeck.com/realm/object-oriented-functional-programming-saul-mora)
 - [UnSafe Swift](https://speakerdeck.com/realm/unsafe-swift)
 - [Writing 2048 in Swift](https://realm.io/news/swift-2048/)
+- [Carthage](https://speakerdeck.com/abizern/carthage)
+- [IBAnimatable](https://github.com/JakeLin/IBAnimatable)
 
 ##### 1/11/2016
 - [Swift vs Scala](https://www.reddit.com/r/programming/comments/27dmsb/swift_vs_scala/)

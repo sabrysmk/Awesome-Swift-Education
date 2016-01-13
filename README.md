@@ -777,7 +777,7 @@
 
 #### **Production Swift, Problem Solving, and Developer Tools**
 - Production Swift
-	- How Carthage works [:floppy_disk:](https://speakerdeck.com/jspahrsummers/ruthlessly-simple-dependency-management-with-carthage)
+	- How Carthage works [:floppy_disk:](https://speakerdeck.com/jspahrsummers/ruthlessly-simple-dependency-management-with-carthage) [:floppy_disk:]((https://speakerdeck.com/abizern/carthage))
 	- Bottom Up Programming in Swift [:microphone:](https://realm.io/news/altconf-airspeed-velocity-bottom-up-programming-in-swift/)
 	- Make a Cocoapods Framework [:microphone:](https://realm.io/news/altconf-billy-tobon-brew-your-own-cocoa-framework/)
 	- Lessons from Production Swift [:floppy_disk:](https://speakerdeck.com/ashfurrow/lessons-from-production-swift)
@@ -798,6 +798,7 @@
     - Ship C code with swift packages using swift package manager [:page_facing_up:](http://ankit.im/swift/2015/12/27/ship-c-code-with-swift-packages-using-swift-package-manager/)
     - Jazzy Docs [:page_facing_up:](https://github.com/realm/jazzy) [:floppy_disk:](https://speakerdeck.com/jpsim/overview-of-jazzy-soulful-docs-for-swift)
     - Cocoa Layout Instrument [:page_facing_up:](https://www.bignerdranch.com/blog/inpecting-auto-layout-with-the-cocoa-layout-instrument/)
+    - IBAnimatable [:pencil2:](https://github.com/JakeLin/IBAnimatable)
 
 [:arrow_up:](#index)
 
