@@ -427,6 +427,7 @@
 - Hole Driven Development [:page_facing_up:](http://oleb.net/blog/2015/07/swift-type-system/)
 - Entering a New Codebase [:floppy_disk:](https://speakerdeck.com/dbgrandi/how-to-understand-other-peoples-code)
 - Railway Oriented Programming in Swift [:page_facing_up:](http://ulrikdamm.logdown.com/posts/247219) [:microphone:](http://fsharpforfunandprofit.com/rop/)
+- Enum Oriented vs Protocol Oriented Programming [:pencil2:](https://github.com/alskipp/Swift-Diagram-Playgrounds)
 - Swift in Practice [:microphone:](https://developer.apple.com/videos/play/wwdc2015-411) [:floppy_disk:](http://devstreaming.apple.com/videos/wwdc/2015/4119flfsnsgmlfy/411/411_swift_in_practice.pdf?dl=1)
 - Denotational Design [:floppy_disk:](http://conal.net/talks/denotational-design-lambdajam-2015.pdf)
 - Building Frameworks in Swift [:page_facing_up:](https://github.com/hpique/Talks/blob/master/Building%20Swift%20frameworks/Building%20Swift%20frameworks.md)
@@ -625,12 +626,11 @@
 + Rx
     + Simple RxSwift [:page_facing_up:](https://littlebitesofcocoa.com/162-reacting-with-rxswift) [:page_facing_up:](https://littlebitesofcocoa.com/163-creating-observables-with-rxswift)
     + MVVM + RxSwift [:microphone:](https://realm.io/news/slug-max-alexander-functional-reactive-rxswift/) [:pencil2:](https://github.com/RxSwiftCommunity/RxViewModel), [:page_facing_up:](https://medium.com/@marinbenc/implementing-mvvm-in-ios-with-rxswift-458a2d47c33d#.k901myr5x), [:page_facing_up:](http://tailec.com/blog/reactive-recipe-2)
-    - The Difference between RxSwift and ReactiveCocoa [:page_facing_up:](http://stackoverflow.com/questions/32542846/reactivecocoa-vs-rxswift-pros-and-cons), [:page_facing_up:](https://ashfurrow.com/blog/reactivecocoa-vs-rxswift/)
+    - The Difference between RxSwift and ReactiveCocoa [:page_facing_up:](http://stackoverflow.com/questions/32542846/reactivecocoa-vs-rxswift-pros-and-cons) [:page_facing_up:](https://ashfurrow.com/blog/reactivecocoa-vs-rxswift/) [:page_facing_up:](https://sideeffects.xyz/2015/from-rac-to-rxswift-the-survival-guide/)
     - Learning RxSwift [:link:](https://github.com/pepaslabs/LearningRxSwift)
     - Upgrading to RxSwift [:page_facing_up:](http://artsy.github.io/blog/2015/12/08/reactive-cocoa-to-rxswift/)
-    - From RAC to RxSwift: The (Mini) Survival Guide [:page_facing_up:](https://sideeffects.xyz/2015/from-rac-to-rxswift-the-survival-guide/)
     - RxSwift Community Webpage [:link:](http://community.rxswift.org/)
-
+ 
 [:arrow_up:](#index)
 
 #### **Generics** 
@@ -678,6 +678,7 @@
 + Mapping Swift Types to C Pointers [:page_facing_up:](https://tetontech.wordpress.com/2014/10/22/swift-c-libraries-and-mapping-swift-types-to-c-pointer-types/)
 - C Callbacks in Swift [:page_facing_up:](http://oleb.net/blog/2015/06/c-callbacks-in-swift/)
 - Wrapping Objc Frameworks in Swift [:floppy_disk:](https://speakerdeck.com/jpsim/wrapping-objective-c-frameworks-in-swift)
+- Swift Interop [:microphone:](https://www.skilled.io/chriseidhof/swift-interop)
 
 [:arrow_up:](#index)
 
@@ -808,7 +809,6 @@
 + Protocol Oriented MVVM [:page_facing_up:](http://natashatherobot.com/swift-2-0-protocol-oriented-mvvm/), [:floppy_disk:](http://www.slideshare.net/natashatherobot/protocoloriented-mvvm-extended-edition)
 + Functional thinking via Protocol Extensions [:page_facing_up:](http://kelan.io/2015/approachable-functional-thinking-using-protocol-extensions/)
 + Protocol Extensions vs Type Extensions [:page_facing_up:](https://gist.github.com/hsavit1/3337f80d9fe1396c44ce)
-+ Swift Diagrams Playground for P.O.P. [:page_facing_up:](https://github.com/alskipp/Swift-Diagram-Playgrounds)
 + Gist covers whatever went on in the official presentation [:page_facing_up:](https://gist.github.com/rbobbins/de5c75cf709f0109ee95)
 + What are the advantages? [:page_facing_up:](http://www.infoq.com/news/2015/06/protocol-oriented-swift)
 + Another look into the concept of P.O.P.  [:page_facing_up:](http://willowtreeapps.com/blog/protocol-oriented-programming/)
@@ -918,6 +918,7 @@
     - Unit Testing with @testable in Xcode 7 [:page_facing_up:](http://natashatherobot.com/swift-2-xcode-7-unit-testing-access/) [:page_facing_up:](http://mr-v.github.io/xcode-7-swift-2-unit-testing-setup/)
     - Understanding testability in Swift 2 [:page_facing_up:](http://www.captechconsulting.com/blogs/ios-9-tutorial-series-testability-by-example-making-unit-testing-easier-in-swift-20-and-xcode-7)
     - The good parts of XCTest [:page_facing_up:](http://modocache.io/xctest-the-good-parts)
+    - QuickCheck made in Swift [:page_facing_up:](http://chris.eidhof.nl/posts/quickcheck-in-swift.html)
 - TDD
     - TDD with Swift [:page_facing_up:](http://swiftandpainless.com/category/tdd/)
     - TDD By Controlling Dependencies in Swift [:microphone:](https://www.youtube.com/watch?v=qYpURmZcCKs&index=47&list=PLEx5khR4g7PL0fDNJkI2dHhqeckQTAbes), [:microphone:](http://gotocon.com/dl/goto-cph-2015/slides/JorgeD.OrtizFuentes_TestDrivenDevelopmentbyControllingDependencies.pdf)
@@ -925,7 +926,6 @@
 - BDD
     - BDD Testing with Swift [:page_facing_up:](http://railsware.com/blog/2014/07/04/bdd-style-testing-in-swift-with-sleipnir/)
     - SwiftTest BDD Testing Framework [:pencil2:](https://github.com/bppr/Swiftest)
-    - An introduction to Quick 
 - UI Testing
     - UI Testing Cheat Sheet [:page_facing_up:](http://masilotti.com/ui-testing-cheat-sheet/)
     + UI Testing in Xcode [:microphone:](https://developer.apple.com/videos/wwdc/2015/?id=406) [:page_facing_up:](http://www.mokacoding.com/blog/xcode-7-ui-testing/) [:page_facing_up:](https://www.bignerdranch.com/blog/ui-testing-in-xcode-7-part-1-ui-testing-gotchas/)
@@ -963,6 +963,7 @@
     - An introduction to using Alamofire [:page_facing_up:](http://nshipster.com/alamofire/)
     - Networking with Monads [:video_camera:](https://www.youtube.com/watch?v=LqwrUmuodyY)
     - Moya: Network Abstraction Layer written in Swift [:pencil2:](https://github.com/Moya/Moya)
+    - Network data as a Struct [:page_facing_up:](http://chris.eidhof.nl/posts/struct-semantics-in-swift.html)
 - JSON 
 	- Functional JSON Parsing with Tyro [:pencil2:](https://github.com/typelift/Tyro)
 	- { JSON, Swift, and Type Safety } [:floppy_disk:](https://speakerdeck.com/swiftsummit/anthony-levings-json-swift-and-type-safety-its-a-wrap)

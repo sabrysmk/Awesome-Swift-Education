@@ -2,6 +2,19 @@
 
 > This is a list of the most recent additions to Awesome Swift Education. Note that this list was first created on 1/10/2016. I will from now on, limit commits to once per day so this will become easier to follow along
 
+
+##### 1/13/2016
+- [Swift Interop](https://www.skilled.io/chriseidhof/swift-interop)
+- [QuickCheck in Swift](http://chris.eidhof.nl/posts/quickcheck-in-swift.html)
+- [Data as a Struct](http://chris.eidhof.nl/posts/struct-semantics-in-swift.html)
+- [Functional Rective Programming with RxSwift](https://speakerdeck.com/realm/functional-reactive-programming-with-rxswift)
+- [Why Realm](https://speakerdeck.com/realm/why-realm)
+- [Swift, Frameworks & Modules, Learnings from CocoaPods](https://speakerdeck.com/realm/swift-frameworks-and-modules-learnings-from-cocoapods)
+- [Weak, Strong, Unowned](https://speakerdeck.com/realm/weak-strong-unowned-hector-matos)
+- [Object Oriented Functional Programming](https://speakerdeck.com/realm/object-oriented-functional-programming-saul-mora)
+- [UnSafe Swift](https://speakerdeck.com/realm/unsafe-swift)
+- [Writing 2048 in Swift](https://realm.io/news/swift-2048/)
+
 ##### 1/11/2016
 - [Swift vs Scala](https://www.reddit.com/r/programming/comments/27dmsb/swift_vs_scala/)
 - [Working with JSON in Swift](http://www.raywenderlich.com/82706/working-with-json-in-swift-tutorial)
