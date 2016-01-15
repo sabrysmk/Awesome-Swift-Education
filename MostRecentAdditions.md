@@ -3,6 +3,17 @@
 > This is a list of the most recent additions to Awesome Swift Education. Note that this list was first created on 1/10/2016. I will from now on, limit commits to once per day so this will become easier to follow along
 
 
+##### 1/15/2016
+- [Swift Weekly Brief](http://swiftweekly.github.io/)
+- [Unidirectional Data Flow in Swift](https://realm.io/news/benji-encz-unidirectional-data-flow-swift/)
+- [% of top 100 apps using Swift](https://medium.com/@ryanolsonk/are-the-top-apps-using-swift-42e880e7727f#.jgaol4shg)
+- [Public Getter, Private Setter](https://www.natashatherobot.com/swift-magic-public-getter-private-setter/)
+- [Dependency Injection with a Custom Initializer](https://www.natashatherobot.com/swift-dependency-injection-with-a-custom-initializer/)
+- [Dictionaries in Swift](http://andybargh.com/2016/01/14/dictionaries-in-swift)
+- [Top 100 iOS Blogs](http://www.softwarehow.com/best-blogs-for-ios-developers/)
+- [NSURLSession made easy](http://www.raywenderlich.com/110458/nsurlsession-tutorial-getting-started)
+- [Testing Callbacks with XCTest](http://www.mokacoding.com/blog/testing-callbacks-in-swift-with-xctest/)
+
 ##### 1/13/2016
 - [Swift Interop](https://www.skilled.io/chriseidhof/swift-interop)
 - [QuickCheck in Swift](http://chris.eidhof.nl/posts/quickcheck-in-swift.html)

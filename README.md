@@ -1,5 +1,4 @@
-![Swift Logo](http://www.joomlavision.com/wp-content/uploads/2014/08/swift-apple-logo.jpg)
-# Awesome-Swift-Education [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Build Status](https://travis-ci.org/hsavit1/Awesome-Swift-Education.svg?branch=master)](https://travis-ci.org/hsavit1/Awesome-Swift-Education)
+![Swift Logo](http://swiftlang.eu/swift.png) # Awesome-Swift-Education [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Build Status](https://travis-ci.org/hsavit1/Awesome-Swift-Education.svg?branch=master)](https://travis-ci.org/hsavit1/Awesome-Swift-Education)
 
 > A curated list of resources for learning about the Swift Language. 
 
@@ -177,6 +176,7 @@
     - The iOS Times [:notebook:](http://theiostimes.com/)
     - Crunchy Development [:notebook:](http://alisoftware.github.io/)
     - iOS Blog [:notebook:](http://ios-blog.co.uk/)
+    - 100 Curated iOS Blogs [:link:](http://www.softwarehow.com/best-blogs-for-ios-developers/)
 - Newsletters
     - This Week in Swift News [:newspaper:](https://swiftnews.curated.co/issues)
     - iOS Goodies [:newspaper:](http://ios-goodies.com/)
@@ -233,7 +233,7 @@
 - A Structy Model Layer [:page_facing_up:](http://khanlou.com/2015/12/a-structy-model-layer/)
 - Ziggurat iOS App Architecture [:page_facing_up:](https://corner.squareup.com/2015/12/ziggurat-ios-app-architecture.html) 
 - One Way Data Flow Architecture in Swift [:microphone:](https://www.youtube.com/watch?v=4cP1p5VOrSI)
-- Unidirectional Dataflow Architecture with Swift-Flow [:floppy_disk:](https://speakerdeck.com/benjamin_encz/unidirectional-data-flow-in-swift) [:pencil2:](https://github.com/Swift-Flow/Swift-Flow)
+- Unidirectional Dataflow Architecture with Swift-Flow [:microphone:](https://realm.io/news/benji-encz-unidirectional-data-flow-swift/) [:pencil2:](https://github.com/Swift-Flow/Swift-Flow)
 - CocoaFlow Architecture [:page_facing_up:](http://www.skilled.io/paulyoung/cocoaflow)
 - Improve your iOS Architecture with FlowControllers [:page_facing_up:](http://merowing.info/2016/01/improve-your-ios-architecture-with-flowcontrollers/)
 - Lighter View Controllers in Swift [:page_facing_up:](https://www.codefellows.org/blog/tech-tip-clean-up-your-code-with-lighter-view-controllers-in-swift) [:pencil:](https://gist.github.com/lostincode/38e6b0a612a3b33f6f7b)
@@ -286,6 +286,7 @@
 - Custom Subscripts in Swift [:page_facing_up:](https://www.natashatherobot.com/custom-subscripts-swift/)
 - A better Hashable [:page_facing_up:](http://foxinswift.com/2016/01/03/trying-to-build-a-better-hashable/)
 - How arrays are implemented in Swift [:page_facing_up:](http://ankit.im/swift/2016/01/08/exploring-swift-array-implementation/)
+- Dictionaries in Swift [:page_facing_up:](http://andybargh.com/2016/01/14/dictionaries-in-swift)
 
 [:arrow_up:](#index)
 
@@ -334,7 +335,7 @@
     - Core Data Tutorial Series [:link:](http://code.tutsplus.com/series/core-data-and-swift)
 - Realm
 	- Super simple Realm Intro [:page_facing_up:](https://littlebitesofcocoa.com/49-realm-basics) [:floppy_disk:](https://speakerdeck.com/jpsim/realm-in-swift)
-	- Why Realm over Core Data? [:page_facing_up:](https://www.quora.com/Why-would-you-use-Realm-over-Core-Data)
+	- Why Realm over Core Data? [:page_facing_up:](https://www.quora.com/Why-would-you-use-Realm-over-Core-Data) [:floppy_disk:](https://speakerdeck.com/realm/why-realm)
 	- Official Realm Introduction [:page_facing_up:](https://realm.io/news/introducing-realm/)
 	- Realm Tutorial [:page_facing_up:](http://www.raywenderlich.com/81615/introduction-to-realm)
 	- Why Realm is great and why we're not going to use it [:page_facing_up:](http://bsktapp.com/blog/why-is-realm-great-and-why-are-we-not-using-it/)
@@ -431,6 +432,7 @@
 - Swift in Practice [:microphone:](https://developer.apple.com/videos/play/wwdc2015-411) [:floppy_disk:](http://devstreaming.apple.com/videos/wwdc/2015/4119flfsnsgmlfy/411/411_swift_in_practice.pdf?dl=1)
 - Denotational Design [:floppy_disk:](http://conal.net/talks/denotational-design-lambdajam-2015.pdf)
 - Building Frameworks in Swift [:page_facing_up:](https://github.com/hpique/Talks/blob/master/Building%20Swift%20frameworks/Building%20Swift%20frameworks.md)
+- Object Oriented Functional Programming [:floppy_disk:](https://speakerdeck.com/realm/object-oriented-functional-programming-saul-mora)
 
 [:arrow_up:](#index)
 
@@ -625,6 +627,7 @@
     - MVVM + Rac 4 [:pencil2:](https://github.com/richeterre/SwiftGoal)
 + Rx
     + Simple RxSwift [:page_facing_up:](https://littlebitesofcocoa.com/162-reacting-with-rxswift) [:page_facing_up:](https://littlebitesofcocoa.com/163-creating-observables-with-rxswift)
+    - Functional Rective Programming with RxSwift [:floppy_disk:](https://speakerdeck.com/realm/functional-reactive-programming-with-rxswift)
     + MVVM + RxSwift [:microphone:](https://realm.io/news/slug-max-alexander-functional-reactive-rxswift/) [:pencil2:](https://github.com/RxSwiftCommunity/RxViewModel), [:page_facing_up:](https://medium.com/@marinbenc/implementing-mvvm-in-ios-with-rxswift-458a2d47c33d#.k901myr5x), [:page_facing_up:](http://tailec.com/blog/reactive-recipe-2)
     - The Difference between RxSwift and ReactiveCocoa [:page_facing_up:](http://stackoverflow.com/questions/32542846/reactivecocoa-vs-rxswift-pros-and-cons) [:page_facing_up:](https://ashfurrow.com/blog/reactivecocoa-vs-rxswift/) [:page_facing_up:](https://sideeffects.xyz/2015/from-rac-to-rxswift-the-survival-guide/)
     - Learning RxSwift [:link:](https://github.com/pepaslabs/LearningRxSwift)
@@ -653,6 +656,7 @@
     + Be Mindful of Your Filters [:page_facing_up:](http://owensd.io/blog/be-mindful-of-your-filters/)
     + Swift Initialization and the Pain of Optionals [:page_facing_up:](http://blog.scottlogic.com/2014/11/20/swift-initialisation.html)
     + Swift init() [:page_facing_up:](http://merowing.info/2015/11/swift-init/)
+    + Public Getter, Private Setter [:page_facing_up:](https://www.natashatherobot.com/swift-magic-public-getter-private-setter/)
 + Properties
     + Property Observers [:page_facing_up:](https://www.quora.com/Apple-Swift-programming-language/What-is-a-property-observer)
     + IBOutlet Style in Swift [:page_facing_up:](http://natashatherobot.com/ios-a-beautiful-way-of-styling-iboutlets-in-swift/)
@@ -664,6 +668,7 @@
     + Swift Inject Dependency Injection [:pencil2:](https://github.com/Swinject/Swinject)
     - How to Dependency Inject on iOS [:microphone:](https://www.youtube.com/watch?v=384rumYOs-g)
     - Dependency Injection in Swift [:page_facing_up:](https://medium.com/ios-os-x-development/dependency-injection-in-swift-a959c6eee0ab#.r2gq9cjv7) [:page_facing_up:](http://natashatherobot.com/ios-unit-testing-dependency-injection-with-structs-in-swift/) [:page_facing_up:](https://medium.com/ios-os-x-development/dependency-injection-in-view-controllers-9fd7d2c77e55#.wxwnwtqmo)
+    + Dependency Injection with a Custom Initializer [:page_facing_up:](https://www.natashatherobot.com/swift-dependency-injection-with-a-custom-initializer/)
 
 [:arrow_up:](#index)
 
@@ -725,6 +730,7 @@
     - SIMD (Single Instruction Multiple Data) [:page_facing_up:](http://www.russbishop.net/swift-2-simd)
 	- @convention [:page_facing_up:](http://stackoverflow.com/questions/30740560/new-conventionc-in-swift-2-how-can-i-use-it)
     - Introspecting Swift [:floppy_disk:](https://speakerdeck.com/jpsim/introspecting-swift)
+    - Unsafe Swift [:floppy_disk:](https://speakerdeck.com/realm/unsafe-swift)
 
 [:arrow_up:](#index)
 
@@ -772,6 +778,7 @@
     + Value and Reference Types 
         + Class or Struct? [:page_facing_up:](http://faq.sealedabstract.com/structs_or_classes/) [:page_facing_up:](http://owensd.io/2015/07/05/re-struct-or-class.html)
         + let vs var [:page_facing_up:](http://stackoverflow.com/questions/24002092/what-is-the-difference-between-let-and-var-in-swift)
+        - Weak, Strong, Unowned [:floppy_disk:](https://speakerdeck.com/realm/weak-strong-unowned-hector-matos)
 
 [:arrow_up:](#index)
 
@@ -784,6 +791,7 @@
 	- Using the Swift Package Manager [:page_facing_up:](http://kostiakoval.github.io/posts/swift-package-manager/)
 	- Exclude folders in the SPM [:page_facing_up:](http://kostiakoval.github.io/posts/exclude-folders---new-feature-in-swift-package-manager/)
     - How to run Swift within a Docker container [:page_facing_up:](https://developer.ibm.com/swift/2015/12/15/running-swift-within-docker/)
+    - Swift, Frameworks & Modules, Learnings from CocoaPods [:page_facing_up:](https://speakerdeck.com/realm/swift-frameworks-and-modules-learnings-from-cocoapods)
 - Problem Solving with Swift 
 	- :raised_hands: FizzBuzz on steroids with Swift [:floppy_disk:](https://speakerdeck.com/abizern/fizz-buzz-in-swift)
 	- Learning Swift the Euler Way [:microphone:](https://vimeo.com/136059613)
@@ -791,6 +799,7 @@
 	+ Make a DSL in Swift [:page_facing_up:](http://colindrake.me/2015/10/28/implementing-a-small-dsl-in-swift/) [:floppy_disk:](https://speakerdeck.com/kylef/dsls-in-swift) [:floppy_disk:](https://speakerdeck.com/luisobo/techniques-to-write-dsls-in-swift) [:microphone:](https://www.youtube.com/watch?v=a3rR5XVA22w)
     + Implementing goto in Swift [:page_facing_up:](https://harlanhaskins.com/2016/01/09/goto-in-swift.html)
     + Functional ASCII Art [:page_facing_up:](https://github.com/ijoshsmith/swift-ascii-art)
+    + Writing 2048 in Swift [:page_facing_up:](https://realm.io/news/swift-2048/)
 - Developer Tools
     - Alcatraz Master Repository [:pencil2:](https://github.com/alcatraz/Alcatraz)
     - Exploring Graph Theory with OmniGraffle and Swift [:page_facing_up:](http://www.mattrajca.com/2015/05/22/exploring-graph-theory-with-omnigraffle-and-swift.html)
@@ -891,6 +900,7 @@
 	+ Improving your Existing Apps with Swift [:floppy_disk:](http://devstreaming.apple.com/videos/wwdc/2015/403l7ohdidhmnkgx/403/403_improving_your_existing_apps_with_swift.pdf?dl=1)
     + Other Swift Attributes you may not have heard of [:page_facing_up:](http://www.russbishop.net/more-swift-attributes)
     + How Swift makes clean code [:page_facing_up:](http://ulrikdamm.logdown.com/posts/246079)
+    - % of top 100 apps using Swift [:page_facing_up:](https://medium.com/@ryanolsonk/are-the-top-apps-using-swift-42e880e7727f#.jgaol4shg)
 - Open Source Swift
 	+ Booleans [:page_facing_up:](http://swiftunboxed.com/open-source/Bool/)
 	+ Swift Open Source Overview [:page_facing_up:](http://www.jessesquires.com/swift-open-source/)
@@ -920,6 +930,7 @@
     - Understanding testability in Swift 2 [:page_facing_up:](http://www.captechconsulting.com/blogs/ios-9-tutorial-series-testability-by-example-making-unit-testing-easier-in-swift-20-and-xcode-7)
     - The good parts of XCTest [:page_facing_up:](http://modocache.io/xctest-the-good-parts)
     - QuickCheck made in Swift [:page_facing_up:](http://chris.eidhof.nl/posts/quickcheck-in-swift.html)
+    - Test callbacks with XCTests [:page_facing_up:](http://www.mokacoding.com/blog/testing-callbacks-in-swift-with-xctest/)
 - TDD
     - TDD with Swift [:page_facing_up:](http://swiftandpainless.com/category/tdd/)
     - TDD By Controlling Dependencies in Swift [:microphone:](https://www.youtube.com/watch?v=qYpURmZcCKs&index=47&list=PLEx5khR4g7PL0fDNJkI2dHhqeckQTAbes), [:microphone:](http://gotocon.com/dl/goto-cph-2015/slides/JorgeD.OrtizFuentes_TestDrivenDevelopmentbyControllingDependencies.pdf)
@@ -959,7 +970,7 @@
 	+ How to Make REST API Calls and Parse JSON with Swift [:page_facing_up:](http://devdactic.com/rest-api-parse-json-swift/)
 	+ HTTP in Swift [:page_facing_up:](https://medium.com/swift-programming/http-in-swift-693b3a7bf086)
 	+ Reachability Library [:page_facing_up:](https://github.com/ashleymills/Reachability.swift)
-	- NSURLSession Basics [:page_facing_up:](https://littlebitesofcocoa.com/78-nsurlsession-basics) [:page_facing_up:](http://www.splinter.com.au/2015/06/12/swift-nsurlsession-wrapper/)
+	- NSURLSession Basics [:page_facing_up:](https://littlebitesofcocoa.com/78-nsurlsession-basics) [:page_facing_up:](http://www.splinter.com.au/2015/06/12/swift-nsurlsession-wrapper/) [:page_facing_up:](http://www.raywenderlich.com/110458/nsurlsession-tutorial-getting-started)
 	- Background Downloads [:page_facing_up:](https://littlebitesofcocoa.com/77-background-downloads)
     - An introduction to using Alamofire [:page_facing_up:](http://nshipster.com/alamofire/)
     - Networking with Monads [:video_camera:](https://www.youtube.com/watch?v=LqwrUmuodyY)
