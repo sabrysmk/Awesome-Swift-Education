@@ -1,4 +1,4 @@
-![Swift Logo](http://swiftlang.eu/swift.png) # Awesome-Swift-Education [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Build Status](https://travis-ci.org/hsavit1/Awesome-Swift-Education.svg?branch=master)](https://travis-ci.org/hsavit1/Awesome-Swift-Education)
+# <img src="http://www.carlosicaza.com/wp-content/uploads/2014/07/Swift-logo.png" width="26"> Awesome-Swift-Education [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Build Status](https://travis-ci.org/hsavit1/Awesome-Swift-Education.svg?branch=master)](https://travis-ci.org/hsavit1/Awesome-Swift-Education)
 
 > A curated list of resources for learning about the Swift Language. 
 
@@ -902,6 +902,7 @@
     + How Swift makes clean code [:page_facing_up:](http://ulrikdamm.logdown.com/posts/246079)
     - % of top 100 apps using Swift [:page_facing_up:](https://medium.com/@ryanolsonk/are-the-top-apps-using-swift-42e880e7727f#.jgaol4shg)
 - Open Source Swift
+    + Swift Brief [:notebook:](http://swiftweekly.github.io/)
 	+ Booleans [:page_facing_up:](http://swiftunboxed.com/open-source/Bool/)
 	+ Swift Open Source Overview [:page_facing_up:](http://www.jessesquires.com/swift-open-source/)
 	+ Open Source Swift 3.0 Roadmap [:page_facing_up:](https://realm.io/news/swift-opensource/)
@@ -909,7 +910,6 @@
 	- Swift Android [:pencil2:](https://github.com/SwiftAndroid/swift)
 	- Swift Version Manager [:pencil2:](https://github.com/kylef/swiftenv)
 	- Docker Swift [:pencil2:](https://github.com/swiftdocker/docker-swift)
-	- Open Radar Swift [:page_facing_up:](http://www.openradar.me/19770770)
 + Opinions about Swift
 	+ Wishlist for Swift 3.0 [:page_facing_up:](https://realm.io/news/swift-3-wishlist/)
 	+ The Death of Cocoa [:page_facing_up:](http://nshipster.com/the-death-of-cocoa/)
