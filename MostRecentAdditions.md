@@ -2,6 +2,8 @@
 
 > This is a list of the most recent additions to Awesome Swift Education. Note that this list was first created on 1/10/2016. I will from now on, limit commits to once per day so this will become easier to follow along
 
+##### 1/16/2016
+- [Functional Programming, Abstraction, and Naming Things](http://www.stephendiehl.com/posts/abstraction.html)
 
 ##### 1/15/2016
 - [Swift Weekly Brief](http://swiftweekly.github.io/)
