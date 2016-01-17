@@ -560,7 +560,7 @@
         - Practical Declarative [:floppy_disk:](https://speakerdeck.com/kylef/practical-declarative-programming-360-idev-2015) and Functional [:floppy_disk:](https://speakerdeck.com/kylef/practical-functional-programming-dotswift-2015) Swift
         + 7 Habits for more functional Swift [:floppy_disk:](http://www.slideshare.net/jarsen7/7-habits-for-a-more-functional-swift) [:pencil:](https://gist.github.com/sketchytech/0ba6dfe2b197f188c64b)
         - Writing Pipe operators in Swift [:page_facing_up:](http://gilesvangruisen.com/writing-a-pipeline-operator-in-swift/) 
-        - Reccomended Functional Operators in Swift [:pencil:](https://github.com/typelift/Operadics) [:page_fcaing_up:](http://sketchytech.blogspot.com/2015/06/functional-programming-understanding.html) [:pencil:](https://gist.github.com/sketchytech/c02adc1b68fb1080ffc3)
+        - Reccomended Functional Operators in Swift [:pencil:](https://github.com/typelift/Operadics) [:page_facing_up:](http://sketchytech.blogspot.com/2015/06/functional-programming-understanding.html) [:pencil:](https://gist.github.com/sketchytech/c02adc1b68fb1080ffc3)
         - Point-Free Style Swift [:page_facing_up:](https://www.quora.com/Why-should-or-shouldnt-I-use-Swift-to-write-OS-X-or-iOS-apps-the-Functional-Programming-way)
     - Immutable State
         + Immutable Swift [:page_facing_up:](http://nomothetis.svbtle.com/immutable-swift)
@@ -568,7 +568,7 @@
     - Map / Filter / Reduce
         - Reduce all the things [:page_facing_up:](http://appventure.me/2015/11/30/reduce-all-the-things/)
         + Map and FlatMap demystified [:page_facing_up:](http://www.uraimo.com/2015/10/08/Swift2-map-flatmap-demystified/) [:page_facing_up:](http://robnapier.net/maps)
-        + Understanding Reduce in Swift [:page_facing_up:] [:page_facing_up:](http://ijoshsmith.com/2014/06/25/understanding-swifts-reduce-method/)
+        + Understanding Reduce in Swift [:page_facing_up:](http://ijoshsmith.com/2014/06/25/understanding-swifts-reduce-method/)
         + Deriving higher order functions in Swift [:page_facing_up:](http://ijoshsmith.com/2015/12/09/higher-order-functions-in-swift/) 
         - Reduction in Force [:page_facing_up:](http://robnapier.net/reduction-in-force)
     - Recursion and Infinite Streams
