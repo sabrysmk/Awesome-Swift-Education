@@ -2,8 +2,27 @@
 
 > This is a list of the most recent additions to Awesome Swift Education. Note that this list was first created on 1/10/2016. I will from now on, limit commits to once per day so this will become easier to follow along
 
+##### 1/17/2016
+- [RAC Schedulers](http://codeplease.io/2015/11/30/schedulers/)
+- [What is a Monad?](http://codeplease.io/2015/08/05/monads/) [:gist:](https://gist.github.com/RuiAAPeres/0b317796f810839fe706)
+- [Sad State of Enums](http://owensd.io/blog/sad-state-of-enums/)
+- [Named Parameters](http://owensd.io/blog/named-parameters/)
+- [Pythonic Swift](https://github.com/practicalswift/Pythonic.swift)
+- [for-in](http://ericasadun.com/2016/01/15/3-simple-for-in-iteration-tricks/)
+- [VVDocumenter](https://github.com/onevcat/VVDocumenter-Xcode)
+- [Symbology in Swift](http://ericasadun.com/2016/01/13/a-few-thoughts-on-swift-symbologygist/)
+- [Swift Algebraic Data Types](http://dduan.net/post/2015/07/swift-algebraic-data-types/)
+- [Dynamic Swift Framework Without Xcode](http://dduan.net/post/2015/07/dynamic-swift-framework-without-xcode/)
+- [char ** in Swift](http://dduan.net/post/2015/11/char-star-star-in-swift/)
+- [LLVM in Swift: Setup](http://dduan.net/post/2015/10/lets-play-llvm-in-swift-setup/)
+- [BuddyBuild CI](http://buddybuild.com/)
+
 ##### 1/16/2016
 - [Functional Programming, Abstraction, and Naming Things](http://www.stephendiehl.com/posts/abstraction.html)
+- [Why FRP](http://codeplease.io/2016/01/08/why-frp/)
+- [10 Swift One Liners To Impress Your Friends](https://www.uraimo.com/2016/01/06/10-Swift-One-Liners-To-Impress-Your-Friends/)
+- [Lenso](https://github.com/narfdotpl/lenso)
+- [Lenses in Swift, or how to change parts of immutable objects](http://narf.pl/posts/lenses-in-swift)
 
 ##### 1/15/2016
 - [Swift Weekly Brief](http://swiftweekly.github.io/)
