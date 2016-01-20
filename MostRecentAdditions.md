@@ -2,6 +2,29 @@
 
 > This is a list of the most recent additions to Awesome Swift Education. Note that this list was first created on 1/10/2016. I will from now on, limit commits to once per day so this will become easier to follow along
 
+##### 1/20/2016
+- [Functor and Monad](https://gist.github.com/mbrandonw/42651182eddf53ca3991)
+- [Transducer Type](https://gist.github.com/mbrandonw/429f84f46b2818338f8e)
+- [LensType](https://gist.github.com/mbrandonw/48ea2b3de9dc308907d9)
+- [KVO Observer](https://github.com/postmates/PMKVObserver)
+- [Functional String Ranges](https://www.natashatherobot.com/swift-string-ranges-the-functional/)
+- [Custom Zip Function](http://flexmonkey.blogspot.com/2015/05/a-test-driven-custom-swift-zip-function.html)
+- [Zip map and generics](http://flexmonkey.blogspot.co.uk/2015/05/zip-map-and-generics-evolution-of-swift.html)
+- [Swift capture lists](http://www.russbishop.net/swift-capture-lists)
+- [When to use mutating functions in swift structs](https://www.natashatherobot.com/when-to-use-mutating-functions-in-swift-structs/)
+- [Understanding Abstract Types](http://blog.davidungar.net/2016/01/10/understanding-swifts-abstract-types-2#fn6)
+- [The mysterious builtin module](http://ankit.im/swift/2016/01/12/swift-mysterious-builtin-module/)
+- [Avoid 7 Swift Snares](http://blog.davidungar.net/2016/01/02/how-to-avoid-seven-swift-snares-2/)
+- [Swift Package Manager](https://speakerdeck.com/neonichu/swift-package-manager)
+- [Naming assets](https://github.com/dkhamsing/ios-asset-names)
+- [Analytics workflow in Swift](https://github.com/brianmichel/Swift-Analysis-Workflow)
+- [Profiling Swift Tool](http://irace.me/swift-profiling/)
+- [Profiler formatter xcpretty](https://github.com/larslockefeer/xcpretty-profiler-formatter)
+- [Create an enum with rawvalue type of closures](http://stackoverflow.com/questions/30422718/is-it-possible-to-create-a-enum-in-swift-with-raw-values-type-of-a-closure)
+- [Type check with switch statements](http://www.tekramer.com/using-switch-statements-for-type-checking-in-swift/)
+- [Why is n-arity currying not possible?](http://stackoverflow.com/questions/31499375/why-is-n-arity-currying-not-possible-in-swift)
+- [Hipster Swift](http://krakendev.io/blog/hipster-swift)
+
 ##### 1/18/2016
 - [Foundation on Linux](http://dev.iachieved.it/iachievedit/foundation-on-linux/)
 - [Stateful View Controller](https://github.com/aschuch/StatefulViewController)
@@ -17,7 +40,7 @@
 - [Point-Free Style Swift](https://www.quora.com/Why-should-or-shouldnt-I-use-Swift-to-write-OS-X-or-iOS-apps-the-Functional-Programming-way)
 - [SwiftyDB](https://github.com/Oyvindkg/swiftydb)
 - [Explaining Flux data flow in Swift](https://gist.github.com/rjchatfield/d78cca1bf7b02323bad9)
-- [State Reduce](https://gist.github.com/rjchatfield/27e3d8ef2249a4298046#file-statereduce-swift)
+- [State Reduce like Redux](https://gist.github.com/rjchatfield/27e3d8ef2249a4298046#file-statereduce-swift)
 - [Swift Jobs](https://www.natashatherobot.com/swift-jobs/)
 - [Swift and Haskell: 'do' or die](https://harlanhaskins.com/2015/06/29/swift-and-haskell-do-or-die.html)
 - [Error handling in Swift 2: try, catch, do and throw](https://www.hackingwithswift.com/new-syntax-swift-2-error-handling-try-catch)
