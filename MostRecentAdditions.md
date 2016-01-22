@@ -2,6 +2,21 @@
 
 > This is a list of the most recent additions to Awesome Swift Education. Note that this list was first created on 1/10/2016. I will from now on, limit commits to once per day so this will become easier to follow along
 
+##### 1/21/2016
+- [Optionals under the hood](https://littlebitesofcocoa.com/173-swift-optionals-under-the-hood?utm_source=Little+Bites+of+Cocoa&utm_campaign=b6fceca3e2-005_watch_screenshot_magic5_21_2015&utm_medium=email&utm_term=0_2b6df83b4b-b6fceca3e2-114261713)
+- [Did Apple implement UIKit and Cocoa classes "Obj-C on Swift" or "Swift on Obj-C" or did they write the whole thing twice?](https://www.quora.com/Did-Apple-implement-UIKit-and-Cocoa-classes-Obj-C-on-Swift-or-Swift-on-Obj-C-or-did-they-write-the-whole-thing-twice?srid=xrLC&share=59c4c728)
+- [Is Swift a viable alternative to C++ for performance critical code?](https://www.quora.com/Is-Swift-a-viable-alternative-to-C++-for-performance-critical-code?srid=xrLC&share=abc6caeb)
+- [Why use SpriteKit?](https://www.quora.com/Which-tools-are-you-using-with-SpriteKit)
+- [OOP IS BAD](https://www.youtube.com/watch?v=QM1iUe6IofM)
+- [Intro to Quick and Nimble](http://theiostimes.com/advent-calendar/quick-nimble.html)
+- [Quick intro to Realm](http://theiostimes.com/advent-calendar/realm.html)
+- [Autogenerate code with Enums](https://github.com/AliSoftware/SwiftGen)
+- [Cocoaheads.tv](http://cocoaheads.tv/)
+- [Swift Scripting](https://github.com/blakemerryman/Swift-Scripts)
+- [FlappySwift](https://github.com/fullstackio/FlappySwift)
+- [ReSwift Unidirectional Data Flow](https://github.com/ReSwift)
+- [Swift HTTP Server](https://github.com/kylef/Curassow)
+
 ##### 1/20/2016
 - [Functor and Monad](https://gist.github.com/mbrandonw/42651182eddf53ca3991)
 - [Transducer Type](https://gist.github.com/mbrandonw/429f84f46b2818338f8e)

@@ -155,6 +155,7 @@
     - All Presentations from 360iDev 2015 [:video_camera:](https://vimeopro.com/360conferences/360idev-2015)
     - NSSpain 2015 interviews [:video_camera:](https://www.youtube.com/playlist?list=PLKxa4AIfm4pU5xvPbQ1gaWkYXn7KANFz4)
 + Other Video
+    - Cocoaheads.tv [:video_camera:](http://cocoaheads.tv/)
     - Swift Language Youtube Channel [:video_camera:](https://www.youtube.com/channel/UCml4lCH0xdl6Jm91RiPPIig)
     - Free Swift Lang Course [:video_camera:](https://www.youtube.com/playlist?list=PLxwBNxx9j4PW8bsVaXia9c20I87YEGNRu)
     - Swift tutorial Video Series [:video_camera:](https://www.youtube.com/playlist?list=PLfOZCUzRoPfKeOS_pwpiqbdviGcCOcTYb)
@@ -224,6 +225,8 @@
 - Typed TableViewControllers [:page_facing_up:](https://www.objc.io/blog/2015/02/23/functional-snippet-21-typed-table-view-controllers/) [:page_facing_up:](https://www.objc.io/blog/2015/03/02/functional-snippet-22-typed-table-view-controllers-redux/) [:pencil:](https://gist.github.com/chriseidhof/892c1a574d1f3975c697) [:page_facing_up:](http://holko.pl/2016/01/05/typed-table-view-controller/)
 - Transition Treasury Lib [:pencil2:](http://transitiontreasury.com/)
 - UIKit for the Mac, rewritten in Swift [:pencil2:](https://github.com/unifiedh/Chameleon-Swift)
+- Did Apple implement UIKit and Cocoa classes "Obj-C on Swift" [:page_facing_up:](https://www.quora.com/Did-Apple-implement-UIKit-and-Cocoa-classes-Obj-C-on-Swift-or-Swift-on-Obj-C-or-did-they-write-the-whole-thing-twice?srid=xrLC&share=59c4c728)
+- Why use SpriteKit? [:page_facing_up:](https://www.quora.com/Which-tools-are-you-using-with-SpriteKit)
 
 [:arrow_up:](#index)
 
@@ -240,6 +243,7 @@
 - Ziggurat iOS App Architecture [:page_facing_up:](https://corner.squareup.com/2015/12/ziggurat-ios-app-architecture.html) 
 - One Way Data Flow Architecture in Swift [:microphone:](https://www.youtube.com/watch?v=4cP1p5VOrSI)
 - Unidirectional Dataflow Architecture with Swift-Flow [:microphone:](https://realm.io/news/benji-encz-unidirectional-data-flow-swift/) [:pencil2:](https://github.com/Swift-Flow/Swift-Flow)
+- ReSwift Unidirectional Data Flow [:pencil2:](https://github.com/ReSwift)
 - CocoaFlow Architecture [:page_facing_up:](http://www.skilled.io/paulyoung/cocoaflow)
 - Improve your iOS Architecture with FlowControllers [:page_facing_up:](http://merowing.info/2016/01/improve-your-ios-architecture-with-flowcontrollers/)
 - Lighter View Controllers in Swift [:page_facing_up:](https://www.codefellows.org/blog/tech-tip-clean-up-your-code-with-lighter-view-controllers-in-swift) [:pencil:](https://gist.github.com/lostincode/38e6b0a612a3b33f6f7b)
@@ -305,13 +309,13 @@
 - How arrays are implemented in Swift [:page_facing_up:](http://ankit.im/swift/2016/01/08/exploring-swift-array-implementation/) [:page_facing_up:](https://www.mikeash.com/pyblog/friday-qa-2015-04-17-lets-build-swiftarray.html) [:pencil:](https://gist.github.com/mikeash/63a791f2aec3318c7c5c)
 - Dictionaries in Swift [:page_facing_up:](http://andybargh.com/2016/01/14/dictionaries-in-swift)
 - for-in secrets [:page_facing_up:](http://ericasadun.com/2016/01/15/3-simple-for-in-iteration-tricks/)
-- Replacing Ranges in an Array [:page_facing_up:](http://sketchytech.blogspot.com/2016/01/swift-replace-range-of-values-in-array.html)
+- Replacing Ranges in an Array∂ [:page_facing_up:](http://sketchytech.blogspot.com/2016/01/swift-replace-range-of-values-in-array.html)
 - Sequence Conformance [:page_facing_up:](https://bigonotetaking.wordpress.com/2015/08/20/sequence-conformance/)
 
 [:arrow_up:](#index)
 
 #### **Command Line and Swift Scripting**
-+ Swift Scripting [:microphone:](https://realm.io/news/swift-scripting/)
++ Swift Scripting [:microphone:](https://realm.io/news/swift-scripting/) [:pencil2:](https://github.com/blakemerryman/Swift-Scripts)
 + Learn Swift by running Scripts [:page_facing_up:](https://medium.com/swift-programming/1-learn-swift-by-running-scripts-73fdf8507f4b)
 + Scripting in Swift is Pretty Awesome! [:page_facing_up:](http://krakendev.io/blog/scripting-in-swift)
 + How Swift Scripting was used to make iOS Cookies [:page_facing_up:](https://medium.com/@bardonadam/how-i-m-using-swift-scripting-to-create-newsletter-for-ios-cookies-93db5deca4c#.cwgws2399)
@@ -355,7 +359,7 @@
     - Core Data Tutorial Series [:link:](http://code.tutsplus.com/series/core-data-and-swift)
     - Core Data Fundamentals: Exploring the Core Data Stack [:page_facing_up:](http://bartjacobs.com/core-data-fundamentals-core-data-stack/)
 - Realm
-	- Super simple Realm Intro [:page_facing_up:](https://littlebitesofcocoa.com/49-realm-basics) [:floppy_disk:](https://speakerdeck.com/jpsim/realm-in-swift)
+	- Super simple Realm Intro [:page_facing_up:](https://littlebitesofcocoa.com/49-realm-basics) [:floppy_disk:](https://speakerdeck.com/jpsim/realm-in-swift) [:page_facing_up:](http://theiostimes.com/advent-calendar/realm.html)
 	- Why Realm over Core Data? [:page_facing_up:](https://www.quora.com/Why-would-you-use-Realm-over-Core-Data) [:floppy_disk:](https://speakerdeck.com/realm/why-realm)
 	- Official Realm Introduction [:page_facing_up:](https://realm.io/news/introducing-realm/)
 	- Realm Tutorial [:page_facing_up:](http://www.raywenderlich.com/81615/introduction-to-realm)
@@ -772,6 +776,7 @@
     + OCaml's Deferred in Swift [:page_facing_up:](https://github.com/bignerdranch/Deferred)
     - Pythonic Swift [:pencil2:](https://github.com/practicalswift/Pythonic.swift)
     - Hindley-Milner languages [:link:](http://qr.ae/Rg3rFd)
+    - Is Swift a viable alternative to C++ for performance critical code? [:page_facing_up:](https://www.quora.com/Is-Swift-a-viable-alternative-to-C++-for-performance-critical-code?srid=xrLC&share=abc6caeb)
 + Transitioning from ObjC
 	+ Method Swizzling in Swift [:page_facing_up:](http://www.uraimo.com/2015/10/23/effective-method-swizzling-with-swift/)
 	+ How to Method Swizzle in Swift [:page_facing_up:](http://kostiakoval.github.io/posts/methods-swizzling-in-swift/)
@@ -822,6 +827,7 @@
     + Swift Optionals Made Simple [:page_facing_up:](http://appventure.me/2014/06/13/swift-optionals-made-simple/)
     + Every Kind of Optional [:page_facing_up:](http://www.fantageek.com/blog/2015/12/04/optional-in-swift/)  
     - Pervasive use of Optional in Swift is penance for nil [:page_facing_up:](https://jeremywsherman.com/blog/2014/07/09/pervasive-use-of-optional-in-swift-is-penance-for-nil/)
+    - Optionals under the hood [:page_facing_up:](https://littlebitesofcocoa.com/173-swift-optionals-under-the-hood)
 + Types
     + Value and Reference Types 
         + Class or Struct? [:page_facing_up:](http://faq.sealedabstract.com/structs_or_classes/) [:page_facing_up:](http://owensd.io/2015/07/05/re-struct-or-class.html)
@@ -903,6 +909,7 @@
     + Implementing goto in Swift [:page_facing_up:](https://harlanhaskins.com/2016/01/09/goto-in-swift.html)
     + Functional ASCII Art [:page_facing_up:](https://github.com/ijoshsmith/swift-ascii-art)
     + Writing 2048 in Swift [:page_facing_up:](https://realm.io/news/swift-2048/)
+    - FlappySwift [:pencil2:](https://github.com/fullstackio/FlappySwift)
 - Developer Tools
     - Alcatraz Master Repository [:pencil2:](https://github.com/alcatraz/Alcatraz)
     - Exploring Graph Theory with OmniGraffle and Swift [:page_facing_up:](http://www.mattrajca.com/2015/05/22/exploring-graph-theory-with-omnigraffle-and-swift.html)
@@ -969,7 +976,9 @@
 - TCP Sockets in Swift [:pencil2:](http://dev.iachieved.it/iachievedit/tcp-sockets-with-swift-on-linux/)
 - Zevo Server Side Swift Community [:link:](https://github.com/Zewo)
 - Venice based HTTP server for Swift 2.2 on Linux [:pencil2:](https://github.com/Zewo/Epoch)
-- Swift HTTP Server [:pencil2:](https://github.com/paulofaria/SwiftHTTPServer)
+- Swift HTTP Server [:pencil2:](https://github.com/paulofaria/SwiftHTTPServer) [:pencil2:](https://github.com/kylef/Curassow)
+
+[:arrow_up:](#index)
 
 #### **String Manipulation and RegEx**
 + Strings
@@ -1050,10 +1059,13 @@
 - BDD
     - BDD Testing with Swift [:page_facing_up:](http://railsware.com/blog/2014/07/04/bdd-style-testing-in-swift-with-sleipnir/)
     - SwiftTest BDD Testing Framework [:pencil2:](https://github.com/bppr/Swiftest)
+    - Intro to Quick and Nimble [:page_facing_up:](http://theiostimes.com/advent-calendar/quick-nimble.html)
 - UI Testing
     - UI Testing Cheat Sheet [:page_facing_up:](http://masilotti.com/ui-testing-cheat-sheet/)
     + UI Testing in Xcode [:microphone:](https://developer.apple.com/videos/wwdc/2015/?id=406) [:page_facing_up:](http://www.mokacoding.com/blog/xcode-7-ui-testing/) [:page_facing_up:](https://www.bignerdranch.com/blog/ui-testing-in-xcode-7-part-1-ui-testing-gotchas/)
     - Replacing KIF with XCUI Tests [:page_facing_up:](http://www.catehuston.com/blog/2015/11/11/replacing-kif-tests-with-xcui-tests/)
+- Debugging
+    - View Debugging in Xcode [:page_facing_up:](http://www.raywenderlich.com/98356/view-debugging-in-xcode-6)
 - Network Testing
     - Network Testing in Swift and DVR [:microphone:](https://realm.io/news/soffes-swift-network-testing-dvr/) [:page_facing_up:](https://blog.soff.es/network-testing-in-swift-with-dvr)
     - Unit Testing Core Data Model Layers [:page_facing_up:](http://www.andrewcbancroft.com/2015/01/13/unit-testing-model-layer-core-data-swift/)
