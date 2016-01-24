@@ -2,15 +2,33 @@
 
 > This is a list of the most recent additions to Awesome Swift Education. Note that this list was first created on 1/10/2016. I will from now on, limit commits to once per day so this will become easier to follow along
 
+##### 1/23/2016
+- [Exploring Swift's Dictionary Implementation](http://ankit.im/swift/2016/01/20/exploring-swift-dictionary-implementation/)
+- [Applicatives in JSON](http://radex.io/swift/json/)
+- [Swifter HTTP Server](https://github.com/glock45/swifter)
+- [Vapor Web Framework](https://github.com/tannernelson/vapor)
+- [NSLinux](https://github.com/johnno1962/NSLinux)
+- [High Performance Matrix Math](https://github.com/mattt/Surge)
+- [AnyObject Subscript](http://stackoverflow.com/questions/34935538/swift-anyobjects-subscript-where-did-it-come-from)
+- [WWDC 2014: Advanced Swift Debugging with LLDB](https://developer.apple.com/videos/play/wwdc2014-410/) [pdf](http://devstreaming.apple.com/videos/wwdc/2014/410xx1s19e83i5z/410/410_advanced_swift_debugging_in_lldb.pdf)
+- [Swift Debugging Tips](https://www.natashatherobot.com/swift-debugging/)
+- [WWDC 2014: Advanced Swift](https://developer.apple.com/videos/play/wwdc2014-404/) [pdf](http://devstreaming.apple.com/videos/wwdc/2014/404xxdxsstkaqjb/404/404_advanced_swift.pdf)
+- [WWDC 2014: What's new in LLVM](http://devstreaming.apple.com/videos/wwdc/2014/417xx2zsyyp8zcs/417/417_whats_new_in_llvm.pdf) [pdf](http://devstreaming.apple.com/videos/wwdc/2014/417xx2zsyyp8zcs/417/417_whats_new_in_llvm.pdf)
+- [WWDC 2014: Introduction to LLDB and Swift REPL](https://developer.apple.com/videos/play/wwdc2014-409/)
+- [WWDC 2014: Improving you app with instruments](https://developer.apple.com/videos/play/wwdc2014-418/) [slides](http://devstreaming.apple.com/videos/wwdc/2014/418xxtihju1a7v4/418/418_improving_your_app_with_instruments.pdf)
+- [WWDC 2014: Advanced Collection Views slides](http://devstreaming.apple.com/videos/wwdc/2014/232xxz8gxpbstio/232/232_advanced_user_interfaces_with_collection_views.pdf)
+- [ReduxKit Community](https://github.com/ReduxKit)
+- [@available](https://www.bignerdranch.com/blog/hi-im-available/)
+- [fold](https://gist.github.com/davidpdrsn/3afcee0327285be77fbd) [fold](https://gist.github.com/sonsongithub/fde90049cda3c4a2d05c)
+- [Generic Typealias in Swift](http://stackoverflow.com/questions/27084586/generic-typealias-in-swift)
+- [Metaprogramming Swift](http://stackoverflow.com/questions/26939354/metaprogramming-in-swift)
+
 ##### 1/21/2016
-- [Optionals under the hood](https://littlebitesofcocoa.com/173-swift-optionals-under-the-hood?utm_source=Little+Bites+of+Cocoa&utm_campaign=b6fceca3e2-005_watch_screenshot_magic5_21_2015&utm_medium=email&utm_term=0_2b6df83b4b-b6fceca3e2-114261713)
-- [Did Apple implement UIKit and Cocoa classes "Obj-C on Swift" or "Swift on Obj-C" or did they write the whole thing twice?](https://www.quora.com/Did-Apple-implement-UIKit-and-Cocoa-classes-Obj-C-on-Swift-or-Swift-on-Obj-C-or-did-they-write-the-whole-thing-twice?srid=xrLC&share=59c4c728)
+- [Optionals under the hood](https://littlebitesofcocoa.com/173-swift-optionals-under-the-hood)
 - [Is Swift a viable alternative to C++ for performance critical code?](https://www.quora.com/Is-Swift-a-viable-alternative-to-C++-for-performance-critical-code?srid=xrLC&share=abc6caeb)
 - [Why use SpriteKit?](https://www.quora.com/Which-tools-are-you-using-with-SpriteKit)
-- [OOP IS BAD](https://www.youtube.com/watch?v=QM1iUe6IofM)
 - [Intro to Quick and Nimble](http://theiostimes.com/advent-calendar/quick-nimble.html)
 - [Quick intro to Realm](http://theiostimes.com/advent-calendar/realm.html)
-- [Autogenerate code with Enums](https://github.com/AliSoftware/SwiftGen)
 - [Cocoaheads.tv](http://cocoaheads.tv/)
 - [Swift Scripting](https://github.com/blakemerryman/Swift-Scripts)
 - [FlappySwift](https://github.com/fullstackio/FlappySwift)
