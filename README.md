@@ -73,6 +73,7 @@
 + Swift Style Rules [:book:](http://ericasadun.com/2015/11/17/a-handful-of-swift-style-rules-swiftlang/)
 + SwiftLint [:book:](https://github.com/realm/SwiftLint)
 + Swift Don'ts [:book:](https://gist.github.com/erica/d91aef87e95f99c094c0)
+- Swift Style [:book:](https://github.com/erica/SwiftStyle)
 
 [:arrow_up:](#index)
 
@@ -128,6 +129,7 @@
     - The Swift Programming Language 2.2 [:books:](https://swift.org/documentation/#the-swift-programming-language)
     - Learn Swift [:books:](http://books.aidanf.net/learn-swift)
     - Swift for Programmers [:books:](https://www.safaribooksonline.com/library/view/swifttm-for-programmers/9780134021584/)
+    - iOS 9 Programming Fundamentals with Swift [:books:](http://www.apeth.com/swiftBook/index.html)
 - Not Free (but still awesome) Swift Books
     - Objc.io Book Series [:books:](https://www.objc.io/books/)
     - Ray Wenderlich Book Series [:books:](http://www.raywenderlich.com/store)
@@ -415,6 +417,7 @@
 + Commonly used data structures and algorithms [:pencil2:](https://github.com/waynewbishop/SwiftStructures) [:pencil2:](https://github.com/karan/Swift-Algorithms)
 - Write a Generic Stable Sort [:pencil2:](http://airspeedvelocity.net/2016/01/10/writing-a-generic-stable-sort/)
 - Either Types micro-framework [:pencil2:](https://github.com/robrix/Either)
+- Calkin–Wilf tree in Swift [:page_facing_up:](http://tel.github.io/posts/calkin-wilf-in-swift/)
 
 [:arrow_up:](#index)
 
@@ -450,6 +453,8 @@
     - Functional Notification Pattern [:page_facing_up:](http://www.jessesquires.com/functional-notifications/)
     - Calling a Swift class factory method with leading dot notation? [:link:](http://stackoverflow.com/questions/28794089/calling-a-swift-class-factory-method-with-leading-dot-notation)
     - Making Abstract Classes in Swift [:page_facing_up:](http://bartjacobs.com/how-to-create-an-abstract-class-in-swift/)
+    - Allergies and Dependency Inversion [:page_facing_up:](http://www.theswiftlearner.com/2015/05/17/dependency-inversion/)
+    - The Law of Demeter and the 9th Circle of Hell [:page_facing_up:](http://www.theswiftlearner.com/2015/03/05/the-law-of-demeter-and-the-9th-circle-of-hell/)
 
 [:arrow_up:](#index)
 
@@ -490,6 +495,8 @@
     - Sad State of Enums [:page_facing_up:](http://owensd.io/blog/sad-state-of-enums/)
     - Swift Algebraic Data Types [:page_facing_up:](http://dduan.net/post/2015/07/swift-algebraic-data-types/)
     - Create an enum with rawvalue type of closures [:page_fcaing_up:](http://stackoverflow.com/questions/30422718/is-it-possible-to-create-a-enum-in-swift-with-raw-values-type-of-a-closure)
+    - Immutable Enumeration in Swift [:page_facing_up:](http://tel.github.io/posts/immutable_enumeration_in_swift/)
+    - The Types of Data in Swift [:page_facing_up:](http://tel.github.io/posts/types_of_data_in_swift/)
 + Pattern Matching
     + Official Docs [:pencil:](https://github.com/apple/swift/blob/master/docs/Pattern%20Matching.rst)
     + Swift's pattern-matching switch statement [:page_facing_up:](http://austinzheng.com/2014/12/16/swift-pattern-matching-switch/)
@@ -594,6 +601,7 @@
         + Aquifier Functional streaming abstractions in Swift [:pencil2:](https://github.com/typelift/Aquifer) 
         + Lazy infinite streams [:pencil2:](https://github.com/antitypical/Stream)
         + Better Recursion with Swift [:microphone:](https://vimeo.com/138092644) [:floppy_disk:](https://speakerdeck.com/ontherocks/better-recursion-with-swift)
+        - Memoization in Swift [:link:](http://stackoverflow.com/questions/31129211/need-detailed-explanation-for-memoize-implementation-in-swift-wwdc-14-session)
     - Lambda Calculus
         + Church Encoding [:pencil:](https://gist.github.com/CodaFi/b9ca5bcee6d7ea9ff158)
         + Lambda Calculus in Swift 2 [:pencil:](https://gist.github.com/bellbind/6ffb0add23990eb5bef4)
@@ -632,7 +640,7 @@
         - Monoid with Dual and Writer [:pencil:](https://gist.github.com/tLewisII/c44a70a560488edea29a)
     - Folds, Zippers, and Lazy Lists
         + Array to Zipper [:pencil2:](https://github.com/rnapier/array-zipper)
-        + Folds in Swift [:page_facing_up:](http://thepurecoder.com/functional-swift-fold-it-baby/) [:page_facing_up:](http://thepurecoder.com/more-on-fold/) [:pencil:](https://gist.github.com/HenningBrandt/fd9a46d5abbc3b39a35e) [:pencil:](https://gist.github.com/HenningBrandt/f44a0f59c716e7fe4689) [:pencil:](https://gist.github.com/davidpdrsn/3afcee0327285be77fbd) [:pencil:](https://gist.github.com/sonsongithub/fde90049cda3c4a2d05c)
+        + Folds in Swift [:page_facing_up:](http://thepurecoder.com/functional-swift-fold-it-baby/) [:page_facing_up:](http://thepurecoder.com/more-on-fold/) [:pencil:](https://gist.github.com/HenningBrandt/fd9a46d5abbc3b39a35e) [:pencil:](https://gist.github.com/HenningBrandt/f44a0f59c716e7fe4689) [:pencil:](https://gist.github.com/davidpdrsn/3afcee0327285be77fbd) [:pencil:](https://gist.github.com/sonsongithub/fde90049cda3c4a2d05c) [:pencil:](https://gist.github.com/curtclifton/2ac04e88e186f52f2239)
         - Custom Zip Function [:page_facing_up:](http://flexmonkey.blogspot.com/2015/05/a-test-driven-custom-swift-zip-function.html)
         - zipWith [:pencil:](https://gist.github.com/kristopherjohnson/7419ed4444a0ad9bb2ea)
         - Lazy Haskell like Lists [:page_facing_up:](https://github.com/dankogai/swift-lazylist) [:page_facing_up:](http://matt.might.net/articles/implementing-laziness/)
@@ -720,6 +728,7 @@
 + Parametric Polymorphism in Swift [:page_facing_up:](http://nsomar.com/parametric-compile-time-polymorphism-in-swift/) [:page_facing_up:](http://rosettacode.org/wiki/Parametric_polymorphism) [:page_facing_up:](http://cs.stackexchange.com/questions/26389/why-isnt-the-swift-programming-language-type-inference-more-aggressive)
 - Template Metaprogramming Swift [:page_facing_up:](http://stackoverflow.com/questions/26939354/metaprogramming-in-swift)
 - Generic Typealias in Swift [:page_facing_up:](http://stackoverflow.com/questions/27084586/generic-typealias-in-swift)
+- Swift “where” keyword [:link:](http://stackoverflow.com/questions/25336079/swift-where-key-word/25336571#25336571)
 
 [:arrow_up:](#index)
 
@@ -738,6 +747,7 @@
     + Stored Properties [:page_facing_up:](https://www.quora.com/Apple-Swift-programming-language/What-is-a-stored-property)
     - Named Parupameters [:page_facing_up:](http://owensd.io/blog/named-parameters/)
     - Intuition behind the Swift external/local parameter system [:page_facing_up:](https://jeremywsherman.com/blog/2014/06/05/intuition-behind-swift-external-local-parameter-system/)
+    - Swift named parameters [:page_facing_up:](http://useyourloaf.com/blog/swift-named-parameters.html)
 + Dependency Injection
     + You Used To Inject Me In Your Constructor [:floppy_disk:](https://speakerdeck.com/mathonsunday/you-used-to-inject-me-in-your-constructor)
     + Swift Inject Dependency Injection [:pencil2:](https://github.com/Swinject/Swinject)
@@ -782,6 +792,9 @@
     - Pythonic Swift [:pencil2:](https://github.com/practicalswift/Pythonic.swift)
     - Hindley-Milner languages [:link:](http://qr.ae/Rg3rFd)
     - Is Swift a viable alternative to C++ for performance critical code? [:page_facing_up:](https://www.quora.com/Is-Swift-a-viable-alternative-to-C++-for-performance-critical-code?srid=xrLC&share=abc6caeb)
+    - Swift vs C speed test [:page_facing_up:](http://stackoverflow.com/questions/24101718/swift-performance-sorting-arrays) [:page_facing_up:](https://www.quora.com/Is-Swift-programming-language-faster-than-C-or-C++-and-if-yes-why) [:page_facing_up:](https://medium.com/swift-programming/swifth-vs-c-5be7d0398f4f#.6ume737mt)
+    - Swift vs Java Performance [:page_facing_up:](https://www.quora.com/In-terms-of-performance-speed-is-Swift-faster-than-Java)
+    - Go vs Node vs Rust vs Swift [:page_facing_up:](https://grigio.org/go-vs-node-vs-rust-vs-swift/)
 + Transitioning from ObjC
 	+ Method Swizzling in Swift [:page_facing_up:](http://www.uraimo.com/2015/10/23/effective-method-swizzling-with-swift/)
 	+ How to Method Swizzle in Swift [:page_facing_up:](http://kostiakoval.github.io/posts/methods-swizzling-in-swift/)
@@ -845,6 +858,7 @@
         + Safer Swift Code With Value Types [:microphone:](https://realm.io/news/altconf-benjamin-encz-safer-swift-code-with-value-types/) [:floppy_disk:](https://speakerdeck.com/benjamin_encz/unidirectional-data-flow-in-swift)
         + Every Swift Value Type Should be Equatable [:page_facing_up:](https://www.andrewcbancroft.com/2015/07/01/every-swift-value-type-should-be-equatable/)
         - When to use mutating functions in swift structs [:page_facing_up:](https://www.natashatherobot.com/when-to-use-mutating-functions-in-swift-structs/)
+        - Is Swift Pass By Value or Pass By Reference [:link:](http://stackoverflow.com/questions/27364117/is-swift-pass-by-value-or-pass-by-reference/27366050#27366050)
     + Abstract Types
         - Understanding Abstract Types [:page_facing_up:](http://blog.davidungar.net/2016/01/10/understanding-swifts-abstract-types-2#fn6)
     + Wrapper Types
@@ -860,6 +874,7 @@
         - An implementation of a dependently-typed intermediate language [:pencil2:](https://github.com/antitypical/Manifold)
         - Dependent Types: I'm missing something [:page_facing_up:](http://owensd.io/blog/dependent-types-im-missing-something/)
         - Backwards Dependent Types [:page_facing_up:](https://jeremywsherman.com/blog/2015/10/02/what-if-you-get-your-dependent-type-backwards/)
+        - Type-Level Assertions (or, almost-dependent types) [:pencil:](https://gist.github.com/JadenGeller/f39130616846f9bf9879)
     + Type Reflection and Casting
         + Simple Reflection in Swift [:page_facing_up:](http://freecake.angelodipaolo.org/simple-reflection-in-swift/)
         + Understanding Reflection in Swift and how to use it [:page_facing_up:](http://appventure.me/2015/10/24/swift-reflection-api-what-you-can-do/)
@@ -929,6 +944,7 @@
     - Analytics workflow in Swift [:pencil2:](https://github.com/brianmichel/Swift-Analysis-Workflow)
     - Profiling Swift Tool [:page_facing_up:](http://irace.me/swift-profiling/)
     - Profiler formatter xcpretty [:pencil2:](https://github.com/larslockefeer/xcpretty-profiler-formatter)
+    - Atom Swift Debugger [:pencil2:](https://github.com/aciidb0mb3r/atom-swift-debugger)
 
 [:arrow_up:](#index)
 
