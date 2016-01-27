@@ -103,6 +103,7 @@
 - RAC Marbles [:scroll:](http://neilpa.me/rac-marbles/)
 - Swift Knowledge Base [:scroll:](https://www.hackingwithswift.com/example-code/)
 - Every Single Option and Swift Compiler Flag [:scroll:](https://gist.github.com/CodaFi/b1e0d0f37cd2890c07c5)
+- Useful Swift .gitignores [:pencil:](https://github.com/github/gitignore/blob/master/Swift.gitignore)
 
 [:arrow_up:](#index)
 
@@ -130,6 +131,7 @@
     - Learn Swift [:books:](http://books.aidanf.net/learn-swift)
     - Swift for Programmers [:books:](https://www.safaribooksonline.com/library/view/swifttm-for-programmers/9780134021584/)
     - iOS 9 Programming Fundamentals with Swift [:books:](http://www.apeth.com/swiftBook/index.html)
+    - Swifter Tips [:books:](http://en.swifter.tips/)
 - Not Free (but still awesome) Swift Books
     - Objc.io Book Series [:books:](https://www.objc.io/books/)
     - Ray Wenderlich Book Series [:books:](http://www.raywenderlich.com/store)
@@ -423,6 +425,7 @@
 
 #### **Design Patterns and AntiPatterns**
 - AntiPatterns
+    - Avoid Partial Functions [:page_facing_up:](http://cocoawithlove.com/blog/2016/01/25/partial-functions-part-one-avoidance.html)
     - Avoid 7 Swift Snares [:page_facing_up:](http://blog.davidungar.net/2016/01/02/how-to-avoid-seven-swift-snares-2/)
 - Design Patterns
     - Swift Design Patterns [:floppy_disk:](http://www.slideshare.net/micheletitolo/cocoa-design-patterns-in-swift?qid=7d2c3760-f640-49be-b204-25d086da4e78&v=qf1&b=&from_search=7)
@@ -729,6 +732,7 @@
 - Template Metaprogramming Swift [:page_facing_up:](http://stackoverflow.com/questions/26939354/metaprogramming-in-swift)
 - Generic Typealias in Swift [:page_facing_up:](http://stackoverflow.com/questions/27084586/generic-typealias-in-swift)
 - Swift “where” keyword [:link:](http://stackoverflow.com/questions/25336079/swift-where-key-word/25336571#25336571)
+- Protocol Generics Self [:pencil:](https://gist.github.com/AliSoftware/e6b931c1731f016e41fb)
 
 [:arrow_up:](#index)
 
@@ -739,6 +743,7 @@
     + Swift Initialization and the Pain of Optionals [:page_facing_up:](http://blog.scottlogic.com/2014/11/20/swift-initialisation.html)
     + Swift init() [:page_facing_up:](http://merowing.info/2015/11/swift-init/)
     + Public Getter, Private Setter [:page_facing_up:](https://www.natashatherobot.com/swift-magic-public-getter-private-setter/)
+    - Why is the convenience keyword needed in Swift? [:link:](http://stackoverflow.com/questions/30896231/why-convenience-keyword-is-even-needed-in-swift)
 + Properties
     + Property Observers [:page_facing_up:](https://www.quora.com/Apple-Swift-programming-language/What-is-a-property-observer)
     + IBOutlet Style in Swift [:page_facing_up:](http://natashatherobot.com/ios-a-beautiful-way-of-styling-iboutlets-in-swift/)
@@ -749,6 +754,7 @@
     - Intuition behind the Swift external/local parameter system [:page_facing_up:](https://jeremywsherman.com/blog/2014/06/05/intuition-behind-swift-external-local-parameter-system/)
     - Swift named parameters [:page_facing_up:](http://useyourloaf.com/blog/swift-named-parameters.html)
 + Dependency Injection
+    - Swift Injection Wesite [:link:](https://yoichitgy.github.io/)
     + You Used To Inject Me In Your Constructor [:floppy_disk:](https://speakerdeck.com/mathonsunday/you-used-to-inject-me-in-your-constructor)
     + Swift Inject Dependency Injection [:pencil2:](https://github.com/Swinject/Swinject)
     - How to Dependency Inject on iOS [:microphone:](https://www.youtube.com/watch?v=384rumYOs-g)
@@ -1103,6 +1109,7 @@
 - Profiling
     - Profiling in Depth [:microphone:](https://developer.apple.com/videos/play/wwdc2015-412) [:floppy_disk:](http://devstreaming.apple.com/videos/wwdc/2015/412rhea5amj6iaf/412/412_profiling_in_depth.pdf?dl=1)
     - WWDC 2014: Improving you app with instruments [:microphone:](https://developer.apple.com/videos/play/wwdc2014-418/) [:floppy_disk:](http://devstreaming.apple.com/videos/wwdc/2014/418xxtihju1a7v4/418/418_improving_your_app_with_instruments.pdf)
+    - Finding memory leaks with instruments [:page_facing_up:](http://spin.atomicobject.com/2016/01/25/ios-memory-leak-xcode/#.VqaGcF_w1AE.hackernews)
 - Other
     - More functional testing [:page_facing_up:](http://www.thinkandbuild.it/ios-functional-testing-with-user-stories-uitest-and-local-server/)
     - Mocking Objects in Swift [:page_facing_up:](http://www.raywenderlich.com/101306/unit-testing-tutorial-mocking-objects)

@@ -2,14 +2,23 @@
 
 > This is a list of the most recent additions to Awesome Swift Education. Note that this list was first created on 1/10/2016. I will from now on, limit commits to once per day so this will become easier to follow along
 
-##### 1/24/2016
+##### 1/26/2016
+- [Avoid Partial Functions](http://cocoawithlove.com/blog/2016/01/25/partial-functions-part-one-avoidance.html)
+- [Swift Injection Wesite](https://yoichitgy.github.io/)
+- [Useful Swift Gitignore](https://github.com/github/gitignore/blob/master/Swift.gitignore)
+- [Finding memory leaks with instruments](http://spin.atomicobject.com/2016/01/25/ios-memory-leak-xcode/#.VqaGcF_w1AE.hackernews)
+- [Protocol Generics Self](https://gist.github.com/AliSoftware/e6b931c1731f016e41fb)
+- [Why is the convenience keyword needed in Swift](http://stackoverflow.com/questions/30896231/why-convenience-keyword-is-even-needed-in-swift)
+- [Swifter Tips](http://en.swifter.tips/)
+
+##### 1/25/2016
 - [iOS 9 Programming Fundamentals with Swift book](http://www.apeth.com/swiftBook/index.html)
 - [Memoization in Swift](http://stackoverflow.com/questions/31129211/need-detailed-explanation-for-memoize-implementation-in-swift-wwdc-14-session)
 - [Is Swift Pass By Value or Pass By Reference](http://stackoverflow.com/questions/27364117/is-swift-pass-by-value-or-pass-by-reference/27366050#27366050)
 - [Swift “where” key word](http://stackoverflow.com/questions/25336079/swift-where-key-word/25336571#25336571)
 - [Swift as fast as C](http://stackoverflow.com/questions/24101718/swift-performance-sorting-arrays)
 - [Swift Style](https://github.com/erica/SwiftStyle)
-- [Swift named parameters](http://useyourloaf.com/blog/swift-named-parameters.html?utm_content=bufferab1c9&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
+- [Swift named parameters](http://useyourloaf.com/blog/swift-named-parameters.html)
 - [Swift vs C and C++](https://www.quora.com/Is-Swift-programming-language-faster-than-C-or-C++-and-if-yes-why)
 - [Speed of light Swift](https://medium.com/swift-programming/swifth-vs-c-5be7d0398f4f#.6ume737mt)
 - [Swift vs Java](https://www.quora.com/In-terms-of-performance-speed-is-Swift-faster-than-Java)
@@ -17,7 +26,6 @@
 - [Immutable Enumeration in Swift](http://tel.github.io/posts/immutable_enumeration_in_swift/)
 - [The Types of Data in Swift](http://tel.github.io/posts/types_of_data_in_swift/)
 - [Calkin–Wilf tree in Swift](http://tel.github.io/posts/calkin-wilf-in-swift/)
-- [Array to Zippers](https://github.com/rnapier/array-zipper)
 - [Zippers in Swift](https://gist.github.com/curtclifton/2ac04e88e186f52f2239)
 - [Allergies and Dependency Inversion](http://www.theswiftlearner.com/2015/05/17/dependency-inversion/)
 - [The Law of Demeter and the 9th Circle of Hell](http://www.theswiftlearner.com/2015/03/05/the-law-of-demeter-and-the-9th-circle-of-hell/)
