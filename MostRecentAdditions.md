@@ -2,6 +2,13 @@
 
 > This is a list of the most recent additions to Awesome Swift Education. Note that this list was first created on 1/10/2016. I will from now on, limit commits to once per day so this will become easier to follow along
 
+##### 1/29/2016
+- [When should I use deinit?](http://stackoverflow.com/questions/24018758/when-should-i-use-deinit)
+- [Initializers for Structs](http://www.codingexplorer.com/structures-swift/)
+- [Kaleidoscope: Implementing a Parser and AST in LLVM](http://llvm.org/docs/tutorial/LangImpl1.html) [:pencil2:](https://github.com/matthewcheok/Kaleidoscope)
+- [How can I make a weak protocol reference in 'pure' Swift (w/o @objc)](http://stackoverflow.com/questions/24066304/how-can-i-make-a-weak-protocol-reference-in-pure-swift-w-o-objc)
+- [When to use weak pointers with delgates](http://stackoverflow.com/questions/30056526/swift-delegation-when-to-use-weak-pointer-on-delegate)
+
 ##### 1/26/2016
 - [Avoid Partial Functions](http://cocoawithlove.com/blog/2016/01/25/partial-functions-part-one-avoidance.html)
 - [Swift Injection Wesite](https://yoichitgy.github.io/)
