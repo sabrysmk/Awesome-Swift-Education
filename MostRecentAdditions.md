@@ -2,6 +2,11 @@
 
 > This is a list of the most recent additions to Awesome Swift Education. Note that this list was first created on 1/10/2016. I will from now on, limit commits to once per day so this will become easier to follow along
 
+
+##### 2/8/2016
+- [Parallel Mandelbrot Set in Swift](http://blog.scottlogic.com/2014/10/29/concurrent-functional-swift.html)
+- [Swift Elm](https://github.com/momentumworks/swift-elm)
+
 ##### 2/6/2016
 - [Animations with CAReplicationLayer](http://www.ios-animations-by-emails.com/posts/2015-march)
 - [Most amazing def of monads](http://stackoverflow.com/questions/3870088/a-monad-is-just-a-monoid-in-the-category-of-endofunctors-whats-the-problem?rq=1)

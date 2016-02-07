@@ -1,6 +1,6 @@
 # <img src="http://www.carlosicaza.com/wp-content/uploads/2014/07/Swift-logo.png" width="36"> Awesome-Swift-Education [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Build Status](https://travis-ci.org/hsavit1/Awesome-Swift-Education.svg?branch=master)](https://travis-ci.org/hsavit1/Awesome-Swift-Education)
 
-> A curated list of resources for learning about the Swift Language. 
+> There is no royal road to Swift. —Euclid
 
 ##### [Key](#emoji-key)
 
@@ -617,7 +617,6 @@
     - FRP is a forbidden term [:page_facing_up:](https://medium.com/@andrestaltz/why-i-cannot-say-frp-but-i-just-did-d5ffaa23973b#.te52wjpxq) [:page_facing_up:](https://sideeffects.xyz/2015/the-functional-reactive-misconception/)
     - What is FRP? On StackOverflow [:page_facing_up:](http://stackoverflow.com/questions/1028250/what-is-functional-reactive-programming/1030631#1030631)
     - State, Promises, and Reactive Programming [:microphone:](https://realm.io/news/state-promises-reactive-programming/) [:pencil2:](https://github.com/ReactKit/ReactKit)
-    - State Machines in Swift [:pencil2:](https://github.com/ReactKit/SwiftState) [:pencil2:](https://github.com/tangphillip/state-machine-talk)
     - Functional Reactive Programming on iOS [:floppy_disk:](https://speakerdeck.com/benjamin_encz/functional-reactive-programming-on-ios)
     - Delta Library for managing state [:page_facing_up:](https://github.com/thoughtbot/Delta)
     - Functional Reactive Intuition [:page_facing_up:](http://itchingpixels.com/blog/functional-reactive-intuition-swift/)
@@ -795,7 +794,7 @@
         - Weak, Strong, Unowned [:floppy_disk:](https://speakerdeck.com/realm/weak-strong-unowned-hector-matos)
         - Making Friends with Value Types [:microphone:](https://realm.io/news/andy-matuschak-controlling-complexity/)
         + Make all Value Types Equatable [:microphone:](https://developer.apple.com/videos/wwdc/2015/?id=414)
-        + Safer Swift Code With Value Types [:microphone:](https://realm.io/news/altconf-benjamin-encz-safer-swift-code-with-value-types/) [:floppy_disk:](https://speakerdeck.com/benjamin_encz/unidirectional-data-flow-in-swift)
+        + Safer Swift Code With Value Types [:microphone:](https://realm.io/news/altconf-benjamin-encz-safer-swift-code-with-value-types/) 
         + Every Swift Value Type Should be Equatable [:page_facing_up:](https://www.andrewcbancroft.com/2015/07/01/every-swift-value-type-should-be-equatable/)
         - When to use mutating functions in swift structs [:page_facing_up:](https://www.natashatherobot.com/when-to-use-mutating-functions-in-swift-structs/)
         - Is Swift Pass By Value or Pass By Reference [:link:](http://stackoverflow.com/questions/27364117/is-swift-pass-by-value-or-pass-by-reference/27366050#27366050)
@@ -878,6 +877,7 @@
     + Functional ASCII Art [:page_facing_up:](https://github.com/ijoshsmith/swift-ascii-art)
     + Writing 2048 in Swift [:page_facing_up:](https://realm.io/news/swift-2048/)
     - FlappySwift [:pencil2:](https://github.com/fullstackio/FlappySwift)
+    - Parallel Mandelbrot Set in Swift [:page_facing_up:](http://blog.scottlogic.com/2014/10/29/concurrent-functional-swift.html)
 - Developer Tools
     - Alcatraz Master Repository [:pencil2:](https://github.com/alcatraz/Alcatraz)
     - Exploring Graph Theory with OmniGraffle and Swift [:page_facing_up:](http://www.mattrajca.com/2015/05/22/exploring-graph-theory-with-omnigraffle-and-swift.html)
@@ -1150,16 +1150,18 @@
 - Unidirectional Data Flow
     - Ziggurat iOS App Architecture [:page_facing_up:](https://corner.squareup.com/2015/12/ziggurat-ios-app-architecture.html) 
     - One Way Data Flow Architecture in Swift [:microphone:](https://www.youtube.com/watch?v=4cP1p5VOrSI)
-    - Unidirectional Dataflow Architecture with Swift-Flow [:microphone:](https://realm.io/news/benji-encz-unidirectional-data-flow-swift/) [:pencil2:](https://github.com/Swift-Flow/Swift-Flow)
+    - Unidirectional Dataflow Architecture with Swift-Flow [:microphone:](https://realm.io/news/benji-encz-unidirectional-data-flow-swift/) [:pencil2:](https://github.com/Swift-Flow/Swift-Flow) [:floppy_disk:](https://speakerdeck.com/benjamin_encz/unidirectional-data-flow-in-swift)
     - ReSwift Unidirectional Data Flow [:pencil2:](https://github.com/ReSwift)
     - CocoaFlow Architecture [:page_facing_up:](http://www.skilled.io/paulyoung/cocoaflow)
     - Improve your iOS Architecture with FlowControllers [:page_facing_up:](http://merowing.info/2016/01/improve-your-ios-architecture-with-flowcontrollers/)
     - Explaining Flux data flow in Swift [:pencil:](https://gist.github.com/rjchatfield/d78cca1bf7b02323bad9)
     - ReduxKit is a predictable state container for Swift apps [:page_facing_up:](https://github.com/ReduxKit/ReduxKit) [:pencil:](https://gist.github.com/rjchatfield/27e3d8ef2249a4298046#file-statereduce-swift) [:pencil2:](https://github.com/ReduxKit)
+    - State Machines in Swift [:pencil2:](https://github.com/ReactKit/SwiftState) [:floppy_disk:](https://github.com/tangphillip/state-machine-talk)
     + Uber Jetstream [:pencil2:](https://github.com/uber/jetstream-ios)
 - Elm Like Architecture
     - Elmification of Swift [:page_facing_up:](https://medium.com/design-x-code/elmification-of-swift-af14b7f92b30#.k1njpy7sn)
     - Simple model for elm-like composable programs [:pencil2:](https://github.com/davidcairns/AppComponents)
+    - Swift Elm [:pencil2:](https://github.com/momentumworks/swift-elm)
 - Model Layer and Caching
     - Awesome Cache [:pencil2:](https://github.com/aschuch/AwesomeCache)
     - SwiftyDB [:pencil2:](https://github.com/Oyvindkg/swiftydb)
@@ -1233,6 +1235,6 @@
 [:arrow_up:](#index)
 
 ## **Shoutouts**
-Shoutout to [@clattner_llvm](https://twitter.com/clattner_llvm?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), the OG Swift Developer. Shoutout to [@chriseidhof](https://twitter.com/chriseidhof) for encouraging me to promote this idea and for being a huge baller. Shoutout to [@ashfurrow](https://twitter.com/ashfurrow) and [@bennRodri](https://twitter.com/bennRodri) for being so incredibly helpful. Shoutout to [@CodaFi_](https://twitter.com/CodaFi_), the [TypeLift](https://github.com/typelift), and the [AntiTypical](https://github.com/antitypical) teams for promoting FP. Shoutout to the [trillmoji](https://github.com/mikeperri/Trillmoji) project. Shoutout to [Haskell Devs](http://dev.stephendiehl.com/hask/) and [Category Theory legends](https://ncatlab.org/nlab/show/computer+science). And finally, Shoutout to all the Swift Programmers out there, this project is __by you and for you!__
+Shoutout to [@clattner_llvm](https://twitter.com/clattner_llvm?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), the OG Swift Developer. Shoutout to [@chriseidhof](https://twitter.com/chriseidhof) for encouraging me to promote this idea and for being a huge baller. Shoutout to [@ashfurrow](https://twitter.com/ashfurrow) and [@bennRodri](https://twitter.com/bennRodri) for being so incredibly helpful. Shoutout to [@CodaFi_](https://twitter.com/CodaFi_), the [TypeLift](https://github.com/typelift), and the [AntiTypical](https://github.com/antitypical) teams for promoting FP. Shoutout to [Elm Trailblazers](https://twitter.com/czaplic?lang=en). Shoutout to [Haskell Devs](http://dev.stephendiehl.com/hask/) and [Category Theory legends](https://ncatlab.org/nlab/show/computer+science). And finally, Shoutout to all the Swift Programmers out there, this project is __by you and for you!__
 
 [:arrow_up:](#index)
