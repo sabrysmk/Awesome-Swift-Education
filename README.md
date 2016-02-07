@@ -20,6 +20,7 @@
     + [Command Line and Swift Scripting](#command-line-and-swift-scripting)
     + [Concurrency](#concurrency)
     + [Data Structures and Algorithms](#data-structures-and-algorithms)
+    + [Date Programming](#date-programming)
     + [Design Patterns and AntiPatterns](#design-patterns-and-antipatterns)
     + [Development Paradigms](#development-paradigms)
     + [Enums and Pattern Matching](#enums-and-pattern-matching)
@@ -337,6 +338,9 @@
 [:arrow_up:](#index)
 
 #### **Date Programming**
+- Swiftly getting a human-readable date with NSDateFormatter [:page_facing_up:](http://www.codingexplorer.com/swiftly-getting-human-readable-date-nsdateformatter/)
+
+[:arrow_up:](#index)
 
 #### **Design Patterns and AntiPatterns**
 - AntiPatterns

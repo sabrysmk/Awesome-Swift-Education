@@ -2,7 +2,7 @@
 
 > This is a list of the most recent additions to Awesome Swift Education. Note that this list was first created on 1/10/2016. I will from now on, limit commits to once per day so this will become easier to follow along
 
-##### 1/31/2016
+##### 2/6/2016
 - [Animations with CAReplicationLayer](http://www.ios-animations-by-emails.com/posts/2015-march)
 - [Most amazing def of monads](http://stackoverflow.com/questions/3870088/a-monad-is-just-a-monoid-in-the-category-of-endofunctors-whats-the-problem?rq=1)
 - [How I learned to stop worrying and love the functor](https://vimeo.com/132657092) [slides](https://github.com/gfontenot/talks/tree/master/Functors)
@@ -17,7 +17,6 @@
 - [How to use swift computed properties](http://adamdelong.com/how-to-use-swift-computed-properties-to-create-a-simple-goal-tracker-class/)
 - [Radare](http://radare.today/posts/radare-0-10-0/)
 - [Xcode Swift Snippets](https://github.com/burczyk/XcodeSwiftSnippets)
-- [Debug apple push notifications](https://github.com/KnuffApp/Knuff)
 - [Partial functions in Swift, Part 2: Catching precondition failures](http://www.cocoawithlove.com/blog/2016/02/02/partial-functions-part-two-catching-precondition-failures.html)
 - [Elmification of Swift](https://medium.com/design-x-code/elmification-of-swift-af14b7f92b30#.k1njpy7sn)
 - [Protocol Oriented Programming](https://medium.com/swift-programming/protocol-oriented-programming-a3e192f6e8f2#.b3vmjxbzy)
@@ -25,28 +24,19 @@
 - [Stream Based Data Synchronization](https://medium.com/@klemen.verdnik/stream-based-data-synchronization-41ff242327ec#.qgb3f5vbp)
 - [Awesome Swift Playgrounds](https://github.com/uraimo/Awesome-Swift-Playgrounds)
 - [interact with Linux GPIO/SPI on ARM](https://github.com/uraimo/SwiftyGPIO)
-- [Swift Playgrounds](https://github.com/uraimo/Swift-Playgrounds)
 - [Lazy Nested Types](https://littlebitesofcocoa.com/)
 - [Property Observers and Lazy Properties](https://littlebitesofcocoa.com/179-swift-tricks-properties)
-- [Operator parameters](https://littlebitesofcocoa.com/170-swift-tricks-revisited)
-- [@autoclosure, private(set), final](https://littlebitesofcocoa.com/164-swift-tricks)
 - [Swift-ly secure](https://realm.io/news/seth-law-swift-security/)
-- [CGRect done right](https://medium.com/swift-programming/swift-cgrect-cgsize-cgpoint-5f4196da9cf8#.4dbmga6tl)
 - [String extensions](https://github.com/amayne/SwiftString)
 - [Common Crypto](http://sketchytech.blogspot.com/2016/02/resurrecting-commoncrypto-in-swift-for.html)
 - [Core Image Blog](http://flexmonkey.blogspot.com/)
-- [Sequences and Generators Expeiments](https://www.uraimo.com/2015/11/12/experimenting-with-swift-2-sequencetype-generatortype/)
-- [Security Training Tool that demonstrates common mobile application vulnerabilities using Swift in iOS](https://github.com/nVisium/Swift.nV)
 - [Few.swift](https://github.com/joshaber/Few.swift)
 - [Building a hamburger button transition](http://robb.is/working-on/a-hamburger-button-transition/)
 - [Anarchy Swift Build Tools](https://github.com/AnarchyTools)
 - [Namespaces in Swift](http://andybargh.com/2016/01/21/lifetime-scope-and-namespaces-in-swift/)
-- [Andy Bargh](http://andybargh.com/)
-- [75 essential tools for iOS Dev](http://benscheirman.com/2013/08/the-ios-developers-toolbelt/)
-- [OSStatus.com](http://www.osstatus.com/)
-- [Tailor Static Analyzer Tool](https://tailor.sh/?utm_source=ios%20dev%20tools&utm_medium=website&utm_campaign=ios%20dev%20tools&at=11lvzs&ct=ios%20dev%20tools)
 - [Chisel LLDM Debugging](https://github.com/facebook/chisel?utm_source=ios%20dev%20tools&utm_medium=website&utm_campaign=ios%20dev%20tools&at=11lvzs&ct=ios%20dev%20tools)
 - [Dependency Injection Container](https://github.com/AliSoftware/Dip) [and extensions](https://github.com/AliSoftware/Dip-UI)
+- [Swiftly getting a human-readable date with NSDateFormatter](http://www.codingexplorer.com/swiftly-getting-human-readable-date-nsdateformatter/)
 
 ##### 1/29/2016
 - [When should I use deinit?](http://stackoverflow.com/questions/24018758/when-should-i-use-deinit)
