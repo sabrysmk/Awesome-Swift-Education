@@ -15,7 +15,6 @@
 - [Video](#video)
 - [Swift Community](#swift-community)
 - [Swift Posts](#swift-posts)
-    + [Caching](#caching)
     + [Closures-and-higher-order-functions](#closures-and-higer-order-functions)
     + [Collections / Sequences / Generators](#collections--sequences--generators)
     + [Command Line and Swift Scripting](#command-line-and-swift-scripting)
