@@ -2,6 +2,17 @@
 
 > This is a list of the most recent additions to Awesome Swift Education. Note that this list was first created on 1/10/2016. I will from now on, limit commits to once per day so this will become easier to follow along
 
+##### 2/15/2016
+- [Pragmatic Core Data](https://realm.io/news/cocoaheads-florian-kugler-pragmatic-core-data/)
+- [Building a Unidirectional Data Flow app with Realm](https://realm.io/news/unidirectional-data-flow-in-swift/)
+- [Blackfish HTTP Server](https://github.com/elliottminns/blackfish)
+- [Pragmatic Core Data](https://realm.io/news/cocoaheads-florian-kugler-pragmatic-core-data/)
+- [What every iOS Developer should be doing with Instruments](https://medium.com/@kazmiekr/what-every-ios-developer-should-be-doing-with-instruments-d1661eeaf64f#.961cmlvx3)
+- [Async Error Handling](http://alisoftware.github.io/swift/async/error/2016/02/06/async-errors/)
+- [Prolific Style Guide](https://github.com/prolificinteractive/swift-style-guide)
+
+##### 2/9/2016
+- [Refractor Swift Code with Refractorer](https://github.com/johnno1962/Refactorator)
 
 ##### 2/8/2016
 - [Parallel Mandelbrot Set in Swift](http://blog.scottlogic.com/2014/10/29/concurrent-functional-swift.html)
