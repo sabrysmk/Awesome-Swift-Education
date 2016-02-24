@@ -1120,7 +1120,7 @@
 - Continuous Integration
     - Using Xcode Bots [:page_facing_up:](http://mjtsai.com/blog/2016/02/11/using-xcode-bots/)
 - Debugging Tools
-    - Profiling Swift Tool [:page_facing_up:](http://irace.me/swift-profiling/)
+    - Profiling Swift Tool [:page_facing_up:](http://irace.me/swift-profiling)
     - Profiler formatter xcpretty [:pencil2:](https://github.com/larslockefeer/xcpretty-profiler-formatter)
     - Atom Swift Debugger [:pencil2:](https://github.com/aciidb0mb3r/atom-swift-debugger)
 - Delivery Tools
