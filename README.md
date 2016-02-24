@@ -445,7 +445,7 @@
     - Immutable Enumeration in Swift [:page_facing_up:](http://tel.github.io/posts/immutable_enumeration_in_swift/)
     - The Types of Data in Swift [:page_facing_up:](http://tel.github.io/posts/types_of_data_in_swift/)
 + Pattern Matching
-    + Official Docs [:pencil:](https://github.com/apple/swift/blob/master/docs/Pattern%20Matching.rst)
+    + Official Docs [:pencil:](https://github.com/apple/swift/blob/master/docs/PatternMatching.rst)
     + Swift's pattern-matching switch statement [:page_facing_up:](http://austinzheng.com/2014/12/16/swift-pattern-matching-switch/)
     + Custom pattern matching in Swift [:page_facing_up:](http://austinzheng.com/2014/12/17/custom-pattern-matching/)
     + Advanced Swift Pattern Matching in Detail [:page_facing_up:](http://appventure.me/2015/08/20/swift-pattern-matching-in-detail/)
