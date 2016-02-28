@@ -949,7 +949,7 @@
     + Metatypes
         + Types and Metatypes in Swift [:page_facing_up:](https://medium.com/@NSomar/types-and-meta-types-in-swift-9cd59ba92295#.1o9z1ikpc)
         + Higher Kinded Types [:pencil:](https://gist.github.com/adamkuipers/bb7bdb9cc425de8905c7) [:page_facing_up:](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20151214/003122.html) [:page_facing_up:](https://www.quora.com/What-language-features-can-make-Swift-even-better) [:link:](https://github.com/typelift/swift/issues/1)
-        + Swift MetaTypes [:page_facing_up:](http://jasdev.me/lets-get-meta/)
+        + Swift MetaTypes [:page_facing_up:](http://jasdev.me/lets-get-meta)
         + Typeclasses in Swift and Scala [:page_facing_up:](http://brainyandbrawny.com/article/Typeclass_in_Swift_and_Scala)
         + Creating new Types in Swift [:page_facing_up:](https://developer.apple.com/swift/blog/?id=8)
         - What is ExistentialMetatype in Swift [:page_facing_up:](http://stackoverflow.com/questions/25342832/what-is-existentialmetatype-in-swift)
