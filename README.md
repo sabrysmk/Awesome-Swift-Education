@@ -153,6 +153,7 @@
     - Apress Book Series [:books:](http://www.apress.com/swift)
     - Oreilly Book Series [:books:](http://search.oreilly.com/?q=swift&x=0&y=0)
     - Your First Swift App [:books:](https://leanpub.com/yourfirstswiftapp)
+    - Teach Yourself Swift in 24 Hours, 2nd Ed [:books:](http://www.informit.com/store/swift-in-24-hours-sams-teach-yourself-9780672337659)
 
 [:arrow_up:](#index)
 
