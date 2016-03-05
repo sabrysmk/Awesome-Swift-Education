@@ -239,6 +239,7 @@
     - Unicorn Podcasts [:radio:](https://swift.unicorn.tv/podcasts)
 - Repositories
     - Swift @IBM Community Repo [:pencil:](https://github.com/IBM-Swift)
+    - SwiftGL Repo [:pencil:](https://github.com/SwiftGL)
 
 [:arrow_up:](#index)
 
@@ -316,6 +317,7 @@
     - A better Hashable [:page_facing_up:](http://foxinswift.com/2016/01/03/trying-to-build-a-better-hashable/)
     - SINQ - Swift Integrated Query [:pencil2:](https://github.com/slazyk/SINQ)
 - Slices
+    - Array and ArraySlice [:page_facing_up:](http://sketchytech.blogspot.com/2016/03/swift-array-and-arrayslice-xcode-72.html)
     - What is a slice in Swift? [:page_facing_up:](http://stackoverflow.com/questions/24073269/what-is-a-slice-in-swift)
 - Subscripting 
     - Custom Subscripts in Swift [:page_facing_up:](https://www.natashatherobot.com/custom-subscripts-swift/) [:page_facing_up:](http://www.codingexplorer.com/custom-subscripts-swift/)
@@ -358,52 +360,63 @@
 [:arrow_up:](#index)
 
 #### **Data Structures and Algorithms**
-- Swift Algorithm Club [:pencil2:](https://github.com/hollance/swift-algorithm-club)
-- Algorithms by CosmicMind [:pencil2:](https://github.com/CosmicMind/Algorithm#sortedmultidictionary)
-+ A Trie [:page_facing_up:](https://bigonotetaking.wordpress.com/2015/08/11/a-trie-in-swift/)
-+ A persistent tree using indirect enums [:page_facing_up:](http://airspeedvelocity.net/2015/07/22/a-persistent-tree-using-indirect-enums-in-swift/)
-+ Deques, Queues, and Lists in Swift with indirect [:page_facing_up:](https://bigonotetaking.wordpress.com/2015/07/29/deques-queues-and-lists-in-swift-with-indirect/)
-+ Linked Lists are really slow [:page_facing_up:](http://airspeedvelocity.net/2015/08/03/arrays-linked-lists-and-performance/)
-+ Linked Lists, Enums, Value Types [:page_facing_up:](http://airspeedvelocity.net/2015/07/26/linked-lists-enums-value-types-and-identity/)
-+ Singly Linked List [:pencil:](https://gist.github.com/airspeedswift/7e233e723e458b1eacfe)
-[:link:](https://github.com/oisdk/Deques-Queues-and-Lists-in-Swift-with-indirect)
-+ Contiguous Arrays in Swift [:page_facing_up:](https://bigonotetaking.wordpress.com/2015/08/09/yet-another-root-of-all-evil/)
-+ NSArrays are implemente with Circular Buffers [:page_facing_up:](https://en.wikipedia.org/wiki/Circular_buffer)
-+ Open sourced CFArray [:link:](http://opensource.apple.com/source/CF/CF-855.11/CFArray.c)
-+ Abstract Algebraic Structures in Swift 2 [:pencil2:](https://github.com/typelift/Algebra)
-+ Trees [:pencil:](https://gist.github.com/CodaFi/73bd0d67c8c7dc25b9af)
-+ Patricia/Radix trees for Swift [:pencil2:](https://github.com/haveahennessy/Patrician)
 + Evolutionary/Genetic Programming in Swift [:pencil2:](https://github.com/NachoSoto/swift-genetics) [:pencil2:](https://github.com/saniul/Mendel)
-+ Finger Trees in Swift [:pencil2:](https://github.com/lazytype/FingerTree/tree/master)
-+ Neural Networks in Swift [:pencil2:](https://github.com/vlall/Swift-Brain)
-+ Swift AI [:pencil2:](https://github.com/collinhundley/Swift-AI)
 + Naive Bayes Classifier [:pencil2:](https://github.com/fcanas/Bayes)
-+ Swift Matrix Math Library [:pencil2:](http://scottsievert.com/swix/) [:pencil2:](https://github.com/mattt/Surge)
-+ Red Black Tree [:pencil:](https://gist.github.com/airspeedswift/8fd42496679c51b34859) 
-+ Tensor Methods in Swift [:pencil2:](https://github.com/aleph7/Upsurge)
-+ Sort Utils [:pencil2:](https://github.com/dsmatter/SwiftSortUtils)
 + Disjoint Sets [:pencil2:](https://github.com/antitypical/DisjointSet)
 + Metaprogrammable [:pencil2:](https://github.com/antitypical/Metaprogrammable)
-+ Binary Tree [:pencil2:](https://github.com/antitypical/BinaryTree)
-+ SwiftPriorityQueue [:pencil2:](https://github.com/davecom/SwiftPriorityQueue)
 + SwiftGraph [:pencil2:](https://github.com/davecom/SwiftGraph)
 + Fisher-Yates Shuffle for Swift [:pencil:](https://gist.github.com/kballard/8738524e0243a93376ed)
-+ Rose Tree in Swift [:pencil:](https://github.com/typelift/SwiftCheck/blob/master/SwiftCheck/Rose.swift)
-+ Generic Stack in Swift [:pencil:](https://gist.github.com/aciidb0mb3r/fd147c8c6b1728664fdb) [:page_facing_up:](http://ankit.im/swift/2016/01/02/creating-value-type-generic-stack-in-swift-with-pointers-and-copy-on-write/)
-+ Deep learning with Swift [:pencil2:](https://github.com/DeepLearningKit/DeepLearningKit)
-+ HackerRank Solutions in Swift [:pencil2:](https://github.com/jindulys/HackerRankSolutions)
-+ Abstract Binding Trees [:pencil:](https://gist.github.com/CodaFi/453f369a8790a070d9e2)
-+ Commonly used data structures and algorithms [:pencil2:](https://github.com/waynewbishop/SwiftStructures) [:pencil2:](https://github.com/karan/Swift-Algorithms)
-- Write a Generic Stable Sort [:pencil2:](http://airspeedvelocity.net/2016/01/10/writing-a-generic-stable-sort/)
 - Either Types micro-framework [:pencil2:](https://github.com/robrix/Either)
-- Calkin–Wilf tree in Swift [:page_facing_up:](http://tel.github.io/posts/calkin-wilf-in-swift/)
-- In Memory BTrees [:page_facing_up:](https://github.com/lorentey/BTree)
+- Arrays
+    + Contiguous Arrays in Swift [:page_facing_up:](https://bigonotetaking.wordpress.com/2015/08/09/yet-another-root-of-all-evil/)
+    + NSArrays are implemente with Circular Buffers [:page_facing_up:](https://en.wikipedia.org/wiki/Circular_buffer)
+    + Open sourced CFArray [:link:](http://opensource.apple.com/source/CF/CF-855.11/CFArray.c)
+- Data Strucutres
+    + Commonly used data structures and algorithms [:pencil2:](https://github.com/waynewbishop/SwiftStructures) [:pencil2:](https://github.com/karan/Swift-Algorithms)
+- Lists 
+    + Deques, Queues, and Lists in Swift with indirect [:page_facing_up:](https://bigonotetaking.wordpress.com/2015/07/29/deques-queues-and-lists-in-swift-with-indirect/) [:link:](https://github.com/oisdk/Deques-Queues-and-Lists-in-Swift-with-indirect) 
+    + Linked Lists are really slow [:page_facing_up:](http://airspeedvelocity.net/2015/08/03/arrays-linked-lists-and-performance/)
+    + Linked Lists, Enums, Value Types [:page_facing_up:](http://airspeedvelocity.net/2015/07/26/linked-lists-enums-value-types-and-identity/)
+    + Singly Linked List [:pencil:](https://gist.github.com/airspeedswift/7e233e723e458b1eacfe) 
+- Learning
+    + Deep learning with Swift [:pencil2:](https://github.com/DeepLearningKit/DeepLearningKit)
+    + Neural Networks in Swift [:pencil2:](https://github.com/vlall/Swift-Brain)
+    + Swift AI [:pencil2:](https://github.com/collinhundley/Swift-AI)
+- Math
+    + Swift Matrix Math Library [:pencil2:](http://scottsievert.com/swix/) [:pencil2:](https://github.com/mattt/Surge)
+    + Tensor Methods in Swift [:pencil2:](https://github.com/aleph7/Upsurge)
+    + Abstract Algebraic Structures in Swift 2 [:pencil2:](https://github.com/typelift/Algebra)
+    - SwiftGL Math Library [:pencil2:](https://github.com/SwiftGL/Math)
+- Solutions
+    - Swift Algorithm Club [:pencil2:](https://github.com/hollance/swift-algorithm-club)
+    - Algorithms by CosmicMind [:pencil2:](https://github.com/CosmicMind/Algorithm#sortedmultidictionary)
+    + HackerRank Solutions in Swift [:pencil2:](https://github.com/jindulys/HackerRankSolutions)
+- Sorts
+    - Write a Generic Stable Sort [:pencil2:](http://airspeedvelocity.net/2016/01/10/writing-a-generic-stable-sort/)
+    + Sort Utils [:pencil2:](https://github.com/dsmatter/SwiftSortUtils)
+- Stacks / Queues
+    + SwiftPriorityQueue [:pencil2:](https://github.com/davecom/SwiftPriorityQueue)
+    + Generic Stack in Swift [:pencil:](https://gist.github.com/aciidb0mb3r/fd147c8c6b1728664fdb) [:page_facing_up:](http://ankit.im/swift/2016/01/02/creating-value-type-generic-stack-in-swift-with-pointers-and-copy-on-write/)
+    + Deques [:pencil2:](https://github.com/lorentey/Deque)
+- Trees
+    + Finger Trees in Swift [:pencil2:](https://github.com/lazytype/FingerTree/tree/master)
+    + Trees [:pencil:](https://gist.github.com/CodaFi/73bd0d67c8c7dc25b9af)
+    - Calkin–Wilf tree in Swift [:page_facing_up:](http://tel.github.io/posts/calkin-wilf-in-swift/)
+    - In Memory BTrees [:page_facing_up:](https://github.com/lorentey/BTree)
+    + Rose Tree in Swift [:pencil:](https://github.com/typelift/SwiftCheck/blob/master/SwiftCheck/Rose.swift)
+    + Binary Tree [:pencil2:](https://github.com/antitypical/BinaryTree)
+    + Abstract Binding Trees [:pencil:](https://gist.github.com/CodaFi/453f369a8790a070d9e2)
+    + Red Black Tree [:pencil:](https://gist.github.com/airspeedswift/8fd42496679c51b34859) 
+    + A persistent tree using indirect enums [:page_facing_up:](http://airspeedvelocity.net/2015/07/22/a-persistent-tree-using-indirect-enums-in-swift/)
+    + Patricia/Radix trees for Swift [:pencil2:](https://github.com/haveahennessy/Patrician)
+    + A Trie [:page_facing_up:](https://bigonotetaking.wordpress.com/2015/08/11/a-trie-in-swift/)
 
 [:arrow_up:](#index)
 
 #### **Date Programming**
 - Swiftly getting a human-readable date with NSDateFormatter [:page_facing_up:](http://www.codingexplorer.com/swiftly-getting-human-readable-date-nsdateformatter/)
 - Swift Date [:pencil2:](https://github.com/malcommac/SwiftDate)
+- NSDateFormatter.com [:link:](https://github.com/subdigital/nsdateformatter.com)
 
 [:arrow_up:](#index)
 
@@ -587,6 +600,7 @@
         - Reccomended Functional Operators in Swift [:pencil:](https://github.com/typelift/Operadics) [:page_facing_up:](http://sketchytech.blogspot.com/2015/06/functional-programming-understanding.html) [:pencil:](https://gist.github.com/sketchytech/c02adc1b68fb1080ffc3)
         - Point-Free Style Swift [:page_facing_up:](https://www.quora.com/Why-should-or-shouldnt-I-use-Swift-to-write-OS-X-or-iOS-apps-the-Functional-Programming-way)
     - Immutable State
+        - Embrace Immutability [:microphone:](https://realm.io/news/slug-keith-smiley-embrace-immutability/)
         + Immutable Swift [:page_facing_up:](http://nomothetis.svbtle.com/immutable-swift)
         - Dodging State [:page_facing_up:](https://jeremywsherman.com/blog/2015/07/15/dodging-state/)
     - Map / Filter / Reduce
@@ -655,17 +669,20 @@
         - Making flatMap lazy [:page_facing_up:](https://bigonotetaking.wordpress.com/2015/07/19/making-flatmap-lazy/)
         - How are swift lazy collections implemented [:page_facing_up:](https://medium.com/@NSomar/lazy-collection-cb4903a36ff7#.7izheiih6)
     - Promises / Futures
+        - FutureKit Repostory [:pencil2:](https://github.com/FutureKit/FutureKit)
         - A simple Promise in Swift [:pencil:](https://gist.github.com/robrix/5f3dc201988fb0f5f584)
         - PromiseKit Promise Library [:pencil2:](https://github.com/mxcl/PromiseKit) [:link:](http://promisekit.org/)
-        - FutureKit Repostory [:pencil2:](https://github.com/FutureKit/FutureKit)
         - BrightFutures Repository [:pencil2:](https://github.com/Thomvis/BrightFutures)
         + Back to the Futures with Swift [:microphone:](https://realm.io/news/swift-summit-javier-soto-futures/) [:floppy_disk:](https://speakerdeck.com/javisoto/back-to-the-futures)
         + Futures and Latency as an effect in Swift [:page_facing_up:](https://sideeffects.xyz/2015/latency-as-effect-in-swift/) [:floppy_disk:](http://www.bubblefoundry.com/blog/2014/10/future-shock/)
         - Binds and Promises with Forbind [:page_facing_up:](http://ulrikdamm.logdown.com/posts/277995) [:pencil2:](https://github.com/ulrikdamm/Forbind)
         - Futures and monads [:link:](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20151214/002995.html)
+        - Promise + progress + pause + cancel + retry [:pencil2:](https://github.com/ReactKit/SwiftTask)
     - Combinators 
         + Y Combinators in Swift [:pencil:](https://gist.github.com/kongtomorrow/e95bea13162ca0e29d4b#file-gistfile1-swift)
         + Combinators [:page_facing_up:](http://xn--wxak1a.com/blog/Combinators.html) [:pencil:](https://gist.github.com/CodaFi/10afdd77e42bb8ad18ab)
+        + Parser combinators, for Swift [:page_facing_up:](http://blog.nottoobadsoftware.com/footlessparser/) [:pencil2:](https://github.com/kareman/FootlessParser) [:pencil2:](https://github.com/hlian/jiffy) 
+        - Monadic Parser Combinator [:pencil2:](https://github.com/inamiy/TryParsec)
     - Lenses, Transducers, Reducers
         + Lenses in Swift [:page_facing_up:](http://chris.eidhof.nl/posts/lenses-in-swift.html) [:pencil:](https://gist.github.com/mbrandonw/4acd26ab01bb6140af69) [:pencil2:](https://github.com/robb/Monocle/blob/master/Monocle/Lens.swift) [:pencil:](https://gist.github.com/mbrandonw/48ea2b3de9dc308907d9)
         + Lenses, Prisms, Isos in Swift 2 [:pencil2:](https://github.com/typelift/Focus)
@@ -759,6 +776,7 @@
     - Designated and Convenience initializers in Swift [:page_facing_up:](http://www.codingexplorer.com/designated-initializers-convenience-initializers-swift/)
     - Writing Class Initalizers [:page_facing_up:](http://www.codingexplorer.com/class-initializers/)
     + Swift Failiable Initializers [:page_facing_up:](http://www.jessesquires.com/swift-failable-initializers-revisited/)
+    - Designated Initializer Basics [:page_facing_up:](https://littlebitesofcocoa.com/204-swift-designated-initializer-basics)
 + Properties
     + Stored Properties
         + Class Properties in Swift [:page_facing_up:](http://stackoverflow.com/questions/24087936/how-do-i-make-class-methods-properties-in-swift)
@@ -931,6 +949,7 @@
         - Swift copy-on-write behaviour for a struct using HeapBuffer [:pencil:](https://gist.github.com/airspeedswift/71f15d1eb866be9e5ac7)
         - Swift pass struct by reference? [:page_facing_up:](http://stackoverflow.com/questions/31495431/swift-pass-struct-by-reference)
     + Abstract Types
+        - Understanding Swift’s Abstract Types (Swift 2.2 & above) [:page_facing_up:](http://blog.davidungar.net/2016/02/29/understanding-swifts-abstract-types-swift-2-2-above/)
         - Understanding Abstract Types [:page_facing_up:](http://blog.davidungar.net/2016/01/10/understanding-swifts-abstract-types-2#fn6)
     + Wrapper Types
         + Wrapper Types [:page_facing_up:](https://www.objc.io/blog/2014/11/24/functional-snippet-8-wrapper-types/)
@@ -1071,15 +1090,16 @@
 #### **Server Side Swift**
 - Hello Server Side Swift [:page_facing_up:](https://medium.com/@LogMaestro/server-side-swift-c965b7ebe6e7#.vitoriti4)
 - Vapor Swift Web Framework [:pencil2:](https://github.com/tannernelson/vapor)
+- Kitura Web Framework and HTTP Server [:pencil2:](https://github.com/IBM-Swift/Kitura) [:pencil2:](https://github.com/IBM-Swift/Kitura-BluePic)
 - Swift Redis [:pencil2:](https://github.com/swizzlr/swift-redis)
 - TCP Sockets in Swift [:pencil2:](http://dev.iachieved.it/iachievedit/tcp-sockets-with-swift-on-linux/)
 - Zevo Server Side Swift Community [:link:](https://github.com/Zewo)
 - Venice based HTTP server for Swift 2.2 on Linux [:pencil2:](https://github.com/Zewo/Epoch)
 - Swift HTTP Servers [:pencil2:](https://github.com/paulofaria/SwiftHTTPServer) [:pencil2:](https://github.com/kylef/Curassow) [:pencil2:](https://github.com/glock45/swifter) [:pencil2:](https://github.com/elliottminns/blackfish)
 - Swift Server IO [:pencil2:](https://github.com/LoganWright/swift-server-io)
-- Kitura Web Framework and HTTP Server [:pencil2:](https://github.com/IBM-Swift/Kitura) [:pencil2:](https://github.com/IBM-Swift/Kitura-BluePic)
 - Swift on Rails [:pencil2:](https://github.com/necolt/Swifton)
 - Swift Website Example [:pencil2:](https://github.com/kylef/Curassow-example-helloworld)
+- Swift Express - a simple unopinionated web application server [:pencil2:](https://github.com/crossroadlabs/Express)
 
 [:arrow_up:](#index)
 
@@ -1092,14 +1112,15 @@
     - Functional String Ranges [:page_facing_up:](https://www.natashatherobot.com/swift-string-ranges-the-functional/)
     - ICU Text Transforms in Cocoa [:page_facing_up:](http://oleb.net/blog/2016/01/icu-text-transforms/)
     - Swift Substrings [:page_facing_up:](http://vluxe.io/swift-sub-strings.html)
-+ Regular Expressions
-    + RegularExpressions in Swift [:page_facing_up:](https://littlebitesofcocoa.com/121-swiftier-regular-expressions-with-regex) [:page_facing_up:](http://en.swifter.tips/regex/) [:page_facing_up:](http://benscheirman.com/2014/06/regex-in-swift/)
++ Lexing and Parsing
+    - Abstract Syntax Tree [:page_facing_up:](http://ankit.im/swift/2016/02/29/swift-abstract-syntax-tree/)
     + Creating a Lexer in Swift [:page_facing_up:](http://blog.matthewcheok.com/writing-a-lexer-in-swift/)
     + Creating an Abstract Syntax Tree Parser in Swift [:page_facing_up:](http://blog.matthewcheok.com/writing-a-parser-in-swift/) [:page_facing_up:](http://blog.matthewcheok.com/writing-a-parser-in-swift-part-2/)
     + String to Number Parser [:pencil2:](https://github.com/davedelong/DDMathParser)
     + Madness: Parsing strings in simple context-free grammars [:pencil2:](https://github.com/robrix/Madness)
++ Regular Expressions
+    + RegularExpressions in Swift [:page_facing_up:](https://littlebitesofcocoa.com/121-swiftier-regular-expressions-with-regex) [:page_facing_up:](http://en.swifter.tips/regex/) [:page_facing_up:](http://benscheirman.com/2014/06/regex-in-swift/)
     + NSRegularExpression Cheat Sheet [:page_facing_up:](http://www.raywenderlich.com/86205/nsregularexpression-swift-tutorial)
-    + Parser combinators, for Swift [:page_facing_up:](http://blog.nottoobadsoftware.com/footlessparser/) [:pencil2:](https://github.com/kareman/FootlessParser) [:pencil2:](https://github.com/hlian/jiffy) 
     + Clean Regular Expressions in Swift [:page_facing_up:](http://nomothetis.svbtle.com/clean-regular-expressions-using-conversions)
     + Simple Regex [:pencil:](https://gist.github.com/mattt/3f12f56d72b8d2ebbe62)
     + Verbal Expressions style RegEx [:pencil2:](https://github.com/VerbalExpressions/SwiftVerbalExpressions)
@@ -1164,6 +1185,7 @@
     - TDD on iOS [:microphone:](https://realm.io/news/altconf-glen-tregoning-paul-zabelin-successful-test-driven-development-on-ios/)
     - How to TDD in Swift [:page_facing_up:](http://roadfiresoftware.com/2015/09/how-you-can-do-tdd-with-swift/)
     - TDD Swift Playground [:page_facing_up:](http://initwithstyle.net/2015/11/tdd-in-swift-playgrounds/)
+    - Swift version of Graham Lee's "Test-Driven iOS Development" [:pencil2:](https://github.com/SixFiveSoftware/BrowseOverflowSwift)
 - BDD
     - BDD Testing with Swift [:page_facing_up:](http://railsware.com/blog/2014/07/04/bdd-style-testing-in-swift-with-sleipnir/)
     - SwiftTest BDD Testing Framework [:pencil2:](https://github.com/bppr/Swiftest)
@@ -1184,9 +1206,10 @@
     - WWDC 2014: Introduction to LLDB and Swift REPL [:microphone:](https://developer.apple.com/videos/play/wwdc2014-409/)
     - Swift Debugging Tips [:page_facing_up:](https://www.natashatherobot.com/swift-debugging/)
     - WWDC 2014: Advanced Swift Debugging with LLDB [:microphone:](https://developer.apple.com/videos/play/wwdc2014-410/) [:floppy_disk:](http://devstreaming.apple.com/videos/wwdc/2014/410xx1s19e83i5z/410/410_advanced_swift_debugging_in_lldb.pdf)
-    - Chisel LLVM Debugging [:pencil2:](https://github.com/facebook/chisel?utm_source=ios%20dev%20tools&utm_medium=website&utm_campaign=ios%20dev%20tools&at=11lvzs&ct=ios%20dev%20tools)
+    - Chisel LLVM Debugging [:pencil2:](https://github.com/facebook/chisel)
     - Swift Name Mangling [:page_facing_up:](https://www.mikeash.com/pyblog/friday-qa-2014-08-15-swift-name-mangling.html)
     - Assertions in Swift [:page_facing_up:](http://stackoverflow.com/questions/28394173/assertions-in-swift)
+    - Debugging with stack traces in Swift [:page_facing_up:](http://www.cocoawithlove.com/blog/2016/02/28/stack-traces-in-swift.html)
 - Network Testing
     - Network Testing in Swift and DVR [:microphone:](https://realm.io/news/soffes-swift-network-testing-dvr/) [:page_facing_up:](https://blog.soff.es/network-testing-in-swift-with-dvr)
     - Unit Testing Core Data Model Layers [:page_facing_up:](http://www.andrewcbancroft.com/2015/01/13/unit-testing-model-layer-core-data-swift/)
@@ -1250,6 +1273,7 @@
     - Analytics workflow in Swift [:pencil2:](https://github.com/brianmichel/Swift-Analysis-Workflow)
     - Anarchy Swift Build Tools [:pencil2:](https://github.com/AnarchyTools)
     - Refractor Swift Code with Refractorer [:pencil2:](https://github.com/johnno1962/Refactorator)
+    - xcbuild Build Tool [:pencil2:](https://github.com/facebook/xcbuild)
 
 [:arrow_up:](#index)
 
@@ -1288,6 +1312,7 @@
     - View Controller Thinning [:page_facing_up:](http://puchka.me/view-controller-thinning/) via Dependency Injection [:page_facing_up:](http://puchka.me/view-controller-thinning-dependency-injection/) 
     - Consistent, Thin, & Dumb: Redesigning the Spotify iOS App [:microphone:](https://realm.io/news/mbltdev-hector-zarate-consistent-thin-dumb-spotify/)
 - Model Layer and Caching
+    - How to cache view controllers in iOS [:page_facing_up:](https://medium.com/@gitter/how-to-cache-view-controllers-in-ios-854be6734062#.lownd94t5)
     - Awesome Cache [:pencil2:](https://github.com/aschuch/AwesomeCache)
     - SwiftyDB [:pencil2:](https://github.com/Oyvindkg/swiftydb)
     - A Structy Model Layer [:page_facing_up:](http://khanlou.com/2015/12/a-structy-model-layer/)
@@ -1398,6 +1423,7 @@
 
 #### **Web Services, JSON, Routing, REST, and Networking**
 + Networking
+    - AlamoFire Tutorial [:page_facing_up:](http://www.raywenderlich.com/121540/alamofire-tutorial-getting-started)
     + SwiftHTTPStatusCodes [:pencil:](https://github.com/rhodgkins/SwiftHTTPStatusCodes)
     + Calling a REST Api in Swift [:page_facing_up:](http://stackoverflow.com/questions/24321165/make-rest-api-call-in-swift)
     + How to Make REST API Calls and Parse JSON with Swift [:page_facing_up:](http://devdactic.com/rest-api-parse-json-swift/)

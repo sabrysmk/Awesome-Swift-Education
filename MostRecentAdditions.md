@@ -2,6 +2,25 @@
 
 > This is a list of the most recent additions to Awesome Swift Education. Note that this list was first created on 1/10/2016. I will from now on, limit commits to once per day so this will become easier to follow along
 
+##### 3/4/2016
+- [Deque](https://github.com/lorentey/Deque)
+- [Swift version of Graham Lee's "Test-Driven iOS Development" book](https://github.com/SixFiveSoftware/BrowseOverflowSwift)
+- [NSDateFormatter.com](https://github.com/subdigital/nsdateformatter.com)
+- [xcbuild](https://github.com/facebook/xcbuild)
+- [SwiftGL Math Library](https://github.com/SwiftGL/Math)
+- [SwiftGL](https://github.com/SwiftGL)
+- [Embrace Immutability](https://realm.io/news/slug-keith-smiley-embrace-immutability/)
+- [How to cache view controllers in iOS](https://medium.com/@gitter/how-to-cache-view-controllers-in-ios-854be6734062#.lownd94t5)
+- [AlamoFire Tutorial](http://www.raywenderlich.com/121540/alamofire-tutorial-getting-started)
+- [Designated Initializer Basics](https://littlebitesofcocoa.com/204-swift-designated-initializer-basics)
+- [Swift: Array and ArraySlice (Xcode 7.2)](http://sketchytech.blogspot.com/2016/03/swift-array-and-arrayslice-xcode-72.html)
+- [Swift Abstract Syntax Tree](http://ankit.im/swift/2016/02/29/swift-abstract-syntax-tree/)
+- [Understanding Swift’s Abstract Types (Swift 2.2 & above)](http://blog.davidungar.net/2016/02/29/understanding-swifts-abstract-types-swift-2-2-above/)
+- [Tracking tasks with stack traces in Swift](http://www.cocoawithlove.com/blog/2016/02/28/stack-traces-in-swift.html)
+- [Swift Express is a simple, yet unopinionated web application server written in Swift](https://github.com/crossroadlabs/Express)
+- [Monadic Parser Combinator for try! Swift http://www.tryswiftconf.com/](https://github.com/inamiy/TryParsec)
+- [Promise + progress + pause + cancel + retry for Swift.](https://github.com/ReactKit/SwiftTask)
+
 ##### 2/28/2016
 - [How to use LLVM C API with Swift](https://fosdem.org/2016/schedule/event/llvm_c_swift/)
 - [Swift and LLVM C API](https://github.com/AlexDenisov/swift_llvm)
