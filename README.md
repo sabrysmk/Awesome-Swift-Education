@@ -1416,7 +1416,7 @@
     - UIKit for the Mac, rewritten in Swift [:pencil2:](https://github.com/unifiedh/Chameleon-Swift)
     - Did Apple implement UIKit and Cocoa classes "Obj-C on Swift" [:page_facing_up:](https://www.quora.com/Did-Apple-implement-UIKit-and-Cocoa-classes-Obj-C-on-Swift-or-Swift-on-Obj-C-or-did-they-write-the-whole-thing-twice?srid=xrLC&share=59c4c728)
     - Cocoa Touch Best Practices [:pencil:](https://gist.github.com/rbobbins/236b2160ab9621f3f8e7)
-    - How Do You Do UIView<SomeProtocol> in Swift? [:page_facing_up:](http://nearthespeedoflight.com/article/2016_02_18_how_do_you_do_uiview_someprotocol__in_swift)
+    - How Do You Do UIView<SomeProtocol> in Swift? [:page_facing_up:](http://nearthespeedoflight.com/article/2016_02_18_how_do_you_do_uiview_someprotocol__in_swift_)
 
 [:arrow_up:](#index)
 
