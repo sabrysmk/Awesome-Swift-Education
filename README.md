@@ -1258,7 +1258,6 @@
 - Docker Tools
     - How to run Swift within a Docker container [:page_facing_up:](https://developer.ibm.com/swift/2015/12/15/running-swift-within-docker/)
     - Docker Swift [:pencil2:](https://github.com/swiftdocker/docker-swift)
-    - A Swift 2.2+ & Blackfish Docker [:pencil2:](https://github.com/boostcode/docker-swift-git)
 - Server Tools
     - Heroku Buildpack for Swift [:pencil2:](https://github.com/kylef/heroku-buildpack-swift)
 - Swift Tools
