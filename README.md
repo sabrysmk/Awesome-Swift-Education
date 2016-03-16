@@ -1174,7 +1174,7 @@
     - Testing in Xcode 6 [:microphone:](https://developer.apple.com/videos/play/wwdc2014/414/)
     - Better Unit Testing with Swift [:page_facing_up:](http://masilotti.com/better-swift-unit-testing/)
     - Unit Testing in Swift [:page_facing_up:](https://bendyworks.com/unit-testing-in-swift/) [:page_facing_up:](http://nshipster.com/xctestcase/)
-    - Unit Testing with @testable in Xcode 7 [:page_facing_up:](http://natashatherobot.com/swift-2-xcode-7-unit-testing-access/) [:page_facing_up:](http://mr-v.github.io/xcode-7-swift-2-unit-testing-setup/)
+    - Unit Testing with @testable in Xcode 7 [:page_facing_up:](http://natashatherobot.com/swift-2-xcode-7-unit-testing-access/) [:page_facing_up:](http://mr-v.github.io/xcode-7-swift-2-unit-testing-setup)
     - Understanding testability in Swift 2 [:page_facing_up:](http://www.captechconsulting.com/blogs/ios-9-tutorial-series-testability-by-example-making-unit-testing-easier-in-swift-20-and-xcode-7)
     - The good parts of XCTest [:page_facing_up:](http://modocache.io/xctest-the-good-parts)
     - QuickCheck made in Swift [:page_facing_up:](http://chris.eidhof.nl/posts/quickcheck-in-swift.html)
