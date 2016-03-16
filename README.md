@@ -1246,7 +1246,7 @@
     - Continuous Integration and Code Coverage In Xcode [:pencil:](https://gist.github.com/rbobbins/92e2fd3736f842d4ccee)
     - Code Coverage Xcode 7 [:page_facing_up:](http://mgrebenets.github.io/mobile%20ci/2015/09/21/code-coverage-for-ios-xcode-7/)
 - Debugging Tools
-    - Profiling Swift Tool [:page_facing_up:](http://irace.me/swift-profiling/)
+    - Profiling Swift Tool [:page_facing_up:](http://irace.me/swift-profiling)
     - Profiler formatter xcpretty [:pencil2:](https://github.com/larslockefeer/xcpretty-profiler-formatter)
     - Atom Swift Debugger [:pencil2:](https://github.com/aciidb0mb3r/atom-swift-debugger)
 - Delivery Tools
