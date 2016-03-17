@@ -501,7 +501,7 @@
     - The Types of Data in Swift [:page_facing_up:](http://tel.github.io/posts/types_of_data_in_swift/)
     - Discriminated Unions in Swift [:page_facing_up:](http://vperi.com/2014/06/06/discriminated-unions-in-swift/)
 + Pattern Matching
-    + Official Docs [:pencil:](https://github.com/apple/swift/blob/master/docs/Pattern%20Matching.rst)
+    + Official Docs [:pencil:](https://github.com/apple/swift/blob/master/docs/PatternMatching.rst)
     + Swift's pattern-matching switch statement [:page_facing_up:](http://austinzheng.com/2014/12/16/swift-pattern-matching-switch/) [:page_facing_up:](http://andybargh.com/pattern-matching-in-swift/)
     + Custom pattern matching in Swift [:page_facing_up:](http://austinzheng.com/2014/12/17/custom-pattern-matching/)
     + Advanced Swift Pattern Matching in Detail [:page_facing_up:](http://appventure.me/2015/08/20/swift-pattern-matching-in-detail/)
@@ -692,7 +692,7 @@
         - Lenso [:pencil2:](https://github.com/narfdotpl/lenso)
         + Covariance and Contravariance in Swift 2.1 [:page_facing_up:](http://www.uraimo.com/2015/09/29/Swift2.1-Function-Types-Conversion-Covariance-Contravariance/) [:page_facing_up:](https://mikeash.com/pyblog/friday-qa-2015-11-20-covariance-and-contravariance.html)
     - Categories
-        + From Category Theory to Swift [:page_facing_up:](http://karumiblog-env.elasticbeanstalk.com/monad/) [:pencil2:](https://github.com/mbrandonw/naturally-swift)
+        + From Category Theory to Swift [:pencil2:](https://github.com/mbrandonw/naturally-swift)
         + Categories in Swift [:pencil:](https://gist.github.com/CodaFi/4d0ce6a3cc0cb1085720)
         - Yoneda Embedding [:pencil:](https://gist.github.com/CodaFi/d4efd98697130bd35f5c)
     - Other
@@ -883,7 +883,7 @@
 #### **Language Comparisons and Transitioning to Swift**
 + Language Comparisons
     - Haskell Overlords [:page_facing_up:](http://robnapier.net/haskell-overlords)
-	+ Comparing Swift and Javascript [:page_facing_up:](http://www.mircozeiss.com/swift-for-javascript-developers/)
+	+ Comparing Swift and Javascript [:page_facing_up:](http://www.mircozeiss.com/swift-for-javascript-developers)
 	+ C++ Advice to Swift Devs [:page_facing_up:](http://airspeedvelocity.net/2014/06/10/rundown-of-how-each-effective-c-item-relates-to-swift/)
 	+ Swift Protocols vs Java 8 Interfaces [:page_facing_up:](http://stackoverflow.com/questions/30859334/compare-protocol-in-swift-vs-interface-in-java)
 	- Learning Swift from Haskell [:floppy_disk:](https://speakerdeck.com/abizern/what-haskell-teaches-me-about-writing-swift) and corresponding [:microphone:](https://realm.io/news/altconf-abizer-nasir-what-haskell-teaches-me-about-swift/) 
@@ -1174,7 +1174,7 @@
     - Testing in Xcode 6 [:microphone:](https://developer.apple.com/videos/play/wwdc2014/414/)
     - Better Unit Testing with Swift [:page_facing_up:](http://masilotti.com/better-swift-unit-testing/)
     - Unit Testing in Swift [:page_facing_up:](https://bendyworks.com/unit-testing-in-swift/) [:page_facing_up:](http://nshipster.com/xctestcase/)
-    - Unit Testing with @testable in Xcode 7 [:page_facing_up:](http://natashatherobot.com/swift-2-xcode-7-unit-testing-access/) [:page_facing_up:](http://mr-v.github.io/xcode-7-swift-2-unit-testing-setup/)
+    - Unit Testing with @testable in Xcode 7 [:page_facing_up:](http://natashatherobot.com/swift-2-xcode-7-unit-testing-access/) [:page_facing_up:](http://mr-v.github.io/xcode-7-swift-2-unit-testing-setup)
     - Understanding testability in Swift 2 [:page_facing_up:](http://www.captechconsulting.com/blogs/ios-9-tutorial-series-testability-by-example-making-unit-testing-easier-in-swift-20-and-xcode-7)
     - The good parts of XCTest [:page_facing_up:](http://modocache.io/xctest-the-good-parts)
     - QuickCheck made in Swift [:page_facing_up:](http://chris.eidhof.nl/posts/quickcheck-in-swift.html)
@@ -1246,7 +1246,7 @@
     - Continuous Integration and Code Coverage In Xcode [:pencil:](https://gist.github.com/rbobbins/92e2fd3736f842d4ccee)
     - Code Coverage Xcode 7 [:page_facing_up:](http://mgrebenets.github.io/mobile%20ci/2015/09/21/code-coverage-for-ios-xcode-7/)
 - Debugging Tools
-    - Profiling Swift Tool [:page_facing_up:](http://irace.me/swift-profiling/)
+    - Profiling Swift Tool [:page_facing_up:](http://irace.me/swift-profiling)
     - Profiler formatter xcpretty [:pencil2:](https://github.com/larslockefeer/xcpretty-profiler-formatter)
     - Atom Swift Debugger [:pencil2:](https://github.com/aciidb0mb3r/atom-swift-debugger)
 - Delivery Tools
@@ -1258,7 +1258,6 @@
 - Docker Tools
     - How to run Swift within a Docker container [:page_facing_up:](https://developer.ibm.com/swift/2015/12/15/running-swift-within-docker/)
     - Docker Swift [:pencil2:](https://github.com/swiftdocker/docker-swift)
-    - A Swift 2.2+ & Blackfish Docker [:pencil2:](https://github.com/boostcode/docker-swift-git)
 - Server Tools
     - Heroku Buildpack for Swift [:pencil2:](https://github.com/kylef/heroku-buildpack-swift)
 - Swift Tools
@@ -1417,7 +1416,7 @@
     - UIKit for the Mac, rewritten in Swift [:pencil2:](https://github.com/unifiedh/Chameleon-Swift)
     - Did Apple implement UIKit and Cocoa classes "Obj-C on Swift" [:page_facing_up:](https://www.quora.com/Did-Apple-implement-UIKit-and-Cocoa-classes-Obj-C-on-Swift-or-Swift-on-Obj-C-or-did-they-write-the-whole-thing-twice?srid=xrLC&share=59c4c728)
     - Cocoa Touch Best Practices [:pencil:](https://gist.github.com/rbobbins/236b2160ab9621f3f8e7)
-    - How Do You Do UIView<SomeProtocol> in Swift? [:page_facing_up:](http://nearthespeedoflight.com/article/2016_02_18_how_do_you_do_uiview_someprotocol__in_swift)
+    - How Do You Do UIView<SomeProtocol> in Swift? [:page_facing_up:](http://nearthespeedoflight.com/article/2016_02_18_how_do_you_do_uiview_someprotocol__in_swift_)
 
 [:arrow_up:](#index)
 
