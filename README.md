@@ -51,7 +51,8 @@
 - [iOS Programming with Swift](#ios-programming-with-swift)
     + [Application Structure / Architecture](#application-structure--architecture)
     + [Core Data and Realm](#core-data-and-realm)
-    + [UIKit](#uikit)
+    + [JavaScript](#javascript)
+    + [UI](#ui)
     + [Web Services, JSON, Routing, REST, and Networking](#web-services-json-routing-rest-and-networking)
     + [Xcode](#xcode)
 - [Mac Programming with Swift](#mac-programming-with-swift)
@@ -417,6 +418,7 @@
 - Swiftly getting a human-readable date with NSDateFormatter [:page_facing_up:](http://www.codingexplorer.com/swiftly-getting-human-readable-date-nsdateformatter/)
 - Swift Date [:pencil2:](https://github.com/malcommac/SwiftDate)
 - NSDateFormatter.com [:link:](https://github.com/subdigital/nsdateformatter.com)
+- Date.Swift [:pencil2:](https://github.com/devxoul/Date.swift)
 
 [:arrow_up:](#index)
 
@@ -875,37 +877,48 @@
     - @convention [:page_facing_up:](http://stackoverflow.com/questions/30740560/new-conventionc-in-swift-2-how-can-i-use-it)
     - Introspecting Swift [:floppy_disk:](https://speakerdeck.com/jpsim/introspecting-swift)
     - Unsafe Swift [:floppy_disk:](https://speakerdeck.com/realm/unsafe-swift)
-    + Type Introspection [:page_facing_up:](http://ericasadun.com/2014/06/16/swift-more-than-you-probably-want-to-know-about-type-introspection/)
+    + Type Introspection and demangling [:page_facing_up:](http://ericasadun.com/2014/06/16/swift-more-than-you-probably-want-to-know-about-type-introspection/)
     - The mysterious builtin module [:page_facing_up:](http://ankit.im/swift/2016/01/12/swift-mysterious-builtin-module/)
 
 [:arrow_up:](#index)
 
-#### **Language Comparisons and Transitioning to Swift**
+#### **Language Comparisons**
 + Language Comparisons
-    - Haskell Overlords [:page_facing_up:](http://robnapier.net/haskell-overlords)
-	+ Comparing Swift and Javascript [:page_facing_up:](http://www.mircozeiss.com/swift-for-javascript-developers/)
-	+ C++ Advice to Swift Devs [:page_facing_up:](http://airspeedvelocity.net/2014/06/10/rundown-of-how-each-effective-c-item-relates-to-swift/)
-	+ Swift Protocols vs Java 8 Interfaces [:page_facing_up:](http://stackoverflow.com/questions/30859334/compare-protocol-in-swift-vs-interface-in-java)
-	- Learning Swift from Haskell [:floppy_disk:](https://speakerdeck.com/abizern/what-haskell-teaches-me-about-writing-swift) and corresponding [:microphone:](https://realm.io/news/altconf-abizer-nasir-what-haskell-teaches-me-about-swift/) 
-    - Functional Programming like Haskell [:floppy_disk:](https://speakerdeck.com/mchakravarty/functional-programming-in-a-stateful-world) [:microphone:](https://yow.eventer.com/yow-lambda-jam-2015-1305/functional-programming-in-a-stateful-world-by-manuel-chakravarty-1883)
-	- Swift vs Golang [:floppy_disk:](http://go-talks.appspot.com/github.com/wangkuiyi/swiftgo/swiftgo.slide#1)
-	- Swift 2.0 Protocol Extensions vs Java Abstract Classes [:link:](http://stackoverflow.com/questions/30943209/is-there-a-difference-between-swift-2-0-protocol-extensions-and-java-c-abstract)
-	+ What do Haskell developers think of Swift? [:link:](https://www.quora.com/What-do-Haskell-developers-think-of-Swift)
-    + A Swift intoduction to Haskell [:floppy_disk:](https://speakerdeck.com/johannesweiss/swift-london-meetup-introduction-to-haskell)
-    + Swift For Rubyists [:microphone:](https://realm.io/news/swift-for-rubyists/)
-    + Swift vs Scala [:floppy_disk:](https://www.reddit.com/r/programming/comments/27dmsb/swift_vs_scala/)
-    + OCaml's Deferred in Swift [:page_facing_up:](https://github.com/bignerdranch/Deferred)
-    - Pythonic Swift [:pencil2:](https://github.com/practicalswift/Pythonic.swift)
-    - Hindley-Milner languages [:link:](http://qr.ae/Rg3rFd)
-    - Is Swift a viable alternative to C++ for performance critical code? [:page_facing_up:](https://www.quora.com/Is-Swift-a-viable-alternative-to-C++-for-performance-critical-code?srid=xrLC&share=abc6caeb)
-    - Swift vs C speed test [:page_facing_up:](http://stackoverflow.com/questions/24101718/swift-performance-sorting-arrays) [:page_facing_up:](https://www.quora.com/Is-Swift-programming-language-faster-than-C-or-C++-and-if-yes-why) [:page_facing_up:](https://medium.com/swift-programming/swifth-vs-c-5be7d0398f4f#.6ume737mt)
-    - Swift vs Java Performance [:page_facing_up:](https://www.quora.com/In-terms-of-performance-speed-is-Swift-faster-than-Java)
-    - Go vs Node vs Rust vs Swift [:page_facing_up:](https://grigio.org/go-vs-node-vs-rust-vs-swift/)
-+ Transitioning from ObjC
-	+ Method Swizzling in Swift [:page_facing_up:](http://www.uraimo.com/2015/10/23/effective-method-swizzling-with-swift/)
-	+ How to Method Swizzle in Swift [:page_facing_up:](http://kostiakoval.github.io/posts/methods-swizzling-in-swift/)
-	- A Eulogy for Objective C [:microphone:](https://realm.io/news/altconf-aaron-hillegass-eulogy-for-objective-c/)
-	- The best of Obj-C to Swift [:microphone:](https://realm.io/news/altconf-jaim-zuber-the-stylish-objective-c-developer-s-guide-to-swift/) [:page_facing_up:](https://www.quora.com/What-are-the-best-code-examples-to-illustrate-the-benefits-of-Swift)
+    - Haskell
+        - Haskell Overlords [:page_facing_up:](http://robnapier.net/haskell-overlords)
+        - Learning Swift from Haskell [:floppy_disk:](https://speakerdeck.com/abizern/what-haskell-teaches-me-about-writing-swift) and corresponding [:microphone:](https://realm.io/news/altconf-abizer-nasir-what-haskell-teaches-me-about-swift/) 
+        - Functional Programming like Haskell [:floppy_disk:](https://speakerdeck.com/mchakravarty/functional-programming-in-a-stateful-world) [:microphone:](https://yow.eventer.com/yow-lambda-jam-2015-1305/functional-programming-in-a-stateful-world-by-manuel-chakravarty-1883)
+        + What do Haskell developers think of Swift? [:link:](https://www.quora.com/What-do-Haskell-developers-think-of-Swift)
+        + A Swift intoduction to Haskell [:floppy_disk:](https://speakerdeck.com/johannesweiss/swift-london-meetup-introduction-to-haskell)
+        - Hindley-Milner languages [:link:](http://qr.ae/Rg3rFd)
+    - Javascript
+    	+ Comparing Swift and Javascript [:page_facing_up:](http://www.mircozeiss.com/swift-for-javascript-developers/)
+    - C
+        - Swift vs C speed test [:page_facing_up:](http://stackoverflow.com/questions/24101718/swift-performance-sorting-arrays) [:page_facing_up:](https://www.quora.com/Is-Swift-programming-language-faster-than-C-or-C++-and-if-yes-why) [:page_facing_up:](https://medium.com/swift-programming/swifth-vs-c-5be7d0398f4f#.6ume737mt)
+    - C++
+    	+ C++ Advice to Swift Devs [:page_facing_up:](http://airspeedvelocity.net/2014/06/10/rundown-of-how-each-effective-c-item-relates-to-swift/)
+        - Is Swift a viable alternative to C++ for performance critical code? [:page_facing_up:](https://www.quora.com/Is-Swift-a-viable-alternative-to-C++-for-performance-critical-code?srid=xrLC&share=abc6caeb)
+    - Java
+    	+ Swift Protocols vs Java 8 Interfaces [:page_facing_up:](http://stackoverflow.com/questions/30859334/compare-protocol-in-swift-vs-interface-in-java)
+        - Swift 2.0 Protocol Extensions vs Java Abstract Classes [:link:](http://stackoverflow.com/questions/30943209/is-there-a-difference-between-swift-2-0-protocol-extensions-and-java-c-abstract)
+        - Swift vs Java Performance [:page_facing_up:](https://www.quora.com/In-terms-of-performance-speed-is-Swift-faster-than-Java)
+    - Go
+    	- Swift vs Golang [:floppy_disk:](http://go-talks.appspot.com/github.com/wangkuiyi/swiftgo/swiftgo.slide#1)
+    - Rust
+        - Go vs Node vs Rust vs Swift [:page_facing_up:](https://grigio.org/go-vs-node-vs-rust-vs-swift/)
+    - Ruby
+        + Swift For Rubyists [:microphone:](https://realm.io/news/swift-for-rubyists/)
+    - Scala
+        + Swift vs Scala [:floppy_disk:](https://www.reddit.com/r/programming/comments/27dmsb/swift_vs_scala/)
+    - Ocaml
+        + OCaml's Deferred in Swift [:page_facing_up:](https://github.com/bignerdranch/Deferred)
+    - Python
+        - Pythonic Swift [:pencil2:](https://github.com/practicalswift/Pythonic.swift)
+    + ObjC
+    	+ Method Swizzling in Swift [:page_facing_up:](http://www.uraimo.com/2015/10/23/effective-method-swizzling-with-swift/)
+    	+ How to Method Swizzle in Swift [:page_facing_up:](http://kostiakoval.github.io/posts/methods-swizzling-in-swift/)
+    	- A Eulogy for Objective C [:microphone:](https://realm.io/news/altconf-aaron-hillegass-eulogy-for-objective-c/)
+    	- The best of Obj-C to Swift [:microphone:](https://realm.io/news/altconf-jaim-zuber-the-stylish-objective-c-developer-s-guide-to-swift/) [:page_facing_up:](https://www.quora.com/What-are-the-best-code-examples-to-illustrate-the-benefits-of-Swift)
 
 [:arrow_up:](#index)
 
@@ -1439,7 +1452,7 @@
     - Functional JSON Parsing with Tyro [:pencil2:](https://github.com/typelift/Tyro)
     - { JSON, Swift, and Type Safety } [:floppy_disk:](https://speakerdeck.com/swiftsummit/anthony-levings-json-swift-and-type-safety-its-a-wrap)
     - JSON in Swift [:page_facing_up:](http://blog.matthewcheok.com/json-and-swift/)
-    - Functional JSON Parsing [:page_facing_up:](http://owensd.io/2014/08/06/functional-json.html) 
+    - Functional JSON Parsing [:page_facing_up:](http://owensd.io/2014/08/06/functional-json.html)
     + Swift and JSON: Are we doing it right? [:microphone:](https://skillsmatter.com/skillscasts/6202-swift-and-json-are-we-doing-it-right)
     + Calling APIs and Parsing JSON with Swift [:page_facing_up:](https://www.topcoder.com/blog/calling-apis-parsing-json-with-swift/) [:page_facing_up:](http://www.raywenderlich.com/82706/working-with-json-in-swift-tutorial)
     + Parsing Embedded JSON and Arrays in Swift [:page_facing_up:](https://robots.thoughtbot.com/parsing-embedded-json-and-arrays-in-swift)
@@ -1488,6 +1501,30 @@
 [:arrow_up:](#index)
 
 ## Emoji Key
+_________________
+|       |       |
+|_______|_______|
+|       |       |
+|_______|_______|
+|       |       |
+|_______|_______|
+|       |       |
+|_______|_______|
+|       |       |
+|_______|_______|
+|       |       |
+|_______|_______|
+|       |       |       
+|_______|_______| 
+|       |       |
+|_______|_______|
+|       |       |
+|_______|_______|
+|       |       |
+|_______|_______|
+|       |       |       
+|_______|_______|
+
 - :pencil: = Gist
 - :pencil2: = Repository
 - :notebook: = Blog
