@@ -632,6 +632,7 @@
     - Swift Android [:pencil2:](https://github.com/SwiftAndroid/swift)
     - Swift Version Manager [:pencil2:](https://github.com/kylef/swiftenv)
     - Properly Typed Selectors in Xcode 7.3 beta 4 [:page_facing_up:](http://flexmonkey.blogspot.co.uk/2016/02/properly-typed-selectors-in-xcode-73.html)
+    - Swift [and the] Evolution [:microphone:](http://www.thedotpost.com/2016/01/tj-usiyan-swift-and-the-evolution)
 + Opinions about Swift
     + Wishlist for Swift 3.0 [:page_facing_up:](https://realm.io/news/swift-3-wishlist/)
     + The Death of Cocoa [:page_facing_up:](http://nshipster.com/the-death-of-cocoa/)
@@ -761,7 +762,7 @@
         - FutureKit Repostory [:pencil2:](https://github.com/FutureKit/FutureKit)
         - A simple Promise in Swift [:pencil:](https://gist.github.com/robrix/5f3dc201988fb0f5f584)
         - PromiseKit Promise Library [:pencil2:](https://github.com/mxcl/PromiseKit) [:link:](http://promisekit.org/)
-        - BrightFutures Repository [:pencil2:](https://github.com/Thomvis/BrightFutures)
+        - BrightFutures Repository [:pencil2:](https://github.com/Thomvis/BrightFutures) [:micrphone:](http://www.thomasvisser.me/2015/11/08/swiftsummit-execution-context/)
         + Back to the Futures with Swift [:microphone:](https://realm.io/news/swift-summit-javier-soto-futures/) [:floppy_disk:](https://speakerdeck.com/javisoto/back-to-the-futures)
         + Futures and Latency as an effect in Swift [:page_facing_up:](https://sideeffects.xyz/2015/latency-as-effect-in-swift/) [:floppy_disk:](http://www.bubblefoundry.com/blog/2014/10/future-shock/)
         - Binds and Promises with Forbind [:page_facing_up:](http://ulrikdamm.logdown.com/posts/277995) [:pencil2:](https://github.com/ulrikdamm/Forbind)
@@ -926,6 +927,7 @@
     - ARC in depth [:page_facing_up:](https://sectionfive.net/blog/2015/03/31/arc-in-depth-part-i/) [:page_facing_up:](https://sectionfive.net/blog/2015/06/12/arc-in-depth-part-ii/)
     - ARC + Swift [:page_facing_up:](https://medium.com/the-traveled-ios-developers-guide/arc-swift-d323535baecb#.31lclj25s)
     - ARC Exploration and pitfalls [:page_facing_up:](https://sectionfive.net/blog/2014/11/24/arc-exploration-and-pitfalls/)
+    - Static vs Dynamic Linking [:page_facing_up:](http://www.thedotpost.com/2015/02/marius-rackwitz-static-vs-dynamic-linking)
 - Assembly
     - IR is better than assembly [:page_facing_up:](https://idea.popcount.org/2013-07-24-ir-is-better-than-assembly/)
 - Clang
@@ -1489,6 +1491,7 @@
 + Real World JSON Parsing [:page_facing_up:](https://robots.thoughtbot.com/real-world-json-parsing-with-swift)
 - Operator Overloading and JSON Parsing in Swift [:page_facing_up:](https://realm.io/news/swift-thinking/)
 - Swift JSON [:pencil2:](https://github.com/dankogai/swift-json)
+- Beyond JSON in Swift [:microphone:](http://www.thedotpost.com/2016/01/maxim-zaks-beyond-json)
 
 #### **Persistence**
 - NSCoding and UserDefaults [:page_facing_up:](http://stackoverflow.com/questions/26469457/saving-custom-swift-class-with-nscoding-to-userdefaults)
@@ -1551,6 +1554,7 @@
     - Moya: Network Abstraction Layer written in Swift [:pencil2:](https://github.com/Moya/Moya)
     - Network data as a Struct [:page_facing_up:](http://chris.eidhof.nl/posts/struct-semantics-in-swift.html)
     - Your app and next generation networks [:microphone:](https://developer.apple.com/videos/play/wwdc2015/719/)
+    - Tiny Networking [:microphone:]](http://www.thedotpost.com/2016/01/chris-eidhof-tiny-networking-in-swift)
 + Routing 
     - An AlamoFire Router [:page_facing_up:](https://littlebitesofcocoa.com/93-creating-a-router-for-alamofire)
     - Write Your Own API Clients [:page_facing_up:](https://thatthinginswift.com/write-your-own-api-clients-swift/)

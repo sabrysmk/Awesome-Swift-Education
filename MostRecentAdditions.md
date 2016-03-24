@@ -241,19 +241,8 @@
 - [Meaningful print debugging](https://swifting.io/blog/2016/01/26/1-meaningful-print-debugging/)
 - [Creating a Virtual Machine/Register VM in Swift](https://en.wikibooks.org/wiki/Creating_a_Virtual_Machine/Register_VM_in_Swift)
 
-##### 3/10/2016
-- [AWS Swift SDK](https://github.com/awslabs/aws-sdk-ios-samples)
-- [WWDC tvOS APP](https://github.com/insidegui/WWDC-tvOS)
-- [Xcode: Automatic version and build number for iOS apps on Info.plist and Settings.bundle](http://www.tiagopinto.pt/blog/2014/11/10/xcode-version-build-number-ios-info-plist-settings-bundle/)
-- [Static vs Dynamic Linking](http://www.thedotpost.com/2015/02/marius-rackwitz-static-vs-dynamic-linking)
-- [CloudKit: The Forgotten Cloud](http://www.thedotpost.com/2016/01/paul-ardeleanu-the-forgotten-cloud)
-- [iOS UIs built as Lego bricks](http://www.thedotpost.com/2016/01/victor-wang-build-ios-ui-in-the-way-of-lego-bricks)
-- [Swift [and the] Evolution](http://www.thedotpost.com/2016/01/tj-usiyan-swift-and-the-evolution)
-- [Beyond JSON in Swift](http://www.thedotpost.com/2016/01/maxim-zaks-beyond-json)
-- [Tiny Networking](http://www.thedotpost.com/2016/01/chris-eidhof-tiny-networking-in-swift)
-- [Going Swift and Beyond](http://www.thedotpost.com/2016/01/ayaka-nonaka-going-swift-and-beyond-first-wave-swift)
-- [The Bright Future of Swift](http://www.thomasvisser.me/2015/11/08/swiftsummit-execution-context/)
-- [Swif tmethod dispath with protocol extension](http://allblue.me/swift/2016/01/23/swift-method-dispatch-with-protocol-extension-protocol-extension-and-subclass/)
+#### 3/11/2016
+- [Swift method dispatch with protocol extension](http://allblue.me/swift/2016/01/23/swift-method-dispatch-with-protocol-extension-protocol-extension-and-subclass/)
 - [Two weird things about protocol, extension and subclass in Swift](http://allblue.me/swift/2016/01/24/two-weird-things-about-extension-subclass-in-swift/)
 - [Quizzes about properties in Swift](http://allblue.me/swift/2016/01/08/quiz-about-properties-in-swift/)
 - [Asynchronous values as first-class citizens in Swift](http://www.thomasvisser.me/2015/11/26/async-swift/)
@@ -262,6 +251,15 @@
 - [Crusty](https://gist.github.com/rnapier/e64e3938a787d789c2d4)
 - [Localization is hard](http://www.thedotpost.com/2016/01/roy-marmelstein-localization-is-hard)
 - [Example Fastfiles](https://github.com/fastlane/examples)
+
+##### 3/10/2016
+- [Xcode: Automatic version and build number for iOS apps on Info.plist and Settings.bundle](http://www.tiagopinto.pt/blog/2014/11/10/xcode-version-build-number-ios-info-plist-settings-bundle/)
+- [Static vs Dynamic Linking](http://www.thedotpost.com/2015/02/marius-rackwitz-static-vs-dynamic-linking)
+- [iOS UIs built as Lego bricks](http://www.thedotpost.com/2016/01/victor-wang-build-ios-ui-in-the-way-of-lego-bricks)
+- [Swift [and the] Evolution](http://www.thedotpost.com/2016/01/tj-usiyan-swift-and-the-evolution)
+- [Beyond JSON in Swift](http://www.thedotpost.com/2016/01/maxim-zaks-beyond-json)
+- [Tiny Networking](http://www.thedotpost.com/2016/01/chris-eidhof-tiny-networking-in-swift)
+- [The Bright Future of Swift](http://www.thomasvisser.me/2015/11/08/swiftsummit-execution-context/)
 
 ##### 3/6/2016
 - [Compose Types](https://gist.github.com/Ben-G/aa080de6d61f46bdc842)
