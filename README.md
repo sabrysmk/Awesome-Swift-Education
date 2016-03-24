@@ -271,7 +271,7 @@
     - Why is n-arity currying not possible? [:link:](http://stackoverflow.com/questions/31499375/why-is-n-arity-currying-not-possible-in-swift)
 - Closures
     - Swift Closures Cheatsheet [:page_facing_up:](http://limlab.io/swift/2016/02/13/swift-closures-cheatsheet.html)
-    + Closures and Capturing Values in Swift [:page_facing_up:](http://www.codingexplorer.com/closures-capturing-values-swift/) [:page_facing_up](https://medium.com/swift-programming/swift-closures-everyday-gems-part-2-of-2-8607157b11c5#.aa8k67phd)
+    + Closures and Capturing Values in Swift [:page_facing_up:](http://www.codingexplorer.com/closures-capturing-values-swift/) [:page_facing_up:](https://medium.com/swift-programming/swift-closures-everyday-gems-part-2-of-2-8607157b11c5#.aa8k67phd)
     + Using Local Closures with Swift [:page_facing_up:](http://www.thomashanning.com/swift-using-local-closures/)
     + Delaying Code Execution through Closures [:page_facing_up:](http://blog.matthewcheok.com/delaying-code-execution-in-swift/)
     + Can we please make a standard style for closures? [:page_facing_up:](https://bigonotetaking.wordpress.com/2015/08/04/ramblings-on-stylish-closures-currying-and-operators/)
@@ -348,7 +348,7 @@
 + How Swift Scripting was used to make iOS Cookies [:page_facing_up:](https://medium.com/@bardonadam/how-i-m-using-swift-scripting-to-create-newsletter-for-ios-cookies-93db5deca4c#.cwgws2399)
 + Writing an Xcode Plugin with Swift [:page_facing_up:](http://merowing.info/2015/12/writing-xcode-plugin-in-swift/)
 + Make Command Line Applications with Swiftline [:page_facing_up:](https://github.com/Swiftline/Swiftline)
-- Swift Command Line Application Template [:pecnil2:](https://github.com/Zewo/Swift-Command-Line-Application-Template)
+- Swift Command Line Application Template [:pencil2:](https://github.com/Zewo/Swift-Command-Line-Application-Template)
 - Using Swift As General Purpose Scripting Language [:page_facing_up:](http://www.strathweb.com/2014/06/using-swift-general-purpose-scripting-language/)
 
 [:arrow_up:](#index)
@@ -564,7 +564,7 @@
     + Swift Enums: Initialization with Associated Values from a Server Response [:page_facing_up:](http://www.tekramer.com/swift-enums-custom-initialization-with-associated-values/)
     - Sad State of Enums [:page_facing_up:](http://owensd.io/blog/sad-state-of-enums/)
     - Swift Algebraic Data Types [:page_facing_up:](http://dduan.net/post/2015/07/swift-algebraic-data-types/)
-    - Create an enum with rawvalue type of closures [:page_fcaing_up:](http://stackoverflow.com/questions/30422718/is-it-possible-to-create-a-enum-in-swift-with-raw-values-type-of-a-closure)
+    - Create an enum with rawvalue type of closures [:page_facing_up:](http://stackoverflow.com/questions/30422718/is-it-possible-to-create-a-enum-in-swift-with-raw-values-type-of-a-closure)
     - Immutable Enumeration in Swift [:page_facing_up:](http://tel.github.io/posts/immutable_enumeration_in_swift/)
     - The Types of Data in Swift [:page_facing_up:](http://tel.github.io/posts/types_of_data_in_swift/)
     - Discriminated Unions in Swift [:page_facing_up:](http://vperi.com/2014/06/06/discriminated-unions-in-swift/)
@@ -784,7 +784,7 @@
     - FutureKit Repostory [:pencil2:](https://github.com/FutureKit/FutureKit)
     - A simple Promise in Swift [:pencil:](https://gist.github.com/robrix/5f3dc201988fb0f5f584)
     - PromiseKit Promise Library [:pencil2:](https://github.com/mxcl/PromiseKit) [:link:](http://promisekit.org/)
-    - BrightFutures Repository [:pencil2:](https://github.com/Thomvis/BrightFutures) [:micrphone:](http://www.thomasvisser.me/2015/11/08/swiftsummit-execution-context/)
+    - BrightFutures Repository [:pencil2:](https://github.com/Thomvis/BrightFutures) [:microphone:](http://www.thomasvisser.me/2015/11/08/swiftsummit-execution-context/)
     + Back to the Futures with Swift [:microphone:](https://realm.io/news/swift-summit-javier-soto-futures/) [:floppy_disk:](https://speakerdeck.com/javisoto/back-to-the-futures)
     + Futures and Latency as an effect in Swift [:page_facing_up:](https://sideeffects.xyz/2015/latency-as-effect-in-swift/) [:floppy_disk:](http://www.bubblefoundry.com/blog/2014/10/future-shock/)
     - Binds and Promises with Forbind [:page_facing_up:](http://ulrikdamm.logdown.com/posts/277995) [:pencil2:](https://github.com/ulrikdamm/Forbind)
@@ -1039,7 +1039,7 @@
     - C++
         + C++ Advice to Swift Devs [:page_facing_up:](http://airspeedvelocity.net/2014/06/10/rundown-of-how-each-effective-c-item-relates-to-swift/)
         - Is Swift a viable alternative to C++ for performance critical code? [:page_facing_up:](https://www.quora.com/Is-Swift-a-viable-alternative-to-C++-for-performance-critical-code?srid=xrLC&share=abc6caeb)
-        - Swift vs Modern C++ [:video:](https://www.youtube.com/watch?v=VxevGjZ8RuE)
+        - Swift vs Modern C++ [:link:](https://www.youtube.com/watch?v=VxevGjZ8RuE)
         - Use a C++ Library from Swift [:page_facing_up:](http://www.swiftprogrammer.info/swift_call_cpp.html)
     - C#
         - Swift for C# Developers [:page_facing_up:](https://developer.ibm.com/swift/2016/02/25/swift-for-c-developers/)
@@ -1128,7 +1128,7 @@
         - Swift, Frameworks & Modules, Learnings from CocoaPods [:page_facing_up:](https://speakerdeck.com/realm/swift-frameworks-and-modules-learnings-from-cocoapods)
         - Swift Package Manager [:floppy_disk:](https://speakerdeck.com/neonichu/swift-package-manager)
 - Modules and frameworks
-    - [Modules and Precompiled Headers](http://useyourloaf.com/blog/modules-and-precompiled-headers/)
+    - Modules and Precompiled Headers [:page_facing_up:](http://useyourloaf.com/blog/modules-and-precompiled-headers/)
     - Building a Swift Framework [:microphone:](https://realm.io/news/marius-rackwitz-challenges-building-swift-framework/)
 - Docker
     - Deploy and run Swift Kitura Applications with Docker [:page_facing_up:](http://heidloff.net/article/swift-kitura-docker-bluemix)
@@ -1412,7 +1412,7 @@
     + Dependent Types in Swift [:page_facing_up:](https://sectionfive.net/blog/2015/08/11/building-almost-dependent-types-in-swift/) and why they matter [:page_facing_up:](https://jeremywsherman.com/blog/2015/08/26/read-why-dependent-types-matter/)
     + Can Swift have Dependent Types? [:pencil:](https://github.com/oisdk/ConstArray/blob/master/Playground.playground/Contents.swift) [:page_facing_up:](https://github.com/oisdk/PretendDependSwift)
     + More Misunderstanding of Dependent Types [:page_facing_up:](https://bigonotetaking.wordpress.com/2015/09/06/yet-more-misunderstanding-of-dependent-types/)
-    - An implementation of a dependently-typed intermediate language [:pencil2:](https://github.com/antitypical/Manifold)
+    - An implementation of a dependently-typed intermediate language [:pencil2:](https://github.com/antitypical/Manifold) [:pencil2:](https://github.com/oisdk/PretendDependSwift)
     - Dependent Types: I'm missing something [:page_facing_up:](http://owensd.io/blog/dependent-types-im-missing-something/)
     - Backwards Dependent Types [:page_facing_up:](https://jeremywsherman.com/blog/2015/10/02/what-if-you-get-your-dependent-type-backwards/)
     - Type-Level Assertions (or, almost-dependent types) [:pencil:](https://gist.github.com/JadenGeller/f39130616846f9bf9879)
@@ -1727,6 +1727,6 @@
 [:arrow_up:](#index)
 
 ## **Shoutouts**
-Shoutout to [@clattner_llvm](https://twitter.com/clattner_llvm?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), the OG Swift Developer. Shoutout to [@chriseidhof](https://twitter.com/chriseidhof) for encouraging me to promote this idea and for being a huge baller. Shoutout to [@ashfurrow](https://twitter.com/ashfurrow) and [@bennRodri](https://twitter.com/bennRodri) for being so incredibly helpful. Shoutout to [@CodaFi_](https://twitter.com/CodaFi_), the [TypeLift](https://github.com/typelift), and the [AntiTypical](https://github.com/antitypical) teams for promoting FP. Shoutout to [Elm Trailblazers](https://twitter.com/czaplic?lang=en). Shoutout to [Haskell Devs](http://dev.stephendiehl.com/hask/) and [Category Theory legends](https://ncatlab.org/nlab/show/computer+science). Shoutout to [FutureKit](https://github.com/FutureKit/FutureKit), made by my coworker [@michaelgray](). And finally, Shoutout to all the Swift Programmers out there, this project is __by you and for you!__
+Shoutout to [@clattner_llvm](https://twitter.com/clattner_llvm?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), the OG Swift Developer. Shoutout to [@chriseidhof](https://twitter.com/chriseidhof) for encouraging me to promote this idea and for being a huge baller. Shoutout to [@ashfurrow](https://twitter.com/ashfurrow) and [@bennRodri](https://twitter.com/bennRodri) for being so incredibly helpful. Shoutout to [@CodaFi_](https://twitter.com/CodaFi_), the [TypeLift](https://github.com/typelift), and the [AntiTypical](https://github.com/antitypical) teams for promoting FP. Shoutout to [Elm Trailblazers](https://twitter.com/czaplic?lang=en). Shoutout to [Haskell Devs](http://dev.stephendiehl.com/hask/) and [Category Theory legends](https://ncatlab.org/nlab/show/computer+science). Shoutout to [FutureKit](https://github.com/FutureKit/FutureKit), made by my coworker [@michaelgray](https://github.com/mishagray). And finally, Shoutout to all the Swift Programmers out there, this project is __by you and for you!__
 
 [:arrow_up:](#index)
