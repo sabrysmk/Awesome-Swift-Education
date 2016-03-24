@@ -144,7 +144,6 @@
 #### 3/15/2016
 - [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack)
 - [Swiftalytics lets you use Aspect Oriented Programming to declare all the analytics view tracking for your app on neat one-liners in a single file!](https://github.com/MrAlek/Swiftalytics)
-- [A forest of loggers]()
 - [Markdown Formatting Reference](https://developer.apple.com/library/ios/documentation/Xcode/Reference/xcode_markup_formatting_ref/index.html#//apple_ref/doc/uid/TP40016497)
 - [Swift Documentation](http://nshipster.com/swift-documentation/)
 
@@ -170,7 +169,7 @@
 - [Build a Swift Pipeline with Jenkins Workflow](https://dzone.com/articles/build-a-swift-pipeline-with-jenkins-workflow)
 - [Continuous integration mixing Jenkins, iOS 9 and XCode 7.](http://mmorejon.github.io/en/blog/continuous-integration-jenkins-ios9-xcode/)
 - [The Case for bringing Swift to the server](https://qconlondon.com/system/files/presentation-slides/patrickbohrerchrisbailey.pdf)
-- [CoucgDB Swift](https://github.com/zemirco/swift-couchdb)
+- [CouchDB Swift](https://github.com/zemirco/swift-couchdb)
 - [Swift MySQL Driver](https://github.com/deepfryed/swift-db-mysql)
 - [Protocol-Oriented Programming in Networking](https://speakerdeck.com/ishkawa/protocol-oriented-programming-in-networking)
 - [Write Web Server in Swift](https://github.com/tryswift/trySwiftServer/blob/master/Slides/Deckset/Soaring%20Swiftly.md)
@@ -242,7 +241,7 @@
 - [Creating a Virtual Machine/Register VM in Swift](https://en.wikibooks.org/wiki/Creating_a_Virtual_Machine/Register_VM_in_Swift)
 
 #### 3/11/2016
-- [Swift method dispatch with protocol extension](http://allblue.me/swift/2016/01/23/swift-method-dispatch-with-protocol-extension-protocol-extension-and-subclass/)
+- [Swift method dispatch with protocol extension](http://cjwirth.com/2016/01/20/swift-protocol-extension-weirdness/)
 - [Two weird things about protocol, extension and subclass in Swift](http://allblue.me/swift/2016/01/24/two-weird-things-about-extension-subclass-in-swift/)
 - [Quizzes about properties in Swift](http://allblue.me/swift/2016/01/08/quiz-about-properties-in-swift/)
 - [Asynchronous values as first-class citizens in Swift](http://www.thomasvisser.me/2015/11/26/async-swift/)
