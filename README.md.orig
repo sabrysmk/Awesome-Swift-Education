@@ -981,6 +981,45 @@
 
 #### **Language Comparisons**
 + Language Comparisons
+<<<<<<< HEAD
+    - Haskell
+        - Haskell Overlords [:page_facing_up:](http://robnapier.net/haskell-overlords)
+        - Learning Swift from Haskell [:floppy_disk:](https://speakerdeck.com/abizern/what-haskell-teaches-me-about-writing-swift) and corresponding [:microphone:](https://realm.io/news/altconf-abizer-nasir-what-haskell-teaches-me-about-swift/) 
+        - Functional Programming like Haskell [:floppy_disk:](https://speakerdeck.com/mchakravarty/functional-programming-in-a-stateful-world) [:microphone:](https://yow.eventer.com/yow-lambda-jam-2015-1305/functional-programming-in-a-stateful-world-by-manuel-chakravarty-1883)
+        + What do Haskell developers think of Swift? [:link:](https://www.quora.com/What-do-Haskell-developers-think-of-Swift)
+        + A Swift intoduction to Haskell [:floppy_disk:](https://speakerdeck.com/johannesweiss/swift-london-meetup-introduction-to-haskell)
+        - Hindley-Milner languages [:link:](http://qr.ae/Rg3rFd)
+    - Javascript
+    	+ Comparing Swift and Javascript [:page_facing_up:](http://www.mircozeiss.com/swift-for-javascript-developers/)
+    - C
+        - Swift vs C speed test [:page_facing_up:](http://stackoverflow.com/questions/24101718/swift-performance-sorting-arrays) [:page_facing_up:](https://www.quora.com/Is-Swift-programming-language-faster-than-C-or-C++-and-if-yes-why) [:page_facing_up:](https://medium.com/swift-programming/swifth-vs-c-5be7d0398f4f#.6ume737mt)
+    - C++
+    	+ C++ Advice to Swift Devs [:page_facing_up:](http://airspeedvelocity.net/2014/06/10/rundown-of-how-each-effective-c-item-relates-to-swift/)
+        - Is Swift a viable alternative to C++ for performance critical code? [:page_facing_up:](https://www.quora.com/Is-Swift-a-viable-alternative-to-C++-for-performance-critical-code?srid=xrLC&share=abc6caeb)
+    - C#
+        - Swift for C# Developers [:page_facing_up:](https://developer.ibm.com/swift/2016/02/25/swift-for-c-developers/)
+    - Java
+    	+ Swift Protocols vs Java 8 Interfaces [:page_facing_up:](http://stackoverflow.com/questions/30859334/compare-protocol-in-swift-vs-interface-in-java)
+        - Swift 2.0 Protocol Extensions vs Java Abstract Classes [:link:](http://stackoverflow.com/questions/30943209/is-there-a-difference-between-swift-2-0-protocol-extensions-and-java-c-abstract)
+        - Swift vs Java Performance [:page_facing_up:](https://www.quora.com/In-terms-of-performance-speed-is-Swift-faster-than-Java)
+    - Go
+    	- Swift vs Golang [:floppy_disk:](http://go-talks.appspot.com/github.com/wangkuiyi/swiftgo/swiftgo.slide#1)
+    - Rust
+        - Go vs Node vs Rust vs Swift [:page_facing_up:](https://grigio.org/go-vs-node-vs-rust-vs-swift/)
+    - Ruby
+        + Swift For Rubyists [:microphone:](https://realm.io/news/swift-for-rubyists/)
+    - Scala
+        + Swift vs Scala [:floppy_disk:](https://www.reddit.com/r/programming/comments/27dmsb/swift_vs_scala/)
+    - Ocaml
+        + OCaml's Deferred in Swift [:page_facing_up:](https://github.com/bignerdranch/Deferred)
+    - Python
+        - Pythonic Swift [:pencil2:](https://github.com/practicalswift/Pythonic.swift)
+    + ObjC
+    	+ Method Swizzling in Swift [:page_facing_up:](http://www.uraimo.com/2015/10/23/effective-method-swizzling-with-swift/)
+    	+ How to Method Swizzle in Swift [:page_facing_up:](http://kostiakoval.github.io/posts/methods-swizzling-in-swift/)
+    	- A Eulogy for Objective C [:microphone:](https://realm.io/news/altconf-aaron-hillegass-eulogy-for-objective-c/)
+    	- The best of Obj-C to Swift [:microphone:](https://realm.io/news/altconf-jaim-zuber-the-stylish-objective-c-developer-s-guide-to-swift/) [:page_facing_up:](https://www.quora.com/What-are-the-best-code-examples-to-illustrate-the-benefits-of-Swift)
+=======
     - Haskell Overlords [:page_facing_up:](http://robnapier.net/haskell-overlords)
 	+ Comparing Swift and Javascript [:page_facing_up:](http://www.mircozeiss.com/swift-for-javascript-developers)
 	+ C++ Advice to Swift Devs [:page_facing_up:](http://airspeedvelocity.net/2014/06/10/rundown-of-how-each-effective-c-item-relates-to-swift/)
@@ -1005,6 +1044,7 @@
 	+ How to Method Swizzle in Swift [:page_facing_up:](http://kostiakoval.github.io/posts/methods-swizzling-in-swift/)
 	- A Eulogy for Objective C [:microphone:](https://realm.io/news/altconf-aaron-hillegass-eulogy-for-objective-c/)
 	- The best of Obj-C to Swift [:microphone:](https://realm.io/news/altconf-jaim-zuber-the-stylish-objective-c-developer-s-guide-to-swift/) [:page_facing_up:](https://www.quora.com/What-are-the-best-code-examples-to-illustrate-the-benefits-of-Swift)
+>>>>>>> origin/master
 
 [:arrow_up:](#index)
 
