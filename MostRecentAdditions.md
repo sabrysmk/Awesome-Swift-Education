@@ -10,6 +10,13 @@
 + [Extending Swift Generic Types](http://www.marisibrothers.com/2016/03/extending-swift-generic-types.html)
 - [Inversion of Control and Dependency Injection](https://github.com/jgretz/CoreMeta)
 - [Errors: unexpected, composite, non-pure, external](http://www.cocoawithlove.com/blog/2016/03/17/non-pure-errors.html)
+- [Swift vs Go vs Python](http://www.marcinkliks.pl/2015/02/22/swift-vs-others/)
+- [Go Goodies for Swift. Including goroutines, channels, defer, and panic.](https://github.com/tidwall/GoSwift)
+- [Swift Go like channels](https://gist.github.com/seanlilmateus/d98aeeb1920fe4b93e6a)
+- [Golang-like concurrency semantics in Swift](https://gist.github.com/kainosnoema/dc8b8db0007412244b4a)
+- [A protocol oriented way of handling datasources in Swift](https://github.com/nvh/DataSourceable) [video](https://vimeo.com/152193160)
+- [Using Elm/React inspired architecture to build Cocoa apps in a functional way](https://vimeo.com/153520719)
+- [Arch Patterns](https://vimeo.com/153520720)
 
 #### 3/21/2016
 - [3 Strategies for Skinny VCs](http://bartjacobs.com/three-strategies-to-keep-view-controllers-skinny/)
