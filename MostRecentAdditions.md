@@ -2,6 +2,15 @@
 
 > This is a list of the most recent additions to Awesome Swift Education. Note that this list was first created on 1/10/2016. You can follow along with the evolution of Awesome Swift Education by looking at the recent additions to this list 
 
+#### 3/24/2016
+- [Swift: Selector syntax sugar](https://medium.com/swift-programming/swift-selector-syntax-sugar-81c8a8b10df3#.4zfq3wimr)
++ [Structs as Data Models](https://medium.com/swift-programming/swift-caveats-for-structs-as-data-models-8299d84b49dc#.rf1agoadg)
++ [Why Choose Struct Over Class?](http://stackoverflow.com/questions/24232799/why-choose-struct-over-class/24243626#24243626)
++ [On Definitive Initialization](https://medium.com/the-traveled-ios-developers-guide/on-definitive-initialization-54284ef5c96f#.5wdzuyrev)
++ [Extending Swift Generic Types](http://www.marisibrothers.com/2016/03/extending-swift-generic-types.html)
+- [Inversion of Control and Dependency Injection](https://github.com/jgretz/CoreMeta)
+- [Errors: unexpected, composite, non-pure, external](http://www.cocoawithlove.com/blog/2016/03/17/non-pure-errors.html)
+
 #### 3/21/2016
 - [3 Strategies for Skinny VCs](http://bartjacobs.com/three-strategies-to-keep-view-controllers-skinny/)
 - [Cocoalumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack)

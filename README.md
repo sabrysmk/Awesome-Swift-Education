@@ -34,7 +34,7 @@
     + [Functional Reactive Programming](#functional-reactive-programming)
     + [Generics](#generics)
     + [Initializers, Properties, and Dependency Injection](#initializers-properties-and-dependency-injection)
-    + [Interpolability](#interpolability-with-c-and-objective-c)
+    + [Interpolability](#interpolability)
     + [Internals](#internals)
     + [IO](#io)
     + [Language Comparisons](#language-comparisons)
@@ -247,11 +247,11 @@
     - NSBrief [:radio:](http://nsbrief.com/)
     - Ray Wenderlich [:radio:](http://www.raywenderlich.com/rwpodcast)
     - CocoaConf [:radio:](http://cocoaconf.com/podcast)
-    - Unicorn Podcasts [:radio:](https://swift.unicorn.tv/podcasts)
 - Repositories
     - Swift @IBM Community Repo [:pencil:](https://github.com/IBM-Swift)
     - SwiftGL Repo [:pencil:](https://github.com/SwiftGL)
     - Zevo Open source libraries for modern server software [:pencil:](https://github.com/Zewo)
+    - Swift Kitz [:pencil:](https://github.com/SwiftKitz)
 
 [:arrow_up:](#index)
 
@@ -287,6 +287,8 @@
     - Swift functions Cheatsheet [:page_facing_up:](http://limlab.io/swift/2016/02/12/swift-functions-cheatsheet.html)
     - Operator Overloading in Swift Tutorial [:page_facing_up:](http://www.raywenderlich.com/80818/operator-overloading-in-swift-tutorial)
     - Functions = Closures [:page_facing_up:](http://swiftwala.com/functions-equals-closures/)
+- Selectors
+    - Swift: Selector syntax sugar [:page_facing_up:](https://medium.com/swift-programming/swift-selector-syntax-sugar-81c8a8b10df3#.4zfq3wimr)
 - Weak References
     + weak vs unowned [:page_facing_up:](http://krakendev.io/blog/weak-and-unowned-references-in-swift)
     + Swift weak references [:page_facing_up:](https://www.mikeash.com/pyblog/friday-qa-2015-12-11-swift-weak-references.html) [:page_facing_up:](https://www.quora.com/How-does-Swift-implement-weak-references)
@@ -619,6 +621,7 @@
     + Error Styling in Swift [:pencil:](https://gist.github.com/erica/b203a13b0b71db430801)
     + Magic Methods in Swift [:page_facing_up:](https://developer.apple.com/swift/blog/?id=15)
     - Async Error Handling [:page_facing_up:](http://alisoftware.github.io/swift/async/error/2016/02/06/async-errors/) [:floppy_disk:](https://speakerdeck.com/javisoto/ios-conf-singapore-october-2015)
+    - Errors: unexpected, composite, non-pure, external [:page_facing_up:](http://www.cocoawithlove.com/blog/2016/03/17/non-pure-errors.html)
 
 [:arrow_up:](#index)
 
@@ -684,7 +687,7 @@
 
 [:arrow_up:](#index)
 
-#### **File IO**
+#### **IO**
 - Basic File Reading and Writing Using Swift [:page_facing_up:](http://peterwitham.com/swift/intermediate/basic-file-reading-and-writing-in-ios-8/)
 - Read and write data from text file [:page_facing_up:](http://stackoverflow.com/questions/24097826/read-and-write-data-from-text-file)
 - Working with Files in Swift [:page_facing_up:](http://www.techotopia.com/index.php/Working_with_Files_in_Swift_on_iOS_8)
@@ -761,7 +764,7 @@
     - Monad laws [:page_facing_up:](http://nomothetis.svbtle.com/third-monad-law-derivation)
     + infix Operators for Monadic Functions in Swift [:pencil2:](https://github.com/thoughtbot/Runes)
     + Monads & C# Tasks in Swift [:page_facing_up:](https://realm.io/news/swift-tasks-nevyn-bengtsson/)
-    - The monad among us [:floppy_disk:](https://speakerdeck.com/swiftsummit/al-skipp-the-monad-among-us) [:page_facing_up:](http://khanlou.com/2015/09/what-the-heck-is-a-monad/)
+    - What the heck is a monad? [:floppy_disk:](https://speakerdeck.com/swiftsummit/al-skipp-the-monad-among-us) [:page_facing_up:](http://khanlou.com/2015/09/what-the-heck-is-a-monad/)
     + Swift Adventures in Monad Land [:pencil2:](https://github.com/alskipp/Swift-Adventures-In-Monad-Land)
     + Paragons Of Perfunctory Programs [:page_facing_up:](http://xn--wxak1a.com/blog/Monadic-Computering.html) 
     - Networking with Monads and into to Transformers [:microphone:](https://www.youtube.com/watch?v=LqwrUmuodyY)
@@ -822,7 +825,7 @@
 
 [:arrow_up:](#index)
 
-#### **Functional Reactive Programming in Swift**
+#### **Functional Reactive Programming**
 + FRP
     - Why FRP [:page_facing_up:](http://codeplease.io/2016/01/08/why-frp/)
     - FRP in Swift 2.0 [:microphone:](https://realm.io/news/agnes-vasarhelyi-beer-app-frp-swift-2/)
@@ -859,23 +862,29 @@
 [:arrow_up:](#index)
 
 #### **Generics** 
+- About
+    + Generics in Swift, Part 1 [:page_facing_up:](http://austinzheng.com/2015/01/02/swift-generics-pt-1/), Part 2 [:page_facing_up:](http://austinzheng.com/2015/09/29/swift-generics-pt-2/)
+    + Official Docs [:pencil:](https://github.com/apple/swift/blob/master/docs/Generics.rst)
+    - A Sanatorium for Swift Generics [:page_facing_up:](http://natecook.com/blog/2015/03/a-sanatorium-for-swift-generics/)
 - Covariance 
     + Covariant and contravariant generic type parameters [:link:](https://forums.developer.apple.com/thread/5056)
 - Protocol Generics
     + The shortcomings of generic protocols [:page_facing_up:](http://krakendev.io/blog/generic-protocols-and-their-shortcomings)
     + Generic Protocols [:page_facing_up:](http://milen.me/writings/swift-generic-protocols/)
     - Protocol Generics Self [:pencil:](https://gist.github.com/AliSoftware/e6b931c1731f016e41fb)
+    - Generic Protocols in Swift [:link:](http://stackoverflow.com/questions/24469913/how-to-create-generic-protocols-in-swift-ios)
+    - Extending Swift Generic Types [:link:](http://www.marisibrothers.com/2016/03/extending-swift-generic-types.html)
+    - Generic Typealias in Swift [:page_facing_up:](http://stackoverflow.com/questions/27084586/generic-typealias-in-swift)
+- Where keyword
+    - Swift “where” keyword [:link:](http://stackoverflow.com/questions/25336079/swift-where-key-word/25336571#25336571)
+- Patterns
+    + Generic Constructors [:link:](http://stackoverflow.com/a/30857172/2855836) and factories [:link:](http://stackoverflow.com/questions/24341061/how-to-write-generic-factory-method-in-swift)
+- Parametric Polymorphism
+    + Parametric Polymorphism in Swift [:page_facing_up:](http://nsomar.com/parametric-compile-time-polymorphism-in-swift/) [:page_facing_up:](http://rosettacode.org/wiki/Parametric_polymorphism) [:page_facing_up:](http://cs.stackexchange.com/questions/26389/why-isnt-the-swift-programming-language-type-inference-more-aggressive)
 + Generic Arrays in Swift 2.0 [:page_facing_up:](http://blog.krzyzanowskim.com/2015/10/07/generic-array-uint8/)
-+ Generics in Swift, Part 1 [:page_facing_up:](http://austinzheng.com/2015/01/02/swift-generics-pt-1/), Part 2 [:page_facing_up:](http://austinzheng.com/2015/09/29/swift-generics-pt-2/)
-+ Official Docs [:pencil:](https://github.com/apple/swift/blob/master/docs/Generics.rst)
 + Partial Function Application with Generics [:link:](http://stackoverflow.com/questions/28353539/swift-partial-function-application-with-generics)
-+ Generic Constructors [:link:](http://stackoverflow.com/a/30857172/2855836) and factories [:link:](http://stackoverflow.com/questions/24341061/how-to-write-generic-factory-method-in-swift)
-+ Parametric Polymorphism in Swift [:page_facing_up:](http://nsomar.com/parametric-compile-time-polymorphism-in-swift/) [:page_facing_up:](http://rosettacode.org/wiki/Parametric_polymorphism) [:page_facing_up:](http://cs.stackexchange.com/questions/26389/why-isnt-the-swift-programming-language-type-inference-more-aggressive)
 - Template Metaprogramming Swift [:page_facing_up:](http://stackoverflow.com/questions/26939354/metaprogramming-in-swift)
-- Generic Typealias in Swift [:page_facing_up:](http://stackoverflow.com/questions/27084586/generic-typealias-in-swift)
-- Swift “where” keyword [:link:](http://stackoverflow.com/questions/25336079/swift-where-key-word/25336571#25336571)
 - Generic Functions for Incompatible Types [:page_facing_up:](http://natecook.com/blog/2014/08/generic-functions-for-incompatible-types/)
-- A Sanatorium for Swift Generics [:page_facing_up:](http://natecook.com/blog/2015/03/a-sanatorium-for-swift-generics/)
 
 [:arrow_up:](#index)
 
@@ -895,6 +904,7 @@
     + Swift Failiable Initializers [:page_facing_up:](http://www.jessesquires.com/swift-failable-initializers-revisited/)
     - Designated Initializer Basics [:page_facing_up:](https://littlebitesofcocoa.com/204-swift-designated-initializer-basics)
     - Dynamic Init [:pencil:](https://gist.github.com/Ben-G/cb1708b1068d2bc5916f)
+    + Definitive Variable Initialization [:page_facing_up:](https://medium.com/the-traveled-ios-developers-guide/on-definitive-initialization-54284ef5c96f#.5wdzuyrev)
 + Properties
     + Stored Properties
         + Class Properties in Swift [:page_facing_up:](http://stackoverflow.com/questions/24087936/how-do-i-make-class-methods-properties-in-swift)
@@ -908,6 +918,8 @@
         - Property Observers and Lazy Properties [:page_facing_up:](https://littlebitesofcocoa.com/179-swift-tricks-properties)
         + Property Observers [:page_facing_up:](https://www.quora.com/Apple-Swift-programming-language/What-is-a-property-observer)
         - Swift Property Observers [:page_facing_up:](http://www.codingexplorer.com/swift-property-observers/)
+    - IBOutlets
+        - Outlets: Strong! Or Weak? [:page_facing_up:](http://scottberrevoets.com/2016/03/21/outlets-strong-or-weak/)
         + IBOutlet Style in Swift [:page_facing_up:](http://natashatherobot.com/ios-a-beautiful-way-of-styling-iboutlets-in-swift/)
     - Computed Properties
         - Beware of Computed Properties [:page_facing_up:](https://www.natashatherobot.com/swift-computed-properties/)
@@ -927,10 +939,11 @@
     + Dependency Injection with a Custom Initializer [:page_facing_up:](https://www.natashatherobot.com/swift-dependency-injection-with-a-custom-initializer/)
     - Dependency Injection Container [:pencil2:](https://github.com/AliSoftware/Dip) [:pencil2:](https://github.com/AliSoftware/Dip-UI)
     - Nuts and Bolts of Dependency Injection in Swift [:page_facing_up:](http://bartjacobs.com/dependency-injection-in-swift/)
+    - Inversion of Control and Dependency Injection [:pencil2:](https://github.com/jgretz/CoreMeta)
 
 [:arrow_up:](#index)
 
-#### **Interpolability with C and Objective-C**
+#### **Interpolability**
 - C
     + Swift and C [:microphone:](https://realm.io/news/pragma-chris-eidhof-swift-c/)
     - Why C is not always safe Swift [:page_facing_up:](http://www.cocoawithlove.com/blog/2016/02/16/use_it_or_lose_it_why_safe_c_is_sometimes_unsafe_swift.html)
@@ -1051,6 +1064,8 @@
         - Why doesn't Apple Swift adopt the memory management method of garbage collection like in Java? [:page_facing_up:](https://www.quora.com/Why-doesnt-Apple-Swift-adopt-the-memory-management-method-of-garbage-collection-like-in-Java)
     - Kotlin
         - Swift is like Kotlin [:page_facing_up:](https://nilhcem.github.io/swift-is-like-kotlin/)
+    - Android
+        - How to Start Android Development with an iOS Background [:page_facing_up:](http://savvyapps.com/blog/how-to-start-android-development-with-an-ios-background)
     - Go
         - Swift vs Golang [:floppy_disk:](http://go-talks.appspot.com/github.com/wangkuiyi/swiftgo/swiftgo.slide#1)
     - Rust
@@ -1187,6 +1202,7 @@
 - Protocol Extension Method Dispatch [:page_facing_up:](https://medium.com/ios-os-x-development/swift-protocol-extension-method-dispatch-6a6bf270ba94#.xsrtw75qp)
 - Weird things you can do with protocol extension [:page_facing_up:](http://cjwirth.com/2016/01/20/swift-protocol-extension-weirdness/) [:page_facing_up:](http://allblue.me/swift/2016/01/24/two-weird-things-about-extension-subclass-in-swift/)
 - Protocol-Oriented Programming in Networking [:floppy_disk:](https://speakerdeck.com/ishkawa/protocol-oriented-programming-in-networking)
+- Improved Protocol-Oriented Programming with Untyped Type Aliases [:page_facing_up:](https://medium.com/capital-one-developers/improved-protocol-oriented-programming-with-untyped-type-aliases-part-1-625484ca1f9d#.g0i8pfjvj) [:page_facing_up:](https://medium.com/@michikono/3f0e2eadee73#.dvk6ubezg)
 
 [:arrow_up:](#index)
 
@@ -1382,6 +1398,7 @@
     - Instance methods and type methods in Swift [:page_facing_up:](http://www.codingexplorer.com/instance-methods-and-type-methods-in-swift/)
 + Value Types
     + Every Swift Value Type Should be Equatable [:microphone:](https://developer.apple.com/videos/wwdc/2015/?id=414) [:page_facing_up:](https://www.andrewcbancroft.com/2015/07/01/every-swift-value-type-should-be-equatable/)
+    + Structs are 900x faster than classes [:link:](http://stackoverflow.com/questions/24232799/why-choose-struct-over-class/24243626#24243626)
     - How can I make a container with copy-on-write semantics? [:page_facing_up:](http://stackoverflow.com/questions/32984258/how-can-i-make-a-container-with-copy-on-write-semantics-swift)
     - When to use mutating functions in swift structs [:page_facing_up:](https://www.natashatherobot.com/when-to-use-mutating-functions-in-swift-structs/)
     - Mutating Funcs in Swift Structs [:page_facing_up:](http://natashatherobot.com/mutating-functions-swift-structs/)
@@ -1391,6 +1408,7 @@
     - Swift pass struct by reference? [:page_facing_up:](http://stackoverflow.com/questions/31495431/swift-pass-struct-by-reference)
     - Value Types [:page_facing_up:](http://cjwirth.com/2016/02/09/value-types/)
     - Fully Value-Typed Arrays in Swift [:page_facing_up:](http://natecook.com/blog/2014/07/fully-value-typed-arrays-in-swift/)
+    + Structs as Data Models [:page_facing_up:](https://medium.com/swift-programming/swift-caveats-for-structs-as-data-models-8299d84b49dc#.rf1agoadg)
 + Algebraic Types
     + Sum Types
         + See [Enums]()
@@ -1542,7 +1560,7 @@
     - Transporter is a modern finite-state machine implemented in pure Swift [:pencil2:](https://github.com/DenHeadless/Transporter)
     - FSMs in Swift and the State Pattern [:page_facing_up:](http://ctarda.com/2015/06/introducing-turnstile-finite-state-machines-in-swift/) [:pencil2:](https://github.com/ctarda/Turnstile)
     - Generic State Machine in Swift [:page_facing_up:](http://curtclifton.net/generic-state-machine-in-swift)
-    - Swift State Machines [:page_facing_up:](http://www.figure.ink/blog/2015/1/31/swift-state-machines-part-1) [:page_facing_up:](http://www.figure.ink/blog/2015/2/1/swift-state-machines-part-2)
+    - Building Swift State Machine Series [:page_facing_up:](http://www.figure.ink/blog/2015/1/31/swift-state-machines-part-1) [:page_facing_up:](http://www.figure.ink/blog/2015/2/1/swift-state-machines-part-2) [:page_facing_up:](http://www.figure.ink/blog/2015/2/8/swift-state-machines-part-3-follow-up) [:page_facing_up:](http://www.figure.ink/blog/2015/2/9/swift-state-machines-part-4-redirect) [:pencil:](https://gist.github.com/jemmons/f30f1de292751da0f1b7)
 
 [:arrow_up:](#index)
 
