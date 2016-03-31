@@ -1623,7 +1623,7 @@
 #### **Persistence**
 - NSCoding and UserDefaults [:page_facing_up:](http://stackoverflow.com/questions/26469457/saving-custom-swift-class-with-nscoding-to-userdefaults)
 - NSCoding And Swift Structs [:page_facing_up:](http://swiftandpainless.com/nscoding-and-swift-structs/)
-- NSCoder and NSKeyedArchiver [:page+_facing_up:](http://mhorga.org/2015/08/25/ios-persistence-with-nscoderand-nskeyedarchiver.html)
+- NSCoder and NSKeyedArchiver [:page+_facing_up:](http://mhorga.org/2015/08/31/ios-persistence-with-core-data.html)
 - NSCoder initialization [:page_facing_up:](http://napora.org/nscoder-and-swift-initialization/)
 - Simple persistent storage [:page_facing_up:](http://stackoverflow.com/questions/26233067/simple-persistent-storage-in-swift/26233274#26233274)
 - How to cache data using NSCache [:page_facing_up:](https://www.hackingwithswift.com/example-code/system/how-to-cache-data-using-nscache) [:page_facing_up:](http://nshipster.com/nscache/)
