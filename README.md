@@ -698,7 +698,7 @@
 #### **Functional Programming**
 - Declarative Programming
     - What is Functional Programming in Swift? [:floppy_disk:](http://media.monkey-robot.com/docs/thoughtworks-swift.pdf) [:page_facing_up:](http://harlankellaway.com/blog/2015/08/10/swift-functional-programming-intro) [:page_facing_up:](http://jamesonquave.com/blog/functional-programming-in-swift/) [:floppy_disk:](https://speakerdeck.com/saloievgen/think-functionally-in-swift) [:microphone:](https://realm.io/news/pragma-hannes-verlinde-statelessness-react-native/)
-    - Functional Programming By Example [:pencil:](https://github.com/caiorss/Functional-Programming/blob/master/haskell/Functional_Programming_Concepts.md)
+    - Functional Programming By Example [:pencil:](http://caiorss.github.io/Functional-Programming/haskell/Functional_Programming_Concepts.html)
     - Make Swift More Functional [:floppy_disk:](http://www.slideshare.net/jarsen7/7-habits-for-a-more-functional-swift?qid=8a7611e7-4c08-4e2f-9f81-99b67c6f4390&v=default&b=&from_search=3)
     - Introduction to Functional Programming in Swift [:page_facing_up:](http://www.raywenderlich.com/114456/introduction-functional-programming-swift)  [:floppy_disk:](http://www.slideshare.net/alexis_gallagher/swift-functional-programming-and-the-future-of-obj-c?qid=8a7611e7-4c08-4e2f-9f81-99b67c6f4390&v=default&b=&from_search=1)
     - Functional Programming in Swift Talks [:microphone:](https://vimeo.com/107419503) [:microphone:](https://realm.io/news/altconf-chris-eidhof-functional-programming-in-swift/) [:floppy_disk:](http://www.slideshare.net/natashatherobot/funcitonal-swift-conference-the-functional-way?qid=8a7611e7-4c08-4e2f-9f81-99b67c6f4390&v=default&b=&from_search=4) [:microphone:](https://www.youtube.com/watch?v=rJosPrqBqrA) [:microphone:](https://www.youtube.com/watch?v=estNbh2TF3E)
@@ -1623,7 +1623,7 @@
 #### **Persistence**
 - NSCoding and UserDefaults [:page_facing_up:](http://stackoverflow.com/questions/26469457/saving-custom-swift-class-with-nscoding-to-userdefaults)
 - NSCoding And Swift Structs [:page_facing_up:](http://swiftandpainless.com/nscoding-and-swift-structs/)
-- NSCoder and NSKeyedArchiver [:page+_facing_up:](http://mhorga.org/2015/08/25/ios-persistence-with-nscoderand-nskeyedarchiver.html)
+- NSCoder and NSKeyedArchiver [:page+_facing_up:](http://mhorga.org/2015/08/31/ios-persistence-with-core-data.html)
 - NSCoder initialization [:page_facing_up:](http://napora.org/nscoder-and-swift-initialization/)
 - Simple persistent storage [:page_facing_up:](http://stackoverflow.com/questions/26233067/simple-persistent-storage-in-swift/26233274#26233274)
 - How to cache data using NSCache [:page_facing_up:](https://www.hackingwithswift.com/example-code/system/how-to-cache-data-using-nscache) [:page_facing_up:](http://nshipster.com/nscache/)
