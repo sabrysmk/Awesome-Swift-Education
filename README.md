@@ -443,7 +443,7 @@
     + Trees [:pencil:](https://gist.github.com/CodaFi/73bd0d67c8c7dc25b9af)
     - Calkin–Wilf tree in Swift [:page_facing_up:](http://tel.github.io/posts/calkin-wilf-in-swift/)
     - In Memory BTrees [:page_facing_up:](https://github.com/lorentey/BTree)
-    + Rose Tree in Swift [:pencil:](https://github.com/typelift/SwiftCheck/blob/master/SwiftCheck/Rose.swift)
+    + Rose Tree in Swift [:pencil:](https://github.com/typelift/SwiftCheck/blob/master/Sources/Rose.swift)
     + Binary Tree [:pencil2:](https://github.com/antitypical/BinaryTree)
     + Abstract Binding Trees [:pencil:](https://gist.github.com/CodaFi/453f369a8790a070d9e2)
     + Red Black Tree [:pencil:](https://gist.github.com/airspeedswift/8fd42496679c51b34859) 
