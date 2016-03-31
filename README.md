@@ -374,7 +374,7 @@
     + Coroutines in Swift [:pencil:](https://gist.github.com/mikeash/454f3ba5c2f575d63cb3)
     - CSP (Coroutines, Channels, Select) for Swift [:pencil2:](https://github.com/Zewo/Venice)
     - True coroutines for Swift [:pencil2:](https://github.com/aliceatlas/hexagen)
-- Locaking and Threading
+- Locking and Threading
     + STM in Swift [:pencil2:](https://github.com/f-dz-v/SwiftSTM)
     + Threading with Closures [:page_facing_up:](https://tetontech.wordpress.com/2014/06/30/swift-nsoperationqueues-and-threading/)
     - Locking in Swift [:page_facing_up:](https://www.bignerdranch.com/blog/locking-in-swift-helping-protect-me-from-myself/)
