@@ -378,7 +378,7 @@
     + Coroutines in Swift [:pencil:](https://gist.github.com/mikeash/454f3ba5c2f575d63cb3)
     - CSP (Coroutines, Channels, Select) for Swift [:pencil2:](https://github.com/Zewo/Venice)
     - True coroutines for Swift [:pencil2:](https://github.com/aliceatlas/hexagen)
-- Locaking and Threading
+- Locking and Threading
     + STM in Swift [:pencil2:](https://github.com/f-dz-v/SwiftSTM)
     + Threading with Closures [:page_facing_up:](https://tetontech.wordpress.com/2014/06/30/swift-nsoperationqueues-and-threading/)
     - Locking in Swift [:page_facing_up:](https://www.bignerdranch.com/blog/locking-in-swift-helping-protect-me-from-myself/)
@@ -457,7 +457,7 @@
     + Trees [:pencil:](https://gist.github.com/CodaFi/73bd0d67c8c7dc25b9af)
     - Calkin–Wilf tree in Swift [:page_facing_up:](http://tel.github.io/posts/calkin-wilf-in-swift/)
     - In Memory BTrees [:page_facing_up:](https://github.com/lorentey/BTree)
-    + Rose Tree in Swift [:pencil:](https://github.com/typelift/SwiftCheck/blob/master/SwiftCheck/Rose.swift)
+    + Rose Tree in Swift [:pencil:](https://github.com/typelift/SwiftCheck/blob/master/Sources/Rose.swift)
     + Binary Tree [:pencil2:](https://github.com/antitypical/BinaryTree)
     + Abstract Binding Trees [:pencil:](https://gist.github.com/CodaFi/453f369a8790a070d9e2)
     + Red Black Tree [:pencil:](https://gist.github.com/airspeedswift/8fd42496679c51b34859) 
@@ -742,8 +742,8 @@
 
 #### **Functional Programming**
 - Declarative Programming
-    - What is Functional Programming in Swift? [:floppy_disk:](http://media.monkey-robot.com/docs/thoughtworks-swift.pdf) [:page_facing_up:](http://harlankellaway.com/blog/2015/08/10/swift-functional-programming-intro/) [:page_facing_up:](http://jamesonquave.com/blog/functional-programming-in-swift/) [:floppy_disk:](https://speakerdeck.com/saloievgen/think-functionally-in-swift) [:microphone:](https://realm.io/news/pragma-hannes-verlinde-statelessness-react-native/)
-    - Functional Programming By Example [:pencil:](https://github.com/caiorss/Functional-Programming/blob/master/haskell/Functional_Programming_Concepts.md)
+    - What is Functional Programming in Swift? [:floppy_disk:](http://media.monkey-robot.com/docs/thoughtworks-swift.pdf) [:page_facing_up:](http://harlankellaway.com/blog/2015/08/10/swift-functional-programming-intro) [:page_facing_up:](http://jamesonquave.com/blog/functional-programming-in-swift/) [:floppy_disk:](https://speakerdeck.com/saloievgen/think-functionally-in-swift) [:microphone:](https://realm.io/news/pragma-hannes-verlinde-statelessness-react-native/)
+    - Functional Programming By Example [:pencil:](http://caiorss.github.io/Functional-Programming/haskell/Functional_Programming_Concepts.html)
     - Make Swift More Functional [:floppy_disk:](http://www.slideshare.net/jarsen7/7-habits-for-a-more-functional-swift?qid=8a7611e7-4c08-4e2f-9f81-99b67c6f4390&v=default&b=&from_search=3)
     - Introduction to Functional Programming in Swift [:page_facing_up:](http://www.raywenderlich.com/114456/introduction-functional-programming-swift)  [:floppy_disk:](http://www.slideshare.net/alexis_gallagher/swift-functional-programming-and-the-future-of-obj-c?qid=8a7611e7-4c08-4e2f-9f81-99b67c6f4390&v=default&b=&from_search=1)
     - Functional Programming in Swift Talks [:microphone:](https://vimeo.com/107419503) [:microphone:](https://realm.io/news/altconf-chris-eidhof-functional-programming-in-swift/) [:floppy_disk:](http://www.slideshare.net/natashatherobot/funcitonal-swift-conference-the-functional-way?qid=8a7611e7-4c08-4e2f-9f81-99b67c6f4390&v=default&b=&from_search=4) [:microphone:](https://www.youtube.com/watch?v=rJosPrqBqrA) [:microphone:](https://www.youtube.com/watch?v=estNbh2TF3E)
@@ -1761,7 +1761,7 @@
 #### **Persistence**
 - NSCoding and UserDefaults [:page_facing_up:](http://stackoverflow.com/questions/26469457/saving-custom-swift-class-with-nscoding-to-userdefaults)
 - NSCoding And Swift Structs [:page_facing_up:](http://swiftandpainless.com/nscoding-and-swift-structs/)
-- NSCoder and NSKeyedArchiver [:page+_facing_up:](http://mhorga.org/2015/08/25/ios-persistence-with-nscoderand-nskeyedarchiver.html)
+- NSCoder and NSKeyedArchiver [:page_facing_up:](http://mhorga.org/2015/08/31/ios-persistence-with-core-data.html)
 - NSCoder initialization [:page_facing_up:](http://napora.org/nscoder-and-swift-initialization/)
 - Simple persistent storage [:page_facing_up:](http://stackoverflow.com/questions/26233067/simple-persistent-storage-in-swift/26233274#26233274)
 - How to cache data using NSCache [:page_facing_up:](https://www.hackingwithswift.com/example-code/system/how-to-cache-data-using-nscache) [:page_facing_up:](http://nshipster.com/nscache/)
@@ -1875,6 +1875,6 @@
 [:arrow_up:](#index)
 
 ## **Shoutouts**
-Shoutout to [@clattner_llvm](https://twitter.com/clattner_llvm?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), the OG Swift Developer. Shoutout to [@chriseidhof](https://twitter.com/chriseidhof) for encouraging me to promote this idea and for being a huge baller. Shoutout to [@ashfurrow](https://twitter.com/ashfurrow) and [@bennRodri](https://twitter.com/bennRodri) for being so incredibly helpful. Shoutout to [@CodaFi_](https://twitter.com/CodaFi_), the [TypeLift](https://github.com/typelift), and the [AntiTypical](https://github.com/antitypical) teams for promoting FP. Shoutout to [Elm Trailblazers](https://twitter.com/czaplic?lang=en). Shoutout to [Haskell Devs](http://dev.stephendiehl.com/hask/) and [Category Theory legends](https://ncatlab.org/nlab/show/computer+science). Shoutout to [FutureKit](https://github.com/FutureKit/FutureKit), made by my coworker [@michaelgray](https://github.com/mishagray). And finally, Shoutout to all the Swift Programmers out there, this project is __by you and for you!__
+Shoutout to [@clattner_llvm](https://twitter.com/clattner_llvm?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor), the OG Swift Developer. Shoutout to [@chriseidhof](https://twitter.com/chriseidhof) for encouraging me to promote this idea and for being a huge baller. Shoutout to [@ashfurrow](https://twitter.com/ashfurrow) and @Ben-Evolently](https://github.com/Ben-Evolently) for being so incredibly helpful. Shoutout to [@CodaFi_](https://twitter.com/CodaFi_), the [TypeLift](https://github.com/typelift), and the [AntiTypical](https://github.com/antitypical) teams for promoting FP. Shoutout to [Elm Trailblazers](https://twitter.com/czaplic?lang=en). Shoutout to [Haskell Devs](http://dev.stephendiehl.com/hask/) and [Category Theory legends](https://ncatlab.org/nlab/show/computer+science). Shoutout to [FutureKit](https://github.com/FutureKit/FutureKit), made by my coworker [@michaelgray](https://github.com/mishagray). And finally, Shoutout to all the Swift Programmers out there, this project is __by you and for you!__
 
 [:arrow_up:](#index)
