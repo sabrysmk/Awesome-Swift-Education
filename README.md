@@ -252,6 +252,8 @@
 
 ## **Programming with Swift**
 
+#### **Audio**
+
 #### **Closures and Functions**
 - @autoclosure, @noescape
     + @autoclosure, @inline, @noescape, and @noreturn Keywords [:page_facing_up:](https://github.com/vandadnp/swift-weekly/blob/master/issue11/README.md)
@@ -1731,7 +1733,7 @@
     - Realm Incremental Store [:pencil2:](https://github.com/eure/RealmIncrementalStore)
     - Migrations in Realm [:page_facing_up:](http://stackoverflow.com/questions/30384884/adding-and-removing-realm-object-during-a-migration)
     - Migrating an app from Core Data to Realm [:page_facing_up:](https://realm.io/news/migrating-from-core-data-to-realm/)
-
+    - Realm + Alamofire + VIPER [:page_facing_up:](https://blog.hyphe.me/realm-and-alamofire-in-a-effective-harmony/)
 [:arrow_up:](#index)
 
 #### **Core Image**
