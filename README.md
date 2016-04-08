@@ -1252,7 +1252,7 @@
     - SPM
         - Using the Swift Package Manager [:page_facing_up:](http://kostiakoval.github.io/posts/swift-package-manager) [:page_facing_up:](https://honzadvorsky.com/articles/2016-02-25-14-00-3_steps_to_marry_xcode_with_swift_package_manager/) [:page_facing_up:](http://cjwirth.com/2016/03/07/using-xcode-and-spm-together/)
         - IBM Swift Package Catalog [:link:](https://swiftpkgs.ng.bluemix.net/)
-        - Exclude folders in the SPM [:page_facing_up:](http://kostiakoval.github.io/posts/exclude-folders---new-feature-in-swift-package-manager)
+        - Exclude folders in the SPM [:page_facing_up:](http://kostiakoval.github.io/posts/exclude-folders-new-feature-in-swift-package-manager)
         - Swift, Frameworks & Modules, Learnings from CocoaPods [:page_facing_up:](https://speakerdeck.com/realm/swift-frameworks-and-modules-learnings-from-cocoapods)
         - Swift Package Manager [:floppy_disk:](https://speakerdeck.com/neonichu/swift-package-manager)
 - Modules and frameworks
