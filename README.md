@@ -165,7 +165,7 @@
     - Your First Swift App [:books:](https://leanpub.com/yourfirstswiftapp)
     - Teach Yourself Swift in 24 Hours, 2nd Ed [:books:](http://www.informit.com/store/swift-in-24-hours-sams-teach-yourself-9780672337659)
 - Open Source
-    - Pragmatic iOS Testing [:books:](https://orta.gitbooks.io/pragmatic-ios-testing/content/chapters/what_and_why_of_the_book.html)
+    - Pragmatic iOS Testing [:books:](https://www.gitbook.com/book/orta/pragmatic-ios-testing/details)
 
 [:arrow_up:](#index)
 
