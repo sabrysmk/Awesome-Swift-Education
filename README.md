@@ -1139,7 +1139,7 @@
         + A Swift intoduction to Haskell [:floppy_disk:](https://speakerdeck.com/johannesweiss/swift-london-meetup-introduction-to-haskell)
         - Hindley-Milner languages [:link:](http://qr.ae/Rg3rFd)
     - Javascript
-        + Comparing Swift and Javascript [:page_facing_up:](http://www.mircozeiss.com/swift-for-javascript-developers/)
+        + Comparing Swift and Javascript [:page_facing_up:](http://www.mircozeiss.com/swift-for-javascript-developers)
         - From JS to Swift [:page_facing_up:](http://www.folio3.com/blog/swiftly-javascript-from-javascript-to-apples-swift/)
     - C
         - Swift vs C speed test [:page_facing_up:](http://stackoverflow.com/questions/24101718/swift-performance-sorting-arrays) [:page_facing_up:](https://www.quora.com/Is-Swift-programming-language-faster-than-C-or-C++-and-if-yes-why) [:page_facing_up:](https://medium.com/swift-programming/swifth-vs-c-5be7d0398f4f#.6ume737mt) 
@@ -1463,7 +1463,7 @@
 - Code Coverage
     - Swift Code Coverage [:pencil2:](https://github.com/realm/SwiftCov)
     - Continuous Integration and Code Coverage In Xcode [:pencil:](https://gist.github.com/rbobbins/92e2fd3736f842d4ccee)
-    - Code Coverage Xcode 7 [:page_facing_up:](http://mgrebenets.github.io/mobile%20ci/2015/09/21/code-coverage-for-ios-xcode-7/)
+    - Code Coverage Xcode 7 [:page_facing_up:](http://mgrebenets.github.io/mobile%20ci/2015/09/21/code-coverage-for-ios-xcode-7)
     - Slather Code Coverage [:pencil2:](https://github.com/SlatherOrg/slather)
 - Debugging Tools
     - Profiling Swift Tool [:page_facing_up:](http://irace.me/swift-profiling)
