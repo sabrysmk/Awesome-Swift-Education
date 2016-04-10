@@ -165,7 +165,7 @@
     - Your First Swift App [:books:](https://leanpub.com/yourfirstswiftapp)
     - Teach Yourself Swift in 24 Hours, 2nd Ed [:books:](http://www.informit.com/store/swift-in-24-hours-sams-teach-yourself-9780672337659)
 - Open Source
-    - Pragmatic iOS Testing [:books:](https://orta.gitbooks.io/pragmatic-ios-testing/content/chapters/what_and_why_of_the_book.html)
+    - Pragmatic iOS Testing [:books:](https://www.gitbook.com/book/orta/pragmatic-ios-testing/details)
 
 [:arrow_up:](#index)
 
@@ -599,7 +599,7 @@
     + Enums with Associated Data vs Structs [:page_facing_up:](http://owensd.io/2015/09/13/enums-with-associated-data-vs-structs.html)
     + The Sum Types are here [:page_facing_up:](http://chadaustin.me/2015/07/sum-types/)
     + Algebraic Data Types in Swift [:page_facing_up:](http://thepurecoder.com/algebraic-data-types-in-swift/)
-    + Handling Enums with Raw Values [:page_facing_up:](http://kostiakoval.github.io/posts/enum-with-raw-value/) [:floppy_disk:](https://speakerdeck.com/johannesweiss/finding-the-algebra-in-algebraic-data-types)
+    + Handling Enums with Raw Values [:page_facing_up:](http://kostiakoval.github.io/posts/enum-with-raw-value) [:floppy_disk:](https://speakerdeck.com/johannesweiss/finding-the-algebra-in-algebraic-data-types)
     + Using Enums as Constants [:page_facing_up:](http://alisoftware.github.io/swift/enum/constants/2015/07/19/enums-as-constants/)
     + Enums instead of Booleans [:page_facing_up:](https://www.objc.io/blog/2014/12/22/functional-snippet-12-enums-instead-of-booleans/)
     + Enum vs String Type [:page_facing_up:](https://www.quora.com/Why-should-I-use-enum-instead-of-string-type-data-in-programming)
@@ -1036,7 +1036,7 @@
     - Casting Swift objects to Objective-C types [:page_facing_up:](https://plus.google.com/+AndreyTarantsov/posts/AZmU5c3nJwc)
     - How to call Objective C code from Swift [:page_facing_up:](http://stackoverflow.com/questions/24002369/how-to-call-objective-c-code-from-swift?rq=1)
     + Method Swizzling in Swift [:page_facing_up:](http://www.uraimo.com/2015/10/23/effective-method-swizzling-with-swift/)
-    + How to Method Swizzle in Swift [:page_facing_up:](http://kostiakoval.github.io/posts/methods-swizzling-in-swift/) [:page_facing_up:](http://en.swifter.tips/)
+    + How to Method Swizzle in Swift [:page_facing_up:](http://kostiakoval.github.io/posts/methods-swizzling-in-swift) [:page_facing_up:](http://en.swifter.tips/)
     + Conform to Objective C Protocols in Swift [:page_facing_up:](http://cocoa.tumblr.com/post/128293810968/conforming-to-objective-c-protocols-with-custom?is_related_post=1)
     - Swift extensions on Objective-C classes still need to be prefixed [:page_facing_up:](https://pspdfkit.com/blog/2016/surprises-with-swift-extensions/)
 
@@ -1139,7 +1139,7 @@
         + A Swift intoduction to Haskell [:floppy_disk:](https://speakerdeck.com/johannesweiss/swift-london-meetup-introduction-to-haskell)
         - Hindley-Milner languages [:link:](http://qr.ae/Rg3rFd)
     - Javascript
-        + Comparing Swift and Javascript [:page_facing_up:](http://www.mircozeiss.com/swift-for-javascript-developers/)
+        + Comparing Swift and Javascript [:page_facing_up:](http://www.mircozeiss.com/swift-for-javascript-developers)
         - From JS to Swift [:page_facing_up:](http://www.folio3.com/blog/swiftly-javascript-from-javascript-to-apples-swift/)
     - C
         - Swift vs C speed test [:page_facing_up:](http://stackoverflow.com/questions/24101718/swift-performance-sorting-arrays) [:page_facing_up:](https://www.quora.com/Is-Swift-programming-language-faster-than-C-or-C++-and-if-yes-why) [:page_facing_up:](https://medium.com/swift-programming/swifth-vs-c-5be7d0398f4f#.6ume737mt) 
@@ -1250,9 +1250,9 @@
     - Cocoapods
         - Make a Cocoapods Framework [:microphone:](https://realm.io/news/altconf-billy-tobon-brew-your-own-cocoa-framework/)
     - SPM
-        - Using the Swift Package Manager [:page_facing_up:](http://kostiakoval.github.io/posts/swift-package-manager/) [:page_facing_up:](https://honzadvorsky.com/articles/2016-02-25-14-00-3_steps_to_marry_xcode_with_swift_package_manager/) [:page_facing_up:](http://cjwirth.com/2016/03/07/using-xcode-and-spm-together/)
+        - Using the Swift Package Manager [:page_facing_up:](http://kostiakoval.github.io/posts/swift-package-manager) [:page_facing_up:](https://honzadvorsky.com/articles/2016-02-25-14-00-3_steps_to_marry_xcode_with_swift_package_manager/) [:page_facing_up:](http://cjwirth.com/2016/03/07/using-xcode-and-spm-together/)
         - IBM Swift Package Catalog [:link:](https://swiftpkgs.ng.bluemix.net/)
-        - Exclude folders in the SPM [:page_facing_up:](http://kostiakoval.github.io/posts/exclude-folders---new-feature-in-swift-package-manager/)
+        - Exclude folders in the SPM [:page_facing_up:](http://kostiakoval.github.io/posts/exclude-folders-new-feature-in-swift-package-manager)
         - Swift, Frameworks & Modules, Learnings from CocoaPods [:page_facing_up:](https://speakerdeck.com/realm/swift-frameworks-and-modules-learnings-from-cocoapods)
         - Swift Package Manager [:floppy_disk:](https://speakerdeck.com/neonichu/swift-package-manager)
 - Modules and frameworks
@@ -1463,7 +1463,7 @@
 - Code Coverage
     - Swift Code Coverage [:pencil2:](https://github.com/realm/SwiftCov)
     - Continuous Integration and Code Coverage In Xcode [:pencil:](https://gist.github.com/rbobbins/92e2fd3736f842d4ccee)
-    - Code Coverage Xcode 7 [:page_facing_up:](http://mgrebenets.github.io/mobile%20ci/2015/09/21/code-coverage-for-ios-xcode-7/)
+    - Code Coverage Xcode 7 [:page_facing_up:](http://mgrebenets.github.io/mobile%20ci/2015/09/21/code-coverage-for-ios-xcode-7)
     - Slather Code Coverage [:pencil2:](https://github.com/SlatherOrg/slather)
 - Debugging Tools
     - Profiling Swift Tool [:page_facing_up:](http://irace.me/swift-profiling)
