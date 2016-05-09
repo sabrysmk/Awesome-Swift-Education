@@ -1828,7 +1828,7 @@
     - An AlamoFire Router [:page_facing_up:](https://littlebitesofcocoa.com/93-creating-a-router-for-alamofire)
     - Write Your Own API Clients [:page_facing_up:](https://thatthinginswift.com/write-your-own-api-clients-swift/)
 + Web Services
-    + CloudKit Introduction [:page_facing_up:](http://szulctomasz.com/cloudkit-introduction-and-lets-build-an-app/s)
+    + CloudKit Introduction [:page_facing_up:](http://szulctomasz.com/2015/10/27/cloudkit-introduction-and-lets-build-an-app.html)
     + Create a Data Access Layer with SQLite.swift and Swift 2 [:page_facing_up:](http://masteringswift.blogspot.com/2015/09/create-data-access-layer-with.html)
     + Using YapDatabase [:page_facing_up:](https://github.com/yapstudios/YapDatabase)
     - MagicalRecord loves Swift [:microphone:](http://gotocon.com/dl/goto-cph-2015/slides/SaulMora_CoreDataIn2015andMagicalRecordMeetsSwift.pdf)
