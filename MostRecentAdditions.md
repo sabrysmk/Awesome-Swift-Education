@@ -115,7 +115,8 @@
 - [The Effect of Dependency Structure on iOS Launch Times](https://engineering.tumblr.com/post/144507330193/peeking-into-a-black-box-the-effect-of)
 - [Examples of Computational Statistics in Swift](https://realm.io/news/trySwift-diana-zmuda-how-to-train-your-swift-computational-statistics/)
 - [Layered Neural Network in Swift](http://codereview.stackexchange.com/questions/95224/layered-neural-network-in-swift)
-
+- [What are generic protocols good for?](https://dzone.com/articles/swift-generic-protocols-what-are-they-good-for)
+ 
 #### 5/1/2016
 - [Associated Types Considered Weird](https://schani.wordpress.com/2014/06/11/associated-types-considered-weird/)
 - [SequenceType vs GeneratorType vs CollectionType](http://stackoverflow.com/questions/30565875/what-is-the-difference-between-sequencetype-and-collectiontype-in-swift)

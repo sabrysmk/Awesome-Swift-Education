@@ -1018,6 +1018,7 @@
     - Generic Protocols in Swift [:link:](http://stackoverflow.com/questions/24469913/how-to-create-generic-protocols-in-swift-ios)
     - Extending Swift Generic Types [:link:](http://www.marisibrothers.com/2016/03/extending-swift-generic-types.html)
     - Generic Typealias in Swift [:page_facing_up:](http://stackoverflow.com/questions/27084586/generic-typealias-in-swift)
+    - [What are Generic Protocols good for?](https://dzone.com/articles/swift-generic-protocols-what-are-they-good-for)
 - Where keyword
     - Swift “where” keyword [:link:](http://stackoverflow.com/questions/25336079/swift-where-key-word/25336571#25336571)
     - Multiple Type constraints with where [:link:](http://stackoverflow.com/questions/24089145/multiple-type-constraints-in-swift)
