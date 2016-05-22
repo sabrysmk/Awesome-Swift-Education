@@ -260,12 +260,13 @@
 [:arrow_up:](#index)
 
 #### **Closures and Functions**
-- @autoclosure, @noescape, @noreturn
+- @autoclosure, @noescape, @noreturn, @nonnmutating
     + @autoclosure, @inline, @noescape, and @noreturn Keywords [:page_facing_up:](https://github.com/vandadnp/swift-weekly/blob/master/issue11/README.md)
     + How to use @noescape [:page_facing_up:](http://stackoverflow.com/questions/28427436/noescape-attribute-in-swift-1-2)
     + How to use @autoclosure [:page_facing_up:](http://stackoverflow.com/questions/24102617/how-to-use-swift-autoclosure?rq=1)
     - How to use @autoclosure parameter in an asynchronous block [:page_facing_up:](http://stackoverflow.com/questions/30385467/how-to-use-autoclosure-parameter-in-async-block-in-swift)
     - @noreturn [:link:](http://stackoverflow.com/questions/27829132/convincing-swift-that-a-function-will-never-return-due-to-a-thrown-exception)
+    - Swift's @nonmutating Keyword [:page_facing_up:](http://jasdev.me/nonmutating) [:page_facing_up:](https://medium.com/swift-programming/the-why-of-nonmutating-7ecd2cf17ecf#.dmgzda6xn)
 - Currying
     + Swift Function Currying [:page_facing_up:](http://www.russbishop.net/swift-function-currying) [:page_facing_up:](https://www.objc.io/blog/2014/11/10/functional-snippet-6-currying/) [:page_facing_up:](https://robots.thoughtbot.com/introduction-to-function-currying-in-swift) [:page_facing_up:](http://www.drewag.me/posts/practical-use-for-curried-functions-in-swift) [:page_facing_up:](http://justtesting.org/post/94325843216/what-is-currying-in-swift)
     - Coming Changes for the Function Currying Syntax in Swift 3.0 [:link:](https://github.com/apple/swift-evolution/blob/master/proposals/0002-remove-currying.md) [:page_facing_up:](http://ericasadun.com/2015/12/18/bidding-farewell-to-currying/)
@@ -338,6 +339,7 @@
     - Swift Sequence Lib [:pencil2:](https://github.com/oisdk/SwiftSequence)
     - yield implemented in Swift [:pencil2:](https://github.com/kristopherjohnson/KJYield)
     - Return a sequence with Swift [:link:](http://stackoverflow.com/questions/24137062/how-do-i-return-a-sequence-in-swift)
+    - Turn a sequence into a stream [:pencil2:](https://github.com/oisdk/SwiftStream)
 - Sets
     + Sets vs Dictionaries in Swift [:page_facing_up:](http://ericasadun.com/2015/10/19/sets-vs-dictionaries-smackdown-in-swiftlang/)
     - A better Hashable [:page_facing_up:](http://foxinswift.com/2016/01/03/trying-to-build-a-better-hashable/)
@@ -369,6 +371,7 @@
 
 #### **Concurrency**
 - GCD
+    - The GCD Handbook [:page_facing_up:](http://khanlou.com/2016/04/the-GCD-handbook/)
     + Basics of GCD [:page_facing_up:](https://littlebitesofcocoa.com/85-grand-central-dispatch-basics)
     + Methods of concurrency — GCD, agents, tasks and invocations [:page_facing_up:](http://overooped.com/post/41803252527/methods-of-concurrency)
     + Building Responsive and Efficient Apps with GCD [:microphone:](https://developer.apple.com/videos/play/wwdc2015-718) [:floppy_disk:](http://devstreaming.apple.com/videos/wwdc/2015/718b7aw9tq/718/718_building_responsive_and_efficient_apps_with_gcd.pdf?dl=1)
@@ -377,14 +380,18 @@
     - GCD convenience functions [:page_facing_up:](http://www.luby.info/2015/02/22/swift-GCD-convenience-functions.html)
     - dispatch_after [:link:](http://stackoverflow.com/questions/24034544/dispatch-after-gcd-in-swift/24318861#24318861)
     - Does Swift have constructs for parallel programming through Grand Central Dispatch's dispatch_async? [:link:](http://stackoverflow.com/questions/24072538/does-swift-have-constructs-for-parallel-programming-through-grand-central-dispat)
+    - GCD in Linux and OSX [:pencil2:](https://github.com/elliottminns/echo)
+    - GCD DSL [:pencil2:](https://github.com/mitchtreece/Threader)
 - NSOperation
     + NSOperationQueue Dependency Trick [:page_facing_up:](http://blog.krzyzanowskim.com/2015/11/25/code-at-the-end-of-the-queue/)
     + NSOperations and NSOperationQueues [:page_facing_up:](https://medium.com/@raulriera/nsoperations-nsoperationqueue-oh-my-88b707f9ba2e#.ugnvgw9w5)
     - NSOperation vc Grand Central Dispatch [:page_facing_up:](http://bartjacobs.com/choosing-between-nsoperation-and-grand-central-dispatch/)
     - NSOperation Class Reference [:link:](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/NSOperation_class/#//apple_ref/c/tdef/NSOperationQueuePriority)
+    - Advanced NSOperations Framework [:pencil2:](https://github.com/danthorpe/Operations)
 - Async
     - Async Await in Swift [:pencil:](https://gist.github.com/kylesluder/478bf8fd8232bc90eabd) [:pencil2:](https://github.com/jyopp/Swift-Async)
     - Asynchronous values as first-class citizens [:page_facing_up:](http://www.thomasvisser.me/2015/11/26/async-swift/)
+    - A non-blocking I/O, asynchronous ODM [:pencil2:](https://github.com/elliottminns/orca)
 - Actor Model
     + Actor Model Concurrency in Swift [:pencil2:](https://github.com/tomekc/SwiftActors)
 - Coroutines
@@ -422,7 +429,7 @@
     + Open sourced CFArray [:link:](http://opensource.apple.com/source/CF/CF-855.11/CFArray.c)
 - Backtracking
     - Backtracking problem [:link:](https://github.com/davecom/SwiftCSP)
-- Data Strucutres
+- Data Structures
     + Commonly used data structures and algorithms [:pencil2:](https://github.com/waynewbishop/SwiftStructures) [:pencil2:](https://github.com/karan/Swift-Algorithms)
     - Buckets Swift Collection Data Structures Library [:pencil2:](https://github.com/mauriciosantos/Buckets-Swift/)
     - Collection data structures in Swift [:pencil2:](https://github.com/lucaslouca/CollectionsKit)
@@ -448,6 +455,8 @@
     - Learning Machine Learning [:pencil2:](https://github.com/graceavery/LearningMachineLearning) [:pencil2:](https://github.com/yconst/YCML)
     - Standard implementation of an LRU Cache [:page_facing_up:](http://stackoverflow.com/questions/25970415/standard-implementation-of-an-lru-cache) [:pencil2:](https://github.com/questbeat/CacheKit) [:pencil2:](https://github.com/justinmfischer/SwiftlyLRU)
     - The iOS and OS X neural network framework [:pencil2:](https://github.com/aleph7/BrainCore)
+    - Machine Learning for iOS Explained [:page_facing_up:](http://alexsosn.github.io/ml/2015/11/05/iOS-ML.html)
+    - Layered Neural Network in Swift [:link:](http://codereview.stackexchange.com/questions/95224/layered-neural-network-in-swift)
 - Math
     + Swift Matrix Math Library [:pencil2:](http://scottsievert.com/swix/) [:pencil2:](https://github.com/mattt/Surge)
     + Tensor Methods in Swift [:pencil2:](https://github.com/aleph7/Upsurge)
@@ -460,6 +469,9 @@
     - Complex Numbers [:pencil2:](https://github.com/taketo1024/SwiftComplex)
     - Linear Algebra Swift Extensions [:pencil2:](https://github.com/damienpontifex/LinearAlgebraExtensions)
     - Matrix Examples Swift [:pencil2:](https://gist.github.com/JadenGeller/8c758cbb218a9c4615dd)
+    - Linear Algebra in Swift [:pencil2:](https://github.com/apexskier/SKLinearAlgebra)
+    - Protocol Oriented Number System [:pencil2:](https://github.com/dankogai/swift-pons)
+    - Examples of Computational Statistics in Swift [:microphone:](https://realm.io/news/trySwift-diana-zmuda-how-to-train-your-swift-computational-statistics/)
 - Persistent
     - Swift implementation of Clojure's persistent data structures [:pencil2:](https://github.com/jdevuyst/ruminant/)
 - Solutions
@@ -519,6 +531,7 @@
     - print() vs println() vs NSLog() [:link:](http://stackoverflow.com/questions/25951195/swift-print-vs-println-vs-nslog)
     - Logging and Build Configurations With Swift [:page_facing_up:](http://dev.iachieved.it/iachievedit/logging-and-build-configurations-with-swift/)
     - Another Look at Swift Logging [:page_facing_up:](http://dev.iachieved.it/iachievedit/another-look-at-swift-logging/)
+    - Pretty Print [:page_facing_up:](https://medium.com/swift-programming/swift-pretty-in-print-pt-2-640cea920653#.j7vrtvyxz)
 - Debugging
     - Debugging Swift [:microphone:](https://realm.io/news/swift-summit-carola-nitz-debugging/)
     - Debugging Xcode 6 [:microphone:](https://developer.apple.com/videos/play/enterprise-413/)
@@ -557,6 +570,7 @@
         - Allergies and Dependency Inversion [:page_facing_up:](http://www.theswiftlearner.com/2015/05/17/dependency-inversion/)
         - Swift Design Patterns Story [:link:](http://audreyli.me/archives/)
         - Functional Design Patterns [:link:](https://www.quora.com/Are-design-patterns-also-applicable-to-functional-programming-If-they-are-what-are-examples-in-Haskell)
+        - SOLID Design on Android [S]() [O]() [L](https://realm.io/news/donn-felker-solid-part-3/?utm_source=Videos&utm_campaign=d307270584-SOLID_for_Android_Devs_3) [I]() [D]()
     - Template Method
         + Template Method Pattern in Swift [:page_facing_up:](http://stackoverflow.com/questions/31757514/swift-how-to-support-template-method-design-pattern-since-swift-doesnt-have)
     - Strategy
@@ -576,7 +590,7 @@
         + Exploring KVO Alternatives in Swift [:page_facing_up:](http://blog.scottlogic.com/2015/02/11/swift-kvo-alternatives.html) [:page_facing_up:](http://www.splinter.com.au/2015/07/23/swift-kvo-alternative/) [:pencil2:](https://github.com/slazyk/Observable-Swift) [:pencil2:](https://github.com/postmates/PMKVObserver) [:pencil:](https://gist.github.com/correia/001923bc420b942f9865)
         + Typed Notification Observers [:page_facing_up:](https://www.objc.io/blog/2015/01/19/functional-snippet-16-typed-notification-observers/)
         - Functional Notification Pattern [:page_facing_up:](http://www.jessesquires.com/functional-notifications/)
-        - NSNotificationCenter, Swift, and Blocks [:page_facing_up:](http://moreindirection.blogspot.com/2014/08/nsnotificationcenter-swift-and-blocks.html)
+        - NSNotificationCenter, Swift, and Blocks [:page_facing_up:](http://moreindirection.blogspot.com/2014/08/nsnotificationcenter-swift-and-blocks.html) [:pencil2:](http://derpturkey.com/nsnotificationcenter-with-swift/)
         - Swift KVC Collection Operators [:page_facing_up:](http://andrewbatutin.github.io/swift/2014/12/06/swift-kvc.html)
         - Observer + Iterator + Push = Observable [:floppy_disk:](https://sideeffects.xyz/2016/the-reactive-revolution-of-swift/)
     - Null Object
@@ -614,6 +628,11 @@
 - Object Oriented Functional Programming [:microphone:](https://realm.io/news/altconf-saul-mora-object-orientated-functional-programming/)
 - Intro to Object-Oriented Design in Swift [:page_facing_up:](http://www.raywenderlich.com/81952/intro-object-oriented-design-swift-part-1) [:page_facing_up:](http://www.raywenderlich.com/81953/intro-object-oriented-design-swift-part-2)
 - Aspect Oriented Programming with Swift [:pencil:](https://gist.github.com/JadenGeller/f8ad2574590f956fee92) [:page_facing_up:](http://stackoverflow.com/questions/24136535/does-swift-support-aspect-oriented-programming) [:pencil2:](https://github.com/MrAlek/Swiftalytics)
+- Entity Component System [:pencil2:](https://github.com/mzaks/Entitas-Swift)
+- Data Driven Design in Swift [:floppy_disk:](http://www.slideshare.net/maximzaks/uikonf-app-data-driven-desing)
+- Robotics with Swift [:page_facing_up:](http://www.sunsetlakesoftware.com/2014/12/02/why-were-rewriting-our-robotics-software-swift)
+- Framework oriented Programming [:page_facing_up:](https://medium.com/@pepibumur/framework-oriented-programming-11c10a2ebc39#.s3ut3glv5)
+- Boundaries in Practice [:page_facing_up:](https://realm.io/news/tryswift-ayaka-nonaka-boundaries-in-practice/)
 
 [:arrow_up:](#index)
 
@@ -646,6 +665,10 @@
     - Swift enums - the not so good parts [:page_facing_up:](http://kostiakoval.github.io/posts/swift-enums-the-not-so-good-parts)
 + Pattern Matching
     + Official Docs [:pencil:](https://github.com/apple/swift/blob/master/docs/PatternMatching.rst)
+    - Pattern Matching [part 1](http://alisoftware.github.io/swift/pattern-matching/2016/03/27/pattern-matching-1/)
+    [part 2](http://alisoftware.github.io/swift/pattern-matching/2016/03/30/pattern-matching-2/)
+    [part 3](http://alisoftware.github.io/swift/pattern-matching/2016/04/24/pattern-matching-3/)
+    [part 4](http://alisoftware.github.io/swift/pattern-matching/2016/05/16/pattern-matching-4/)
     + Swift's pattern-matching switch statement [:page_facing_up:](http://austinzheng.com/2014/12/16/swift-pattern-matching-switch/) [:page_facing_up:](http://andybargh.com/pattern-matching-in-swift/)
     + Custom pattern matching in Swift [:page_facing_up:](http://austinzheng.com/2014/12/17/custom-pattern-matching/)
     + Advanced Swift Pattern Matching in Detail [:page_facing_up:](http://appventure.me/2015/08/20/swift-pattern-matching-in-detail/)
@@ -681,6 +704,7 @@
     - What Is the Difference Between try, try?, and try! [:page_facing_up:](http://bartjacobs.com/error-handling-in-swift-with-the-try-keyword) [:page_facing_up:](http://stackoverflow.com/questions/32390611/try-try-try-what-s-the-difference-and-when-to-use-each)
     - Swift do-try-catch syntax [:page_facing_up:](http://stackoverflow.com/questions/30720497/swift-do-try-catch-syntax?rq=1)
 - Asserts
+    - Swift assertions [:page_facing_up:](http://andybargh.com/swift-assertions/)
     + Using the *assert()* keyword [:page_facing_up:](http://blog.krzyzanowskim.com/2015/03/09/swift-asserts-the-missing-manual/)
     - Swift Asserts [:page_facing_up:](https://www.mikeash.com/pyblog/friday-qa-2016-03-04-swift-asserts.html)
     - The assert manual [:page_facing_up:](http://blog.krzyzanowskim.com/2015/03/09/swift-asserts-the-missing-manual/)
@@ -692,7 +716,7 @@
     + Result: Swift type modelling the success/failure of arbitrary operations [:pencil2:](https://github.com/antitypical/Result)
 - Other
     + Easy Error Handing [:page_facing_up:](https://littlebitesofcocoa.com/108-error-handling)
-    + Swift 2 Error Handling [:page_facing_up:](http://austinzheng.com/2015/06/08/swift-2-control-flow/) [:page_facing_up:](https://www.bignerdranch.com/blog/swift-2-error-handling/) [:page_facing_up:](http://austinzheng.com/2015/09/23/pmatch-control-flow/) [:pencil:](https://gist.github.com/nicklockwood/21495c2015fd2dda56cf)
+    + Swift 2 Error Handling [:page_facing_up:](http://austinzheng.com/2015/06/08/swift-2-control-flow/) [:page_facing_up:](https://www.bignerdranch.com/blog/swift-2-error-handling/) [:page_facing_up:](http://austinzheng.com/2015/09/23/pmatch-control-flow/) [:pencil:](https://gist.github.com/nicklockwood/21495c2015fd2dda56cf) [:page_facing_up:](https://www.bignerdranch.com/blog/error-handling-in-swift-2/)
     + Unmanaged Type [:page_facing_up:](http://nshipster.com/unmanaged/)
     + Error Styling in Swift [:pencil:](https://gist.github.com/erica/b203a13b0b71db430801)
     + Magic Methods in Swift [:page_facing_up:](https://developer.apple.com/swift/blog/?id=15)
@@ -748,6 +772,8 @@
     - Properly Typed Selectors in Xcode 7.3 beta 4 [:page_facing_up:](http://flexmonkey.blogspot.co.uk/2016/02/properly-typed-selectors-in-xcode-73.html)
     - Swift [and the] Evolution [:microphone:](http://www.thedotpost.com/2016/01/tj-usiyan-swift-and-the-evolution)
     - 3.0 API Pruning [:page_facing_up:](http://ericasadun.com/2016/04/08/preparing-for-3-0-api-pruning)
+    - Swift 3 Features [:page_facing_up:](https://medium.com/the-traveled-ios-developers-guide/swift-3-feature-highlight-c38f94359731#.96n3quaoy)
+    - ABI Compatibility: Whoopdty Do, What Does It All Mean? [:page_facing_up:](http://www.bensnider.com/abi-compatibility-whoopdty-do-what-does-it-all-mean.html)
 + Opinions about Swift
     + Wishlist for Swift 3.0 [:page_facing_up:](https://realm.io/news/swift-3-wishlist/)
     + The Death of Cocoa [:page_facing_up:](http://nshipster.com/the-death-of-cocoa/)
@@ -775,11 +801,13 @@
 - Reading and Writing Files to the iOS File System [:page_facing_up:](http://www.timdietrich.me/blog/swift-reading-and-writing-files-to-ios-file-system/)
 - Write large files to disk on background thread [:page_facing_up:](http://stackoverflow.com/questions/31965566/how-to-efficiently-write-large-files-to-disk-on-background-thread-swift)
 - Zip and unzip files with Swift [:pencil2:](https://github.com/marmelroy/Zip)
+- NSData extension enables gzip/gunzip using zlib [:pencil2:](https://github.com/1024jp/NSData-GZIP)
 
 [:arrow_up:](#index)
 
 #### **Functional Programming**
 - Declarative Programming
+    - Modern Declarative Programming in Swift [:page_facing_up:](https://wiki.mq.edu.au/display/plrg/James+Moss%3A+Modern+Declarative+Programming+in+Swift)
     - What is Functional Programming in Swift? [:floppy_disk:](http://media.monkey-robot.com/docs/thoughtworks-swift.pdf) [:page_facing_up:](http://harlankellaway.com/blog/2015/08/10/swift-functional-programming-intro) [:page_facing_up:](http://jamesonquave.com/blog/functional-programming-in-swift/) [:floppy_disk:](https://speakerdeck.com/saloievgen/think-functionally-in-swift) [:microphone:](https://realm.io/news/pragma-hannes-verlinde-statelessness-react-native/)
     - Functional Programming By Example [:pencil:](http://caiorss.github.io/Functional-Programming/haskell/Functional_Programming_Concepts.html)
     - Make Swift More Functional [:floppy_disk:](http://www.slideshare.net/jarsen7/7-habits-for-a-more-functional-swift?qid=8a7611e7-4c08-4e2f-9f81-99b67c6f4390&v=default&b=&from_search=3)
@@ -837,7 +865,7 @@
     + Functor and Monad in Swift [:page_facing_up:](http://www.javiersoto.me/post/106875422394) [:pencil:](https://gist.github.com/harlanhaskins/dd31095330b4889a741c) [:pencil:](https://gist.github.com/mbrandonw/42651182eddf53ca3991)
     - Various Functors in Swift [:page_facing_up:](http://qiita.com/335g/items/81af12f9be8f7f8112c7)
     - Are true functors possible in Swift? [:link:](https://www.reddit.com/r/swift/comments/2d6mpo/are_functors_possible_in_swift/) [:link:](http://stackoverflow.com/questions/25233594/recreating-the-functor-type-in-swift)
-    + Functors, Applicatives, and Monads in Swift [:page_facing_up:](http://www.mokacoding.com/blog/functor-applicative-monads-in-pictures/) [:link:](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20151214/002739.html)
+    + Functors, Applicatives, and Monads in Swift [:page_facing_up:](http://www.mokacoding.com/blog/functor-applicative-monads-in-pictures/) [:link:](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20151214/002739.html) [:page_facing_up:](http://www.russbishop.net/monoids-monads-and-functors)
     + Functional JSON Parsing [:page_facing_up:](http://chris.eidhof.nl/posts/json-parsing-in-swift.html)  [:page_facing_up:](http://radex.io/swift/json/)
     - No Real Functors [:page_facing_up:](http://nomothetis.svbtle.com/smashing-swift)
     - Functor & Friends: Protocol + Tests [:page_facing_up:](https://jeremywsherman.com/blog/2015/03/08/functors-and-friends-interface-plus-tests/)
@@ -885,7 +913,8 @@
     + Array to Zipper [:pencil2:](https://github.com/rnapier/array-zipper)
     - zip(), zip3(), unzip(), and unzip3() for Swift [:pencil:](https://gist.github.com/kristopherjohnson/04dbc470e17f67f836a2)
 - Promises / Futures
-    - FutureKit Repostory [:pencil2:](https://github.com/FutureKit/FutureKit)
+    - FutureKit Repository [:pencil2:](https://github.com/FutureKit/FutureKit)
+    - You're missing the point of promises [:pencil:](https://gist.github.com/domenic/3889970)
     - A simple Promise in Swift [:pencil:](https://gist.github.com/robrix/5f3dc201988fb0f5f584)
     - PromiseKit Promise Library [:pencil2:](https://github.com/mxcl/PromiseKit) [:link:](http://promisekit.org/)
     - BrightFutures Repository [:pencil2:](https://github.com/Thomvis/BrightFutures) [:microphone:](http://www.thomasvisser.me/2015/11/08/swiftsummit-execution-context/)
@@ -895,6 +924,7 @@
     - Futures and monads [:link:](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20151214/002995.html)
     - Promise + progress + pause + cancel + retry [:pencil2:](https://github.com/ReactKit/SwiftTask)
 - Combinators
+    - Parser Combinators in Swift [:microphone:](https://realm.io/news/tryswift-yasuhiro-inami-parser-combinator/)
     + Y Combinators in Swift [:pencil:](https://gist.github.com/kongtomorrow/e95bea13162ca0e29d4b#file-gistfile1-swift) [:pencil:](https://gist.github.com/kongtomorrow/e95bea13162ca0e29d4b)  [:page_facing_up:](https://medium.com/@ayanonagon/the-y-combinator-no-not-that-one-7268d8d9c46#.7z8p7rbu7)
     + Combinators [:page_facing_up:](http://xn--wxak1a.com/blog/Combinators.html) [:pencil:](https://gist.github.com/CodaFi/10afdd77e42bb8ad18ab)
     + Parser combinators, for Swift [:page_facing_up:](http://blog.nottoobadsoftware.com/footlessparser/) [:pencil2:](https://github.com/kareman/FootlessParser) [:pencil2:](https://github.com/hlian/jiffy)
@@ -916,6 +946,7 @@
     - Yoneda Embedding [:pencil:](https://gist.github.com/CodaFi/d4efd98697130bd35f5c)
     - Top, Any, and Bottom Type [:link:](http://stackoverflow.com/questions/34150907/bottom-type-in-swift)
     + Covariance and Contravariance in Swift 2.1 [:page_facing_up:](http://www.uraimo.com/2015/09/29/Swift2.1-Function-Types-Conversion-Covariance-Contravariance/) [:page_facing_up:](https://mikeash.com/pyblog/friday-qa-2015-11-20-covariance-and-contravariance.html)
+    - Category Theory Practice [:pencil2:](https://github.com/ashfurrow/category-theory-exercises)
 - Functional Frameworks
     + Swiftz Functional Programming Library [:pencil2:](http://www.stackbuilders.com/news/swiftz-the-power-of-liftz)
     + Second Bridge Swift Functional Framework [:pencil2:](https://github.com/47deg/second-bridge)
@@ -943,11 +974,13 @@
     - Functional Reactive Intuition [:page_facing_up:](http://itchingpixels.com/blog/functional-reactive-intuition-swift/)
     - What is Functional Reactive Programming? [:link:](http://stackoverflow.com/questions/1028250/what-is-functional-reactive-programming/1030631#1030631)
     - The Non-Reactive Solution [:page_facing_up:](http://inessential.com/2016/04/04/the_non-reactive_solution)
+    - Simple Reactive Programming [:pencil:](https://gist.github.com/monyschuk/07be2c45c2a7157522f7)
 + MVVM
-	+ MVVM + FRP [:page_facing_up:](http://www.sprynthesis.com/2014/12/06/reactivecocoa-mvvm-introduction/)
+  	+ MVVM + FRP [:page_facing_up:](http://www.sprynthesis.com/2014/12/06/reactivecocoa-mvvm-introduction/)
     - Modern application architectures (Reactive programming, MVVM and beyond) [:page_facing_up:](https://slack-files.com/T051G5Y6D-F0HABHKDK-8e9141e191)
     - MVVM in Practice [:page_facing_up:](http://bartjacobs.com/swift-and-model-view-viewmodel-in-practice/) [:page_facing_up:](http://bartjacobs.com/more-swift-and-model-view-viewmodel-in-practice/)
     - Reactive Learning Curve [:page_facing_up:](https://medium.com/@clozach/climbing-the-reactive-learning-curve-4a03fa8d17ae#.uy89014wo)
+    - Reddit MVVM Benchmark [:pencil2:](https://github.com/ivanbruel/Reddit-MVVM-Benchmark)
 + RAC
     + Introduction [:page_facing_up:](http://nomothetis.svbtle.com/an-introduction-to-reactivecocoa)
     + Reacting to Events [:page_facing_up:](http://nomothetis.svbtle.com/reactivecocoa-ii-reacting-to-signals)
@@ -987,6 +1020,7 @@
     - Generic Typealias in Swift [:page_facing_up:](http://stackoverflow.com/questions/27084586/generic-typealias-in-swift)
 - Where keyword
     - Swift “where” keyword [:link:](http://stackoverflow.com/questions/25336079/swift-where-key-word/25336571#25336571)
+    - Multiple Type constraints with where [:link:](http://stackoverflow.com/questions/24089145/multiple-type-constraints-in-swift)
 - Patterns
     + Generic Constructors [:link:](http://stackoverflow.com/a/30857172/2855836) and factories [:link:](http://stackoverflow.com/questions/24341061/how-to-write-generic-factory-method-in-swift)
 - Parametric Polymorphism
@@ -1000,6 +1034,7 @@
 
 #### **Initialization, Properties, and Dependency Injection**
 + Initialization
+    - Initialization in Swift 2 part series [:page_facing_up:](https://www.raywenderlich.com/119922/swift-tutorial-initialization-part-1) [:page_facing_up:](https://www.raywenderlich.com/121603/swift-tutorial-initialization-part-2)
     + Swift Initializers [:page_facing_up:](http://ashfurrow.com/blog/swift-initializers/)
     + Be Mindful of Your Filters [:page_facing_up:](http://owensd.io/blog/be-mindful-of-your-filters/)
     + Swift Initialization and the Pain of Optionals [:page_facing_up:](http://blog.scottlogic.com/2014/11/20/swift-initialisation.html)
@@ -1060,6 +1095,7 @@
     - Swift Injection Wesite [:link:](https://yoichitgy.github.io/)
     - Property Injection [:page_facing_up:](https://sharpfivesoftware.com/2015/02/17/testing-singletons-in-swift-property-injection/)
     - Constructor Injection [:page_facing_up:](https://sharpfivesoftware.com/2015/02/03/testing-singletons-in-swift/)
+    - DIY: Build Your Own Dependency Injection Library [:microphone:](https://realm.io/news/android-pierre-yves-ricau-build-own-dependency-injection/)
 
 [:arrow_up:](#index)
 
@@ -1108,12 +1144,17 @@
     - Are Swift variables atomic? [:page_facing_up:](http://stackoverflow.com/questions/24157834/are-swift-variables-atomic)
     - Is there a reason that Swift array assignment is inconsistent (neither a reference nor a deep copy)? [:link:](http://stackoverflow.com/questions/24081009/is-there-a-reason-that-swift-array-assignment-is-inconsistent-neither-a-referen)
     - How does Swift implement ARC in property attributes? [:link:](http://stackoverflow.com/questions/24387634/how-does-swift-implement-arc-in-property-attributes)
+    - Will ARC always make Swift slower than a language without any type of garbage collector like C++ or C? [:page_facing_up:](https://www.quora.com/Will-ARC-always-make-Swift-slower-than-a-language-without-any-type-of-garbage-collector-like-C++-or-C?srid=xrLC&share=e61ad115)
 - Assembly
     - IR is better than assembly [:page_facing_up:](https://idea.popcount.org/2013-07-24-ir-is-better-than-assembly/)
     - iOS Assembly Tutorial: Understanding ARM [:page_facing_up:](https://www.raywenderlich.com/37181/ios-assembly-tutorial)
+    - An ARM Build Farm with Jenkins [:page_facing_up:](http://dev.iachieved.it/iachievedit/an-arm-build-farm-with-jenkins/)
+    - Swift for ARM Systems [:page_facing_up:](http://dev.iachieved.it/iachievedit/swift-for-arm-systems/)
 - Build
     - Steps of a Swift Application Build [:link:](http://stackoverflow.com/a/25965909/2855836)
     - Build Configuration Management [:page_facing_up:](http://dev.iachieved.it/iachievedit/build-configuration-management-with-swift/)
+    - Swift Byte Packing [:page_facing_up:](http://www.russbishop.net/packing-bytes-in-swift)
+    - Swift Compilation Reporting at Tumblr [:page_facing_up:](https://engineering.tumblr.com/post/144151794436/swift-compilation-reporting-at-tumblr)
 - Clang
     - Clang documentation [:link:](http://clang.llvm.org/docs/index.html)
     - Clang format for Xcode [:pencil:](https://github.com/travisjeffery/ClangFormat-Xcode)
@@ -1160,6 +1201,7 @@
     - Meaning of the LLVM Optimization Levels [:link:](http://stackoverflow.com/questions/21447377/meaning-of-the-llvm-optimization-levels)
     - ARC Optimization for Swift [:pencil:](https://github.com/apple/swift/blob/master/docs/ARCOptimization.rst)
     - High Level SIL Optimizations [:pencil:](https://github.com/apple/swift/blob/master/docs/HighLevelSILOptimizations.rst)
+    - The Effect of Dependency Structure on iOS Launch Times [:page_facing_up:](https://engineering.tumblr.com/post/144507330193/peeking-into-a-black-box-the-effect-of)
 - Performance
     - Swift Performance [:floppy_disk:](http://blog.human-friendly.com/swift-performance-iosdevuk) [:page_facing_up:](http://www.swift-studies.com/blog/2014/7/8/learning-about-swift-performance)[:pencil:](https://github.com/koher/swift-performance-experiment)
     - Swift 2 Under the Hood [:floppy_disk:](https://speakerdeck.com/alblue/swift-2-under-the-hood-gotober-2015)
@@ -1169,14 +1211,17 @@
     - Secret of Swift Performance [:page_facing_up:](https://medium.com/swift-programming/secret-of-swift-performance-fcc5d2a437a8#.q0cnnqxat) [:page_facing_up:](https://medium.com/swift-programming/secret-of-swift-performance-a8ee86060843#.i6p6554gk)
     - Writing High Performance Swift Code [:link:](https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst)
     - Swift Single Soutce [:pencil:](https://github.com/apple/swift/tree/master/benchmark/single-source)
+    - 10 thousand times faster Swift [:page_facing_up:](https://medium.com/@icex33/10-thousand-times-faster-swift-737b1accd973#.92zevwqyq)
 - Preprocessing
     - Preprocessing in Swift [:link:](http://stackoverflow.com/questions/24369272/swift-ios-deployment-target-command-line-flag)
     - Preprocessor Macros [:link:](http://stackoverflow.com/questions/24111854/in-absence-of-preprocessor-macros-is-there-a-way-to-define-practical-scheme-spe)
     - Parsing Mach-O Files [:page_facing_up:](http://lowlevelbits.org/parse-mach-o-files/)
     - -Xfront [:page_facing_up:](http://www.robertvojta.com/2015/06/30/swift-hidden-options/)
+    - Change your API endpoint/environment using Xcode Configurations in Swift [:page_facing_up:](https://medium.com/@danielgalasko/change-your-api-endpoint-environment-using-xcode-configurations-in-swift-c1ad2722200e#.a1lggp7pb)
 - SIL and swiftc
     - Official SIL Page [:pencil:](https://github.com/apple/swift/blob/master/docs/SIL.rst)
-    - Explorign SIL and swiftc [:page_facing_up:](http://swiftc.io/)
+    - - 🖇Introduction to Swift Intermediate Language [:video_camera:](https://www.youtube.com/watch?feature=youtu.be&utm_medium=email&v=NH-qIKOoKgA)
+    - Exploring SIL and swiftc [:page_facing_up:](http://swiftc.io/)
     - swift vs swiftc [:page_facing_up:](http://owensd.io/2015/01/14/swift-vs-swiftc.html)
     - SIMD (Single Instruction Multiple Data) [:page_facing_up:](http://www.russbishop.net/swift-2-simd)
     - @convention [:page_facing_up:](http://stackoverflow.com/questions/30740560/new-conventionc-in-swift-2-how-can-i-use-it)
@@ -1301,7 +1346,7 @@
 - Interview Questions
     + Ray Wenderlich [:clipboard:](http://www.raywenderlich.com/110982/swift-interview-questions-answers)
     + Toptal [:clipboard:](http://www.toptal.com/swift/interview-questions)
-    + LeetCode [:clipboard:](https://github.com/diwu/LeetCode-Solutions-in-Swift)
+    + LeetCode [:clipboard:](https://github.com/diwu/LeetCode-Solutions-in-Swift) [:link:](https://www.guiguan.net/swift/)
     + Coding Questions [:clipboard:](https://github.com/CameronBanga/iOS-Developer-and-Designer-Interview-Questions#code)
     + :fire: Awesome Swift Interview Questions [:clipboard:](https://github.com/MaximAbramchuck/awesome-interviews#swift)
     + :fire: Awesome iOS Interview Questions [:clipboard:](https://github.com/MaximAbramchuck/awesome-interviews#ios)
@@ -1358,6 +1403,8 @@
 + Optional Protocol Methods [:page_facing_up:](http://useyourloaf.com/blog/swift-optional-protocol-methods.html)
 - Using the Hashable Protocol [:page_facing_up:](http://samuelmullen.com/2014/10/implementing_swifts_hashable_protocol/) [:page_facing_up:](http://stackoverflow.com/questions/31438210/how-to-implement-the-hashable-protocol-in-swift-for-an-int-array-a-custom-strin)
 - Swift Protocol Naming Conventions [:page_facing_up:](http://programmers.stackexchange.com/questions/263521/swift-protocol-naming-conventions)
+- A default CustomStringConvertible implementation for Swift types [:page_facing_up:](https://github.com/jessesquires/DefaultStringConvertible)
+- A protocol that allows any class to be printed as if it were a struct [:page_facing_up:](https://github.com/mattcomi/ReflectedStringConvertible)
 
 [:arrow_up:](#index)
 
@@ -1380,15 +1427,19 @@
 + :raised_hands: Mixins and Traits in Swift 2.0 [:page_facing_up:](http://matthijshollemans.com/2015/07/22/mixins-and-traits-in-swift-2/)
 + Minimal Swift 2.1 Protocol Coformance [:page_facing_up:](http://softwaredesign.jeffverkoeyen.com/minimal-swift-protocol-conformance/)
 + Favor Mixins over inheritance [:page_facing_up:](http://alisoftware.github.io/swift/protocol/2015/11/08/mixins-over-inheritance/)
+- Stateful mixins in Swift [:page_facing_up:](http://cutting.io/posts/stateful-mixins-in-swift/)
 + Use Protocol Composition [:page_facing_up:](http://natashatherobot.com/swift-protocol-composition/)
-- Current Recommmended Protocol Usage [:page_facing_up:](http://owensd.io/2015/08/06/protocols.html)
+- Current Recommended Protocol Usage [:page_facing_up:](http://owensd.io/2015/08/06/protocols.html)
 - POP in Swift vs ObjC and C++ [:page_facing_up:](http://owensd.io/2015/06/16/protocol-oriented-programming.html)
 - POP Utility Belt [:pencil2:](https://github.com/tptee/Oriole)
 - Typesafe and Composable Data Sources in Swift [:page_facing_up:](http://www.jessesquires.com/building-data-sources-in-swift/)
 - Protocol Extension Method Dispatch [:page_facing_up:](https://medium.com/ios-os-x-development/swift-protocol-extension-method-dispatch-6a6bf270ba94#.xsrtw75qp)
 - Weird things you can do with protocol extension [:page_facing_up:](http://cjwirth.com/2016/01/20/swift-protocol-extension-weirdness/) [:page_facing_up:](http://allblue.me/swift/2016/01/24/two-weird-things-about-extension-subclass-in-swift/)
-- Protocol-Oriented Programming in Networking [:floppy_disk:](https://speakerdeck.com/ishkawa/protocol-oriented-programming-in-networking)
 - Improved Protocol-Oriented Programming with Untyped Type Aliases [:page_facing_up:](https://medium.com/capital-one-developers/improved-protocol-oriented-programming-with-untyped-type-aliases-part-1-625484ca1f9d#.g0i8pfjvj) [:page_facing_up:](https://medium.com/@michikono/3f0e2eadee73#.dvk6ubezg)
+- Protocol-Oriented Problems and the Immutable 'self' Error [:page_facing_up:](https://www.bignerdranch.com/blog/protocol-oriented-problems-and-the-immutable-self-error/)
+- Multiple Inheritance vs. Traits or Protocol Extensions [:page_facing_up:](https://www.dzombak.com/blog/2015/06/Multiple-Inheritance-vs--Traits-or-Protocol-Extensions.html)
+- Protocol Oriented Networking [:page_facing_up:](http://khanlou.com/2016/05/protocol-oriented-programming/) [:page_facing_up:](https://www.natashatherobot.com/protocol-oriented-networking-in-swift/) [:floppy_disk:](https://speakerdeck.com/ishkawa/protocol-oriented-programming-in-networking)
+- Protocol-Oriented Views in Swift [:page_facing_up:](https://www.natashatherobot.com/protocol-oriented-views-in-swift/)
 
 [:arrow_up:](#index)
 
@@ -1402,11 +1453,12 @@
 - CommonCrypto in Swift [:microphone:](https://realm.io/news/danny-keogan-swift-cryptography/)
 - Ceaser Cipher in Swift [:page_facing_up:](https://www.objc.io/blog/2015/01/26/functional-snippet-17-caesar-ciphers/) [:page_facing_up:](http://ijoshsmith.com/2015/04/14/caesar-cipher-in-swift/)
 - Swift-ly secure [:microphone:](https://realm.io/news/seth-law-swift-security/)
-- Common Crypto [:page_facing_up:](http://sketchytech.blogspot.com/2016/02/resurrecting-commoncrypto-in-swift-for.html)
+- Common Crypto [:page_facing_up:](http://sketchytech.blogspot.com/2016/02/resurrecting-commoncrypto-in-swift-for.html) [:pencil2:](https://github.com/iosdevzone/IDZSwiftCommonCrypto)
 - Reverse Engineering iOS Apps [:microphone:](https://realm.io/news/conrad-kramer-reverse-engineering-ios-apps-lyft/)
 - Security and Your Apps [:microphone:](https://developer.apple.com/videos/play/wwdc2015/706/)
 - Make iOS apps more secure with SSL pinning [:page_facing_up:](https://infinum.co/the-capsized-eight/articles/how-to-make-your-ios-apps-more-secure-with-ssl-pinning)
-- Security Framaework Wrapper [:pencil2:](https://github.com/henrinormak/Heimdall)
+- Security Framework Wrapper [:pencil2:](https://github.com/henrinormak/Heimdall)
+- SwCrypt [:pencil2:](https://github.com/soyersoyer/SwCrypt)
 
 [:arrow_up:](#index)
 
@@ -1445,6 +1497,7 @@
     + String to Number Parser [:pencil2:](https://github.com/davedelong/DDMathParser)
     + Madness: Parsing strings in simple context-free grammars [:pencil2:](https://github.com/robrix/Madness)
     - Swift version of the Coco/R Compiler Generator [:pencil2:](https://github.com/mgriebling/Coco)
+    - CSV Parser [:page_facing_up:](https://github.com/Daniel1of1/CSwiftV)
 + Regular Expressions
     + RegularExpressions in Swift [:page_facing_up:](https://littlebitesofcocoa.com/121-swiftier-regular-expressions-with-regex) [:page_facing_up:](http://en.swifter.tips/regex/) [:page_facing_up:](http://benscheirman.com/2014/06/regex-in-swift/)
     + NSRegularExpression Cheat Sheet [:page_facing_up:](http://www.raywenderlich.com/86205/nsregularexpression-swift-tutorial)
@@ -1466,6 +1519,7 @@
     - QuickCheck made in Swift [:page_facing_up:](http://chris.eidhof.nl/posts/quickcheck-in-swift.html)
     - Test callbacks with XCTests [:page_facing_up:](http://www.mokacoding.com/blog/testing-callbacks-in-swift-with-xctest/)
     - What's the difference between unit, functional, acceptance, and integration tests? [:link:](http://stackoverflow.com/questions/4904096/whats-the-difference-between-unit-functional-acceptance-and-integration-test)
+    - Testing with Swift – Approaches & Useful Libraries [:page_facing_up:](https://spin.atomicobject.com/2016/05/02/testing-swift-code/#.VydVY-RcsWY.hackernews)
 - Mocking
     - Real world mocking in Swift [:microphone:](https://realm.io/news/tryswift-veronica-ray-real-world-mocking-swift/)
 - Stubbing
@@ -1501,6 +1555,7 @@
     - Profiling in Depth [:microphone:](https://developer.apple.com/videos/play/wwdc2015-412) [:floppy_disk:](http://devstreaming.apple.com/videos/wwdc/2015/412rhea5amj6iaf/412/412_profiling_in_depth.pdf?dl=1)
     - WWDC 2014: Improving you app with instruments [:microphone:](https://developer.apple.com/videos/play/wwdc2014-418/) [:floppy_disk:](http://devstreaming.apple.com/videos/wwdc/2014/418xxtihju1a7v4/418/418_improving_your_app_with_instruments.pdf)
     - Finding memory leaks with instruments [:page_facing_up:](http://spin.atomicobject.com/2016/01/25/ios-memory-leak-xcode/#.VqaGcF_w1AE.hackernews)
+    - Automatic memory leak detection on iOS [:page_facing_up:](https://code.facebook.com/posts/583946315094347/automatic-memory-leak-detection-on-ios/)
     - What every iOS Developer should be doing with Instruments [:page_facing_up:](https://medium.com/@kazmiekr/what-every-ios-developer-should-be-doing-with-instruments-d1661eeaf64f#.961cmlvx3)
     - Xcode Instruments Documentation [:link:](https://developer.apple.com/library/prerelease/ios/documentation/DeveloperTools/Conceptual/InstrumentsUserGuide/index.html#//apple_ref/doc/uid/TP40004652-CH3-SW1)
     - Instruments Tutorial [:page_facing_up:](https://www.raywenderlich.com/97886/instruments-tutorial-with-swift-getting-started)
@@ -1546,6 +1601,7 @@
     - Profiling Swift Tool [:page_facing_up:](http://irace.me/swift-profiling)
     - Profiler formatter xcpretty [:pencil2:](https://github.com/larslockefeer/xcpretty-profiler-formatter)
     - Atom Swift Debugger [:pencil2:](https://github.com/aciidb0mb3r/atom-swift-debugger)
+    - Debugger Optimizers [:page_facing_up:](http://indiestack.com/2016/05/a-tale-of-two-optimizers/)
     - Cocoalumberjack [:pencil2:](https://github.com/CocoaLumberjack/CocoaLumberjack)
 - Delivery Tools
     - Continuous Delivery with Fastlane [:microphone:](https://vimeo.com/146505670)
@@ -1572,6 +1628,8 @@
     - Anarchy Swift Build Tools [:pencil2:](https://github.com/AnarchyTools)
     - Refractor Swift Code with Refractorer [:pencil2:](https://github.com/johnno1962/Refactorator)
     - xcbuild Build Tool [:pencil2:](https://github.com/facebook/xcbuild)
+    - Speeding Up Slow Swift Build Times [:page_facing_up:](https://medium.com/swift-programming/speeding-up-slow-swift-build-times-922feeba5780#.96anpx7tq)
+    - SwiftCompilationPerformanceReporter [:pencil2:](https://github.com/tumblr/SwiftCompilationPerformanceReporter)
 
 [:arrow_up:](#index)
 
@@ -1666,6 +1724,7 @@
     + Associated Enum Data As Types [:page_facing_up:](http://owensd.io/2015/09/15/associated-enum-cases-as-types.html)
     + Typesafe Associated Objects [:pencil2:](https://github.com/kballard/swift-tsao)
     - Associated Types Considered Weird [:page_facing_up:](https://schani.wordpress.com/2014/06/11/associated-types-considered-weird/)
+    - Swift Associated Types, cont [:page_facing_up:](http://www.russbishop.net/swift-associated-types-cont)
 + Type Aliases
     - Generic Typealiases [:page_facing_up:](http://ericasadun.com/2016/03/08/generic-typealiases-are-a-thing/)
 + Metatypes
@@ -1703,8 +1762,9 @@
 - Advanced
     - WWDC 2014: Advanced Swift [:microphone:](https://developer.apple.com/videos/play/wwdc2014-404/) [:floppy_disk:](http://devstreaming.apple.com/videos/wwdc/2014/404xxdxsstkaqjb/404/404_advanced_swift.pdf)
     + Other Swift Attributes you may not have heard of [:page_facing_up:](http://www.russbishop.net/more-swift-attributes)
-    - Hipster Swift [:page_facing_up:](http://krakendev.io/blog/hipster-swift)
+    - Hipster Swift [:page_facing_up:](http://krakendev.io/blog/hipster-swift) [:microphone:]((https://realm.io/news/tryswift-hector-matos-hipster-swift/)
     - Namespaces in Swift [:page_facing_up:](http://andybargh.com/2016/01/21/lifetime-scope-and-namespaces-in-swift/) [:page_facing_up:](http://andybargh.com/lifetime-scope-and-namespaces-in-swift/) [:page_facing_up:](http://stackoverflow.com/questions/24002821/how-to-use-namespaces-in-swift/24012981)
+    - Swift Enums as namespace [:page_facing_up:](https://medium.com/swift-programming/swift-enums-as-namespace-7df63a17f36f#.u656hot7j)
     - Swift Method Dispatching [:page_facing_up:](http://allegro.tech/2014/12/swift-method-dispatching.html)
     - Global variables in Swift are not variables [:page_facing_up:](http://railsware.com/blog/2014/06/11/global-variables-in-swift-are-not-variables/)
     - @convention(c) [:page_facing_up:](http://stackoverflow.com/questions/30740560/new-conventionc-in-swift-2-how-can-i-use-it)
@@ -1754,6 +1814,8 @@
     - Service Oriented Archiecture in Swift with MVVM [:microphone:](https://realm.io/news/modular-ios-apps/)
     - Pitfalls of MVVM [:page_facing_up:](http://bartjacobs.com/what-is-wrong-with-model-view-controller/)
     - Bindings, Generics, Swift and MVVM [:page_facing_up:](http://rasic.info/bindings-generics-swift-and-mvvm/)
+    - Cloud based View Models [:pencil2:](https://github.com/hyperoslo/Spots#origin-story) [:page_facing_up:](https://medium.com/@zenangst/hitting-the-sweet-spot-of-inspiration-637d387bc629#.tkm4b9s6p)
+    - React-Like Views [:pencil2:](https://github.com/sahandnayebaziz/StateView)
 - Viper
     - Using VIPER Architecture with Swift [:microphone:](https://realm.io/news/altconf-brice-pollock-250-days-shipping-with-swift-and-viper/) [:page_facing_up:](https://swifting.io/blog/2016/03/07/8-viper-to-be-or-not-to-be/)
     - Safer with VIPER [:page_facing_up:](https://medium.com/ios-os-x-development/safer-uiviewcontroller-creation-when-using-storyboards-1915ac2b2c80#.bynj7y4gd)
@@ -1770,7 +1832,7 @@
     - Building a Unidirectional Data Flow app with Realm [:page_facing_up:](https://realm.io/news/unidirectional-data-flow-in-swift/)
     + Swift Flow + RxSwift [:pencil:](https://gist.github.com/Ben-G/c33486169d68a6f3d12f)
 - State Machines
-    - State Machines in Swift [:pencil2:](https://github.com/ReactKit/SwiftState) [:floppy_disk:](https://github.com/tangphillip/state-machine-talk)
+    - State Machines in Swift [:pencil2:](https://github.com/ReactKit/SwiftState) [:floppy_disk:](https://github.com/tangphillip/state-machine-talk) [:pencil:](https://gist.github.com/monyschuk/e2c5609599195a30cc66)
     - How to build a FSM with Swift [:page_facing_up:](http://everythingel.se/blog/how-to-build-a-finite-state-machine-with-swift/) [:page_facing_up:](http://everythingel.se/blog/how-to-build-a-finite-state-machine-fsm-with-swift-pt-2/)
     - Transporter is a modern finite-state machine implemented in pure Swift [:pencil2:](https://github.com/DenHeadless/Transporter)
     - FSMs in Swift and the State Pattern [:page_facing_up:](http://ctarda.com/2015/06/introducing-turnstile-finite-state-machines-in-swift/) [:pencil2:](https://github.com/ctarda/Turnstile) [:pencil2:](https://github.com/cipriancaba/SwiftFSM)
@@ -1820,12 +1882,17 @@
     - Migrations in Realm [:page_facing_up:](http://stackoverflow.com/questions/30384884/adding-and-removing-realm-object-during-a-migration)
     - Migrating an app from Core Data to Realm [:page_facing_up:](https://realm.io/news/migrating-from-core-data-to-realm/)
     - Realm + Alamofire + VIPER [:page_facing_up:](https://blog.hyphe.me/realm-and-alamofire-in-a-effective-harmony/)
-    - How Realm kills C++ STL Biary Search [:page_facing_up:](https://realm.io/news/how-we-beat-cpp-stl-binary-search/)
+    - How Realm kills C++ STL Binary Search [:page_facing_up:](https://realm.io/news/how-we-beat-cpp-stl-binary-search/)
+    - App state with Realm and RxSwift [:page_facing_up:](http://rx-marin.com/post/rxswift-realm-reactive-app-settings/)
+    - Migrating to Realm on iOS [:microphone:](https://realm.io/news/alex-leffelman-migrating-to-realm-ios/)
+    - RxRealm [:microphone:](https://realm.io/news/marin-todorov-realm-rxswift/)
 
 [:arrow_up:](#index)
 
 #### **Core Image**
 - Core Image [:books:](https://itunes.apple.com/us/book/core-image-for-swift/id1073029980)
+- GPU Image Library in Swift [:pencil2:](https://github.com/BradLarson/GPUImage2)
+- Introducing GPUImage 2, redesigned in Swift [:page_facing_up:](http://sunsetlakesoftware.com/2016/04/16/introducing-gpuimage-2-redesigned-swift)
 
 [:arrow_up:](#index)
 
@@ -1851,6 +1918,8 @@
 - Swift JSON [:pencil2:](https://github.com/dankogai/swift-json)
 - Beyond JSON in Swift [:microphone:](http://www.thedotpost.com/2016/01/maxim-zaks-beyond-json)
 - Generate JSON from Swift Structs [:page_facing_up:](http://tomlokhorst.tumblr.com/post/119966903324/json-swift-with-code-generation)
+- Flat Buffers (an efficient cross platform serialization library) in Swift [:pencil2:](https://github.com/mzaks/FlatBuffersSwift) [:floppy_disk:](http://www.slideshare.net/maximzaks/beyond-json-mobilewarsaw)
+- Unpacking JSON with Swift [:video_camera:](https://vimeo.com/165920052)
 
 [:arrow_up:](#index)
 
@@ -1862,6 +1931,7 @@
 - Simple persistent storage [:page_facing_up:](http://stackoverflow.com/questions/26233067/simple-persistent-storage-in-swift/26233274#26233274)
 - How to cache data using NSCache [:page_facing_up:](https://www.hackingwithswift.com/example-code/system/how-to-cache-data-using-nscache) [:page_facing_up:](http://nshipster.com/nscache/)
 - Access SQLite DB in Swift [:link:](http://stackoverflow.com/questions/24102775/accessing-an-sqlite-database-in-swift)
+- Simple Object Persistence [:pencil2:](https://github.com/mattcomi/PersistentObject)
 
 [:arrow_up:](#index)
 
@@ -1880,6 +1950,8 @@
 - CollectionViews
     - What's new in Table and Collection Views [:microphone:](https://developer.apple.com/videos/play/enterprise-226/)
     - Advanced Collection Views [:microphone:](http://devstreaming.apple.com/videos/wwdc/2014/232xxz8gxpbstio/232/232_advanced_user_interfaces_with_collection_views.pdf)
+- Core Animation
+    - Advanced Graphics with Core Animation [:microphone:](https://realm.io/news/tryswift-tim-oliver-advanced-graphics-with-core-animation/)
 - Core Graphics
     - Core Graphics Tutorial [:page_facing_up:](http://www.raywenderlich.com/90690/modern-core-graphics-with-swift-part-1)
 - Core Image
@@ -1887,10 +1959,12 @@
 - Presenting
     - Swifty View Controller Presenters [:microphone:](https://realm.io/news/slug-jesse-squires-swifty-view-controller-presenters/)
 - TableViews
+    - Table View Controllers in Swift [:microphone:](https://realm.io/news/tryswift-chris-eidhof-table-view-controllers-swift/)
     - Advanced UITableViews [:microphone:](https://realm.io/news/altconf-mason-glidden-advanced-uitableviews-for-fun-and-profit/) [:page_facing_up:](http://www.martinrichter.net/blog/2015/12/30/animating-table-row-changes-using-changesets-with-mvvm/)
     - UITableView Configuration Values [:page_facing_up:](https://www.objc.io/blog/2015/02/16/functional-snippet-20-configuration-values/)
     - Typed TableViewControllers [:page_facing_up:](https://www.objc.io/blog/2015/02/23/functional-snippet-21-typed-table-view-controllers/) [:page_facing_up:](https://www.objc.io/blog/2015/03/02/functional-snippet-22-typed-table-view-controllers-redux/) [:pencil:](https://gist.github.com/chriseidhof/892c1a574d1f3975c697) [:page_facing_up:](http://holko.pl/2016/01/05/typed-table-view-controller/)
     - Using Generators for UITableView Pagination Purposes [:page_facing_up:](http://blog.krzyzanowskim.com/2015/06/26/paging/)
+    - Upgrade your TableViews with Loading State in Swift [:page_facing_up:](https://medium.com/swift-programming/upgrade-your-tableviews-with-loading-state-in-swift-1fdce34ada77#.bg6wbtkzc)
 - SpriteKit and Metal
     + Mixing SpriteKit with UIKit in iOS 9 [:page_facing_up:](https://littlebitesofcocoa.com/8-mixing-spritekit-into-uikit)
     - SpriteKit as an intro to SceneKit [:floppy_disk:](https://speakerdeck.com/bklnswift/joseph-mcmahon-spritekit-as-an-intro-to-scenekit-and-metal)
