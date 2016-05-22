@@ -145,6 +145,7 @@
 - Learn Core Data [:mortar_board:](http://www.learncoredata.com/)
 - Udacity Swift Syntax Course [:mortar_board:](https://www.udacity.com/course/learn-swift-programming-syntax--ud902)
 - Open Source iOS Apps [:pencil2:](https://github.com/dkhamsing/open-source-ios-apps)
+- A summary of swift in playgrounds [:pencil2:](https://github.com/jakarmy/swift-summary)
 
 [:arrow_up:](#index)
 
@@ -253,6 +254,10 @@
 ## **Programming with Swift**
 
 #### **Audio**
+- AudioKit [:pencil2:](https://github.com/audiokit/AudioKit)
+- Wrap Core Audio [:pencil2:](https://github.com/rnine/AMCoreAudio)
+
+[:arrow_up:](#index)
 
 #### **Closures and Functions**
 - @autoclosure, @noescape, @noreturn
@@ -522,6 +527,7 @@
     - Chisel LLVM Debugging [:pencil2:](https://github.com/facebook/chisel)
     - Debugging with stack traces in Swift [:page_facing_up:](http://www.cocoawithlove.com/blog/2016/02/28/stack-traces-in-swift.html)
     - Debugging the Swift Compiler [:link:](http://apple-swift.readthedocs.org/en/latest/DebuggingTheCompiler.html)
+    - Compile Time vs Run Time Checking [:page_facing_up:](http://blog.benjamin-encz.de/post/compile-time-vs-runtime-type-checking-swift/)
     - The Debug Navigator [:link:](https://developer.apple.com/library/ios/recipes/xcode_help-debug_navigator/articles/about_debug_navigator.html)
     - Debugging your iOS App's HTTP(S) Traffic [:page_facing_up:](http://cjwirth.com/2015/04/15/debugging-https-traffic/)
     - Debugging Magic [:microphone:](https://developer.apple.com/library/ios/technotes/tn2239/_index.html)
@@ -1195,6 +1201,7 @@
     - Javascript
         + Comparing Swift and Javascript [:page_facing_up:](http://www.mircozeiss.com/swift-for-javascript-developers)
         - From JS to Swift [:page_facing_up:](http://www.folio3.com/blog/swiftly-javascript-from-javascript-to-apples-swift/)
+        - Swift vs React Native [:page_facing_up:](https://medium.com/ios-os-x-development/an-ios-developer-on-react-native-1f24786c29f0#.h7kbylshm)
     - C
         - Swift vs C speed test [:page_facing_up:](http://stackoverflow.com/questions/24101718/swift-performance-sorting-arrays) [:page_facing_up:](https://www.quora.com/Is-Swift-programming-language-faster-than-C-or-C++-and-if-yes-why) [:page_facing_up:](https://medium.com/swift-programming/swifth-vs-c-5be7d0398f4f#.6ume737mt)
     - C++
@@ -1430,6 +1437,7 @@
     - Functional String Ranges [:page_facing_up:](https://www.natashatherobot.com/swift-string-ranges-the-functional/)
     - ICU Text Transforms in Cocoa [:page_facing_up:](http://oleb.net/blog/2016/01/icu-text-transforms/)
     - Swift Substrings [:page_facing_up:](http://vluxe.io/swift-sub-strings.html)
+    - DSL for Attributed Strings [:pencil2:](https://github.com/delba/TextAttributes)
 + Lexing and Parsing
     - Abstract Syntax Tree [:page_facing_up:](http://ankit.im/swift/2016/02/29/swift-abstract-syntax-tree/)
     + Creating a Lexer in Swift [:page_facing_up:](http://blog.matthewcheok.com/writing-a-lexer-in-swift/)
@@ -1457,6 +1465,7 @@
     - The good parts of XCTest [:page_facing_up:](http://modocache.io/xctest-the-good-parts)
     - QuickCheck made in Swift [:page_facing_up:](http://chris.eidhof.nl/posts/quickcheck-in-swift.html)
     - Test callbacks with XCTests [:page_facing_up:](http://www.mokacoding.com/blog/testing-callbacks-in-swift-with-xctest/)
+    - What's the difference between unit, functional, acceptance, and integration tests? [:link:](http://stackoverflow.com/questions/4904096/whats-the-difference-between-unit-functional-acceptance-and-integration-test)
 - Mocking
     - Real world mocking in Swift [:microphone:](https://realm.io/news/tryswift-veronica-ray-real-world-mocking-swift/)
 - Stubbing
@@ -1764,7 +1773,7 @@
     - State Machines in Swift [:pencil2:](https://github.com/ReactKit/SwiftState) [:floppy_disk:](https://github.com/tangphillip/state-machine-talk)
     - How to build a FSM with Swift [:page_facing_up:](http://everythingel.se/blog/how-to-build-a-finite-state-machine-with-swift/) [:page_facing_up:](http://everythingel.se/blog/how-to-build-a-finite-state-machine-fsm-with-swift-pt-2/)
     - Transporter is a modern finite-state machine implemented in pure Swift [:pencil2:](https://github.com/DenHeadless/Transporter)
-    - FSMs in Swift and the State Pattern [:page_facing_up:](http://ctarda.com/2015/06/introducing-turnstile-finite-state-machines-in-swift/) [:pencil2:](https://github.com/ctarda/Turnstile)
+    - FSMs in Swift and the State Pattern [:page_facing_up:](http://ctarda.com/2015/06/introducing-turnstile-finite-state-machines-in-swift/) [:pencil2:](https://github.com/ctarda/Turnstile) [:pencil2:](https://github.com/cipriancaba/SwiftFSM)
     - Generic State Machine in Swift [:page_facing_up:](http://curtclifton.net/generic-state-machine-in-swift)
     - Building Swift State Machine Series [:page_facing_up:](http://www.figure.ink/blog/2015/1/31/swift-state-machines-part-1) [:page_facing_up:](http://www.figure.ink/blog/2015/2/1/swift-state-machines-part-2) [:page_facing_up:](http://www.figure.ink/blog/2015/2/8/swift-state-machines-part-3-follow-up) [:page_facing_up:](http://www.figure.ink/blog/2015/2/9/swift-state-machines-part-4-redirect) [:pencil:](https://gist.github.com/jemmons/f30f1de292751da0f1b7)
     - Swift implementation of Robert C. Martin's turnstile state-machine example [:pencil:](https://gist.github.com/kristopherjohnson/4bcb89e07a5ece10e305)
