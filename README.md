@@ -665,10 +665,10 @@
     - Swift enums - the not so good parts [:page_facing_up:](http://kostiakoval.github.io/posts/swift-enums-the-not-so-good-parts)
 + Pattern Matching
     + Official Docs [:pencil:](https://github.com/apple/swift/blob/master/docs/PatternMatching.rst)
-    - Pattern Matching [part 1](http://alisoftware.github.io/swift/pattern-matching/2016/03/27/pattern-matching-1/)
-    [part 2](http://alisoftware.github.io/swift/pattern-matching/2016/03/30/pattern-matching-2/)
-    [part 3](http://alisoftware.github.io/swift/pattern-matching/2016/04/24/pattern-matching-3/)
-    [part 4](http://alisoftware.github.io/swift/pattern-matching/2016/05/16/pattern-matching-4/)
+    - Pattern Matching [:page_facing_up:](http://alisoftware.github.io/swift/pattern-matching/2016/03/27/pattern-matching-1/)
+    [:page_facing_up:](http://alisoftware.github.io/swift/pattern-matching/2016/03/30/pattern-matching-2/)
+    [:page_facing_up:](http://alisoftware.github.io/swift/pattern-matching/2016/04/24/pattern-matching-3/)
+    [:page_facing_up:](http://alisoftware.github.io/swift/pattern-matching/2016/05/16/pattern-matching-4/)
     + Swift's pattern-matching switch statement [:page_facing_up:](http://austinzheng.com/2014/12/16/swift-pattern-matching-switch/) [:page_facing_up:](http://andybargh.com/pattern-matching-in-swift/)
     + Custom pattern matching in Swift [:page_facing_up:](http://austinzheng.com/2014/12/17/custom-pattern-matching/)
     + Advanced Swift Pattern Matching in Detail [:page_facing_up:](http://appventure.me/2015/08/20/swift-pattern-matching-in-detail/)
@@ -1590,9 +1590,9 @@
     - Continuous Integration With Xcode Server [:page_facing_up:](http://useyourloaf.com/blog/continuous-integration-with-xcode-server/)
     - BuddyBuild Continuous Integration [:link:](http://buddybuild.com/)
     - Xcode CI, the missing manual [:page_facing_up:](http://faq.sealedabstract.com/xcodeCI/)
-    - Self-hosted CI [:page_Facing_up:](https://medium.com/@hello_paja/self-hosted-ci-for-ios-mac-development-f273606ca767#.jd7up9ujd)
+    - Self-hosted CI [:page_facing_up:](https://medium.com/@hello_paja/self-hosted-ci-for-ios-mac-development-f273606ca767#.jd7up9ujd)
     - Build a Swift Pipeline with Jenkins Workflow [:page_facing_up:](https://dzone.com/articles/build-a-swift-pipeline-with-jenkins-workflow) [:page_facing_up:](http://mmorejon.github.io/en/blog/continuous-integration-jenkins-ios9-xcode/)
-    - Continuous Integrations for iOS Apps [:video:](https://vimeo.com/158290425)
+    - Continuous Integrations for iOS Apps [:video_camera:](https://vimeo.com/158290425)
 - Code Coverage
     - Swift Code Coverage [:pencil2:](https://github.com/realm/SwiftCov)
     - Continuous Integration and Code Coverage In Xcode [:pencil:](https://gist.github.com/rbobbins/92e2fd3736f842d4ccee)
@@ -1744,6 +1744,8 @@
     - Referential Transparency [:link:](https://www.reddit.com/r/swift/comments/2ffk7z/what_is_swift_imperative_functional/)
 + Type Variance
     - Type Variance in Swift [:page_facing_up:](http://nomothetis.svbtle.com/type-variance-in-swift)
++ Type Erasures
+    - Type Erasures [:microphone:](https://realm.io/news/tryswift-gwendolyn-weston-type-erasure/)
 + Other
     + Swift's Type System [:page_facing_up:](http://oleb.net/blog/2015/07/swift-type-system/)
     + The Natural Numbers Encoded as Types [:page_facing_up:](https://forums.developer.apple.com/thread/19942)
@@ -1763,7 +1765,7 @@
 - Advanced
     - WWDC 2014: Advanced Swift [:microphone:](https://developer.apple.com/videos/play/wwdc2014-404/) [:floppy_disk:](http://devstreaming.apple.com/videos/wwdc/2014/404xxdxsstkaqjb/404/404_advanced_swift.pdf)
     + Other Swift Attributes you may not have heard of [:page_facing_up:](http://www.russbishop.net/more-swift-attributes)
-    - Hipster Swift [:page_facing_up:](http://krakendev.io/blog/hipster-swift) [:microphone:]((https://realm.io/news/tryswift-hector-matos-hipster-swift/)
+    - Hipster Swift [:page_facing_up:](http://krakendev.io/blog/hipster-swift) [:microphone:](https://realm.io/news/tryswift-hector-matos-hipster-swift/)
     - Namespaces in Swift [:page_facing_up:](http://andybargh.com/2016/01/21/lifetime-scope-and-namespaces-in-swift/) [:page_facing_up:](http://andybargh.com/lifetime-scope-and-namespaces-in-swift/) [:page_facing_up:](http://stackoverflow.com/questions/24002821/how-to-use-namespaces-in-swift/24012981)
     - Swift Enums as namespace [:page_facing_up:](https://medium.com/swift-programming/swift-enums-as-namespace-7df63a17f36f#.u656hot7j)
     - Swift Method Dispatching [:page_facing_up:](http://allegro.tech/2014/12/swift-method-dispatching.html)
@@ -1808,6 +1810,7 @@
     - Clean Architecture in Swift [:pencil2:](https://github.com/marcinkuptel/clean-architecture)
     - Demystifying iOS Architecture Patterns [:page_facing_up:](https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52#.5zn7t5oh2)
     + MVVM in Swift [:page_facing_up:](http://artsy.github.io/blog/2015/09/24/mvvm-in-swift/) [:page_facing_up:](http://khanlou.com/2015/12/mvvm-is-not-very-good/) [:page_facing_up:](https://ashfurrow.com/blog/mvvm-is-exceptionally-ok/) [:page_facing_up:](http://gilesvangruisen.com/mvvm-swift/) [:page_facing_up:](https://medium.com/faber-dev/mvvm-benchmark-in-an-mvc-world-part-1-dab952617395#.nhandvll2) [:page_facing_up:](https://github.com/ivanbruel/MVVM-Benchmark)
+    - MVVM-C [:floppy_disk:](https://speakerdeck.com/macdevnet/mvvm-c-in-practice) [:pencil2:](https://github.com/macdevnet/mvvmc-demo)
     - Stateful View Controller [:pencil2:](https://github.com/aschuch/StatefulViewController)
     - An MVP Framework [:pencil2:](https://github.com/Karumi/BothamUI)
     - Designing App Infrastructure [:page_facing_up:](https://medium.com/@gitdoapp/gitdo-designing-the-app-infrastructure-3b7710c0fd81#.mf5kc58vj)
@@ -1990,6 +1993,7 @@
     + Reachability Library [:page_facing_up:](https://github.com/ashleymills/Reachability.swift)
     - NSURLSession Basics [:page_facing_up:](https://littlebitesofcocoa.com/78-nsurlsession-basics) [:page_facing_up:](http://www.splinter.com.au/2015/06/12/swift-nsurlsession-wrapper/) [:page_facing_up:](http://www.raywenderlich.com/110458/nsurlsession-tutorial-getting-started)
     - Background Downloads [:page_facing_up:](https://littlebitesofcocoa.com/77-background-downloads)
+    - Background Transfer Services [:microphone:](https://realm.io/news/gwendolyn-weston-ios-background-networking/)
     - An introduction to using Alamofire [:page_facing_up:](http://nshipster.com/alamofire/)
     - Moya: Network Abstraction Layer written in Swift [:pencil2:](https://github.com/Moya/Moya)
     - Network data as a Struct [:page_facing_up:](http://chris.eidhof.nl/posts/struct-semantics-in-swift.html)
@@ -2020,7 +2024,7 @@
 
 ## **Xcode**
 - About
-    - Xcode Core Concepts [:page_facing_ups:](https://developer.apple.com/videos/play/wwdc2013/401/)
+    - Xcode Core Concepts [:page_facing_up:](https://developer.apple.com/videos/play/wwdc2013/401/)
 - Build System
     - The Xcode Build System [:page_facing_up:](https://pewpewthespells.com/blog/xcode_build_system.html)
     - Xcode Build Settings Reference [:page_facing_up:](https://pewpewthespells.com/blog/buildsettings.html)

@@ -2,6 +2,13 @@
 
 > This is a list of the most recent additions to Awesome Swift Education. Note that this list was first created on 1/10/2016. You can follow along with the evolution of Awesome Swift Education by looking at the recent additions to this list
 
+#### 5/23/2016
+- [Type Erasures](https://realm.io/news/tryswift-gwendolyn-weston-type-erasure/)
+- [Background Transfer Services](https://realm.io/news/gwendolyn-weston-ios-background-networking/)
+- [Clean Layout with iOS 9](https://speakerdeck.com/ayanonagon/clean-layout-with-ios-9)
+- [Command Line Programs on OS X Tutorial](https://www.raywenderlich.com/128039/command-line-programs-os-x-tutorial)
+- MVVM-C [:floppy_disk:](https://speakerdeck.com/macdevnet/mvvm-c-in-practice) [:pencil2:](https://github.com/macdevnet/mvvmc-demo)
+
 #### 5/21/2016
 - [Quick: Better Tests via Incremental Setup](http://www.slideshare.net/bgesiak/quick-better-tests-with-incremental-setup)
 - [What's the difference between unit, functional, acceptance, and integration tests?](http://stackoverflow.com/questions/4904096/whats-the-difference-between-unit-functional-acceptance-and-integration-test)
@@ -116,7 +123,7 @@
 - [Examples of Computational Statistics in Swift](https://realm.io/news/trySwift-diana-zmuda-how-to-train-your-swift-computational-statistics/)
 - [Layered Neural Network in Swift](http://codereview.stackexchange.com/questions/95224/layered-neural-network-in-swift)
 - [What are generic protocols good for?](https://dzone.com/articles/swift-generic-protocols-what-are-they-good-for)
- 
+
 #### 5/1/2016
 - [Associated Types Considered Weird](https://schani.wordpress.com/2014/06/11/associated-types-considered-weird/)
 - [SequenceType vs GeneratorType vs CollectionType](http://stackoverflow.com/questions/30565875/what-is-the-difference-between-sequencetype-and-collectiontype-in-swift)
