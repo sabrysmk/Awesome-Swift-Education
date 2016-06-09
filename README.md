@@ -475,7 +475,7 @@
 - Persistent
     - Swift implementation of Clojure's persistent data structures [:pencil2:](https://github.com/jdevuyst/ruminant/)
 - Solutions
-    - Swift Algorithm Club [:pencil2:](https://github.com/hollance/swift-algorithm-club)
+    - Swift Algorithm Club [:pencil2:](https://github.com/raywenderlich/swift-algorithm-club)
     - Algorithms by CosmicMind [:pencil2:](https://github.com/CosmicMind/Algorithm#sortedmultidictionary)
     + HackerRank Solutions in Swift [:pencil2:](https://github.com/jindulys/HackerRankSolutions)
 - Sorts
