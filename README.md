@@ -1136,7 +1136,6 @@
     - ARC + Swift [:page_facing_up:](https://medium.com/the-traveled-ios-developers-guide/arc-swift-d323535baecb#.td8gy7jid)
     + Swift Manual Retain/Release [:page_facing_up:](http://www.russbishop.net/swift-manual-retain-release)
     - ARC in depth [:page_facing_up:](https://sectionfive.net/blog/2015/03/31/arc-in-depth-part-i/) [:page_facing_up:](https://sectionfive.net/blog/2015/06/12/arc-in-depth-part-ii/)
-    - ARC + Swift [:page_facing_up:](https://medium.com/the-traveled-ios-developers-guide/arc-swift-d323535baecb#.31lclj25s)
     - ARC Exploration and pitfalls [:page_facing_up:](https://sectionfive.net/blog/2014/11/24/arc-exploration-and-pitfalls/)
     - Static vs Dynamic Linking [:page_facing_up:](http://www.thedotpost.com/2015/02/marius-rackwitz-static-vs-dynamic-linking)
     - ARC vs Garbage Collection [:page_facing_up:](http://typedarray.org/swift-arc-vs-flash-gc/)
