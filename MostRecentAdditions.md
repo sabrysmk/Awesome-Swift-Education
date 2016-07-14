@@ -2,7 +2,7 @@
 
 > This is a list of the most recent additions to Awesome Swift Education. Note that this list was first created on 1/10/2016. You can follow along with the evolution of Awesome Swift Education by looking at the recent additions to this list
 
-#### 5/23/2016
+#### 7/14/2016
 - [Type Erasures](https://realm.io/news/tryswift-gwendolyn-weston-type-erasure/)
 - [Background Transfer Services](https://realm.io/news/gwendolyn-weston-ios-background-networking/)
 - [Clean Layout with iOS 9](https://speakerdeck.com/ayanonagon/clean-layout-with-ios-9)
@@ -21,7 +21,8 @@
 - [Turning UIKit inside out](https://speakerdeck.com/benjamin_encz/turning-uikit-inside-out)
 - [MVVM, RxSwift and DataControllers](https://skillsmatter.com/skillscasts/7863-mvvm-rxswift-and-datacontrollers)
 - [Refactoring to: Creation Method](https://www.natashatherobot.com/refactoring-to-creation-method/)
-- [Safer swift code with value types](https://speakerdeck.com/benjamin_encz/safer-swift-code-with-value-types-i-altconf-2015) [Value oriented Architecture](https://speakerdeck.com/benjamin_encz/safer-swift-code-with-value-types-ii-360idev-2015)
+- [Safer swift code with value types](https://speakerdeck.com/benjamin_encz/safer-swift-code-with-value-types-i-altconf-2015)
+- [Value oriented Architecture](https://speakerdeck.com/benjamin_encz/safer-swift-code-with-value-types-ii-360idev-2015)
 - [URL Pattern Matching](http://johnpatrickmorgan.github.io/2016/05/11/URLPatternMatching)
 - [Keeping Designers Happy via Enums](https://realm.io/news/slug-patrick-reynolds-keeping-designers-happy-enums/)
 - [Swift 2 Error Handling vs Result<T, E>](https://speakerdeck.com/inamiy/swift-2-error-handling-vs-result-t-e)
@@ -35,7 +36,6 @@
 - [Why Swift is swift](https://www.skilled.io/purpleyay/why-swift-is-swift)
 - [Storage for Structs Opinionated Serialization With Generics](https://www.skilled.io/nickoneill/lets-code-storage-for-structs)
 - [SwiftShell](https://www.skilled.io/kare/swiftshell)
-- [Mastering the tvOS Focus Engine](https://www.skilled.io/airbnb_nerds/mastering-the-tvos-focus-engine)
 - [MultiSet and PredicateSet in Swift](https://github.com/robrix/Set)
 - [Doubly Linked List](https://www.erginbilgin.com.tr/implementing-doubly-linked-list-using-swift-2-0/)
 - [Hello Swift, Meet Scala](http://www.huffingtonpost.com/adam-denenberg/hello-swift-meet-scala_b_5453455.html)
@@ -56,7 +56,6 @@
 - [Swifty Responder Chain](http://roopc.net/posts/2016/swifty-responder-chain/)
 - [Advanced Image Processing with Core Image](https://realm.io/news/tryswift-gladman-simon-advanced-core-image/)
 - [GCD's Main Queue vs. Main Thread](http://blog.benjamin-encz.de/post/main-queue-vs-main-thread/)
-- [Firecasts](https://www.youtube.com/watch?v=iMkifTEaefE&index=1&list=PLl-K7zZEsYLnJVX_0zbKytptZGugPIbJR)
 - [Swift Trace](https://github.com/johnno1962/SwiftTrace)
 - [A back-propagation neural network written in Swift.](https://github.com/acavanag/SwiftNeuralNetwork)
 - [Hopper Swift Demangle](https://github.com/keith/hopper-swift-demangle)
@@ -77,9 +76,8 @@
 - [Nonatomic in Swift](https://forums.developer.apple.com/thread/25642)
 - [Understanding Threads Swift](http://stackoverflow.com/questions/35149538/understanding-threads-swift?lq=1)
 - [SwiftingBridge](https://github.com/garrett-davidson/SwiftingBridge)
-- [Practical Protocol-Oriented-Programming](https://realm.io/news/appbuilders-natasha-muraschev-practical-protocol-oriented-programming/) 
+- [Practical Protocol-Oriented-Programming](https://realm.io/news/appbuilders-natasha-muraschev-practical-protocol-oriented-programming/)
 - [Swift 3.0 features](http://swift.ayaka.me/posts/2016/6/18/favorite-swift-30-features)
-- [What are the differences between Rust and Swift?](https://www.quora.com/Programming-Languages-What-are-the-differences-between-Rust-and-Swift)
 - [Thinking in Swift](https://www.accelebrate.com/blog/thinking-swift-part-i/)
 - [Swift wrapper around LLVM-C](https://github.com/bencochran/LLVM.swift)
 - [Using GraphQL](http://artsy.github.io/blog/2016/06/19/graphql-for-mobile/)
@@ -87,6 +85,13 @@
 - [Swift NSNotificationCenter with userInfo (Producer/Consumer)](http://www.xappsoftware.com/wordpress/2016/02/15/swift-nsnotificationcenter-with-userinfo-producerconsumer/)
 - [Falsiness In Swift](http://khanlou.com/2016/06/falsiness-in-swift/)
 - [Increased Safety in Swift 3.0](https://www.bignerdranch.com/blog/wwdc-2016-increased-safety-in-swift-3/)
+- [Swift 3.0](https://realm.io/news/appbuilders-daniel-steinberg-whats-new-swift-3/?utm_source=Realm+News)
+- [SourceKit](https://realm.io/news/appbuilders-jp-simard-sourcekit/)
+- [Cross-Platform Swift](https://realm.io/news/altconf-boris-bugling-cross-platform-swift/)
+- [Implementing Dictionary In Swift](http://khanlou.com/2016/07/implementing-dictionary-in-swift/)
+- [Swift Type Aliases: Use Early and Often](http://artsy.github.io/blog/2016/06/24/typealias-for-great-good/)
+- [Model-View-Controller (MVC) in iOS: A Modern Approach](https://www.raywenderlich.com/132662/mvc-in-ios-a-modern-approach)
+- [Swift Talk](https://talk.objc.io)
 
 #### 5/21/2016
 - [Quick: Better Tests via Incremental Setup](http://www.slideshare.net/bgesiak/quick-better-tests-with-incremental-setup)
